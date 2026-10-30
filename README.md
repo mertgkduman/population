@@ -1,5 +1,7 @@
 # Developmental deference, cultural learning and demographic fitness
 
+Repository: https://github.com/mertgkduman/population · Pages URL after activation: https://mertgkduman.github.io/population/
+
 Hypothetical computational research. Technical validation does not establish a historical adaptation or genetic separability from cognition.
 
 ## Versions at a glance
@@ -18,6 +20,7 @@ Hypothetical computational research. Technical validation does not establish a h
 Build and preview the six-tab site:
 
 ~~~bash
+python scripts/restore_large_files.py
 python scripts/build_pages.py
 python -m http.server 8000 --directory docs
 ~~~

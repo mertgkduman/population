@@ -7,7 +7,7 @@ def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,default=ROOT/'dist/github-repository');args=parser.parse_args();dest=args.output.resolve()
  if dest.exists():raise SystemExit('Output exists; choose a fresh export directory: '+str(dest))
  if dest==ROOT or ROOT not in dest.parents:raise ValueError('Export must be a fresh repository subdirectory')
- files=subprocess.check_output(['git','ls-files','--cached','--others','--exclude-standard','-z'],cwd=ROOT).decode().split('\0');dest.mkdir(parents=True);large=[];seen=set()
+ files=subprocess.check_output(['git','ls-files','--cached','--others','--exclude-standard','-z'],cwd=ROOT).decode().split('\0');dest.mkdir(parents=True);existing=ROOT/'publication/large_files.json';large=json.loads(existing.read_text()) if existing.exists() else [];seen=set()
  for rel in sorted(set(files)-{''}):
   p=ROOT/rel
   if not p.is_file() or rel.startswith(('dist/','docs/','.git/')) or '__pycache__' in p.parts:continue
