@@ -25,14 +25,14 @@
       "name": "all reference archives preserve source bytes",
       "pass": true,
       "detail": {
-        "packages": 96,
-        "source_entries": 514
+        "packages": 97,
+        "source_entries": 519
       }
     },
     {
       "name": "Pages site below 1GB",
       "pass": true,
-      "detail": 680882479
+      "detail": 680902063
     },
     {
       "name": "every published file below 100MiB",

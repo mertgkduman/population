@@ -22,6 +22,17 @@ Investigate inherited juvenile deference and maturation using endogenous cultura
 - Shared resident culture/resources for rare mutants; distinguish selection from isolated growth.
 - Five focused quick spikes, preregistered hypotheses, adversarial tests, offline dashboard, full reproducibility.
 
+### versioned-research-publication
+Prepare V1–V5 as a static GitHub Pages research archive with Further work proposals.
+
+**Requirements:**
+- Keep scientific version files/data/specifications separate and unchanged.
+- Six top tabs (V1–V5 and Further work), each with model/results/changes/shortcomings.
+- Put an exact plot-data ZIP and reference-data link beneath every interactive figure.
+- Explain versions and all equations in main README.
+- Respect file/site limits and preserve original history through a clean publishable export.
+- Merge into local main; do not deploy publicly during preparation.
+
 ## Spikes
 
 | # | Idea | Name | Type | Validates | Verdict | Tags |
@@ -37,3 +48,4 @@ Investigate inherited juvenile deference and maturation using endogenous cultura
 | 009 | developmental-cultural-evolution | private-access | comparison | Given equally capable private learners that retain childhood knowledge, when cue quality and access vary, then matched deference effects and cognitive states are measurable without changing ability | VALIDATED | v5, information-access, culture, selection |
 | 010 | developmental-cultural-evolution | conviction-retention | comparison | Given acquired adult convictions, when freezing, updating, auditing and truth-versus-information changes are compared, then accuracy and sampling-cost channels can be separated | PARTIAL | v5, information-access, culture, selection |
 | 011 | developmental-cultural-evolution | information-selection | comparison | Given a common resident culture and resource environment, when rare inherited strategies enter, then self-neutrality and explicit competition distinguish invasion from isolated abundance | VALIDATED | v5, information-access, culture, selection |
+| 012 | versioned-research-publication | versioned-pages | integration | Given preserved research versions, when published statically, then models, interactive results and raw-data packages work within GitHub limits | VALIDATED | publication, github-pages, data |

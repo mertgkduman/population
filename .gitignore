@@ -11,7 +11,7 @@ v5_research_complete.zip
 /docs/
 /dist/
 
-# Reconstructed originals are generated from preserved version-local chunks.
+# Restored oversized originals remain generated and ignored.
 /v5/experiments/dashboard_data.json.gz
 /v5/index.html
 /v5/research_dashboard.html

@@ -1,0 +1,28 @@
+{
+  "technical_verdict": "VALIDATED",
+  "browser": {
+    "pass": true,
+    "checks": 46,
+    "console_errors": [],
+    "remote_requests": []
+  },
+  "static": {
+    "pass": true,
+    "checks": 24
+  },
+  "exact_plot_zip_tests": 5,
+  "site_bytes": 680901630,
+  "scientific_version_files_unchanged_from": "af171fe",
+  "scientific_files_unchanged": true,
+  "github_export": {
+    "path": "/hpc/group/pfisterlab/mg551/storage/population/dist/github-repository",
+    "branch": "main",
+    "chunked_originals": 3,
+    "max_chunk_bytes": 25165824,
+    "oversized_git_blobs": [],
+    "research_history_rewritten": false,
+    "remote_configured": false
+  },
+  "restored_export_build_and_checks_pass": true,
+  "deployment": "Not attempted; no remote configured. GitHub workflow prepared; local equivalent build and verification executed."
+}

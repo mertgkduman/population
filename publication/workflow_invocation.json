@@ -1,0 +1,11 @@
+{
+  "workflow": "gsd-spike",
+  "interface": "Installed Codex skill adapter invoked by user; workflow executed with persistent verification and manifest",
+  "mode": "--quick continuation of explicitly scoped integration work",
+  "installed_core_version": "1.14.0",
+  "skill": "/hpc/home/mg551/.agents/skills/gsd-spike/SKILL.md",
+  "spike": 12,
+  "no_full_project_lifecycle": true,
+  "public_deployment": false,
+  "sixth_tab": "Further work, per user clarification"
+}

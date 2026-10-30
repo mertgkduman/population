@@ -7,3 +7,5 @@ Preserve v1–v5 scientific artifacts. Prepare main README with concise chronolo
 Checks before completion: all six version tabs and four nested tabs work with keyboard/deep links; source links and downloads resolve including under a project-site URL prefix; original plot families render and show raw package links; archives preserve source bytes; build below1GB; clean GitHub export has no current/history objects above100MiB; main merge preserves all version directories. Browser testing must record unavailable tests honestly.
 
 Installed gsd-spike Codex adapter, quick mode continuing prior explicitly approved execution style; preserve verification, investigation trail, manifest and commit conventions. Initial discovery: GSD Core1.14.0; no Git remote or git-lfs installed. Large historical Git blobs require a clean publication export, not destructive history rewriting.
+
+User clarification: only V1–V5 are scientific versions; the sixth tab is Further work. No V6 experiment is invented. This supersedes the initial tentative sixth-slot interpretation.

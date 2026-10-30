@@ -1,0 +1,45 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "version": "v1",
+      "pass": true,
+      "zip_bytes": 529689,
+      "csv_rows": 3255,
+      "traces": 2,
+      "configuration_present": true
+    },
+    {
+      "version": "v2",
+      "pass": true,
+      "zip_bytes": 97576,
+      "csv_rows": 1203,
+      "traces": 3,
+      "configuration_present": true
+    },
+    {
+      "version": "v3",
+      "pass": true,
+      "zip_bytes": 97841,
+      "csv_rows": 1203,
+      "traces": 3,
+      "configuration_present": true
+    },
+    {
+      "version": "v4",
+      "pass": true,
+      "zip_bytes": 70911,
+      "csv_rows": 323,
+      "traces": 1,
+      "configuration_present": true
+    },
+    {
+      "version": "v5",
+      "pass": true,
+      "zip_bytes": 17845,
+      "csv_rows": 195,
+      "traces": 1,
+      "configuration_present": true
+    }
+  ]
+}

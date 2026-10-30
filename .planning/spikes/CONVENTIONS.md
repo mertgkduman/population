@@ -27,3 +27,7 @@ Derived probabilities need explicit [0,1] checks; coarse plotting intervals must
 ## Information-access comparisons (V5)
 
 Across spikes009–011, retain private learners' acquired knowledge as the primary comparator. Separate social memory acceptance from current conflict override; compare held beliefs, private evidence and public actions. Treat forced memory reset as an ablation. Label imposed adult query policies and test zero query cost. Confidence-based source selection must expose search availability and costs; it may not access true correctness. A task-load rate divisor is not a model of combinatorial complexity. Pair stochastic histories with common random numbers and reserve new seeds for exploratory follow-ups.
+
+## Research publication
+
+Preserve version-local scientific artifacts. Build the static publication separately, share local visualization assets and lazy-load stored data. Provide exact displayed-data exports and hashed reference archives. Audit static links, project URL prefixes, browser console/network behavior, archive bytes and hosting limits. Where old history contains oversized blobs, use a non-destructive clean publication snapshot with verified version-local chunks.
