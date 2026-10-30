@@ -1,5 +1,7 @@
 {
   "mode": "HTTP with a project-site path prefix; HTTPS blocked",
+  "url": "http://127.0.0.1:8765/docs/index.html",
+  "checked_at": "2026-10-30T18:42:57.211Z",
   "checks": [
     {
       "name": "portal_loaded",
@@ -98,6 +100,56 @@
     },
     {
       "name": "future_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_no_math_parse_errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_no_math_parse_errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_no_math_parse_errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_no_math_parse_errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_no_math_parse_errors",
       "pass": true,
       "detail": ""
     },
@@ -230,9 +282,15 @@
       "name": "no_console_errors",
       "pass": true,
       "detail": "[]"
+    },
+    {
+      "name": "no_http_errors",
+      "pass": true,
+      "detail": "[]"
     }
   ],
   "console_errors": [],
   "remote_requests": [],
+  "http_errors": [],
   "pass": true
 }

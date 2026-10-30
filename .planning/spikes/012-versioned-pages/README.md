@@ -48,3 +48,10 @@ publication/build_report.json, verification.json, browser_verification.json, dow
 ## Results
 
 **VALIDATED:**46 browser,24 static and five archive checks pass. No console errors or external browser requests. Site approximately681MB; largest published file approximately37MB. Three oversized originals restore from lossless chunks. No oversized blobs in clean export history. Scientific files remain unchanged. Main integration is authorized by the user; live GitHub deployment remains outside this preparation.
+
+
+## Presentation and live deployment repair
+
+2026-10-30: Reproduced all Results URLs returning HTTP 404 despite the root returning 200. A built-in branch/Jekyll Pages deployment completed after the custom workflow and published the source root instead of generated `docs/`; its root was a rendered README and omitted all `apps/` pages. The repository must use Pages Source **GitHub Actions**. No scientific results were changed.
+
+Replaced code-like model presentation with curated TeX guides and bundled KaTeX 0.16.22 (integrity-verified upstream package, local fonts and license). Preserved links to every original specification and parameter schema. Added content-hash URL versions to application HTML, dataset chunks and portal assets. Updated the README with the same equations. Local project-prefix/offline browser checks: **57/57 pass**, including typesetting in V1–V5, five functioning Results dashboards, plot-data exports, no HTTP or console errors, and no external requests. Static/archive checks: **24/24 pass**. Live deployment is checked separately after publication; a local pass alone does not establish a successful live release.

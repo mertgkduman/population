@@ -11,7 +11,16 @@ def digest(p):
  with p.open('rb') as f:
   for b in iter(lambda:f.read(1024*1024),b''):h.update(b)
  return h.hexdigest()
-def md(text):return markdown.markdown(text,extensions=['markdown.extensions.tables','markdown.extensions.fenced_code','markdown.extensions.sane_lists'])
+def md(text):
+ maths=[]
+ def keep(match):
+  maths.append(match.group(0))
+  return 'MATHPLACEHOLDER'+str(len(maths)-1)+'TOKEN'
+ text=re.sub(r'\$\$[\s\S]*?\$\$|\$(?!\$)[^\n$]+?\$',keep,text)
+ rendered=markdown.markdown(text,extensions=['markdown.extensions.tables','markdown.extensions.fenced_code','markdown.extensions.sane_lists'])
+ for i,formula in enumerate(maths):
+  rendered=rendered.replace('MATHPLACEHOLDER'+str(i)+'TOKEN','<span class="math-source">'+html.escape(formula)+'</span>')
+ return rendered
 def source_document(path):
  content=md((ROOT/path).read_text())
  def link(match):
@@ -74,7 +83,7 @@ def dashboard(version,out,bundle,records):
   if not match:raise RuntimeError('Dataset marker absent: '+version)
   data=base64.b64decode(json.loads(match.group(1)));chunks=[]
   for n,start in enumerate(range(0,len(data),CHUNK)):
-   rel='payload/'+version+'/part-'+str(n).zfill(3)+'.bin';p=out/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data[start:start+CHUNK]);chunks.append('../'+rel)
+   rel='payload/'+version+'/part-'+str(n).zfill(3)+'.bin';p=out/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data[start:start+CHUNK]);chunks.append('../'+rel+'?v='+hashlib.sha256(data[start:start+CHUNK]).hexdigest()[:12])
   page=page[:match.start()]+'const EMBEDDED_GZIP_BASE64=null;'+page[match.end():]
   rx=r'async function embeddedData\(\)\s*\{.*?return JSON\.parse\(await new Response\(stream\)\.text\(\)\)\s*;?\s*\}'
   replacement="async function embeddedData(){const parts=[];for(const path of "+json.dumps(chunks)+"){const r=await fetch(path);if(!r.ok)throw Error('Cannot load dataset: '+path);parts.push(await r.arrayBuffer())}const stream=new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'));return JSON.parse(await new Response(stream).text())}"
@@ -88,7 +97,8 @@ def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,default=ROOT/'docs');args=parser.parse_args();out=args.output.resolve()
  if out==ROOT or ROOT not in out.parents:raise ValueError('Output must be inside repository')
  out.mkdir(parents=True,exist_ok=True);(out/'.nojekyll').touch();(out/'assets').mkdir(exist_ok=True)
- for p in (ROOT/'publication/assets').iterdir():shutil.copy2(p,out/'assets'/p.name)
+ for p in (ROOT/'publication/assets').iterdir():
+  shutil.copytree(p,out/'assets'/p.name,dirs_exist_ok=True) if p.is_dir() else shutil.copy2(p,out/'assets'/p.name)
  import plotly
  bundle=(Path(plotly.__file__).parent/'package_data/plotly.min.js').read_text();write(out/'assets/plotly.min.js',bundle)
  for folder in ('v1','v2','v3','v4','v5','proposals'):
@@ -100,12 +110,15 @@ def main():
  for v in versions:
   v=dict(v);v['model']=''.join(source_document(p) for p in v['model_files'])
   if v.get('parameter_file'):v['model']+='<details><summary>Saved parameters, units and scenarios</summary><pre>'+html.escape((ROOT/v['parameter_file']).read_text())+'</pre></details>'
+  if v.get('source_specifications'):
+   v['model']+='<details><summary>Original specifications and complete implementation notes</summary><ul>'+''.join('<li><a href="specifications/'+p+'">'+p+'</a></li>' for p in v['source_specifications'])+'</ul></details>'
   v['results']=''.join(source_document(p) for p in v['results_files']);v['changes']=md(v['changes']);v['shortcomings']=md(v['shortcomings'])
   if v['id']!='future':
-   records=raw_packages(v['id'],out);built.append({'version':v['id'],'packages':len(records),**dashboard(v['id'],out,bundle,records)});v['app']='apps/'+v['id']+'.html'
+   records=raw_packages(v['id'],out);built.append({'version':v['id'],'packages':len(records),**dashboard(v['id'],out,bundle,records)});v['app']='apps/'+v['id']+'.html?v='+digest(out/'apps'/(v['id']+'.html'))[:12]
   else:v['results']='<h2>No new simulation results</h2><p>These investigations are proposals. Existing measurements and datasets remain in V1–V5.</p>'
   rendered.append(v);print('Built',v['id'],flush=True)
- page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deference & cultural learning · versioned research</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/site.css"></head><body><a class="skip" href="#panel">Skip to content</a><header><div class="eyebrow">Computational research archive · simulation data</div><h1>Deference, conviction & cultural learning</h1><p>Five successive models, their equations, interactive results and open questions. Technical verification does not establish a historical adaptation.</p></header><nav id="version-tabs" role="tablist" aria-label="Versions"></nav><main><section class="intro"><h2 id="version-heading"></h2><p id="summary"></p></section><nav id="section-tabs" class="subtabs" role="tablist" aria-label="Version sections"></nav><section id="panel" class="content" role="tabpanel"></section></main><footer>Original scientific artifacts remain isolated by version. No new simulations were run for this publication release.</footer><script id="versions-data" type="application/json">'+json.dumps(rendered).replace('</','<\\/')+'</script><script src="assets/site.js"></script></body></html>'
+ page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deference & cultural learning · versioned research</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script></head><body><a class="skip" href="#panel">Skip to content</a><header><div class="eyebrow">Computational research archive · simulation data</div><h1>Deference, conviction & cultural learning</h1><p>Five successive models, their equations, interactive results and open questions. Technical verification does not establish a historical adaptation.</p></header><nav id="version-tabs" role="tablist" aria-label="Versions"></nav><main><section class="intro"><h2 id="version-heading"></h2><p id="summary"></p></section><nav id="section-tabs" class="subtabs" role="tablist" aria-label="Version sections"></nav><section id="panel" class="content" role="tabpanel"></section></main><footer>Original scientific artifacts remain isolated by version. No new simulations were run for this publication release.</footer><script id="versions-data" type="application/json">'+json.dumps(rendered).replace('</','<\\/')+'</script><script src="assets/site.js"></script></body></html>'
+ page=page.replace('assets/site.js','assets/site.js?v='+digest(out/'assets/site.js')[:12]).replace('assets/site.css','assets/site.css?v='+digest(out/'assets/site.css')[:12])
  write(out/'index.html',page)
  size=sum(p.stat().st_size for p in out.rglob('*') if p.is_file())
  if size>=1_000_000_000:raise RuntimeError('Pages build exceeds 1GB: '+str(size))

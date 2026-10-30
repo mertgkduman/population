@@ -2,16 +2,17 @@
   "technical_verdict": "VALIDATED",
   "browser": {
     "pass": true,
-    "checks": 46,
+    "checks": 57,
     "console_errors": [],
-    "remote_requests": []
+    "remote_requests": [],
+    "http_errors": []
   },
   "static": {
     "pass": true,
     "checks": 24
   },
   "exact_plot_zip_tests": 5,
-  "site_bytes": 680901630,
+  "site_bytes": 682980775,
   "scientific_version_files_unchanged_from": "af171fe",
   "scientific_files_unchanged": true,
   "github_export": {
@@ -21,8 +22,9 @@
     "max_chunk_bytes": 25165824,
     "oversized_git_blobs": [],
     "research_history_rewritten": false,
-    "remote_configured": false
+    "remote_configured": true
   },
   "restored_export_build_and_checks_pass": true,
-  "deployment": "Not attempted; no remote configured. GitHub workflow prepared; local equivalent build and verification executed."
+  "deployment": "Published previously, but a subsequent branch-based Pages build replaced the generated artifact and broke Results. Presentation repair validated locally; live repair verification pending.",
+  "equations": "Bundled KaTeX 0.16.22; five version guides and README use mathematical notation."
 }

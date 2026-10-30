@@ -1,5 +1,5 @@
 {
-  "bytes": 680902063,
+  "bytes": 682980775,
   "versions": [
     {
       "version": "v1",
@@ -23,13 +23,13 @@
       "version": "v4",
       "packages": 35,
       "source_sha256": "ba97f5a75a95171f978263ed80da5ae2ec8db47f99496f050764ad28f668a0e7",
-      "hosted_bytes": 49607
+      "hosted_bytes": 49637
     },
     {
       "version": "v5",
       "packages": 59,
       "source_sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
-      "hosted_bytes": 72574
+      "hosted_bytes": 72649
     }
   ],
   "tabs": [
