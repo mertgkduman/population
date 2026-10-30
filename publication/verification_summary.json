@@ -25,6 +25,17 @@
     "remote_configured": true
   },
   "restored_export_build_and_checks_pass": true,
-  "deployment": "Published previously, but a subsequent branch-based Pages build replaced the generated artifact and broke Results. Presentation repair validated locally; live repair verification pending.",
+  "deployment": {
+    "url": "https://mertgkduman.github.io/population/",
+    "source_commit": "8414d3b62",
+    "workflow_run": 41109321797,
+    "workflow_conclusion": "success",
+    "browser_checks": 57,
+    "browser_pass": true,
+    "url_checks": 116,
+    "url_checks_pass": true,
+    "tested_at": "2026-10-30T18:45:26.915760+00:00",
+    "canonical_root_and_all_five_app_paths": "HTTP 200; root contains generated version catalogue"
+  },
   "equations": "Bundled KaTeX 0.16.22; five version guides and README use mathematical notation."
 }
