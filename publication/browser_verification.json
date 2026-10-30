@@ -1,7 +1,7 @@
 {
   "mode": "HTTP with a project-site path prefix; HTTPS blocked",
   "url": "http://127.0.0.1:8765/docs/index.html",
-  "checked_at": "2026-10-30T18:42:57.211Z",
+  "checked_at": "2026-10-30T20:41:51.994Z",
   "checks": [
     {
       "name": "portal_loaded",
@@ -9,7 +9,7 @@
       "detail": ""
     },
     {
-      "name": "six_top_tabs",
+      "name": "seven_top_tabs",
       "pass": true,
       "detail": ""
     },
@@ -104,6 +104,21 @@
       "detail": ""
     },
     {
+      "name": "v6_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "v1_equations_typeset",
       "pass": true,
       "detail": ""
@@ -150,6 +165,16 @@
     },
     {
       "name": "v5_no_math_parse_errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_equations_typeset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_no_math_parse_errors",
       "pass": true,
       "detail": ""
     },
@@ -262,6 +287,26 @@
       "name": "v5_displayed_zip_export",
       "pass": true,
       "detail": "v5-traitMap-data.zip"
+    },
+    {
+      "name": "v6_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/adult0p1_k0p05.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/all.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/followups.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v6_displayed_zip_export",
+      "pass": true,
+      "detail": "v6-traitMap-data.zip"
     },
     {
       "name": "deep_link_state",

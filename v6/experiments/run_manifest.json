@@ -1,0 +1,107 @@
+{
+  "run_id": "v6-20261030T202112Z",
+  "timestamp": "2026-10-30T20:30:57.215607+00:00",
+  "config": {
+    "H": 3,
+    "p": 0.65,
+    "access": 1.0,
+    "load": 1.0,
+    "nu_private": 1.0,
+    "nu_social": 1.0,
+    "nu_adult": 1.0,
+    "plasticity_F": 1.0,
+    "plasticity_A": 0.1,
+    "transmission_error": 0.05,
+    "mu_F": 0.03,
+    "mu_A": 0.1,
+    "error_F": 0.25,
+    "error_A": 0.1,
+    "beta_base": 0.35,
+    "beta_skill": 0.85,
+    "query_cost": 0.0,
+    "K": 1000.0,
+    "S0": 1.0,
+    "KS": 1.0,
+    "adult_mode": "update",
+    "audit_floor": 0.05,
+    "audit_threshold": 2,
+    "policy": "fixed",
+    "accept": true,
+    "override": true,
+    "conflict_only": false,
+    "reset": false,
+    "payoff": true,
+    "initial_correct": 0.8,
+    "dt": 0.1,
+    "T": 600.0
+  },
+  "ds": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "taus": [
+    0.5,
+    0.687054405,
+    0.944087511,
+    1.297278967,
+    1.782602458,
+    2.449489743,
+    3.365865436,
+    4.62506535,
+    6.355343046,
+    8.732932872,
+    12.0
+  ],
+  "eta_A": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "kappa": [
+    0.0,
+    0.01,
+    0.05,
+    0.2
+  ],
+  "seeds": [
+    65001,
+    65002,
+    65003,
+    65004,
+    65005,
+    65006,
+    65007,
+    65008
+  ],
+  "burn_in": 200,
+  "main_trajectories": 9504,
+  "mutant_trajectories": 9504,
+  "pilot_trajectories": 75,
+  "runtime_seconds": 584.9131217,
+  "solver": "RK4 dt=.1; steps split exactly at all Poisson events and output times",
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "numba": "0.64.0"
+  },
+  "units": {
+    "time": "model_time",
+    "density": "continuous_population_density",
+    "kappa": "1/model_time",
+    "plasticity": "probability of encoding a cue",
+    "growth": "1/model_time"
+  },
+  "source_sha256": {
+    "model.py": "b9a86f9e45100a0fd0013304ba6b9191be18b6bca3724377ab960fbf94df720c",
+    "invasion.py": "a56bae02030cbe27474fb768e4ed8bf787a69b81954ce75a101a3c1091fcf39a",
+    "run_experiments.py": "b280416834adc16b67c3feee11e7e31e6bd09e41163d6661fce57f684e8455d7"
+  }
+}

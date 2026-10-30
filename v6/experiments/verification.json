@@ -1,0 +1,223 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "birth/death accounting excludes maturation and learning",
+      "pass": true,
+      "detail": 4.1744385725905886e-14
+    },
+    {
+      "name": "absorbing all-zero population",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "state-preserving irreversible maturation exact solution",
+      "pass": true,
+      "detail": 1.317672533585057e-12
+    },
+    {
+      "name": "maturation conserves population",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no adult-to-juvenile flow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 0.0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 0.1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 0.1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 1.0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 1.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "opposite fixed environments are sign-symmetric",
+      "pass": true,
+      "detail": 1.7053025658242404e-13
+    },
+    {
+      "name": "kappa=0 independent of seed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "environmental paths shared across plasticity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous-time first switch matches exponential draw",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "invalid parameter ranges rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "neutral demographic invariance to d/plasticity/environment",
+      "pass": true,
+      "detail": 1.9667822925839573e-11
+    },
+    {
+      "name": "constant-resource matrix exponential",
+      "pass": true,
+      "detail": 6.600771484954748e-09
+    },
+    {
+      "name": "dominant eigenvalue agrees with two-stage matrix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "eta_F=eta_A=1 exactly reproduces V5 RHS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "DOP853 and halving d=0.0 tau=0.5 eta=0.1",
+      "pass": true,
+      "detail": {
+        "d": 0.0,
+        "tau": 0.5,
+        "eta_A": 0.1,
+        "max_abs": 1.2034661551751924e-05,
+        "max_scaled": 7.69221989573204e-09,
+        "half_max_abs": 7.073992378536786e-07,
+        "halving_ratio": 17.012545261239342,
+        "reference_evaluations": 4298
+      }
+    },
+    {
+      "name": "DOP853 and halving d=1.0 tau=12.0 eta=0.1",
+      "pass": true,
+      "detail": {
+        "d": 1.0,
+        "tau": 12.0,
+        "eta_A": 0.1,
+        "max_abs": 2.2646561532724263e-06,
+        "max_scaled": 4.07568809579426e-08,
+        "half_max_abs": 1.3627406758587313e-07,
+        "halving_ratio": 16.618394045113188,
+        "reference_evaluations": 3242
+      }
+    },
+    {
+      "name": "DOP853 and halving d=0.5 tau=3.0 eta=0.0",
+      "pass": true,
+      "detail": {
+        "d": 0.5,
+        "tau": 3.0,
+        "eta_A": 0.0,
+        "max_abs": 1.2684303271726094e-05,
+        "max_scaled": 2.9659587791280047e-08,
+        "half_max_abs": 7.723460839770269e-07,
+        "halving_ratio": 16.423082261790018,
+        "reference_evaluations": 3110
+      }
+    },
+    {
+      "name": "DOP853 and halving d=0.5 tau=3.0 eta=1.0",
+      "pass": true,
+      "detail": {
+        "d": 0.5,
+        "tau": 3.0,
+        "eta_A": 1.0,
+        "max_abs": 1.219005810071394e-05,
+        "max_scaled": 2.237041480866671e-08,
+        "half_max_abs": 7.244805715345137e-07,
+        "halving_ratio": 16.82592823006188,
+        "reference_evaluations": 3170
+      }
+    },
+    {
+      "name": "self-mutant relative neutrality in common stochastic environment",
+      "pass": true,
+      "detail": 2.220446049250313e-15
+    },
+    {
+      "name": "fixed-environment equilibrium full residual",
+      "pass": true,
+      "detail": {
+        "N": 4867.44236325637,
+        "residual": 1.1605303828423106e-16,
+        "self_rate": 1.0469865976955963e-16
+      }
+    },
+    {
+      "name": "equilibrium resident self-invasion",
+      "pass": true,
+      "detail": 1.0469865976955963e-16
+    }
+  ],
+  "solver": "DOP853 rtol=1e-10 atol=1e-12, exact segment restarts; RK4 dt=.1 and .05",
+  "errors": [
+    {
+      "d": 0.0,
+      "tau": 0.5,
+      "eta_A": 0.1,
+      "max_abs": 1.2034661551751924e-05,
+      "max_scaled": 7.69221989573204e-09,
+      "half_max_abs": 7.073992378536786e-07,
+      "halving_ratio": 17.012545261239342,
+      "reference_evaluations": 4298
+    },
+    {
+      "d": 1.0,
+      "tau": 12.0,
+      "eta_A": 0.1,
+      "max_abs": 2.2646561532724263e-06,
+      "max_scaled": 4.07568809579426e-08,
+      "half_max_abs": 1.3627406758587313e-07,
+      "halving_ratio": 16.618394045113188,
+      "reference_evaluations": 3242
+    },
+    {
+      "d": 0.5,
+      "tau": 3.0,
+      "eta_A": 0.0,
+      "max_abs": 1.2684303271726094e-05,
+      "max_scaled": 2.9659587791280047e-08,
+      "half_max_abs": 7.723460839770269e-07,
+      "halving_ratio": 16.423082261790018,
+      "reference_evaluations": 3110
+    },
+    {
+      "d": 0.5,
+      "tau": 3.0,
+      "eta_A": 1.0,
+      "max_abs": 1.219005810071394e-05,
+      "max_scaled": 2.237041480866671e-08,
+      "half_max_abs": 7.244805715345137e-07,
+      "halving_ratio": 16.82592823006188,
+      "reference_evaluations": 3170
+    }
+  ]
+}

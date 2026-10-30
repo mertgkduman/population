@@ -26,8 +26,8 @@ def main():
  for v in versions:
   for key in ('model','results','changes','shortcomings'):missing.extend(validate_links(v[key],SITE))
  check('all local links resolve',not missing,missing[:20])
- check('five versions plus proposals',[v['id'] for v in versions]==['v1','v2','v3','v4','v5','future'])
- check('no fabricated future results','No new simulation results' in versions[-1]['results'])
+ check('six versions plus proposals in requested order',[v['id'] for v in versions]==['v1','v2','v3','v4','v5','future','v6'])
+ check('no fabricated future results','No new simulation results' in next(v for v in versions if v['id']=='future')['results'])
  check('four nested sections have content',all(all(v[k] for k in ('model','results','changes','shortcomings')) for v in versions))
  packages=0;files=0
  for manifest in (SITE/'downloads').glob('*/manifest.json'):
@@ -44,7 +44,7 @@ def main():
  size=sum(p.stat().st_size for p in SITE.rglob('*') if p.is_file())
  check('Pages site below 1GB',size<1_000_000_000,size)
  check('every published file below 100MiB',all(p.stat().st_size<100*1024*1024 for p in SITE.rglob('*') if p.is_file()))
- for v in ('v1','v2','v3','v4','v5'):
+ for v in ('v1','v2','v3','v4','v5','v6'):
   text=(SITE/'apps'/(v+'.html')).read_text()
   check(v+' download adapter present','plot-downloads.js' in text and 'PUBLICATION_PACKAGES' in text)
   check(v+' shared local Plotly','../assets/plotly.min.js' in text)

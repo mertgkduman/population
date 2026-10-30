@@ -2,17 +2,17 @@
   "technical_verdict": "VALIDATED",
   "browser": {
     "pass": true,
-    "checks": 57,
+    "checks": 66,
     "console_errors": [],
     "remote_requests": [],
     "http_errors": []
   },
   "static": {
     "pass": true,
-    "checks": 24
+    "checks": 28
   },
   "exact_plot_zip_tests": 5,
-  "site_bytes": 682980775,
+  "site_bytes": 975715298,
   "scientific_version_files_unchanged_from": "af171fe",
   "scientific_files_unchanged": true,
   "github_export": {
@@ -37,5 +37,25 @@
     "tested_at": "2026-10-30T18:45:26.915760+00:00",
     "canonical_root_and_all_five_app_paths": "HTTP 200; root contains generated version catalogue"
   },
-  "equations": "Bundled KaTeX 0.16.22; five version guides and README use mathematical notation."
+  "equations": "Bundled KaTeX; six scientific version guides and README use mathematical notation.",
+  "current_local_release": {
+    "version": "V6",
+    "branch": "v6-plasticity-stochastic",
+    "pushed": false,
+    "deployed": false,
+    "run_id": "v6-20261030T202112Z",
+    "publication_browser_checks": 66,
+    "standalone_browser_checks": 19,
+    "numerical_checks": 27,
+    "long_horizon_checks": 6,
+    "export_parity_checks": 11,
+    "static_checks": 28,
+    "previous_scientific_versions_unchanged": [
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5"
+    ]
+  }
 }

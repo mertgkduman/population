@@ -10,7 +10,7 @@ VERSION_TABLE_PLACEHOLDER
 
 ## View the research
 
-Build and preview the six-tab site:
+Build and preview the seven-tab site:
 
 ~~~bash
 python scripts/restore_large_files.py
@@ -18,7 +18,7 @@ python scripts/build_pages.py
 python -m http.server 8000 --directory docs
 ~~~
 
-Open http://localhost:8000. The tabs are V1–V5 and Further work. Each has Model, Results, Changes and Shortcomings. The original interactive dashboards retain every plot family. Under each plot, an exact displayed-data ZIP supplies JSON, CSV, available parameters and units, alongside a reference-data package. Data and definitions remain version-specific. Large results load when requested. No new results are claimed for proposals.
+Open http://localhost:8000. The tabs are V1–V5, Further work and V6, in that order. Each has Model, Results, Changes and Shortcomings. The original interactive dashboards retain every plot family. Under each plot, an exact displayed-data ZIP supplies JSON, CSV, available parameters and units, alongside a reference-data package. Data and definitions remain version-specific. Large results load when requested. No new results are claimed for proposals.
 
 ## Prepare GitHub Pages
 

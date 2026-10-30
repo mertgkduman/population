@@ -21,13 +21,15 @@ Investigate inherited juvenile deference and maturation using endogenous cultura
 - Adult testimony generated from retained juvenile/adult beliefs; no direct tau reward or dogmatism genotype.
 - Shared resident culture/resources for rare mutants; distinguish selection from isolated growth.
 - Five focused quick spikes, preregistered hypotheses, adversarial tests, offline dashboard, full reproducibility.
+- V6: juvenile private encoding more plastic than adult encoding, inherited ledgers retained at maturation, common stochastic environmental paths, and explicit equal-plasticity control.
+- V6 publication order: V5, Further work, V6; local code and commits only until user authorizes pushing.
 
 ### versioned-research-publication
 Prepare V1–V5 as a static GitHub Pages research archive with Further work proposals.
 
 **Requirements:**
 - Keep scientific version files/data/specifications separate and unchanged.
-- Six top tabs (V1–V5 and Further work), each with model/results/changes/shortcomings.
+- Original publication: six top tabs (V1–V5 and Further work). V6 adds a seventh after Further work; retain model/results/changes/shortcomings for every version.
 - Put an exact plot-data ZIP and reference-data link beneath every interactive figure.
 - Explain versions and all equations in main README.
 - Respect file/site limits and preserve original history through a clean publishable export.
@@ -49,3 +51,4 @@ Prepare V1–V5 as a static GitHub Pages research archive with Further work prop
 | 010 | developmental-cultural-evolution | conviction-retention | comparison | Given acquired adult convictions, when freezing, updating, auditing and truth-versus-information changes are compared, then accuracy and sampling-cost channels can be separated | PARTIAL | v5, information-access, culture, selection |
 | 011 | developmental-cultural-evolution | information-selection | comparison | Given a common resident culture and resource environment, when rare inherited strategies enter, then self-neutrality and explicit competition distinguish invasion from isolated abundance | VALIDATED | v5, information-access, culture, selection |
 | 012 | versioned-research-publication | versioned-pages | integration | Given preserved research versions, when published statically, then models, interactive results and raw-data packages work within GitHub limits | VALIDATED | publication, github-pages, data |
+| 013 | developmental-cultural-evolution | developmental-plasticity | comparison | Given lower adult encoding and stochastic truth, when matched traits and histories vary, then cultural, demographic and invasion outcomes are verified | VALIDATED | v6, plasticity, stochastic-environment |

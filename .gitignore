@@ -15,3 +15,7 @@ v5_research_complete.zip
 /v5/experiments/dashboard_data.json.gz
 /v5/index.html
 /v5/research_dashboard.html
+
+# V6 restored standalone dashboards (exact bytes in version-local chunks).
+/v6/index.html
+/v6/research_dashboard.html

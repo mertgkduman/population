@@ -31,3 +31,7 @@ Across spikes009–011, retain private learners' acquired knowledge as the prima
 ## Research publication
 
 Preserve version-local scientific artifacts. Build the static publication separately, share local visualization assets and lazy-load stored data. Provide exact displayed-data exports and hashed reference archives. Audit static links, project URL prefixes, browser console/network behavior, archive bytes and hosting limits. Where old history contains oversized blobs, use a non-destructive clean publication snapshot with verified version-local chunks.
+
+## Stage-specific plasticity and stochastic truth (V6)
+
+Separate private cue quality/exposure from the probability of encoding. Preserve both ledgers at maturation; imposed adult rigidity must be labeled. Sample exact Poisson event times, split integrator steps there, and use common environmental paths in trait and invasion comparisons. Distinguish fixed-environment equilibria from finite-window stochastic regime summaries; symmetric truth flips need not create unequal fixed abundance equilibria. Keep censored recovery fractions separate from conditional delays. Record initial numerical misses and subsequent refinement, rather than hiding them. Lossless ZIP_LZMA NPZ packaging is supported by numpy.load and can preserve exact NPY bytes within hosting limits.

@@ -7,7 +7,7 @@
       "detail": []
     },
     {
-      "name": "five versions plus proposals",
+      "name": "six versions plus proposals in requested order",
       "pass": true,
       "detail": null
     },
@@ -25,14 +25,14 @@
       "name": "all reference archives preserve source bytes",
       "pass": true,
       "detail": {
-        "packages": 97,
-        "source_entries": 519
+        "packages": 115,
+        "source_entries": 606
       }
     },
     {
       "name": "Pages site below 1GB",
       "pass": true,
-      "detail": 682980775
+      "detail": 975715298
     },
     {
       "name": "every published file below 100MiB",
@@ -90,6 +90,16 @@
       "detail": null
     },
     {
+      "name": "v6 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v6 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "payload chunk payload/v5/part-004.bin",
       "pass": true,
       "detail": null
@@ -121,6 +131,16 @@
     },
     {
       "name": "payload chunk payload/v4/part-000.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v6/part-001.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v6/part-000.bin",
       "pass": true,
       "detail": null
     }

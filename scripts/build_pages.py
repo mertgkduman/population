@@ -29,7 +29,7 @@ def source_document(path):
   resolved=((ROOT/path).parent/raw.split('#')[0]).resolve()
   try:rel=resolved.relative_to(ROOT)
   except ValueError:return 'href="#"'
-  version=rel.parts[0] if rel.parts and rel.parts[0] in ('v1','v2','v3','v4','v5') else 'future'
+  version=rel.parts[0] if rel.parts and rel.parts[0] in ('v1','v2','v3','v4','v5','v6') else 'future'
   if resolved.suffix=='.html' and version!='future':target='apps/'+version+'.html'
   elif resolved.suffix=='.md' and resolved.exists():target='specifications/'+str(rel)
   elif resolved.suffix in ('.py','.js') and resolved.exists():target='sources/'+str(rel)
@@ -42,17 +42,17 @@ def raw_packages(version,out):
  folder=ROOT/version;data=folder/'experiments' if (folder/'experiments').exists() else folder;dest=out/'downloads'/version;dest.mkdir(parents=True,exist_ok=True)
  raw=[p for p in data.iterdir() if p.is_file() and p.suffix in ('.csv','.json','.npz') and p.name!='project_manifest.json']
  groups={'all':[p for p in raw if p.suffix!='.npz']}
- if version in ('v4','v5'):
+ if version in ('v4','v5','v6'):
   for p in raw:
    if p.suffix=='.npz':groups[p.stem]=[p]
-  families={'volatility':['volatility'],'mechanisms':['mechanism'],'source_conditions':['source_conditions'],'histories':['histor'],'evolution':['architecture','pairwise','competition','dynamic','selection','reproductive','replacement','frozen_replacement'],'frozen_replacement':['frozen_replacement'],'repertoire':['repertoire.'],'repertoire_tutors':['repertoire_tutors'],'bayes_benchmark':['bayes_benchmark']}
+  families={'followups':['followups','heldout'],'fixed_equilibria':['fixed_equilibria'],'volatility':['volatility'],'mechanisms':['mechanism'],'source_conditions':['source_conditions'],'histories':['histor'],'evolution':['architecture','pairwise','competition','dynamic','selection','reproductive','replacement','frozen_replacement'],'frozen_replacement':['frozen_replacement'],'repertoire':['repertoire.'],'repertoire_tutors':['repertoire_tutors'],'bayes_benchmark':['bayes_benchmark']}
   for key,prefixes in families.items():
    match=[p for p in raw if any(p.name.startswith(x) for x in prefixes)]
    if match:groups[key]=match
  else:groups={'all':raw}
  metadata=[p for p in [folder/'schema.json',folder/'parameter_schema.json',folder/'run_manifest.json',data/'run_manifest.json',data/'model.py',folder/'model.py'] if p.exists()]
  rows=None
- if version in ('v4','v5'):
+ if version in ('v4','v5','v6'):
   with (data/'sweep.csv').open() as f:rows=list(csv.DictReader(f))
  records=[]
  for key,items in groups.items():
@@ -75,10 +75,11 @@ def raw_packages(version,out):
  write(dest/'index.html','<!doctype html><html lang="en"><meta charset="utf-8"><title>'+version+' raw data</title><link rel="stylesheet" href="../../assets/site.css"><main><h1>'+version.upper()+' simulation data</h1><p>Reference tables and full trajectory archives are separate. Packages contain source-byte hashes; exact displayed-plot ZIPs are available beneath interactive figures.</p><ul>'+listing+'</ul><a href="manifest.json">Package hashes</a></main></html>')
  return records
 def dashboard(version,out,bundle,records):
- source=ROOT/version/('research_dashboard.html' if version in ('v4','v5') else 'index.html');page=source.read_text()
+ source=ROOT/version/('research_dashboard.html' if version in ('v4','v5','v6') else 'index.html');page=source.read_text()
+ page=re.sub(r'<!-- STANDALONE_DOWNLOADS_START -->.*?<!-- STANDALONE_DOWNLOADS_END -->','',page,flags=re.S)
  if bundle not in page:raise RuntimeError('Exact Plotly bundle missing: '+version)
  page=page.replace(bundle,'').replace('</head>','<link rel="icon" href="data:,"><script src="../assets/plotly.min.js"></script></head>',1)
- if version in ('v4','v5'):
+ if version in ('v4','v5','v6'):
   match=re.search(r'const EMBEDDED_GZIP_BASE64=("[A-Za-z0-9+/=]+");',page)
   if not match:raise RuntimeError('Dataset marker absent: '+version)
   data=base64.b64decode(json.loads(match.group(1)));chunks=[]
@@ -89,6 +90,7 @@ def dashboard(version,out,bundle,records):
   replacement="async function embeddedData(){const parts=[];for(const path of "+json.dumps(chunks)+"){const r=await fetch(path);if(!r.ok)throw Error('Cannot load dataset: '+path);parts.push(await r.arrayBuffer())}const stream=new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'));return JSON.parse(await new Response(stream).text())}"
   page,count=re.subn(rx,lambda _:replacement,page,count=1,flags=re.S)
   if count!=1:raise RuntimeError('Dataset loader substitution failed: '+version)
+ page=re.sub(r' data-publication-version="[^"]*"','',page,count=1)
  page=page.replace('<html','<html data-publication-version="'+version+'"',1)
  adapter='<style>.publication-download{display:flex;gap:10px;flex-wrap:wrap;padding:9px 4px;font:13px/1.5 system-ui}.publication-download a{color:#85e4dd;text-decoration:underline}.publication-download button{font:inherit;padding:5px 9px}</style><script>window.PUBLICATION_PACKAGES='+json.dumps([r['id'] for r in records])+';</script><script src="../assets/plot-downloads.js"></script>'
  write(out/'apps'/(version+'.html'),page.replace('</body>',adapter+'</body>'))
@@ -101,7 +103,7 @@ def main():
   shutil.copytree(p,out/'assets'/p.name,dirs_exist_ok=True) if p.is_dir() else shutil.copy2(p,out/'assets'/p.name)
  import plotly
  bundle=(Path(plotly.__file__).parent/'package_data/plotly.min.js').read_text();write(out/'assets/plotly.min.js',bundle)
- for folder in ('v1','v2','v3','v4','v5','proposals'):
+ for folder in ('v1','v2','v3','v4','v5','v6','proposals'):
   for source in (ROOT/folder).rglob('*'):
    if source.is_file() and '__pycache__' not in source.parts and source.suffix in ('.md','.py','.js'):
     target=out/('specifications' if source.suffix=='.md' else 'sources')/source.relative_to(ROOT)
@@ -117,7 +119,7 @@ def main():
    records=raw_packages(v['id'],out);built.append({'version':v['id'],'packages':len(records),**dashboard(v['id'],out,bundle,records)});v['app']='apps/'+v['id']+'.html?v='+digest(out/'apps'/(v['id']+'.html'))[:12]
   else:v['results']='<h2>No new simulation results</h2><p>These investigations are proposals. Existing measurements and datasets remain in V1–V5.</p>'
   rendered.append(v);print('Built',v['id'],flush=True)
- page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deference & cultural learning · versioned research</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script></head><body><a class="skip" href="#panel">Skip to content</a><header><div class="eyebrow">Computational research archive · simulation data</div><h1>Deference, conviction & cultural learning</h1><p>Five successive models, their equations, interactive results and open questions. Technical verification does not establish a historical adaptation.</p></header><nav id="version-tabs" role="tablist" aria-label="Versions"></nav><main><section class="intro"><h2 id="version-heading"></h2><p id="summary"></p></section><nav id="section-tabs" class="subtabs" role="tablist" aria-label="Version sections"></nav><section id="panel" class="content" role="tabpanel"></section></main><footer>Original scientific artifacts remain isolated by version. No new simulations were run for this publication release.</footer><script id="versions-data" type="application/json">'+json.dumps(rendered).replace('</','<\\/')+'</script><script src="assets/site.js"></script></body></html>'
+ page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deference & cultural learning · versioned research</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script></head><body><a class="skip" href="#panel">Skip to content</a><header><div class="eyebrow">Computational research archive · simulation data</div><h1>Deference, conviction & cultural learning</h1><p>Six successive models, their equations, interactive results and open questions. Technical verification does not establish a historical adaptation.</p></header><nav id="version-tabs" role="tablist" aria-label="Versions"></nav><main><section class="intro"><h2 id="version-heading"></h2><p id="summary"></p></section><nav id="section-tabs" class="subtabs" role="tablist" aria-label="Version sections"></nav><section id="panel" class="content" role="tabpanel"></section></main><footer>Original scientific artifacts remain isolated by version. Simulation methods and results remain version-specific; proposals contain no new results.</footer><script id="versions-data" type="application/json">'+json.dumps(rendered).replace('</','<\\/')+'</script><script src="assets/site.js"></script></body></html>'
  page=page.replace('assets/site.js','assets/site.js?v='+digest(out/'assets/site.js')[:12]).replace('assets/site.css','assets/site.css?v='+digest(out/'assets/site.css')[:12])
  write(out/'index.html',page)
  size=sum(p.stat().st_size for p in out.rglob('*') if p.is_file())

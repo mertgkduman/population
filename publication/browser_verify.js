@@ -17,6 +17,7 @@ async function main(){
   const chrome=spawn(CHROME,['--headless=new','--no-sandbox','--disable-dev-shm-usage','--enable-unsafe-swiftshader','--use-gl=angle','--use-angle=swiftshader','--disable-background-networking','--no-first-run','--disable-extensions','--remote-allow-origins=*',`--remote-debugging-port=${port}`,`--user-data-dir=${profile}`,'about:blank'],{stdio:'ignore'});
   let ws;const errors=[],remote=[],httpErrors=[],checks=[];const record=(name,pass,detail='')=>checks.push({name,pass:!!pass,detail});
   try{
+    if(!(await fetch(BASE)).ok)throw Error('Publication URL unavailable; start the documented local HTTP server');
     if(!fs.existsSync(INDEX))throw Error(`${INDEX} missing; run python build_dashboard.py first`);
     let pages=[];for(let i=0;i<200;i++){try{pages=await (await fetch(`http://127.0.0.1:${port}/json`)).json();if(pages.some(x=>x.type==='page'))break}catch{}await sleep(100)}
     const page=pages.find(x=>x.type==='page');if(!page)throw Error('Chrome page unavailable');
@@ -28,14 +29,14 @@ async function main(){
     await send('Runtime.enable');await send('Log.enable');await send('Network.enable');if(!LIVE)await send('Network.setBlockedURLs',{urls:['https://*']});await send('Page.enable');
     await send('Page.navigate',{url:BASE});
     record('portal_loaded',await until("window.PublicationState?.ready===true"));
-    record('six_top_tabs',await evaluate("document.querySelectorAll('[data-version]').length===6 && document.querySelector('[data-version=future]').textContent==='Further work'"));
-    for(const v of ['v1','v2','v3','v4','v5','future']){
+    record('seven_top_tabs',await evaluate("document.querySelectorAll('[data-version]').length===7 && document.querySelector('[data-version=future]').textContent==='Further work'"));
+    for(const v of ['v1','v2','v3','v4','v5','future','v6']){
       for(const section of ['model','changes','shortcomings']){
         await evaluate("select('"+v+"','"+section+"')");
         record(v+'_'+section,await evaluate("PublicationState.version==='"+v+"' && PublicationState.section==='"+section+"' && document.getElementById('panel').textContent.length>100 && document.querySelectorAll('[data-section][aria-selected=true]').length===1"));
       }
     }
-    for(const v of ['v1','v2','v3','v4','v5']){
+    for(const v of ['v1','v2','v3','v4','v5','v6']){
       await evaluate("select('"+v+"','model')");
       record(v+'_equations_typeset',await until("document.querySelectorAll('#panel .katex').length>=5"));
       record(v+'_no_math_parse_errors',await evaluate("document.querySelectorAll('#panel .katex-error').length===0"));
@@ -44,7 +45,7 @@ async function main(){
     record('future_results_explicitly_unrun',await evaluate("document.getElementById('panel').textContent.includes('No new simulation results') && !document.querySelector('iframe')"));
     await evaluate("document.querySelector('[data-version=v1]').focus();document.activeElement.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}))");
     record('keyboard_version_navigation',await evaluate("PublicationState.version==='v2'"));
-    for(const v of ['v1','v2','v3','v4','v5']){
+    for(const v of ['v1','v2','v3','v4','v5','v6']){
       await evaluate("select('"+v+"','results')");
       const ready=await until("document.querySelector('iframe')?.contentWindow.document.querySelectorAll('.js-plotly-plot').length>2 && document.querySelector('iframe').contentWindow.document.querySelectorAll('.publication-download').length>2",180000);
       record(v+'_plots_rendered',ready);

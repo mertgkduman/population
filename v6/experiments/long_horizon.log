@@ -1,0 +1,69 @@
+{
+  "pass": true,
+  "seed": 65003,
+  "T": 600,
+  "kappa": 0.2,
+  "d": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "tau": [
+    0.5,
+    3.0,
+    12.0
+  ],
+  "checks": [
+    {
+      "name": "N full-horizon timestep refinement",
+      "pass": true,
+      "max_abs": 5.606519152934197e-05,
+      "max_scaled": 1.553926834823723e-07,
+      "fine_vs_finer_abs": 3.3465503292973153e-06,
+      "halving_ratio": 16.75312964473304,
+      "scaled_tolerance": 2e-06
+    },
+    {
+      "name": "belief_A full-horizon timestep refinement",
+      "pass": true,
+      "max_abs": 2.414184033794342e-07,
+      "max_scaled": 2.414184033794342e-07,
+      "fine_vs_finer_abs": 1.3278484034540128e-08,
+      "halving_ratio": 18.18117209400216,
+      "scaled_tolerance": 5e-06
+    },
+    {
+      "name": "private_F full-horizon timestep refinement",
+      "pass": true,
+      "max_abs": 2.474576917599336e-06,
+      "max_scaled": 2.474576917599336e-06,
+      "fine_vs_finer_abs": 1.3610895110982568e-07,
+      "halving_ratio": 18.180853628080722,
+      "scaled_tolerance": 5e-06
+    },
+    {
+      "name": "B full-horizon timestep refinement",
+      "pass": true,
+      "max_abs": 5.856089865119429e-05,
+      "max_scaled": 1.2439637711212894e-07,
+      "fine_vs_finer_abs": 3.48000781968949e-06,
+      "halving_ratio": 16.82780662729071,
+      "scaled_tolerance": 2e-06
+    },
+    {
+      "name": "D full-horizon timestep refinement",
+      "pass": true,
+      "max_abs": 8.493623914773707e-05,
+      "max_scaled": 4.104684911689144e-07,
+      "fine_vs_finer_abs": 4.825953737963573e-06,
+      "halving_ratio": 17.599886729038136,
+      "scaled_tolerance": 2e-06
+    },
+    {
+      "name": "resident-relative invasion timestep halving over 200\u2013600",
+      "pass": true,
+      "max_abs": 9.093136660309753e-11
+    }
+  ],
+  "initial_test": "Initial uniform 2e-6 bound was exceeded by private_F (2.4746e-6). Retained in long_horizon_initial.json. Three-step refinement now records convergence. Probability tolerance 5e-6 corresponds to half of the fifth decimal place; population/flux relative tolerance remains 2e-6. These numerical tolerances do not change model assumptions or experiment parameters."
+}

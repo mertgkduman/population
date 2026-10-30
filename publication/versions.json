@@ -106,7 +106,26 @@
       "proposals/RESEARCH_PROPOSALS.md"
     ],
     "results_files": [],
-    "changes": "A curated proposal collection linking each extension to a measured limitation of V1\u2013V5. No V6 scientific results or new simulations are claimed.",
+    "changes": "A curated proposal collection linking extensions to measured limitations. Proposals remain unexecuted unless explicitly implemented in a numbered version; V6 is a separate plasticity and stochastic-environment model.",
     "shortcomings": "The proposals are unimplemented. Their suggested predictions can fail. Source dependence, search costs, calibrated trust, richer ecological tasks and empirical validation require new data or experiments."
+  },
+  {
+    "id": "v6",
+    "title": "V6",
+    "name": "Developmental plasticity and changing environments",
+    "summary": "Juveniles encode private cues more readily than adults; retained convictions generate advice while environmental truth switches stochastically.",
+    "model_files": [
+      "publication/models/v6.md"
+    ],
+    "source_specifications": [
+      "v6/mathematical_model.md",
+      "v6/research_contract.md"
+    ],
+    "parameter_file": "v6/parameter_schema.json",
+    "results_files": [
+      "v6/results.md"
+    ],
+    "changes": "Adds stage-specific private encoding probabilities $\\eta_F=1$ and $\\eta_A\\in\\{0,0.1,1\\}$ while keeping cue quality and exposure fixed. Truth flips at Poisson hazard $\\kappa$. Matched environmental histories, held-out seeds and shared-resident mutant growth distinguish retention, adaptation and conditional selection. Further work remains immediately after V5; V6 follows it.",
+    "shortcomings": "Adult rigidity is imposed, not an evolved outcome. Encoding thinning is mathematically an effective learning-rate reduction, and does not establish a biological distinction from attention or information access. Finite-window stochastic means do not prove stationary equilibria. Symmetric fixed environments have mirrored beliefs and equal abundance. Deference still bundles public substitution and social storage; this does not establish a distinct childhood dogmatism adaptation."
   }
 ]

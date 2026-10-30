@@ -1,6 +1,6 @@
 # Further work: proposed investigations
 
-These are proposals. They have not been simulated or verified as new models. Existing measurements remain in V1–V5.
+These are proposals. They have not been simulated or verified as new models. Existing measurements remain in their numbered version folders. V6 separately implements stage-specific plasticity and stochastic environmental change; the proposals below remain proposals.
 
 ## 1. Correlated teachers and cultural genealogy
 

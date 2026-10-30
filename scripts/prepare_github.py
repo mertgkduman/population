@@ -12,7 +12,7 @@ def main():
   p=ROOT/rel
   if not p.is_file() or rel.startswith(('dist/','docs/','.git/')) or '__pycache__' in p.parts:continue
   if p.stat().st_size>LIMIT:
-   sha=hashlib.sha256(p.read_bytes()).hexdigest();base=Path(rel).parts[0];base=base if base in ('v1','v2','v3','v4','v5') else 'publication';folder=Path(base)/'.large-files'/sha;chunks=[]
+   sha=hashlib.sha256(p.read_bytes()).hexdigest();base=Path(rel).parts[0];base=base if base in ('v1','v2','v3','v4','v5','v6') else 'publication';folder=Path(base)/'.large-files'/sha;chunks=[]
    with p.open('rb') as f:
     n=0
     while b:=f.read(CHUNK):

@@ -1,0 +1,16 @@
+{
+  "workflow": "installed Codex gsd-spike skill adapter",
+  "skill_file": "/hpc/home/mg551/.agents/skills/gsd-spike/SKILL.md",
+  "workflow_file": "/hpc/home/mg551/.codex/gsd-core/workflows/spike.md",
+  "runtime_identity": {
+    "packageName": "@opengsd/gsd-core",
+    "version": "1.14.0"
+  },
+  "mode": "--quick",
+  "execution": "inline, no helper agents, no project initialization",
+  "artifacts": "v6/ and numbered spike record",
+  "technical_verdict": "VALIDATED",
+  "push_authorized": false,
+  "documented_numerical_refinement": "initial strict probability miss retained and third timestep verified",
+  "commit_interface": "Installed gsd-tools query commit invoked; its staging helper timed out on the large v6 data folder. Native git add/commit used with an unrestricted process wait to preserve the required local commit."
+}

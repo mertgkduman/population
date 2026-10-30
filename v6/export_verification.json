@@ -1,0 +1,163 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "N browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.956746124662459e-10,
+        "mean": 4.988578439224511e-10,
+        "sd": 4.940829967381433e-10
+      }
+    },
+    {
+      "name": "F browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.997104952053633e-10,
+        "mean": 4.965841071680188e-10,
+        "sd": 4.964704203302972e-10
+      }
+    },
+    {
+      "name": "A browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.888534022029489e-10,
+        "mean": 4.994262781110592e-10,
+        "sd": 4.985167834092863e-10
+      }
+    },
+    {
+      "name": "B browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.959019861416891e-10,
+        "mean": 4.952056542606442e-10,
+        "sd": 4.996820734959329e-10
+      }
+    },
+    {
+      "name": "D browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.974651801603613e-10,
+        "mean": 4.994262781110592e-10,
+        "sd": 4.782663154401234e-10
+      }
+    },
+    {
+      "name": "M browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.94942753448413e-10,
+        "mean": 4.998810254619457e-10,
+        "sd": 4.967830591340316e-10
+      }
+    },
+    {
+      "name": "private_F browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.995849289812782e-10,
+        "mean": 4.97974217417152e-10,
+        "sd": 4.959127448966871e-10
+      }
+    },
+    {
+      "name": "belief_A browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.987905644071589e-10,
+        "mean": 4.965690081348839e-10,
+        "sd": 4.985626633757789e-10
+      }
+    },
+    {
+      "name": "public_F browser export equals full-precision raw data",
+      "pass": true,
+      "absolute_errors": {
+        "sample": 4.979978651675765e-10,
+        "mean": 4.939506581536079e-10,
+        "sd": 4.95914920239926e-10
+      }
+    },
+    {
+      "name": "export time axis equals raw times",
+      "pass": true
+    },
+    {
+      "name": "all sweep cells and run labels exported",
+      "pass": true
+    }
+  ],
+  "configuration": {
+    "label": "simulation data",
+    "run_id": "v6-20261030T202112Z",
+    "context_id": "adult0p0_k0p01",
+    "d": 1,
+    "tau": 12,
+    "parameters": {
+      "H": 3,
+      "p": 0.65,
+      "access": 1,
+      "load": 1,
+      "nu_private": 1,
+      "nu_social": 1,
+      "nu_adult": 1,
+      "plasticity_F": 1,
+      "plasticity_A": 0,
+      "transmission_error": 0.05,
+      "mu_F": 0.03,
+      "mu_A": 0.1,
+      "error_F": 0.25,
+      "error_A": 0.1,
+      "beta_base": 0.35,
+      "beta_skill": 0.85,
+      "query_cost": 0,
+      "K": 1000,
+      "S0": 1,
+      "KS": 1,
+      "adult_mode": "update",
+      "audit_floor": 0.05,
+      "audit_threshold": 2,
+      "policy": "fixed",
+      "accept": true,
+      "override": true,
+      "conflict_only": false,
+      "reset": false,
+      "payoff": true,
+      "initial_correct": 0.8,
+      "dt": 0.1,
+      "T": 600
+    },
+    "kappa": 0.01,
+    "seeds": [
+      65001,
+      65002,
+      65003,
+      65004,
+      65005,
+      65006,
+      65007,
+      65008
+    ],
+    "burn_in": 200,
+    "horizon": 600,
+    "solver": "RK4 dt=.1, exact environmental event splits",
+    "trajectory_view": "mean",
+    "illustrated_seed": 65001,
+    "units": {
+      "time": "model_time",
+      "density": "continuous_population_density",
+      "rates": "1/model_time",
+      "plasticity": "encoding probability"
+    },
+    "resident": {
+      "d": 0.5,
+      "tau": 3,
+      "same_plasticity": true
+    }
+  },
+  "tolerance": "5e-8 absolute; dashboard JSON rounds to 9 decimals; raw NPZ is full precision"
+}

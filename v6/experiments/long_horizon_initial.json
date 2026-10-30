@@ -1,0 +1,53 @@
+{
+  "pass": false,
+  "seed": 65003,
+  "T": 600,
+  "kappa": 0.2,
+  "d": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "tau": [
+    0.5,
+    3.0,
+    12.0
+  ],
+  "checks": [
+    {
+      "name": "N full-horizon timestep halving",
+      "pass": true,
+      "max_abs": 5.606519152934197e-05,
+      "max_scaled": 1.553926834823723e-07
+    },
+    {
+      "name": "belief_A full-horizon timestep halving",
+      "pass": true,
+      "max_abs": 2.414184033794342e-07,
+      "max_scaled": 2.414184033794342e-07
+    },
+    {
+      "name": "private_F full-horizon timestep halving",
+      "pass": false,
+      "max_abs": 2.474576917599336e-06,
+      "max_scaled": 2.474576917599336e-06
+    },
+    {
+      "name": "B full-horizon timestep halving",
+      "pass": true,
+      "max_abs": 5.856089865119429e-05,
+      "max_scaled": 1.2439637711212894e-07
+    },
+    {
+      "name": "D full-horizon timestep halving",
+      "pass": true,
+      "max_abs": 8.493623914773707e-05,
+      "max_scaled": 4.104684911689144e-07
+    },
+    {
+      "name": "resident-relative invasion timestep halving over 200\u2013600",
+      "pass": true,
+      "max_abs": 9.093136660309753e-11
+    }
+  ]
+}

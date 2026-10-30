@@ -1,0 +1,268 @@
+{
+  "label": "simulation data",
+  "grid_maxima": [
+    {
+      "eta_A": 0.0,
+      "kappa": 0.0,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        3.365865436
+      ],
+      "N_max": 5620.135310186,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 1.782602458,
+      "invasion_max": 0.010175226,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.0,
+      "kappa": 0.01,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        1.782602458
+      ],
+      "N_max": 4437.633862049,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.944087511,
+      "invasion_max": 0.012708528,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.0,
+      "kappa": 0.05,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.687054405
+      ],
+      "N_max": 3518.495260342,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.023370216,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.0,
+      "kappa": 0.2,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 3053.31965071,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.038248249,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.1,
+      "kappa": 0.0,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        3.365865436
+      ],
+      "N_max": 5760.835362884,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 1.297278967,
+      "invasion_max": 0.011158693,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.1,
+      "kappa": 0.01,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        1.297278967
+      ],
+      "N_max": 4800.627350267,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.687054405,
+      "invasion_max": 0.014643983,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.1,
+      "kappa": 0.05,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 3963.349644906,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.025826154,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 0.1,
+      "kappa": 0.2,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 3248.106356997,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.03939535,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 1.0,
+      "kappa": 0.0,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.687054405
+      ],
+      "N_max": 6509.207990576,
+      "d_boundary": true,
+      "tau_boundary": false,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.015431518,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 1.0,
+      "kappa": 0.01,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 6088.367008361,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.018824882,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 1.0,
+      "kappa": 0.05,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 5228.113610539,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.02629208,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    },
+    {
+      "eta_A": 1.0,
+      "kappa": 0.2,
+      "d_max": [
+        1.0
+      ],
+      "tau_max": [
+        0.5
+      ],
+      "N_max": 3919.778319006,
+      "d_boundary": true,
+      "tau_boundary": true,
+      "invasion_d_max": 1.0,
+      "invasion_tau_max": 0.5,
+      "invasion_max": 0.038943546,
+      "invasion_tied_cells": 1,
+      "abundance_tied_cells": 1
+    }
+  ],
+  "heldout": [
+    {
+      "kappa": 0.0,
+      "mean_N": [
+        4283.826007258001,
+        4867.399825572,
+        5770.470685145998
+      ],
+      "delta_1_minus_0": 1486.644677888,
+      "paired_SE": 0.0
+    },
+    {
+      "kappa": 0.01,
+      "mean_N": [
+        3888.0937147043746,
+        4200.124365255687,
+        4690.842947684438
+      ],
+      "delta_1_minus_0": 802.7492329800625,
+      "paired_SE": 81.11406583605378
+    },
+    {
+      "kappa": 0.2,
+      "mean_N": [
+        2200.30314997425,
+        2115.3791725960623,
+        2077.565917469438
+      ],
+      "delta_1_minus_0": -122.73723250481252,
+      "paired_SE": 25.519198406240022
+    }
+  ],
+  "cohort_recovery": [
+    [
+      0.0,
+      null
+    ],
+    [
+      0.1,
+      137.0
+    ],
+    [
+      1.0,
+      14.0
+    ]
+  ],
+  "both_abundance_parameters_interior": []
+}

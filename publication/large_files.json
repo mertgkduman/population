@@ -39,5 +39,25 @@
       "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-005.bin",
       "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-006.bin"
     ]
+  },
+  {
+    "path": "v6/index.html",
+    "bytes": 63533992,
+    "sha256": "a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88",
+    "chunks": [
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-000.bin",
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-001.bin",
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-002.bin"
+    ]
+  },
+  {
+    "path": "v6/research_dashboard.html",
+    "bytes": 63533992,
+    "sha256": "a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88",
+    "chunks": [
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-000.bin",
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-001.bin",
+      "v6/.large-files/a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88/part-002.bin"
+    ]
   }
 ]

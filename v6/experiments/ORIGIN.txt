@@ -1,0 +1,1 @@
+Readable V5 model copied at SHA256 4e3045c7ce7769ce3030cc0be23c94cb3dc5cb670f1b2ec50655dfae8acbda32. V6 adds encoding probabilities, equal private exposure rates, H=3, zero default query costs, T=600 and exact Poisson environmental switches. V1–V5 source unchanged.

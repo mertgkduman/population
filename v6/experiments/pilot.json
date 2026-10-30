@@ -1,0 +1,17 @@
+[
+  {
+    "eta_A": 0.0,
+    "min_state": 0.0,
+    "finite": true
+  },
+  {
+    "eta_A": 0.1,
+    "min_state": 0.0,
+    "finite": true
+  },
+  {
+    "eta_A": 1.0,
+    "min_state": 0.0,
+    "finite": true
+  }
+]
