@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build a version-isolated static Pages site without rerunning models."""
-import argparse,base64,csv,hashlib,html,io,json,re,shutil,sys,zipfile
+import argparse,base64,csv,gzip,hashlib,html,io,json,re,shutil,sys,zipfile
+from payload_codec import pack,unpack,JS_UNPACK
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'publication/vendor'))
@@ -74,8 +75,29 @@ def raw_packages(version,out):
  listing=''.join('<li><a download href="'+r['url']+'">'+r['id']+'</a> · '+str(round(r['bytes']/1e6,2))+' MB</li>' for r in records)
  write(dest/'index.html','<!doctype html><html lang="en"><meta charset="utf-8"><title>'+version+' raw data</title><link rel="stylesheet" href="../../assets/site.css"><main><h1>'+version.upper()+' simulation data</h1><p>Reference tables and full trajectory archives are separate. Packages contain source-byte hashes; exact displayed-plot ZIPs are available beneath interactive figures.</p><ul>'+listing+'</ul><a href="manifest.json">Package hashes</a></main></html>')
  return records
-def dashboard(version,out,bundle,records):
- source=ROOT/version/('research_dashboard.html' if version in ('v4','v5','v6') else 'index.html');page=source.read_text()
+def local_packages(out):
+ folder=ROOT/'v6/situational_advice';dest=out/'downloads/v6';records=[]
+ metadata=[folder/'parameter_schema.json',folder/'experiments/run_manifest.json',folder/'experiments/model.py',folder/'mathematical_model.md']
+ groups={p.stem:[p] for p in (folder/'published').glob('*.npz')}
+ groups['local_all']=[folder/'experiments/sweep.csv',folder/'experiments/followups.json',folder/'research_contract.md',folder/'results.md']
+ for key,items in groups.items():
+  files=items+metadata;expected=[{'path':str(p.relative_to(ROOT)),'sha256':digest(p),'bytes':p.stat().st_size} for p in files]
+  signature=hashlib.sha256(json.dumps(expected,sort_keys=True).encode()).hexdigest();target=dest/(key+'.zip');side=target.with_suffix('.signature')
+  if not target.exists() or not side.exists() or side.read_text()!=signature:
+   with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=4) as z:
+    for p in files:z.write(p,str(p.relative_to(ROOT)))
+    z.writestr('DATASET.json',json.dumps({'version':'v6','dataset':key,'label':'simulation data','files':expected,'scope':'All-seed map outcomes and exact seed71001 plot trajectories. Full unused per-seed histories remain in the GitHub repository; no displayed data are omitted.'},indent=2))
+    z.writestr('README.txt','Simulation data. Each context NPZ includes all-seed outcomes and the seed71001 histories displayed in the explorer. Full per-seed histories: https://github.com/mertgkduman/population/tree/main/v6/situational_advice/experiments\n')
+   side.write_text(signature)
+  records.append({'id':key,'url':key+'.zip','bytes':target.stat().st_size,'sha256':digest(target)})
+ old=json.loads((dest/'manifest.json').read_text());write(dest/'manifest.json',json.dumps(old+records,indent=2))
+ index=(dest/'index.html').read_text();extra='<h2>V6 situational-advice extension</h2><ul>'+''.join('<li><a download href="'+r['url']+'">'+r['id']+'</a></li>' for r in records)+'</ul>'
+ write(dest/'index.html',index.replace('</main>',extra+'</main>'))
+ return records
+
+def dashboard(version,out,bundle,records,source_override=None,asset_key=None):
+ asset_key=asset_key or version
+ source=source_override or ROOT/version/('research_dashboard.html' if version in ('v4','v5','v6') else 'index.html');page=source.read_text()
  page=re.sub(r'<!-- STANDALONE_DOWNLOADS_START -->.*?<!-- STANDALONE_DOWNLOADS_END -->','',page,flags=re.S)
  if bundle not in page:raise RuntimeError('Exact Plotly bundle missing: '+version)
  page=page.replace(bundle,'').replace('</head>','<link rel="icon" href="data:,"><script src="../assets/plotly.min.js"></script></head>',1)
@@ -83,17 +105,23 @@ def dashboard(version,out,bundle,records):
   match=re.search(r'const EMBEDDED_GZIP_BASE64=("[A-Za-z0-9+/=]+");',page)
   if not match:raise RuntimeError('Dataset marker absent: '+version)
   data=base64.b64decode(json.loads(match.group(1)));chunks=[]
+  if version=='v6':
+   original=json.loads(gzip.decompress(data));encoded,packing=pack(original)
+   if unpack(encoded)!=original:raise ValueError('Payload round-trip mismatch')
+   before=len(data);data=gzip.compress(json.dumps(encoded,separators=(',',':'),allow_nan=False).encode(),mtime=0)
+   write(ROOT/'publication'/('packing-'+asset_key+'.json'),json.dumps({'pass':True,'before_gzip_bytes':before,'after_gzip_bytes':len(data),**packing},indent=2))
+  shutil.rmtree(out/'payload'/asset_key,ignore_errors=True)
   for n,start in enumerate(range(0,len(data),CHUNK)):
-   rel='payload/'+version+'/part-'+str(n).zfill(3)+'.bin';p=out/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data[start:start+CHUNK]);chunks.append('../'+rel+'?v='+hashlib.sha256(data[start:start+CHUNK]).hexdigest()[:12])
+   rel='payload/'+asset_key+'/part-'+str(n).zfill(3)+'.bin';p=out/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data[start:start+CHUNK]);chunks.append('../'+rel+'?v='+hashlib.sha256(data[start:start+CHUNK]).hexdigest()[:12])
   page=page[:match.start()]+'const EMBEDDED_GZIP_BASE64=null;'+page[match.end():]
   rx=r'async function embeddedData\(\)\s*\{.*?return JSON\.parse\(await new Response\(stream\)\.text\(\)\)\s*;?\s*\}'
-  replacement="async function embeddedData(){const parts=[];for(const path of "+json.dumps(chunks)+"){const r=await fetch(path);if(!r.ok)throw Error('Cannot load dataset: '+path);parts.push(await r.arrayBuffer())}const stream=new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'));return JSON.parse(await new Response(stream).text())}"
+  replacement="async function embeddedData(){const parts=[];for(const path of "+json.dumps(chunks)+"){const r=await fetch(path);if(!r.ok)throw Error('Cannot load dataset: '+path);parts.push(await r.arrayBuffer())}const stream=new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'));return unpackPayload(JSON.parse(await new Response(stream).text()))}"+JS_UNPACK
   page,count=re.subn(rx,lambda _:replacement,page,count=1,flags=re.S)
   if count!=1:raise RuntimeError('Dataset loader substitution failed: '+version)
  page=re.sub(r' data-publication-version="[^"]*"','',page,count=1)
  page=page.replace('<html','<html data-publication-version="'+version+'"',1)
  adapter='<style>.publication-download{display:flex;gap:10px;flex-wrap:wrap;padding:9px 4px;font:13px/1.5 system-ui}.publication-download a{color:#85e4dd;text-decoration:underline}.publication-download button{font:inherit;padding:5px 9px}</style><script>window.PUBLICATION_PACKAGES='+json.dumps([r['id'] for r in records])+';</script><script src="../assets/plot-downloads.js"></script>'
- write(out/'apps'/(version+'.html'),page.replace('</body>',adapter+'</body>'))
+ write(out/'apps'/(asset_key+'.html'),page.replace('</body>',adapter+'</body>'))
  return {'source_sha256':digest(source),'hosted_bytes':len(page.encode())}
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,default=ROOT/'docs');args=parser.parse_args();out=args.output.resolve()
@@ -116,8 +144,13 @@ def main():
    v['model']+='<details><summary>Original specifications and complete implementation notes</summary><ul>'+''.join('<li><a href="specifications/'+p+'">'+p+'</a></li>' for p in v['source_specifications'])+'</ul></details>'
   v['results']=''.join(source_document(p) for p in v['results_files']);v['changes']=md(v['changes']);v['shortcomings']=md(v['shortcomings'])
   if v['id']!='future':
-   records=raw_packages(v['id'],out);built.append({'version':v['id'],'packages':len(records),**dashboard(v['id'],out,bundle,records)});v['app']='apps/'+v['id']+'.html?v='+digest(out/'apps'/(v['id']+'.html'))[:12]
-  else:v['results']='<h2>No new simulation results</h2><p>These investigations are proposals. Existing measurements and datasets remain in V1–V5.</p>'
+   records=raw_packages(v['id'],out)
+   if v['id']=='v6':records+=local_packages(out)
+   built.append({'version':v['id'],'packages':len(records),**dashboard(v['id'],out,bundle,records)});v['app']='apps/'+v['id']+'.html?v='+digest(out/'apps'/(v['id']+'.html'))[:12]
+   if v['id']=='v6':
+    built.append({'version':'v6-situational',**dashboard('v6',out,bundle,records,ROOT/'v6/situational_advice/research_dashboard.html','v6-situational')})
+    v['extra_app']='apps/v6-situational.html?v='+digest(out/'apps/v6-situational.html')[:12]
+  else:v['results']='<h2>No new simulation results</h2><p>These investigations are proposals. Existing measurements and datasets remain in their numbered version folders.</p>'
   rendered.append(v);print('Built',v['id'],flush=True)
  page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deference & cultural learning · versioned research</title><link rel="icon" href="data:,"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script></head><body><a class="skip" href="#panel">Skip to content</a><header><div class="eyebrow">Computational research archive · simulation data</div><h1>Deference, conviction & cultural learning</h1><p>Six successive models, their equations, interactive results and open questions. Technical verification does not establish a historical adaptation.</p></header><nav id="version-tabs" role="tablist" aria-label="Versions"></nav><main><section class="intro"><h2 id="version-heading"></h2><p id="summary"></p></section><nav id="section-tabs" class="subtabs" role="tablist" aria-label="Version sections"></nav><section id="panel" class="content" role="tabpanel"></section></main><footer>Original scientific artifacts remain isolated by version. Simulation methods and results remain version-specific; proposals contain no new results.</footer><script id="versions-data" type="application/json">'+json.dumps(rendered).replace('</','<\\/')+'</script><script src="assets/site.js"></script></body></html>'
  page=page.replace('assets/site.js','assets/site.js?v='+digest(out/'assets/site.js')[:12]).replace('assets/site.css','assets/site.css?v='+digest(out/'assets/site.css')[:12])

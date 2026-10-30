@@ -1,0 +1,22 @@
+dense heldout 0.55 0.0 best d 0.0 seconds 14.9
+dense heldout 0.55 0.01 best d 0.0 seconds 26.5
+dense heldout 0.55 0.05 best d 0.0 seconds 38.5
+dense heldout 0.55 0.2 best d 0.0 seconds 50.9
+dense heldout 0.7 0.0 best d 0.0 seconds 64.2
+dense heldout 0.7 0.01 best d 0.0 seconds 76.0
+dense heldout 0.7 0.05 best d 0.0 seconds 87.3
+dense heldout 0.7 0.2 best d 0.0 seconds 99.3
+dense heldout 0.85 0.0 best d 1.0 seconds 110.9
+dense heldout 0.85 0.01 best d 1.0 seconds 122.4
+dense heldout 0.85 0.05 best d 0.0 seconds 134.3
+dense heldout 0.85 0.2 best d 0.0 seconds 146.5
+ablation full 0.0 seconds 149.5
+ablation full 0.2 seconds 152.6
+ablation clean_fact 0.0 seconds 155.6
+ablation clean_fact 0.2 seconds 158.7
+ablation action_only 0.0 seconds 161.8
+ablation action_only 0.2 seconds 164.9
+ablation memory_only 0.0 seconds 168.0
+ablation memory_only 0.2 seconds 171.1
+ablation equal_context 0.0 seconds 174.2
+ablation equal_context 0.2 seconds 177.3

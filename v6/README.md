@@ -37,4 +37,4 @@ The Node browser harness needs Chrome; `CHROME_BIN` overrides its documented run
 
 A finite-window mutant growth advantage is conditional on a fixed resident genotype, resident teachers/resources and a common stochastic environment. It does not prove fixation or an ESS. Isolated population maxima do not establish natural selection. Adult rigidity is specified, not shown to evolve, and positive deference effects can be ordinary information transfer. No historical adaptation is validated by this implementation.
 
-V1–V5 scientific source/data remain unchanged. V6 is developed and committed locally; pushing or deployment requires a later user instruction.
+V1–V5 scientific source/data remain unchanged. The user subsequently authorized publication. The [situational-advice extension](situational_advice/README.md) adds noisier adult observations of juvenile-specific situations and preserves this original baseline as a separate selectable experiment.

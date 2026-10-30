@@ -1,5 +1,5 @@
 {
-  "bytes": 975715298,
+  "bytes": 986712317,
   "versions": [
     {
       "version": "v1",
@@ -23,19 +23,24 @@
       "version": "v4",
       "packages": 35,
       "source_sha256": "ba97f5a75a95171f978263ed80da5ae2ec8db47f99496f050764ad28f668a0e7",
-      "hosted_bytes": 49637
+      "hosted_bytes": 49993
     },
     {
       "version": "v5",
       "packages": 59,
       "source_sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
-      "hosted_bytes": 72649
+      "hosted_bytes": 73005
     },
     {
       "version": "v6",
-      "packages": 18,
+      "packages": 31,
       "source_sha256": "a5adbdacdd22577e4d77c661008ca57b88d99277115cb1a747933c82235e3a88",
-      "hosted_bytes": 26485
+      "hosted_bytes": 26841
+    },
+    {
+      "version": "v6-situational",
+      "source_sha256": "c3727edcc0ece8bfbc1ff273fc6f9000b013c5b18c22b0c6685ca4467619a046",
+      "hosted_bytes": 28850
     }
   ],
   "tabs": [

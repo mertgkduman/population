@@ -50,6 +50,13 @@ async function main(){
       const ready=await until("document.querySelector('iframe')?.contentWindow.document.querySelectorAll('.js-plotly-plot').length>2 && document.querySelector('iframe').contentWindow.document.querySelectorAll('.publication-download').length>2",180000);
       record(v+'_plots_rendered',ready);
       if(!ready)throw Error(v+' did not load plots');
+      if(v==='v6'){
+        record('v6_two_preserved_experiments',await evaluate("document.querySelector('[aria-label=\"V6 experiment\"]').querySelectorAll('button').length===2 && document.querySelector('iframe').contentWindow.AppState.ctx.startsWith('local_')"));
+        await evaluate("document.querySelector('[aria-label=\"V6 experiment\"]').querySelectorAll('button')[1].click()");
+        record('v6_original_model_still_renders',await until("document.querySelector('iframe').contentWindow.AppState?.ctx?.startsWith('adult') && document.querySelector('iframe').contentDocument.querySelectorAll('.js-plotly-plot').length===9",180000));
+        await evaluate("document.querySelector('[aria-label=\"V6 experiment\"]').querySelectorAll('button')[0].click()");
+        record('v6_new_model_switches_back',await until("document.querySelector('iframe').contentWindow.AppState?.ctx?.startsWith('local_') && document.querySelector('iframe').contentDocument.querySelectorAll('.publication-download').length===9",180000));
+      }
       record(v+'_every_plot_download',await evaluate("(()=>{const d=document.querySelector('iframe').contentDocument;return [...d.querySelectorAll('.js-plotly-plot')].every(g=>g.nextElementSibling?.classList.contains('publication-download'))})()"));
       const hrefs=await evaluate("[...document.querySelector('iframe').contentDocument.querySelectorAll('.reference-package')].map(a=>a.href)");
       const responses=await Promise.all([...new Set(hrefs)].map(async url=>({url,status:(await fetch(url,{method:'HEAD'})).status})));

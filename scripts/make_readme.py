@@ -11,7 +11,7 @@ text=(ROOT/'publication/README_HEADER.md').read_text().replace('VERSION_TABLE_PL
 text+='\n## Equations and definitions\n\nThe equations below use mathematical notation. Time and density units are hypothetical; cognitive substates do not add biological stages. Full original specifications remain in each version folder.\n'
 for v in versions:
  if v['id']=='future':continue
- text+='\n## '+v['title']+' equations\n\n'+(ROOT/'publication/models'/(v['id']+'.md')).read_text()+'\n'
+ text+='\n## '+v['title']+' equations\n\n'+ '\n'.join((ROOT/path).read_text() for path in v['model_files'])+'\n'
  for source in v['source_specifications']:text+='\nOriginal source: ['+source+']('+source+').\n'
 text+='\n## Further work\n\nSee [research proposals](proposals/RESEARCH_PROPOSALS.md). These are proposed, unexecuted investigations.\n'
 (ROOT/'README.md').write_text(text)

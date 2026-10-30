@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "before_gzip_bytes": 44014265,
+  "after_gzip_bytes": 42116408,
+  "references": 39742,
+  "unique_arrays": 32691
+}

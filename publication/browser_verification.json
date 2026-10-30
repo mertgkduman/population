@@ -1,7 +1,7 @@
 {
   "mode": "HTTP with a project-site path prefix; HTTPS blocked",
   "url": "http://127.0.0.1:8765/docs/index.html",
-  "checked_at": "2026-10-30T20:41:51.994Z",
+  "checked_at": "2026-10-30T21:53:19.253Z",
   "checks": [
     {
       "name": "portal_loaded",
@@ -294,6 +294,21 @@
       "detail": ""
     },
     {
+      "name": "v6_two_preserved_experiments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_original_model_still_renders",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v6_new_model_switches_back",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "v6_every_plot_download",
       "pass": true,
       "detail": ""
@@ -301,7 +316,7 @@
     {
       "name": "v6_reference_links_resolve",
       "pass": true,
-      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/adult0p1_k0p05.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/all.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/followups.zip\",\"status\":200}]"
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/local_p0p7_k0p05.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v6/local_all.zip\",\"status\":200}]"
     },
     {
       "name": "v6_displayed_zip_export",

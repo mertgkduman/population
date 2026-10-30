@@ -1,0 +1,359 @@
+{
+  "run_id": "v6-local-20261030T212739Z",
+  "label": "simulation data",
+  "grid_maxima": [
+    {
+      "p_A": 0.55,
+      "kappa": 0.0,
+      "d_max": 0.0,
+      "tau_max": 0.687054405,
+      "N_max": 4504.24222497,
+      "d_interior": false,
+      "tau_boundary": false,
+      "fixed_tau_d_optima": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 0.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.01,
+      "d_max": 0.0,
+      "tau_max": 0.5,
+      "N_max": 4311.713580654,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 0.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.05,
+      "d_max": 0.0,
+      "tau_max": 0.5,
+      "N_max": 3781.721611267,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 0.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.2,
+      "d_max": 0.0,
+      "tau_max": 0.5,
+      "N_max": 3282.118751667,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 0.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.0,
+      "d_max": 1.0,
+      "tau_max": 0.5,
+      "N_max": 4592.45960694,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.01,
+      "d_max": 1.0,
+      "tau_max": 0.5,
+      "N_max": 4376.785421967,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.05,
+      "d_max": 1.0,
+      "tau_max": 0.5,
+      "N_max": 3791.618301789,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.2,
+      "d_max": 0.0,
+      "tau_max": 0.5,
+      "N_max": 3282.118751667,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 0.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.0,
+      "d_max": 1.0,
+      "tau_max": 0.944087511,
+      "N_max": 4807.262089334,
+      "d_interior": false,
+      "tau_boundary": false,
+      "fixed_tau_d_optima": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.687054405
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.01,
+      "d_max": 1.0,
+      "tau_max": 0.687054405,
+      "N_max": 4502.733483953,
+      "d_interior": false,
+      "tau_boundary": false,
+      "fixed_tau_d_optima": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.05,
+      "d_max": 1.0,
+      "tau_max": 0.5,
+      "N_max": 3845.282909742,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.2,
+      "d_max": 1.0,
+      "tau_max": 0.5,
+      "N_max": 3284.659119385,
+      "d_interior": false,
+      "tau_boundary": true,
+      "fixed_tau_d_optima": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "invasion_d": 1.0,
+      "invasion_tau": 0.5
+    }
+  ],
+  "main_joint_interior_d": 0,
+  "fixed_tau_interior_d": 0,
+  "heldout_interior_d": 0,
+  "heldout_optima": [
+    {
+      "p_A": 0.55,
+      "kappa": 0.0,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.01,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.05,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.55,
+      "kappa": 0.2,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.0,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.01,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.05,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.7,
+      "kappa": 0.2,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.0,
+      "best_d": 1.0
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.01,
+      "best_d": 1.0
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.05,
+      "best_d": 0.0
+    },
+    {
+      "p_A": 0.85,
+      "kappa": 0.2,
+      "best_d": 0.0
+    }
+  ]
+}

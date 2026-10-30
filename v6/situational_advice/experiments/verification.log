@@ -1,0 +1,33 @@
+birth/death accounting excludes maturation and learning True
+absorbing all-zero population True
+state-preserving irreversible maturation exact solution True
+maturation conserves population True
+no adult-to-juvenile flow True
+nonnegative states eta 0.0 True
+d=0 private and conviction ledger coincide eta 0.0 True
+nonnegative states eta 0.1 True
+d=0 private and conviction ledger coincide eta 0.1 True
+nonnegative states eta 1.0 True
+d=0 private and conviction ledger coincide eta 1.0 True
+opposite fixed environments are sign-symmetric True
+kappa=0 independent of seed True
+environmental paths shared across plasticity True
+continuous-time first switch matches exponential draw True
+invalid parameter ranges rejected True
+neutral demographic invariance to d/plasticity/environment True
+constant-resource matrix exponential True
+dominant eigenvalue agrees with two-stage matrix True
+perfect local cues exactly reproduce baseline V6 RHS True
+local action mortality and flux metrics agree True
+d=0 populations invariant to adult local signal True
+local observation and memory-decoding formulas enumerate exactly True
+fixed worse adult random-copying null maximized at d=0 True
+fixed equal-quality copying null is flat True
+zero payoff consequences remove noisy-advice demographic effects True
+DOP853 and halving d=0.0 tau=0.5 eta=0.1 True
+DOP853 and halving d=1.0 tau=12.0 eta=0.1 True
+DOP853 and halving d=0.5 tau=3.0 eta=0.0 True
+DOP853 and halving d=0.5 tau=3.0 eta=1.0 True
+self-mutant relative neutrality in common stochastic environment True
+fixed-environment equilibrium full residual True
+equilibrium resident self-invasion True

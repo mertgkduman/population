@@ -112,20 +112,24 @@
   {
     "id": "v6",
     "title": "V6",
-    "name": "Developmental plasticity and changing environments",
-    "summary": "Juveniles encode private cues more readily than adults; retained convictions generate advice while environmental truth switches stochastically.",
+    "name": "Plasticity and situational advice",
+    "summary": "Retained adult knowledge, more plastic juveniles and stochastic change; an extension gives advising adults poorer information about juvenile-specific situations.",
     "model_files": [
-      "publication/models/v6.md"
+      "publication/models/v6.md",
+      "publication/models/v6-situational.md"
     ],
     "source_specifications": [
       "v6/mathematical_model.md",
-      "v6/research_contract.md"
+      "v6/research_contract.md",
+      "v6/situational_advice/mathematical_model.md",
+      "v6/situational_advice/research_contract.md"
     ],
     "parameter_file": "v6/parameter_schema.json",
     "results_files": [
-      "v6/results.md"
+      "v6/results.md",
+      "v6/situational_advice/results.md"
     ],
-    "changes": "Adds stage-specific private encoding probabilities $\\eta_F=1$ and $\\eta_A\\in\\{0,0.1,1\\}$ while keeping cue quality and exposure fixed. Truth flips at Poisson hazard $\\kappa$. Matched environmental histories, held-out seeds and shared-resident mutant growth distinguish retention, adaptation and conditional selection. Further work remains immediately after V5; V6 follows it.",
+    "changes": "Adds stage-specific private encoding probabilities $\\eta_F=1$ and $\\eta_A\\in\\{0,0.1,1\\}$ while keeping cue quality and exposure fixed. Truth flips at Poisson hazard $\\kappa$. Matched environmental histories, held-out seeds and shared-resident mutant growth distinguish retention, adaptation and conditional selection. Further work remains immediately after V5; V6 follows it. The situational-advice extension fixes juvenile local-cue accuracy at0.9 and adult local-cue accuracy at0.55,0.70 or0.85. Fixed-source nulls and cultural-learning ablations test whether observed optima are interior or boundary.",
     "shortcomings": "Adult rigidity is imposed, not an evolved outcome. Encoding thinning is mathematically an effective learning-rate reduction, and does not establish a biological distinction from attention or information access. Finite-window stochastic means do not prove stationary equilibria. Symmetric fixed environments have mirrored beliefs and equal abundance. Deference still bundles public substitution and social storage; this does not establish a distinct childhood dogmatism adaptation."
   }
 ]

@@ -1,0 +1,237 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "N full-horizon step halving",
+      "pass": true,
+      "detail": 5.224894266686475e-08
+    },
+    {
+      "name": "B full-horizon step halving",
+      "pass": true,
+      "detail": 1.411306343231637e-07
+    },
+    {
+      "name": "D full-horizon step halving",
+      "pass": true,
+      "detail": 2.392284407905686e-07
+    },
+    {
+      "name": "local_private full-horizon step halving",
+      "pass": true,
+      "detail": 2.1403600244940257e-06
+    },
+    {
+      "name": "local_advice full-horizon step halving",
+      "pass": true,
+      "detail": 6.760485526946525e-08
+    },
+    {
+      "name": "belief_A full-horizon step halving",
+      "pass": true,
+      "detail": 1.8779126459422812e-07
+    },
+    {
+      "name": "noisy-context resident against itself is relatively neutral",
+      "pass": true,
+      "detail": 2.220446049250313e-15
+    },
+    {
+      "name": "dense-heldout averaging resolution explicitly bounded",
+      "pass": false,
+      "detail": {
+        "max_N_difference": 16.10552546318786,
+        "intervals": [
+          20,
+          4
+        ]
+      }
+    },
+    {
+      "name": "local_p0p55_k0p0 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p0 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p0 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p01 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p01 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p01 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p05 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p05 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p05 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p2 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p2 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p55_k0p2 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p0 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p0 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p0 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p01 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p01 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p01 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p05 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p05 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p05 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p2 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p2 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p7_k0p2 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p0 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p0 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p0 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p01 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p01 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p01 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p05 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p05 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p05 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p2 local quality/ability fixed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p2 displayed sample equals full raw values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local_p0p85_k0p2 all seed outcomes retained exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "d=0 demographic maps identical across all adult precisions",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "note": "Derived probability target5e-6; full-precision NPZ reference parity is exact. Display sampling is a subset, never interpolated data."
+}

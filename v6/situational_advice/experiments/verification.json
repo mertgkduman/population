@@ -1,0 +1,253 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "birth/death accounting excludes maturation and learning",
+      "pass": true,
+      "detail": 4.1744385725905886e-14
+    },
+    {
+      "name": "absorbing all-zero population",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "state-preserving irreversible maturation exact solution",
+      "pass": true,
+      "detail": 1.317672533585057e-12
+    },
+    {
+      "name": "maturation conserves population",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no adult-to-juvenile flow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 0.0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 0.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 0.1",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 0.1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative states eta 1.0",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "d=0 private and conviction ledger coincide eta 1.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "opposite fixed environments are sign-symmetric",
+      "pass": true,
+      "detail": 1.7053025658242404e-13
+    },
+    {
+      "name": "kappa=0 independent of seed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "environmental paths shared across plasticity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous-time first switch matches exponential draw",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "invalid parameter ranges rejected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "neutral demographic invariance to d/plasticity/environment",
+      "pass": true,
+      "detail": 1.9667822925839573e-11
+    },
+    {
+      "name": "constant-resource matrix exponential",
+      "pass": true,
+      "detail": 6.600771484954748e-09
+    },
+    {
+      "name": "dominant eigenvalue agrees with two-stage matrix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "perfect local cues exactly reproduce baseline V6 RHS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local action mortality and flux metrics agree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "d=0 populations invariant to adult local signal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "local observation and memory-decoding formulas enumerate exactly",
+      "pass": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "fixed worse adult random-copying null maximized at d=0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed equal-quality copying null is flat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "zero payoff consequences remove noisy-advice demographic effects",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "DOP853 and halving d=0.0 tau=0.5 eta=0.1",
+      "pass": true,
+      "detail": {
+        "d": 0.0,
+        "tau": 0.5,
+        "eta_A": 0.1,
+        "max_abs": 0.00016021075643379845,
+        "max_scaled": 1.1556278866698202e-07,
+        "half_max_abs": 9.095826442262478e-06,
+        "halving_ratio": 17.613655828941692,
+        "reference_evaluations": 4080
+      }
+    },
+    {
+      "name": "DOP853 and halving d=1.0 tau=12.0 eta=0.1",
+      "pass": true,
+      "detail": {
+        "d": 1.0,
+        "tau": 12.0,
+        "eta_A": 0.1,
+        "max_abs": 2.9518487463242593e-06,
+        "max_scaled": 4.2276322623770837e-07,
+        "half_max_abs": 1.685698052256157e-07,
+        "halving_ratio": 17.51113577175623,
+        "reference_evaluations": 2700
+      }
+    },
+    {
+      "name": "DOP853 and halving d=0.5 tau=3.0 eta=0.0",
+      "pass": true,
+      "detail": {
+        "d": 0.5,
+        "tau": 3.0,
+        "eta_A": 0.0,
+        "max_abs": 6.594288478112276e-05,
+        "max_scaled": 2.2599895092391057e-07,
+        "half_max_abs": 3.860361992735761e-06,
+        "halving_ratio": 17.082046944097684,
+        "reference_evaluations": 2784
+      }
+    },
+    {
+      "name": "DOP853 and halving d=0.5 tau=3.0 eta=1.0",
+      "pass": true,
+      "detail": {
+        "d": 0.5,
+        "tau": 3.0,
+        "eta_A": 1.0,
+        "max_abs": 0.00017913111543066407,
+        "max_scaled": 9.519835658280093e-07,
+        "half_max_abs": 1.048131406378161e-05,
+        "halving_ratio": 17.09052074392611,
+        "reference_evaluations": 2940
+      }
+    },
+    {
+      "name": "self-mutant relative neutrality in common stochastic environment",
+      "pass": true,
+      "detail": 2.220446049250313e-15
+    },
+    {
+      "name": "fixed-environment equilibrium full residual",
+      "pass": true,
+      "detail": {
+        "N": 4867.44236325637,
+        "residual": 1.1605303828423106e-16,
+        "self_rate": 1.0469865976955963e-16
+      }
+    },
+    {
+      "name": "equilibrium resident self-invasion",
+      "pass": true,
+      "detail": 1.0469865976955963e-16
+    }
+  ],
+  "solver": "DOP853 rtol=1e-10 atol=1e-12, exact segment restarts; RK4 dt=.1 and .05",
+  "errors": [
+    {
+      "d": 0.0,
+      "tau": 0.5,
+      "eta_A": 0.1,
+      "max_abs": 0.00016021075643379845,
+      "max_scaled": 1.1556278866698202e-07,
+      "half_max_abs": 9.095826442262478e-06,
+      "halving_ratio": 17.613655828941692,
+      "reference_evaluations": 4080
+    },
+    {
+      "d": 1.0,
+      "tau": 12.0,
+      "eta_A": 0.1,
+      "max_abs": 2.9518487463242593e-06,
+      "max_scaled": 4.2276322623770837e-07,
+      "half_max_abs": 1.685698052256157e-07,
+      "halving_ratio": 17.51113577175623,
+      "reference_evaluations": 2700
+    },
+    {
+      "d": 0.5,
+      "tau": 3.0,
+      "eta_A": 0.0,
+      "max_abs": 6.594288478112276e-05,
+      "max_scaled": 2.2599895092391057e-07,
+      "half_max_abs": 3.860361992735761e-06,
+      "halving_ratio": 17.082046944097684,
+      "reference_evaluations": 2784
+    },
+    {
+      "d": 0.5,
+      "tau": 3.0,
+      "eta_A": 1.0,
+      "max_abs": 0.00017913111543066407,
+      "max_scaled": 9.519835658280093e-07,
+      "half_max_abs": 1.048131406378161e-05,
+      "halving_ratio": 17.09052074392611,
+      "reference_evaluations": 2940
+    }
+  ]
+}

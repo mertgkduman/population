@@ -1,0 +1,138 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "N displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.924913810100406e-10
+    },
+    {
+      "name": "F displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.904450179310516e-10
+    },
+    {
+      "name": "A displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.867217739956686e-10
+    },
+    {
+      "name": "B displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.93287188874092e-10
+    },
+    {
+      "name": "D displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.954614496455179e-10
+    },
+    {
+      "name": "M displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.905942319055612e-10
+    },
+    {
+      "name": "local_private displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.970048816943518e-10
+    },
+    {
+      "name": "belief_A displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.945001075284949e-10
+    },
+    {
+      "name": "public_F displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.728410996079901e-10
+    },
+    {
+      "name": "local_advice displayed values match original raw observations",
+      "pass": true,
+      "max_abs": 4.728409885856877e-10
+    },
+    {
+      "name": "display time is exact eight-unit subset",
+      "pass": true
+    },
+    {
+      "name": "private context quality exceeds adult context quality",
+      "pass": true
+    }
+  ],
+  "configuration": {
+    "label": "simulation data",
+    "run_id": "v6-local-20261030T212739Z",
+    "context_id": "local_p0p55_k0p01",
+    "d": 1,
+    "tau": 12,
+    "parameters": {
+      "H": 3,
+      "p": 0.65,
+      "access": 1,
+      "load": 1,
+      "nu_private": 1,
+      "nu_social": 1,
+      "nu_adult": 1,
+      "plasticity_F": 1,
+      "plasticity_A": 0.1,
+      "transmission_error": 0.05,
+      "situational": true,
+      "context_F": 0.9,
+      "context_A": 0.55,
+      "decode_context": true,
+      "mu_F": 0.03,
+      "mu_A": 0.1,
+      "error_F": 0.25,
+      "error_A": 0.1,
+      "beta_base": 0.35,
+      "beta_skill": 0.85,
+      "query_cost": 0,
+      "K": 1000,
+      "S0": 1,
+      "KS": 1,
+      "adult_mode": "update",
+      "audit_floor": 0.05,
+      "audit_threshold": 2,
+      "policy": "fixed",
+      "accept": true,
+      "override": true,
+      "conflict_only": false,
+      "reset": false,
+      "payoff": true,
+      "initial_correct": 0.8,
+      "dt": 0.1,
+      "T": 600
+    },
+    "kappa": 0.01,
+    "seeds": [
+      71001,
+      71002,
+      71003,
+      71004,
+      71005,
+      71006,
+      71007,
+      71008
+    ],
+    "burn_in": 200,
+    "horizon": 600,
+    "solver": "RK4 dt=.1, exact environmental event splits",
+    "trajectory_view": "sample",
+    "illustrated_seed": 71001,
+    "display_interval": 8,
+    "statistics_interval": 4,
+    "units": {
+      "time": "model_time",
+      "density": "continuous_population_density",
+      "rates": "1/model_time",
+      "plasticity": "encoding probability"
+    },
+    "resident": {
+      "d": 0.5,
+      "tau": 3,
+      "same_plasticity": true
+    }
+  },
+  "tolerance": "5e-8 display serialization; raw NPZ keeps full precision"
+}

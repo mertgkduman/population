@@ -22,7 +22,8 @@ Investigate inherited juvenile deference and maturation using endogenous cultura
 - Shared resident culture/resources for rare mutants; distinguish selection from isolated growth.
 - Five focused quick spikes, preregistered hypotheses, adversarial tests, offline dashboard, full reproducibility.
 - V6: juvenile private encoding more plastic than adult encoding, inherited ledgers retained at maturation, common stochastic environmental paths, and explicit equal-plasticity control.
-- V6 publication order: V5, Further work, V6; local code and commits only until user authorizes pushing.
+- V6 publication order: V5, Further work, V6. The user subsequently authorized pushing and adding noisier situational advice; preserve the baseline as a distinct V6 comparison.
+- In the V6 advice extension, adult current-situation signals are less accurate than juvenile signals, inherited judgment ability remains fixed, and an interior optimum must not be forced.
 
 ### versioned-research-publication
 Prepare V1–V5 as a static GitHub Pages research archive with Further work proposals.
@@ -52,3 +53,4 @@ Prepare V1–V5 as a static GitHub Pages research archive with Further work prop
 | 011 | developmental-cultural-evolution | information-selection | comparison | Given a common resident culture and resource environment, when rare inherited strategies enter, then self-neutrality and explicit competition distinguish invasion from isolated abundance | VALIDATED | v5, information-access, culture, selection |
 | 012 | versioned-research-publication | versioned-pages | integration | Given preserved research versions, when published statically, then models, interactive results and raw-data packages work within GitHub limits | VALIDATED | publication, github-pages, data |
 | 013 | developmental-cultural-evolution | developmental-plasticity | comparison | Given lower adult encoding and stochastic truth, when matched traits and histories vary, then cultural, demographic and invasion outcomes are verified | VALIDATED | v6, plasticity, stochastic-environment |
+| 014 | developmental-cultural-evolution | situational-advice | comparison | Given less informed adult local cues, when deference and maturation vary, then analytic limits and contextual optima are verified | VALIDATED | v6, local-information, optimum |

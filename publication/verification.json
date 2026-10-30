@@ -25,14 +25,14 @@
       "name": "all reference archives preserve source bytes",
       "pass": true,
       "detail": {
-        "packages": 115,
-        "source_entries": 606
+        "packages": 128,
+        "source_entries": 674
       }
     },
     {
       "name": "Pages site below 1GB",
       "pass": true,
-      "detail": 975715298
+      "detail": 986712317
     },
     {
       "name": "every published file below 100MiB",
@@ -121,6 +121,11 @@
     },
     {
       "name": "payload chunk payload/v5/part-002.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v6-situational/part-000.bin",
       "pass": true,
       "detail": null
     },

@@ -1,0 +1,105 @@
+{
+  "url": "file:///hpc/group/pfisterlab/mg551/storage/population/v6/situational_advice/index.html",
+  "mode": "all HTTP(S) blocked; actual file:// offline dashboard",
+  "checked_at": "2026-10-30T21:51:48.303Z",
+  "pass": true,
+  "checks": [
+    {
+      "name": "offline_embedded_data_and_plots",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_contexts_and_grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "heatmap_click_loads_correct_pair",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "logarithmic_tau_axis",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_invasion_map_centered_at_zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scenario_controls_select_saved_context",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scrub_synchronizes_population_and_cursor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "play_advances_time",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pause_stops_time",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "three_matched_tau_comparisons",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pin_adds_fourth_population",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "map_and_dense_curve_uncertainty_are_visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "configuration_and_data_exports",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "every_plot_has_raw_data_download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "displayed_plot_zip_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reset_restores_defaults",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mobile_layout_no_horizontal_overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_console_errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no_external_requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": []
+}

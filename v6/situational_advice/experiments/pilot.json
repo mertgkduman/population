@@ -1,0 +1,17 @@
+[
+  {
+    "p_A": 0.55,
+    "min_state": 0.0,
+    "finite": true
+  },
+  {
+    "p_A": 0.7,
+    "min_state": 0.0,
+    "finite": true
+  },
+  {
+    "p_A": 0.85,
+    "min_state": 0.0,
+    "finite": true
+  }
+]

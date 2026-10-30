@@ -2,17 +2,17 @@
   "technical_verdict": "VALIDATED",
   "browser": {
     "pass": true,
-    "checks": 66,
+    "checks": 69,
     "console_errors": [],
     "remote_requests": [],
     "http_errors": []
   },
   "static": {
     "pass": true,
-    "checks": 28
+    "checks": 29
   },
   "exact_plot_zip_tests": 5,
-  "site_bytes": 975715298,
+  "site_bytes": 986708415,
   "scientific_version_files_unchanged_from": "af171fe",
   "scientific_files_unchanged": true,
   "github_export": {
@@ -57,5 +57,23 @@
       "v4",
       "v5"
     ]
+  },
+  "current_release": {
+    "version": "V6 situational advice",
+    "branch": "v6-situational-advice",
+    "baseline_published_commit": "a313939",
+    "push_authorized": true,
+    "publication_status": "verified locally; live evidence saved after deployment",
+    "run_id": "v6-local-20261030T212739Z",
+    "publication_browser_checks": 69,
+    "standalone_browser_checks": 19,
+    "numerical_checks": 33,
+    "extended_checks": 45,
+    "export_parity_checks": 12,
+    "static_checks": 29,
+    "main_population_trajectories": 9504,
+    "main_mutant_trajectories": 9504,
+    "dense_validation_population_trajectories": 6336,
+    "ablation_population_trajectories": 1320
   }
 }
