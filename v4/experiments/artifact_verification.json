@@ -1,0 +1,535 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "fixed_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_stable_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_stable_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_stable_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_shock_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_shock_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_shock_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_periodic_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_periodic_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_periodic_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_wrong_history_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_wrong_history_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_wrong_history_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_no_payoff_rT_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_no_payoff_stage_accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_no_payoff_conditional_survival",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rounded_series_export",
+      "pass": true,
+      "detail": 5.0004018703475595e-09
+    },
+    {
+      "name": "table_grid_count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "survival_csv_range",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "next_generation_eigenvalue_sign",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "dynamic_step_halving",
+      "pass": true,
+      "detail": {
+        "max_absolute_rate_difference": 8.173531296229442e-12,
+        "dt": 0.1,
+        "half_dt": 0.05,
+        "self_relative": 2.0599841277224584e-18,
+        "half_self_relative": 3.0899761915836876e-18
+      }
+    },
+    {
+      "name": "no_truth_near_chance",
+      "pass": true,
+      "detail": {
+        "p": 0.5,
+        "payoff": false,
+        "final_adult_accuracy": [
+          0.5,
+          0.499999999999796,
+          0.4999934988826136
+        ],
+        "explanation": "initial cultural bias may decay to chance; no truth-linked innovation or differential survival"
+      }
+    },
+    {
+      "name": "all_resident_equilibria_resolved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "public_only_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "memoryless_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "oracle_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rl_shock_recovery_export",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

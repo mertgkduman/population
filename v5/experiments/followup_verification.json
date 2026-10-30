@@ -1,0 +1,65 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "refined_abundance_step_halving",
+      "pass": true,
+      "measured": 5.429683369584382e-10
+    },
+    {
+      "name": "selection_roots_bracketed",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "expanded_selection_domain_labeled",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "replacement_frequency_accounting",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "replacement_positive_density",
+      "pass": true,
+      "measured": 4366.582125203422
+    },
+    {
+      "name": "rare_initial_frequency",
+      "pass": true,
+      "measured": 0.001
+    },
+    {
+      "name": "replacement_endpoint_export",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "dynamic_step_halving_full_precision",
+      "pass": true,
+      "measured": 6.74577581294411e-12
+    },
+    {
+      "name": "dynamic_self_relative_full_precision",
+      "pass": true,
+      "measured": 7.15573433840433e-18
+    },
+    {
+      "name": "repertoire.json_invariants_pass",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "repertoire_tutors.json_invariants_pass",
+      "pass": true,
+      "measured": null
+    },
+    {
+      "name": "bayesian_benchmark_valid",
+      "pass": true,
+      "measured": null
+    }
+  ]
+}

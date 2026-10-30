@@ -1,0 +1,8 @@
+{
+  "max_absolute_difference": 6.74577581294411e-12,
+  "self_relative": 7.15573433840433e-18,
+  "half_self_relative": 2.168404344971009e-19,
+  "dt": 0.1,
+  "half_dt": 0.05,
+  "storage": "full precision; previous rounded JSON replaced"
+}

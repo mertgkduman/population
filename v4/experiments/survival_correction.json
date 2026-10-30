@@ -1,0 +1,157 @@
+{
+  "definition": "Newborn probability of reaching adulthood if final advice accuracy remains fixed; RL trust continues updating. Not a realized time-varying cohort estimate.",
+  "supersedes": "Coarse trapezoidal integration of population-average hazards, which could exceed one. No trajectory, growth, invasion or selection result used this derived metric.",
+  "checks": [
+    {
+      "context": "fixed_stable",
+      "min": 0.4149377593360996,
+      "max": 0.9520141412338711
+    },
+    {
+      "context": "fixed_shock",
+      "min": 0.4149377593360996,
+      "max": 0.9520141388618415
+    },
+    {
+      "context": "fixed_periodic",
+      "min": 0.4149377593360996,
+      "max": 0.9511629670575523
+    },
+    {
+      "context": "fixed_wrong_history",
+      "min": 0.4149377593360996,
+      "max": 0.9520141412337894
+    },
+    {
+      "context": "fixed_no_payoff",
+      "min": 0.7352941176470588,
+      "max": 0.9852216748768474
+    },
+    {
+      "context": "public_only_stable",
+      "min": 0.4149377593360996,
+      "max": 0.9507388969186366
+    },
+    {
+      "context": "public_only_shock",
+      "min": 0.4149377593360996,
+      "max": 0.9507388962308512
+    },
+    {
+      "context": "public_only_periodic",
+      "min": 0.4149377593360996,
+      "max": 0.9502273059093562
+    },
+    {
+      "context": "public_only_wrong_history",
+      "min": 0.4149377593360996,
+      "max": 0.9507388969186259
+    },
+    {
+      "context": "public_only_no_payoff",
+      "min": 0.7352941176470588,
+      "max": 0.9852216748768474
+    },
+    {
+      "context": "memoryless_stable",
+      "min": 0.4149377593360996,
+      "max": 0.9456889573428023
+    },
+    {
+      "context": "memoryless_shock",
+      "min": 0.4149377593360996,
+      "max": 0.9456889573279645
+    },
+    {
+      "context": "memoryless_periodic",
+      "min": 0.4149377593360996,
+      "max": 0.945584940328685
+    },
+    {
+      "context": "memoryless_wrong_history",
+      "min": 0.4149377593360996,
+      "max": 0.9456889573428021
+    },
+    {
+      "context": "memoryless_no_payoff",
+      "min": 0.7352941176470588,
+      "max": 0.9852216748768474
+    },
+    {
+      "context": "private_stable",
+      "min": 0.4149377593360996,
+      "max": 0.9445100354191263
+    },
+    {
+      "context": "private_shock",
+      "min": 0.4149377593360996,
+      "max": 0.9445100354191263
+    },
+    {
+      "context": "private_periodic",
+      "min": 0.4149377593360996,
+      "max": 0.9445100354191263
+    },
+    {
+      "context": "private_wrong_history",
+      "min": 0.4149377593360996,
+      "max": 0.9445100354191263
+    },
+    {
+      "context": "private_no_payoff",
+      "min": 0.7352941176470588,
+      "max": 0.9852216748768474
+    },
+    {
+      "context": "oracle_stable",
+      "min": 0.6044929592241058,
+      "max": 0.952014141233894
+    },
+    {
+      "context": "oracle_shock",
+      "min": 0.6044788356712822,
+      "max": 0.9520141391949964
+    },
+    {
+      "context": "oracle_periodic",
+      "min": 0.5793955125366532,
+      "max": 0.9512801845692881
+    },
+    {
+      "context": "oracle_wrong_history",
+      "min": 0.6044928956919388,
+      "max": 0.9520141412338564
+    },
+    {
+      "context": "oracle_no_payoff",
+      "min": 0.7352941176470588,
+      "max": 0.9852216748768474
+    },
+    {
+      "context": "rl_stable",
+      "min": 0.5452101126039199,
+      "max": 0.94827269938693
+    },
+    {
+      "context": "rl_shock",
+      "min": 0.5451664034111172,
+      "max": 0.948272698715202
+    },
+    {
+      "context": "rl_periodic",
+      "min": 0.5115570071569513,
+      "max": 0.9479089274652345
+    },
+    {
+      "context": "rl_wrong_history",
+      "min": 0.545209773472402,
+      "max": 0.948272699386916
+    },
+    {
+      "context": "rl_no_payoff",
+      "min": 0.7352941176470591,
+      "max": 0.9852216748768473
+    }
+  ],
+  "pass": true
+}

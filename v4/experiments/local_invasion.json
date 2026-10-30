@@ -1,0 +1,38 @@
+{
+  "candidate_d": 1.0,
+  "candidate_tau": 0.5,
+  "N": 5407.43402534,
+  "neighbors": [
+    {
+      "d": 0.95,
+      "tau": 0.45,
+      "invasion": -0.00019282
+    },
+    {
+      "d": 0.95,
+      "tau": 0.5,
+      "invasion": -0.00014463
+    },
+    {
+      "d": 0.95,
+      "tau": 0.55,
+      "invasion": -0.00011966
+    },
+    {
+      "d": 1.0,
+      "tau": 0.45,
+      "invasion": -5.905e-05
+    },
+    {
+      "d": 1.0,
+      "tau": 0.5,
+      "invasion": 0.0
+    },
+    {
+      "d": 1.0,
+      "tau": 0.55,
+      "invasion": 3.525e-05
+    }
+  ],
+  "claim": "candidate only; positive neighbors refute local uninvadability"
+}

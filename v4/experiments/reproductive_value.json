@@ -1,0 +1,57 @@
+{
+  "resident_d": 1,
+  "resident_tau": 3.19222305,
+  "benchmarks": [
+    {
+      "d": 0,
+      "tau": 3,
+      "R0": 0.7903344477115233,
+      "invasion": -0.018163646701798677,
+      "sign_agreement": true
+    },
+    {
+      "d": 1,
+      "tau": 0.74655056,
+      "R0": 1.010256216297302,
+      "invasion": 0.0010006120549853972,
+      "sign_agreement": true
+    },
+    {
+      "d": 1,
+      "tau": 3.19222305,
+      "R0": 1.00000000000001,
+      "invasion": 2.7609604016032174e-16,
+      "sign_agreement": true
+    },
+    {
+      "d": 1,
+      "tau": 8,
+      "R0": 0.8396399046670505,
+      "invasion": -0.010897194170514858,
+      "sign_agreement": true
+    }
+  ],
+  "low_density": [
+    {
+      "d": 0,
+      "tau": 3,
+      "low_density_asymptotic_rate_estimate": 0.139449039352508,
+      "burn_in": 400,
+      "measurement_window": 200
+    },
+    {
+      "d": 1,
+      "tau": 0.74655056,
+      "low_density_asymptotic_rate_estimate": 0.21749925790363087,
+      "burn_in": 400,
+      "measurement_window": 200
+    },
+    {
+      "d": 1,
+      "tau": 3.19222305,
+      "low_density_asymptotic_rate_estimate": 0.14951227278906562,
+      "burn_in": 400,
+      "measurement_window": 200
+    }
+  ]
+}

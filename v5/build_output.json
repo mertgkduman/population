@@ -1,0 +1,30 @@
+{
+  "output": "/hpc/group/pfisterlab/mg551/storage/population/v5/index.html",
+  "mirror": "/hpc/group/pfisterlab/mg551/storage/population/v5/research_dashboard.html",
+  "run_id": "20261030T151329Z",
+  "plotly_version": "7.1.0",
+  "compressed_data_bytes": 124816352,
+  "html_bytes": 171310027,
+  "html_sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
+  "mirror_sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
+  "contexts": 50,
+  "cells_per_context": 195,
+  "time_points": 81,
+  "score_states": 9,
+  "supplements": {
+    "repertoire": true,
+    "mechanisms": true,
+    "selection": true,
+    "source_conditions": true,
+    "histories_summary": true,
+    "repertoire_tutors": true,
+    "bayes_benchmark": true,
+    "cost_memory": true,
+    "refinement": true,
+    "dynamic_convergence": true,
+    "selection_refinement": true,
+    "mechanism_invasion": true,
+    "frozen_replacement": true
+  },
+  "compacted_oracle_contexts": 10
+}

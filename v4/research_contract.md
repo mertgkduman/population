@@ -1,0 +1,8 @@
+# V4 controlling research contract
+The user requests original, critically evaluated theoretical/computational research into inherited juvenile deference, maturation, endogenous adult knowledge, belief persistence and demographic versus evolutionary fitness. This version supersedes the earlier restriction to two total ODE states: there remain exactly two demographic stages, but cultural states and two stages per inherited trait are allowed.
+
+Before model selection: primary-literature investigation through 2026-10-30; explicit literature, modeling, adversarial, implementation/verification roles. Mandatory starting references and research questions are delegated verbatim in the role brief and literature record. Do not infer novelty from combining established mechanisms.
+
+Execution: installed gsd-spike --quick through Codex adapter, five executable questions, prior findings consulted, hypotheses before broad runs, pilot then refinement/replication, shared adult resident culture for mutant invasion, no cognitive-accuracy change across d. Distinguish beliefs/actions/confidence/payoff; learning and cultural inheritance from genotype inheritance; time horizons from stationary or long-run invasion. Do not impose a tau fecundity reward or adult rigidity genotype.
+
+Deliver all nine requested research documents, runnable experiments and data, offline interactive dashboard, machine-readable tests, provenance hashes, seed/config manifests, GSD evidence/manifest, and downloadable source/data archive. No deployment. Model selection may narrow competing candidates but must retain two serious comparisons and honestly mark questions untested or only partially addressed.

@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "scope": "Independent event enumeration, invariants, truth-confusion identification, operator, integration, and negative-control checks; not empirical validation.",
+  "checks": [
+    {
+      "name": "state_shape_and_nonnegative_initial_density",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "H1_default_audit_threshold_runnable",
+      "pass": true,
+      "measured": 5.551115123125783e-17,
+      "tolerance": 2e-14,
+      "detail": "With |b|<=1 and threshold=2, every adult state uses the full query rate."
+    },
+    {
+      "name": "invalid_parameters_rejected",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "independent_event_enumeration",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 3e-14,
+      "detail": ""
+    },
+    {
+      "name": "reflecting_private_and_social_edges",
+      "pass": true,
+      "measured": 1.4441173357228955e-16,
+      "tolerance": 3e-12,
+      "detail": ""
+    },
+    {
+      "name": "births_enter_neutral_private_and_held_scores",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-12,
+      "detail": ""
+    },
+    {
+      "name": "d0_private_and_held_scores_identical",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 3e-12,
+      "detail": ""
+    },
+    {
+      "name": "no_information_no_spontaneous_cognition",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "private_information_fixed_across_d",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "realized_rate_parameterization_invariant",
+      "pass": true,
+      "measured": 3.3306690738754696e-16,
+      "tolerance": 3e-14,
+      "detail": ""
+    },
+    {
+      "name": "zero_payoff_and_cost_d_demographic_null",
+      "pass": true,
+      "measured": 5.684341886080802e-14,
+      "tolerance": 2e-09,
+      "detail": "Cognitive distributions are allowed to differ."
+    },
+    {
+      "name": "no_adults_d_null",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "public_action_conflict_override_algebra",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 3e-15,
+      "detail": ""
+    },
+    {
+      "name": "acceptance_and_override_separable",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 3e-14,
+      "detail": ""
+    },
+    {
+      "name": "total_flux_accounting",
+      "pass": true,
+      "measured": 2.6645352591003757e-15,
+      "tolerance": 2e-12,
+      "detail": ""
+    },
+    {
+      "name": "misinformation_reversal_observational_equivalence",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-12,
+      "detail": ""
+    },
+    {
+      "name": "truth_linked_payoff_positive_control",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": "state difference=189.2752961254393"
+    },
+    {
+      "name": "frozen_generators_metzler",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "matrix_exponential_fixed_environment_parity",
+      "pass": true,
+      "measured": 6.54672903587834e-10,
+      "tolerance": 2e-09,
+      "detail": ""
+    },
+    {
+      "name": "rk4_dt_0p2_vs_DOP853",
+      "pass": true,
+      "measured": 0.0008687344592019757,
+      "tolerance": 0.0012,
+      "detail": ""
+    },
+    {
+      "name": "rk4_dt_0p1_vs_DOP853",
+      "pass": true,
+      "measured": 4.0552875055453534e-05,
+      "tolerance": 7e-05,
+      "detail": ""
+    },
+    {
+      "name": "rk4_dt_0p05_vs_DOP853",
+      "pass": true,
+      "measured": 2.194952461215808e-06,
+      "tolerance": 5e-06,
+      "detail": ""
+    },
+    {
+      "name": "rk4_step_halving_reduces_error",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "invalid_density_rejected_without_clipping",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_operator_residual",
+      "pass": true,
+      "measured": 2.795332664184535e-16,
+      "tolerance": 2e-09,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_spectral_abscissa",
+      "pass": true,
+      "measured": 5.056103465226686e-16,
+      "tolerance": 2e-08,
+      "detail": ""
+    },
+    {
+      "name": "shared_culture_positive_invader",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": "rate=0.018534464691387253"
+    },
+    {
+      "name": "resource_perturbation_nonzero_control",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": "rate=0.0044831222859338885"
+    },
+    {
+      "name": "conditional_survival_probability_range",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "conditional_survival_zero_mortality",
+      "pass": true,
+      "measured": 6.661338147750939e-16,
+      "tolerance": 2e-12,
+      "detail": ""
+    }
+  ],
+  "diagnostics": {
+    "zero_payoff_cultural_difference": 0.06755766850521805,
+    "truth_linked_payoff_state_difference": 189.2752961254393,
+    "rk4_scaled_errors": {
+      "update_dt_0.2": 0.0008687344592019757,
+      "update_dt_0.1": 4.0552875055453534e-05,
+      "update_dt_0.05": 2.194952461215808e-06,
+      "audit_dt_0.2": 0.0008685444289721759,
+      "audit_dt_0.1": 4.054424507824065e-05,
+      "audit_dt_0.05": 2.1944887520554012e-06
+    },
+    "operator": {
+      "resident_N": 4067.0235488691355,
+      "reported_residual": 2.795332664184535e-16,
+      "independent_residual": 2.7774452975544757e-16,
+      "reported_self_rate": 5.056103465226686e-16,
+      "independent_self_rate": 5.056103465226686e-16,
+      "positive_invader_d1_tau1": 0.018534464691387253,
+      "resource_plus_5pct_self_rate": 0.0044831222859338885
+    }
+  }
+}

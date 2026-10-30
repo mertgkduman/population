@@ -1,0 +1,98 @@
+{
+  "run_id": "20261030T151329Z",
+  "timestamp": "2026-10-30T15:24:19.210075+00:00",
+  "counts": {
+    "pilot": 200,
+    "main_unique_trajectories": 7950,
+    "main_view_cells": 9750
+  },
+  "config": {
+    "H": 4,
+    "p": 0.65,
+    "access": 1.0,
+    "load": 1.0,
+    "nu_private": 1.0,
+    "nu_social": 1.0,
+    "nu_adult": 0.3,
+    "transmission_error": 0.05,
+    "mu_F": 0.03,
+    "mu_A": 0.1,
+    "error_F": 0.25,
+    "error_A": 0.1,
+    "beta_base": 0.35,
+    "beta_skill": 0.85,
+    "query_cost": 0.02,
+    "K": 1000.0,
+    "S0": 1.0,
+    "KS": 1.0,
+    "adult_mode": "update",
+    "audit_floor": 0.05,
+    "audit_threshold": 2,
+    "policy": "fixed",
+    "accept": true,
+    "override": true,
+    "conflict_only": false,
+    "reset": false,
+    "payoff": true,
+    "initial_correct": 0.8,
+    "dt": 0.1,
+    "T": 400.0
+  },
+  "models": {
+    "retained": {},
+    "frozen": {
+      "adult_mode": "frozen"
+    },
+    "audit": {
+      "adult_mode": "audit"
+    },
+    "reset": {
+      "reset": true
+    },
+    "oracle": {
+      "policy": "oracle_gate"
+    }
+  },
+  "scenarios": {
+    "stable": {},
+    "clean": {
+      "p": 0.85
+    },
+    "noisy": {
+      "p": 0.55
+    },
+    "sparse": {
+      "access": 0.2
+    },
+    "load": {
+      "load": 5.0
+    },
+    "truth_reversal": {},
+    "misinformation": {},
+    "wrong_history": {
+      "initial_correct": 0.2
+    },
+    "no_cost": {
+      "query_cost": 0.0
+    },
+    "neutral": {
+      "payoff": false,
+      "query_cost": 0.0
+    }
+  },
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "numba": "0.64.0"
+  },
+  "runtime_seconds": 649.461781979,
+  "solver": "RK4 dt=.1, exact segment boundaries; independent DOP853 verification",
+  "units": {
+    "time": "model_time",
+    "population": "continuous_density",
+    "rates": "1/model_time",
+    "query_cost": "hazard per private query",
+    "load": "effective exposure divisor"
+  }
+}

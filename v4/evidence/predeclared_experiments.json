@@ -1,0 +1,19 @@
+{
+ "phase":"before broad sweeps; preliminary 3-trait stable pilot used only for runtime/positivity",
+ "private_accuracy":0.65,"default_dt":0.1,"reference":"SciPy DOP853 rtol=1e-10 atol=1e-12",
+ "hypotheses":[
+ {"id":"H1","type":"established null","prediction":"Exogenous equal adult/private accuracy makes fixed d neutral; useful advice gives monotone mortality effect"},
+ {"id":"H2","type":"literature","prediction":"Endorsed testimony accumulation can increase adult contrary-evidence persistence, with effect attenuated by public-only internalization control"},
+ {"id":"H3","type":"literature","prediction":"Endogenous adult testimony creates an adaptation lag after environmental reversal; oracle benchmark removes immediate trust errors, RL may lag"},
+ {"id":"H4","type":"team-generated","prediction":"Confidence-depth sensitivity can distinguish a repeated-evidence mechanism from a discrete choice artifact; effects must survive H=3,6,9 and step halving"},
+ {"id":"H5","type":"team-generated","prediction":"Maturation transfers private belief distribution and may create a tau optimum without direct tau fecundity reward; reset-at-maturation must remove this channel"},
+ {"id":"H6","type":"exploratory","prediction":"Resident culture may shift the invasion optimum away from isolated abundance optimum, or may show no difference"},
+ {"id":"H7","type":"exploratory","prediction":"Alternative initial cultures may persist as different attractors; failed convergence to distinct states is a negative result"}
+ ],
+ "spikes":["004 conflict-null","005 endogenous-memory","006 shock-recovery","007 shared-culture-invasion","008 feedback-and-history"],
+ "grid_pilot":"7x7 stable/shock fixed and public-only",
+ "grid_main":"17 deference x19 log tau [.5,12], models fixed/public_only/memoryless/private/oracle/rl; stable, shock, periodic, wrong_history, no_payoff",
+ "refinement":"33x37 fixed stable and shock (preselected, not tuned for desired sign)",
+ "stochastic":"20 exploratory environment seeds and 20 independent confirmatory seeds at matched d=0,.5,1 and tau=1,3,8; shared environmental histories across traits",
+ "scope_limit":"No full cooperation norm game; social sanctions, private/public second-order beliefs and parent-offspring conflict remain untested. No novel mechanism assumed."
+}

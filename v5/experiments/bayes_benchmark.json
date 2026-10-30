@@ -1,0 +1,3808 @@
+{
+  "status": "PASS",
+  "label": "exploratory analytical comparator",
+  "scope": {
+    "task": "one binary state, stable world, conditionally independent cues",
+    "prior": "q0 is calibrated initial knowledge for this benchmark only",
+    "bayes": "posterior decision maximizing expected correctness after n cues",
+    "bounded": "initial score +4; each signed cue moves one unit; saturated boundary self-loops; score-zero ties randomize",
+    "excluded": [
+      "demography",
+      "social transmission",
+      "query cost",
+      "human optimality claim"
+    ]
+  },
+  "parameters": {
+    "H": 4,
+    "q0": [
+      0.7,
+      0.85,
+      0.95
+    ],
+    "p": [
+      0.55,
+      0.65,
+      0.85
+    ],
+    "n": [
+      0,
+      40
+    ]
+  },
+  "checks": [
+    {
+      "name": "all Markov distributions normalize and remain nonnegative",
+      "passed": true,
+      "measured": 3.3306690738754696e-16
+    },
+    {
+      "name": "n=0 equals calibrated prior accuracy",
+      "passed": true,
+      "measured": 0.0
+    },
+    {
+      "name": "Bayes expected accuracy is nondecreasing in n",
+      "passed": true,
+      "measured": 2.220446049250313e-16
+    },
+    {
+      "name": "Bayes expected accuracy never falls below the prior",
+      "passed": true,
+      "measured": 1.1102230246251565e-16
+    },
+    {
+      "name": "Markov transitions match independent path enumeration at n=10",
+      "passed": true,
+      "measured": 8.881784197001252e-16
+    },
+    {
+      "name": "bounded unit-step updating has at least one prior-erosion case",
+      "passed": true,
+      "measured": 4
+    }
+  ],
+  "summary": {
+    "erosion_case_count": 4,
+    "worst_erosion_case": {
+      "q0": 0.95,
+      "p": 0.55,
+      "minimum_n": 40,
+      "minimum_bounded_accuracy": 0.7295860191163408,
+      "erosion_below_prior": 0.22041398088365916,
+      "bayes_accuracy_at_same_n": 0.9507601472372381
+    },
+    "claim_limit": "Freezing can beat misweighted finite-memory updating, but cannot beat optimal cost-free calibrated Bayes in expected accuracy under these benchmark assumptions."
+  },
+  "erosion_cases": [
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "minimum_n": 4,
+      "minimum_bounded_accuracy": 0.6993737499999999,
+      "erosion_below_prior": 0.0006262500000000504,
+      "bayes_accuracy_at_same_n": 0.7
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "minimum_n": 40,
+      "minimum_bounded_accuracy": 0.7209799173508031,
+      "erosion_below_prior": 0.12902008264919684,
+      "bayes_accuracy_at_same_n": 0.8654912651915776
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "minimum_n": 40,
+      "minimum_bounded_accuracy": 0.7295860191163408,
+      "erosion_below_prior": 0.22041398088365916,
+      "bayes_accuracy_at_same_n": 0.9507601472372381
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "minimum_n": 40,
+      "minimum_bounded_accuracy": 0.9390430248840775,
+      "erosion_below_prior": 0.010956975115922418,
+      "bayes_accuracy_at_same_n": 0.9909600278786714
+    }
+  ],
+  "rows": [
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 0,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 1,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 2,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 3,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 4,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.6993737499999999,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.0006262500000000504,
+      "bounded_regret_vs_bayes": 0.0006262500000000504
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 5,
+      "bayes_accuracy": 0.7021815624999999,
+      "bounded_accuracy": 0.70046453125,
+      "bayes_value_over_prior": 0.0021815624999999006,
+      "bounded_change_from_prior": 0.00046453125000001094,
+      "bounded_regret_vs_bayes": 0.0017170312499998897
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 6,
+      "bayes_accuracy": 0.7024915562499999,
+      "bounded_accuracy": 0.69984454375,
+      "bayes_value_over_prior": 0.002491556249999971,
+      "bounded_change_from_prior": -0.00015545624999990793,
+      "bounded_regret_vs_bayes": 0.002647012499999879
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 7,
+      "bayes_accuracy": 0.7057311765625001,
+      "bounded_accuracy": 0.701194385546875,
+      "bayes_value_over_prior": 0.0057311765625001065,
+      "bounded_change_from_prior": 0.0011943855468750098,
+      "bounded_regret_vs_bayes": 0.004536791015625097
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 8,
+      "bayes_accuracy": 0.706268240734375,
+      "bounded_accuracy": 0.7006573213749999,
+      "bayes_value_over_prior": 0.006268240734375041,
+      "bounded_change_from_prior": 0.000657321374999964,
+      "bounded_regret_vs_bayes": 0.005610919359375077
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 9,
+      "bayes_accuracy": 0.7100100021953124,
+      "bounded_accuracy": 0.7019936647539065,
+      "bayes_value_over_prior": 0.01001000219531245,
+      "bounded_change_from_prior": 0.001993664753906499,
+      "bounded_regret_vs_bayes": 0.008016337441405952
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 10,
+      "bayes_accuracy": 0.7106936081626561,
+      "bounded_accuracy": 0.7015379274423438,
+      "bayes_value_over_prior": 0.010693608162656187,
+      "bounded_change_from_prior": 0.0015379274423438227,
+      "bounded_regret_vs_bayes": 0.009155680720312365
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 11,
+      "bayes_accuracy": 0.714662547998008,
+      "bounded_accuracy": 0.7027782211408912,
+      "bayes_value_over_prior": 0.014662547998008035,
+      "bounded_change_from_prior": 0.0027782211408912127,
+      "bounded_regret_vs_bayes": 0.011884326857116823
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 12,
+      "bayes_accuracy": 0.7154380135172135,
+      "bounded_accuracy": 0.7023904883812884,
+      "bayes_value_over_prior": 0.015438013517213522,
+      "bounded_change_from_prior": 0.0023904883812884137,
+      "bounded_regret_vs_bayes": 0.013047525135925109
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 13,
+      "bayes_accuracy": 0.7194900530303677,
+      "bounded_accuracy": 0.703511961943515,
+      "bayes_value_over_prior": 0.01949005303036777,
+      "bounded_change_from_prior": 0.0035119619435149962,
+      "bounded_regret_vs_bayes": 0.015978091086852775
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 14,
+      "bayes_accuracy": 0.7203217397997157,
+      "bounded_accuracy": 0.7031798688349151,
+      "bayes_value_over_prior": 0.020321739799715743,
+      "bounded_change_from_prior": 0.003179868834915167,
+      "bounded_regret_vs_bayes": 0.017141870964800576
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 15,
+      "bayes_accuracy": 0.724377831352383,
+      "bounded_accuracy": 0.7041807225946644,
+      "bayes_value_over_prior": 0.024377831352383028,
+      "bounded_change_from_prior": 0.004180722594664399,
+      "bounded_regret_vs_bayes": 0.02019710875771863
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 16,
+      "bayes_accuracy": 0.7252423697491202,
+      "bounded_accuracy": 0.7038945583701033,
+      "bayes_value_over_prior": 0.025242369749120197,
+      "bounded_change_from_prior": 0.0038945583701033293,
+      "bounded_regret_vs_bayes": 0.021347811379016868
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 17,
+      "bayes_accuracy": 0.7292579003862609,
+      "bounded_accuracy": 0.7047811040951864,
+      "bayes_value_over_prior": 0.02925790038626097,
+      "bounded_change_from_prior": 0.004781104095186395,
+      "bounded_regret_vs_bayes": 0.024476796291074576
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 18,
+      "bayes_accuracy": 0.7301397295509331,
+      "bounded_accuracy": 0.7045333924685717,
+      "bayes_value_over_prior": 0.030139729550933136,
+      "bounded_change_from_prior": 0.004533392468571762,
+      "bounded_regret_vs_bayes": 0.025606337082361375
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 19,
+      "bayes_accuracy": 0.7340892907561778,
+      "bounded_accuracy": 0.7053150764571097,
+      "bayes_value_over_prior": 0.03408929075617784,
+      "bounded_change_from_prior": 0.005315076457109713,
+      "bounded_regret_vs_bayes": 0.028774214299068124
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 20,
+      "bayes_accuracy": 0.7349778911090784,
+      "bounded_accuracy": 0.7050999627970185,
+      "bayes_value_over_prior": 0.03497789110907845,
+      "bounded_change_from_prior": 0.00509996279701852,
+      "bounded_regret_vs_bayes": 0.02987792831205993
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 21,
+      "bayes_accuracy": 0.7388472268523418,
+      "bounded_accuracy": 0.7057871638283446,
+      "bayes_value_over_prior": 0.038847226852341876,
+      "bounded_change_from_prior": 0.005787163828344655,
+      "bounded_regret_vs_bayes": 0.03306006302399722
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 22,
+      "bayes_accuracy": 0.7397353999935343,
+      "bounded_accuracy": 0.7055999486799581,
+      "bayes_value_over_prior": 0.03973539999353437,
+      "bounded_change_from_prior": 0.005599948679958167,
+      "bounded_regret_vs_bayes": 0.034135451313576204
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 23,
+      "bayes_accuracy": 0.7435169315795467,
+      "bounded_accuracy": 0.7062029319924027,
+      "bayes_value_over_prior": 0.043516931579546725,
+      "bounded_change_from_prior": 0.006202931992402738,
+      "bounded_regret_vs_bayes": 0.03731399958714399
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 24,
+      "bayes_accuracy": 0.7443997122409534,
+      "bounded_accuracy": 0.7060397560058306,
+      "bayes_value_over_prior": 0.044399712240953404,
+      "bounded_change_from_prior": 0.006039756005830621,
+      "bounded_regret_vs_bayes": 0.03835995623512278
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 25,
+      "bayes_accuracy": 0.7480899468501033,
+      "bounded_accuracy": 0.7065681781103317,
+      "bayes_value_over_prior": 0.04808994685010337,
+      "bounded_change_from_prior": 0.006568178110331724,
+      "bounded_regret_vs_bayes": 0.04152176873977165
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 26,
+      "bayes_accuracy": 0.7489638997048961,
+      "bounded_accuracy": 0.7064258134639603,
+      "bayes_value_over_prior": 0.04896389970489612,
+      "bounded_change_from_prior": 0.006425813463960317,
+      "bounded_regret_vs_bayes": 0.0425380862409358
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 27,
+      "bayes_accuracy": 0.7525618784488174,
+      "bounded_accuracy": 0.7068885101886525,
+      "bayes_value_over_prior": 0.052561878448817434,
+      "bounded_change_from_prior": 0.006888510188652552,
+      "bounded_regret_vs_bayes": 0.04567336826016488
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 28,
+      "bayes_accuracy": 0.7534246337826581,
+      "bounded_accuracy": 0.7067642203088859,
+      "bayes_value_over_prior": 0.05342463378265816,
+      "bounded_change_from_prior": 0.006764220308885904,
+      "bounded_regret_vs_bayes": 0.046660413473772255
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 29,
+      "bayes_accuracy": 0.7569309765054449,
+      "bounded_accuracy": 0.7071691442614673,
+      "bayes_value_over_prior": 0.056930976505444986,
+      "bounded_change_from_prior": 0.007169144261467308,
+      "bounded_regret_vs_bayes": 0.04976183224397768
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 30,
+      "bayes_accuracy": 0.7577809173850625,
+      "bounded_accuracy": 0.7070605864191419,
+      "bayes_value_over_prior": 0.057780917385062525,
+      "bounded_change_from_prior": 0.007060586419141979,
+      "bounded_regret_vs_bayes": 0.050720330965920546
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 31,
+      "bayes_accuracy": 0.7611972216691535,
+      "bounded_accuracy": 0.7074148222445282,
+      "bayes_value_over_prior": 0.061197221669153534,
+      "bounded_change_from_prior": 0.007414822244528274,
+      "bounded_regret_vs_bayes": 0.05378239942462526
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 32,
+      "bayes_accuracy": 0.7620332692843926,
+      "bounded_accuracy": 0.7073199772589477,
+      "bayes_value_over_prior": 0.06203326928439268,
+      "bounded_change_from_prior": 0.00731997725894773,
+      "bounded_regret_vs_bayes": 0.05471329202544495
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 33,
+      "bayes_accuracy": 0.7653617257440355,
+      "bounded_accuracy": 0.7076297952591781,
+      "bayes_value_over_prior": 0.06536172574403554,
+      "bounded_change_from_prior": 0.007629795259178174,
+      "bounded_regret_vs_bayes": 0.05773193048485736
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 34,
+      "bayes_accuracy": 0.7661831896715501,
+      "bounded_accuracy": 0.7075469147238961,
+      "bayes_value_over_prior": 0.06618318967155012,
+      "bounded_change_from_prior": 0.007546914723896125,
+      "bounded_regret_vs_bayes": 0.058636274947654
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 35,
+      "bayes_accuracy": 0.7694263325366751,
+      "bounded_accuracy": 0.7078178410492657,
+      "bayes_value_over_prior": 0.06942633253667518,
+      "bounded_change_from_prior": 0.00781784104926575,
+      "bounded_regret_vs_bayes": 0.061608491487409434
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 36,
+      "bayes_accuracy": 0.7702328047475121,
+      "bounded_accuracy": 0.7077454062508612,
+      "bayes_value_over_prior": 0.07023280474751215,
+      "bounded_change_from_prior": 0.007745406250861286,
+      "bounded_regret_vs_bayes": 0.06248739849665086
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 37,
+      "bayes_accuracy": 0.773393348817791,
+      "bounded_accuracy": 0.7079822977856034,
+      "bayes_value_over_prior": 0.07339334881779103,
+      "bounded_change_from_prior": 0.007982297785603443,
+      "bounded_regret_vs_bayes": 0.06541105103218758
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 38,
+      "bayes_accuracy": 0.774184627668228,
+      "bounded_accuracy": 0.7079189867296912,
+      "bayes_value_over_prior": 0.07418462766822809,
+      "bounded_change_from_prior": 0.007918986729691269,
+      "bounded_regret_vs_bayes": 0.06626564093853682
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 39,
+      "bayes_accuracy": 0.7772653613609335,
+      "bounded_accuracy": 0.708126104408761,
+      "bayes_value_over_prior": 0.07726536136093354,
+      "bounded_change_from_prior": 0.008126104408761048,
+      "bounded_regret_vs_bayes": 0.06913925695217249
+    },
+    {
+      "q0": 0.7,
+      "p": 0.55,
+      "n": 40,
+      "bayes_accuracy": 0.7780413964570456,
+      "bounded_accuracy": 0.7080707647024966,
+      "bayes_value_over_prior": 0.07804139645704566,
+      "bounded_change_from_prior": 0.00807076470249668,
+      "bounded_regret_vs_bayes": 0.06997063175454898
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 0,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 1,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 2,
+      "bayes_accuracy": 0.8500000000000001,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 1.1102230246251565e-16
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 3,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 4,
+      "bayes_accuracy": 0.8500000000000001,
+      "bounded_accuracy": 0.8394353125,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.010564687499999947,
+      "bounded_regret_vs_bayes": 0.010564687500000058
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 5,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.8353675,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.014632499999999937,
+      "bounded_regret_vs_bayes": 0.014632499999999937
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 6,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.8249084593749999,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.025091540625000075,
+      "bounded_regret_vs_bayes": 0.025091540625000075
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 7,
+      "bayes_accuracy": 0.8499999999999999,
+      "bounded_accuracy": 0.81987454140625,
+      "bayes_value_over_prior": -1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.030125458593749932,
+      "bounded_regret_vs_bayes": 0.03012545859374982
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 8,
+      "bayes_accuracy": 0.8499999999999999,
+      "bounded_accuracy": 0.8108143974648437,
+      "bayes_value_over_prior": -1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.03918560253515624,
+      "bounded_regret_vs_bayes": 0.03918560253515613
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 9,
+      "bayes_accuracy": 0.8500476264414062,
+      "bounded_accuracy": 0.8058308186757814,
+      "bayes_value_over_prior": 4.7626441406212194e-05,
+      "bounded_change_from_prior": -0.04416918132421854,
+      "bounded_regret_vs_bayes": 0.044216807765624755
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 10,
+      "bayes_accuracy": 0.8500905123973926,
+      "bounded_accuracy": 0.7981426393883594,
+      "bayes_value_over_prior": 9.051239739266137e-05,
+      "bounded_change_from_prior": -0.05185736061164059,
+      "bounded_regret_vs_bayes": 0.05194787300903325
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 11,
+      "bayes_accuracy": 0.8502083878398732,
+      "bounded_accuracy": 0.7935172553247608,
+      "bayes_value_over_prior": 0.00020838783987320308,
+      "bounded_change_from_prior": -0.05648274467523917,
+      "bounded_regret_vs_bayes": 0.056691132515112375
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 12,
+      "bayes_accuracy": 0.850325144855046,
+      "bounded_accuracy": 0.786976296540384,
+      "bayes_value_over_prior": 0.0003251448550459779,
+      "bounded_change_from_prior": -0.06302370345961594,
+      "bounded_regret_vs_bayes": 0.06334884831466192
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 13,
+      "bayes_accuracy": 0.8505176943903376,
+      "bounded_accuracy": 0.782794024270078,
+      "bayes_value_over_prior": 0.0005176943903376641,
+      "bounded_change_from_prior": -0.06720597572992193,
+      "bounded_regret_vs_bayes": 0.0677236701202596
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 14,
+      "bayes_accuracy": 0.850722602951966,
+      "bounded_accuracy": 0.7771916930712592,
+      "bayes_value_over_prior": 0.0007226029519660226,
+      "bounded_change_from_prior": -0.07280830692874074,
+      "bounded_regret_vs_bayes": 0.07353090988070676
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 15,
+      "bayes_accuracy": 0.8509854330676392,
+      "bounded_accuracy": 0.7734592440265226,
+      "bayes_value_over_prior": 0.0009854330676392076,
+      "bounded_change_from_prior": -0.07654075597347743,
+      "bounded_regret_vs_bayes": 0.07752618904111663
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 16,
+      "bayes_accuracy": 0.85128126980349,
+      "bounded_accuracy": 0.768631722100507,
+      "bayes_value_over_prior": 0.0012812698034899705,
+      "bounded_change_from_prior": -0.08136827789949297,
+      "bounded_regret_vs_bayes": 0.08264954770298294
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 17,
+      "bayes_accuracy": 0.851606522071636,
+      "bounded_accuracy": 0.7653255580256165,
+      "bayes_value_over_prior": 0.0016065220716360296,
+      "bounded_change_from_prior": -0.08467444197438345,
+      "bounded_regret_vs_bayes": 0.08628096404601948
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 18,
+      "bayes_accuracy": 0.8519895168612024,
+      "bounded_accuracy": 0.7611467222167545,
+      "bayes_value_over_prior": 0.0019895168612024117,
+      "bounded_change_from_prior": -0.08885327778324548,
+      "bounded_regret_vs_bayes": 0.09084279464444789
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 19,
+      "bayes_accuracy": 0.852368485792403,
+      "bounded_accuracy": 0.7582316153613471,
+      "bayes_value_over_prior": 0.002368485792403008,
+      "bounded_change_from_prior": -0.09176838463865289,
+      "bounded_regret_vs_bayes": 0.0941368704310559
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 20,
+      "bayes_accuracy": 0.8528316085633011,
+      "bounded_accuracy": 0.7546026994398362,
+      "bayes_value_over_prior": 0.0028316085633011134,
+      "bounded_change_from_prior": -0.09539730056016382,
+      "bounded_regret_vs_bayes": 0.09822890912346494
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 21,
+      "bayes_accuracy": 0.8532559184201988,
+      "bounded_accuracy": 0.7520399445838635,
+      "bayes_value_over_prior": 0.003255918420198789,
+      "bounded_change_from_prior": -0.0979600554161365,
+      "bounded_regret_vs_bayes": 0.1012159738363353
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 22,
+      "bayes_accuracy": 0.8537908252205862,
+      "bounded_accuracy": 0.7488816698725347,
+      "bayes_value_over_prior": 0.003790825220586269,
+      "bounded_change_from_prior": -0.1011183301274653,
+      "bounded_regret_vs_bayes": 0.10490915534805156
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 23,
+      "bayes_accuracy": 0.8542528986547476,
+      "bounded_accuracy": 0.7466329852204531,
+      "bayes_value_over_prior": 0.00425289865474765,
+      "bounded_change_from_prior": -0.1033670147795469,
+      "bounded_regret_vs_bayes": 0.10761991343429456
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 24,
+      "bayes_accuracy": 0.8548510152006991,
+      "bounded_accuracy": 0.7438802454110514,
+      "bayes_value_over_prior": 0.0048510152006990825,
+      "bounded_change_from_prior": -0.10611975458894862,
+      "bounded_regret_vs_bayes": 0.1109707697896477
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 25,
+      "bayes_accuracy": 0.8553442063926922,
+      "bounded_accuracy": 0.7419096192731649,
+      "bayes_value_over_prior": 0.005344206392692175,
+      "bounded_change_from_prior": -0.10809038072683508,
+      "bounded_regret_vs_bayes": 0.11343458711952725
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 26,
+      "bayes_accuracy": 0.8559972968858812,
+      "bounded_accuracy": 0.7395079617881928,
+      "bayes_value_over_prior": 0.0059972968858812425,
+      "bounded_change_from_prior": -0.1104920382118072,
+      "bounded_regret_vs_bayes": 0.11648933509768844
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 27,
+      "bayes_accuracy": 0.8565158729186391,
+      "bounded_accuracy": 0.7377824430185836,
+      "bayes_value_over_prior": 0.006515872918639087,
+      "bounded_change_from_prior": -0.11221755698141633,
+      "bounded_regret_vs_bayes": 0.11873342990005542
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 28,
+      "bayes_accuracy": 0.8572163124725843,
+      "bounded_accuracy": 0.7356857025169492,
+      "bayes_value_over_prior": 0.007216312472584363,
+      "bounded_change_from_prior": -0.11431429748305078,
+      "bounded_regret_vs_bayes": 0.12153060995563514
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 29,
+      "bayes_accuracy": 0.8577553722586362,
+      "bounded_accuracy": 0.7341756337328915,
+      "bayes_value_over_prior": 0.007755372258636206,
+      "bounded_change_from_prior": -0.11582436626710846,
+      "bounded_regret_vs_bayes": 0.12357973852574466
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 30,
+      "bayes_accuracy": 0.8584962529805119,
+      "bounded_accuracy": 0.7323442889347409,
+      "bayes_value_over_prior": 0.008496252980511931,
+      "bounded_change_from_prior": -0.11765571106525907,
+      "bounded_regret_vs_bayes": 0.126151964045771
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 31,
+      "bayes_accuracy": 0.8590516264179835,
+      "bounded_accuracy": 0.7310232496168627,
+      "bayes_value_over_prior": 0.009051626417983516,
+      "bounded_change_from_prior": -0.11897675038313726,
+      "bounded_regret_vs_bayes": 0.12802837680112078
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 32,
+      "bayes_accuracy": 0.8598267728732462,
+      "bounded_accuracy": 0.7294232374274792,
+      "bayes_value_over_prior": 0.009826772873246181,
+      "bounded_change_from_prior": -0.12057676257252081,
+      "bounded_regret_vs_bayes": 0.130403535445767
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 33,
+      "bayes_accuracy": 0.8603949198997796,
+      "bounded_accuracy": 0.7282678439569157,
+      "bayes_value_over_prior": 0.010394919899779587,
+      "bounded_change_from_prior": -0.1217321560430843,
+      "bounded_regret_vs_bayes": 0.13212707594286388
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 34,
+      "bayes_accuracy": 0.8611988575090948,
+      "bounded_accuracy": 0.7268696691783312,
+      "bayes_value_over_prior": 0.011198857509094773,
+      "bounded_change_from_prior": -0.1231303308216688,
+      "bounded_regret_vs_bayes": 0.13432918833076357
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 35,
+      "bayes_accuracy": 0.8617767754158099,
+      "bounded_accuracy": 0.7258593130753838,
+      "bayes_value_over_prior": 0.011776775415809904,
+      "bounded_change_from_prior": -0.12414068692461622,
+      "bounded_regret_vs_bayes": 0.13591746234042612
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 36,
+      "bayes_accuracy": 0.862604676550018,
+      "bounded_accuracy": 0.7246373553759526,
+      "bayes_value_over_prior": 0.012604676550018068,
+      "bounded_change_from_prior": -0.12536264462404734,
+      "bounded_regret_vs_bayes": 0.1379673211740654
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 37,
+      "bayes_accuracy": 0.8631898184305672,
+      "bounded_accuracy": 0.723753924031521,
+      "bayes_value_over_prior": 0.013189818430567213,
+      "bounded_change_from_prior": -0.12624607596847903,
+      "bounded_regret_vs_bayes": 0.13943589439904625
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 38,
+      "bayes_accuracy": 0.8640374400669475,
+      "bounded_accuracy": 0.7226858816826077,
+      "bayes_value_over_prior": 0.014037440066947515,
+      "bounded_change_from_prior": -0.12731411831739226,
+      "bounded_regret_vs_bayes": 0.14135155838433977
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 39,
+      "bayes_accuracy": 0.8646276446968107,
+      "bounded_accuracy": 0.7219134849404646,
+      "bayes_value_over_prior": 0.014627644696810771,
+      "bounded_change_from_prior": -0.1280865150595354,
+      "bounded_regret_vs_bayes": 0.14271415975634616
+    },
+    {
+      "q0": 0.85,
+      "p": 0.55,
+      "n": 40,
+      "bayes_accuracy": 0.8654912651915776,
+      "bounded_accuracy": 0.7209799173508031,
+      "bayes_value_over_prior": 0.015491265191577619,
+      "bounded_change_from_prior": -0.12902008264919684,
+      "bounded_regret_vs_bayes": 0.14451134784077446
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 0,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 1,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 2,
+      "bayes_accuracy": 0.9500000000000001,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 1.1102230246251565e-16
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 3,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 4,
+      "bayes_accuracy": 0.9500000000000001,
+      "bounded_accuracy": 0.9328096875,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.017190312499999916,
+      "bounded_regret_vs_bayes": 0.017190312500000027
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 5,
+      "bayes_accuracy": 0.9499999999999998,
+      "bounded_accuracy": 0.9253028125,
+      "bayes_value_over_prior": -1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.02469718749999994,
+      "bounded_regret_vs_bayes": 0.02469718749999983
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 6,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.9082844031249999,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.04171559687500004,
+      "bounded_regret_vs_bayes": 0.04171559687500004
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 7,
+      "bayes_accuracy": 0.9499999999999998,
+      "bounded_accuracy": 0.8989946453125,
+      "bayes_value_over_prior": -1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.051005354687500004,
+      "bounded_regret_vs_bayes": 0.05100535468749989
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 8,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.8842524481914061,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.06574755180859382,
+      "bounded_regret_vs_bayes": 0.06574755180859382
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 9,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.8750555879570314,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.07494441204296853,
+      "bounded_regret_vs_bayes": 0.07494441204296853
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 10,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.8625457806857031,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.08745421931429687,
+      "bounded_regret_vs_bayes": 0.08745421931429687
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 11,
+      "bayes_accuracy": 0.9500000000000001,
+      "bounded_accuracy": 0.8540099447806738,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.09599005521932613,
+      "bounded_regret_vs_bayes": 0.09599005521932624
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 12,
+      "bayes_accuracy": 0.9500000000000001,
+      "bounded_accuracy": 0.8433668353131143,
+      "bayes_value_over_prior": 1.1102230246251565e-16,
+      "bounded_change_from_prior": -0.10663316468688566,
+      "bounded_regret_vs_bayes": 0.10663316468688577
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 13,
+      "bayes_accuracy": 0.9500000000000002,
+      "bounded_accuracy": 0.8356487324877868,
+      "bayes_value_over_prior": 2.220446049250313e-16,
+      "bounded_change_from_prior": -0.11435126751221314,
+      "bounded_regret_vs_bayes": 0.11435126751221336
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 14,
+      "bayes_accuracy": 0.9500000000000002,
+      "bounded_accuracy": 0.8265329092288219,
+      "bayes_value_over_prior": 2.220446049250313e-16,
+      "bounded_change_from_prior": -0.12346709077117801,
+      "bounded_regret_vs_bayes": 0.12346709077117823
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 15,
+      "bayes_accuracy": 0.9500004048410945,
+      "bounded_accuracy": 0.8196449249810945,
+      "bayes_value_over_prior": 4.0484109453675643e-07,
+      "bounded_change_from_prior": -0.13035507501890542,
+      "bounded_regret_vs_bayes": 0.13035547985999996
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 16,
+      "bayes_accuracy": 0.9500008195759791,
+      "bounded_accuracy": 0.8117898312541095,
+      "bayes_value_over_prior": 8.195759791940205e-07,
+      "bounded_change_from_prior": -0.13821016874589043,
+      "bounded_regret_vs_bayes": 0.13821098832186962
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 17,
+      "bayes_accuracy": 0.950002422746713,
+      "bounded_accuracy": 0.80568852731257,
+      "bayes_value_over_prior": 2.422746713026669e-06,
+      "bounded_change_from_prior": -0.14431147268742994,
+      "bounded_regret_vs_bayes": 0.14431389543414297
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 18,
+      "bayes_accuracy": 0.9500041677437411,
+      "bounded_accuracy": 0.7988889420488765,
+      "bayes_value_over_prior": 4.1677437411236085e-06,
+      "bounded_change_from_prior": -0.15111105795112345,
+      "bounded_regret_vs_bayes": 0.15111522569486457
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 19,
+      "bayes_accuracy": 0.9500079619979763,
+      "bounded_accuracy": 0.793509307964172,
+      "bayes_value_over_prior": 7.961997976368984e-06,
+      "bounded_change_from_prior": -0.156490692035828,
+      "bounded_regret_vs_bayes": 0.15649865403380436
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 20,
+      "bayes_accuracy": 0.9500123062707246,
+      "bounded_accuracy": 0.7876045238683813,
+      "bayes_value_over_prior": 1.2306270724682378e-05,
+      "bounded_change_from_prior": -0.16239547613161864,
+      "bounded_regret_vs_bayes": 0.16240778240234333
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 21,
+      "bayes_accuracy": 0.950019303321917,
+      "bounded_accuracy": 0.7828751317542093,
+      "bayes_value_over_prior": 1.9303321917019112e-05,
+      "bounded_change_from_prior": -0.16712486824579065,
+      "bounded_regret_vs_bayes": 0.16714417156770767
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 22,
+      "bayes_accuracy": 0.9500276660469574,
+      "bounded_accuracy": 0.7777361506675856,
+      "bayes_value_over_prior": 2.766604695747521e-05,
+      "bounded_change_from_prior": -0.17226384933241434,
+      "bounded_regret_vs_bayes": 0.17229151537937182
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 23,
+      "bayes_accuracy": 0.9500387782388823,
+      "bounded_accuracy": 0.7735863540391535,
+      "bayes_value_over_prior": 3.8778238882319904e-05,
+      "bounded_change_from_prior": -0.1764136459608464,
+      "bounded_regret_vs_bayes": 0.17645242419972873
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 24,
+      "bayes_accuracy": 0.9500525585792831,
+      "bounded_accuracy": 0.7691072383478651,
+      "bayes_value_over_prior": 5.2558579283101814e-05,
+      "bounded_change_from_prior": -0.18089276165213486,
+      "bounded_regret_vs_bayes": 0.18094532023141796
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 25,
+      "bayes_accuracy": 0.9500685390809753,
+      "bounded_accuracy": 0.765470580048387,
+      "bayes_value_over_prior": 6.853908097537165e-05,
+      "bounded_change_from_prior": -0.18452941995161298,
+      "bounded_regret_vs_bayes": 0.18459795903258835
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 26,
+      "bayes_accuracy": 0.9500890028864706,
+      "bounded_accuracy": 0.7615627273376813,
+      "bayes_value_over_prior": 8.900288647062382e-05,
+      "bounded_change_from_prior": -0.1884372726623187,
+      "bounded_regret_vs_bayes": 0.1885262755487893
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 27,
+      "bayes_accuracy": 0.9501104267465519,
+      "bounded_accuracy": 0.7583783982385378,
+      "bayes_value_over_prior": 0.00011042674655192819,
+      "bounded_change_from_prior": -0.19162160176146215,
+      "bounded_regret_vs_bayes": 0.19173202850801407
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 28,
+      "bayes_accuracy": 0.9501386448726292,
+      "bounded_accuracy": 0.7549666906556584,
+      "bayes_value_over_prior": 0.00013864487262926772,
+      "bounded_change_from_prior": -0.1950333093443416,
+      "bounded_regret_vs_bayes": 0.19517195421697087
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 29,
+      "bayes_accuracy": 0.9501659143859611,
+      "bounded_accuracy": 0.7521799600471744,
+      "bayes_value_over_prior": 0.00016591438596114116,
+      "bounded_change_from_prior": -0.1978200399528256,
+      "bounded_regret_vs_bayes": 0.19798595433878674
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 30,
+      "bayes_accuracy": 0.9502027390404925,
+      "bounded_accuracy": 0.749200090611807,
+      "bayes_value_over_prior": 0.00020273904049250557,
+      "bounded_change_from_prior": -0.20079990938819292,
+      "bounded_regret_vs_bayes": 0.20100264842868543
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 31,
+      "bayes_accuracy": 0.9502361015857095,
+      "bounded_accuracy": 0.7467622011984191,
+      "bayes_value_over_prior": 0.000236101585709525,
+      "bounded_change_from_prior": -0.20323779880158088,
+      "bounded_regret_vs_bayes": 0.2034739003872904
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 32,
+      "bayes_accuracy": 0.9502821674273217,
+      "bounded_accuracy": 0.7441587442065002,
+      "bayes_value_over_prior": 0.0002821674273217889,
+      "bounded_change_from_prior": -0.20584125579349977,
+      "bounded_regret_vs_bayes": 0.20612342322082156
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 33,
+      "bayes_accuracy": 0.9503217383070401,
+      "bounded_accuracy": 0.7420265430887407,
+      "bayes_value_over_prior": 0.0003217383070401869,
+      "bounded_change_from_prior": -0.20797345691125924,
+      "bounded_regret_vs_bayes": 0.20829519521829942
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 34,
+      "bayes_accuracy": 0.9503774779753913,
+      "bounded_accuracy": 0.7397515054812879,
+      "bayes_value_over_prior": 0.0003774779753913382,
+      "bounded_change_from_prior": -0.21024849451871208,
+      "bounded_regret_vs_bayes": 0.21062597249410342
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 35,
+      "bayes_accuracy": 0.9504232639564056,
+      "bounded_accuracy": 0.7378869610927958,
+      "bayes_value_over_prior": 0.00042326395640568393,
+      "bounded_change_from_prior": -0.21211303890720412,
+      "bounded_regret_vs_bayes": 0.2125363028636098
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 36,
+      "bayes_accuracy": 0.9504889308596899,
+      "bounded_accuracy": 0.7358986547926801,
+      "bayes_value_over_prior": 0.0004889308596899289,
+      "bounded_change_from_prior": -0.21410134520731983,
+      "bounded_regret_vs_bayes": 0.21459027606700976
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 37,
+      "bayes_accuracy": 0.95054085216216,
+      "bounded_accuracy": 0.7342683415287993,
+      "bayes_value_over_prior": 0.0005408521621600437,
+      "bounded_change_from_prior": -0.21573165847120068,
+      "bounded_regret_vs_bayes": 0.21627251063336073
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 38,
+      "bayes_accuracy": 0.950616545896446,
+      "bounded_accuracy": 0.7325304783178852,
+      "bayes_value_over_prior": 0.0006165458964459969,
+      "bounded_change_from_prior": -0.21746952168211475,
+      "bounded_regret_vs_bayes": 0.21808606757856075
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 39,
+      "bayes_accuracy": 0.9506744556222152,
+      "bounded_accuracy": 0.7311050719616004,
+      "bayes_value_over_prior": 0.000674455622215242,
+      "bounded_change_from_prior": -0.2188949280383996,
+      "bounded_regret_vs_bayes": 0.21956938366061485
+    },
+    {
+      "q0": 0.95,
+      "p": 0.55,
+      "n": 40,
+      "bayes_accuracy": 0.9507601472372381,
+      "bounded_accuracy": 0.7295860191163408,
+      "bayes_value_over_prior": 0.0007601472372381624,
+      "bounded_change_from_prior": -0.22041398088365916,
+      "bounded_regret_vs_bayes": 0.22117412812089732
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 0,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 1,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 2,
+      "bayes_accuracy": 0.741,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.041000000000000036,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.041000000000000036
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 3,
+      "bayes_accuracy": 0.752375,
+      "bounded_accuracy": 0.6999999999999998,
+      "bayes_value_over_prior": 0.05237500000000006,
+      "bounded_change_from_prior": -1.1102230246251565e-16,
+      "bounded_regret_vs_bayes": 0.05237500000000017
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 4,
+      "bayes_accuracy": 0.7803575,
+      "bounded_accuracy": 0.7215237499999998,
+      "bayes_value_over_prior": 0.08035750000000008,
+      "bounded_change_from_prior": 0.02152374999999984,
+      "bounded_regret_vs_bayes": 0.05883375000000024
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 5,
+      "bayes_accuracy": 0.79070875,
+      "bounded_accuracy": 0.73708984375,
+      "bayes_value_over_prior": 0.09070875,
+      "bounded_change_from_prior": 0.03708984375000002,
+      "bounded_regret_vs_bayes": 0.05361890624999999
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 6,
+      "bayes_accuracy": 0.8119288125,
+      "bounded_accuracy": 0.7566764562499998,
+      "bayes_value_over_prior": 0.11192881250000009,
+      "bounded_change_from_prior": 0.05667645624999984,
+      "bounded_regret_vs_bayes": 0.055252356250000245
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 7,
+      "bayes_accuracy": 0.8207597226562501,
+      "bounded_accuracy": 0.774382887890625,
+      "bayes_value_over_prior": 0.12075972265625012,
+      "bounded_change_from_prior": 0.07438288789062508,
+      "bounded_regret_vs_bayes": 0.04637683476562504
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 8,
+      "bayes_accuracy": 0.8376561974218749,
+      "bounded_accuracy": 0.78997872809375,
+      "bayes_value_over_prior": 0.13765619742187496,
+      "bounded_change_from_prior": 0.08997872809375007,
+      "bounded_regret_vs_bayes": 0.04767746932812489
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 9,
+      "bayes_accuracy": 0.8451565837812499,
+      "bounded_accuracy": 0.8060915808867187,
+      "bayes_value_over_prior": 0.14515658378124996,
+      "bounded_change_from_prior": 0.10609158088671877,
+      "bounded_regret_vs_bayes": 0.03906500289453119
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 10,
+      "bayes_accuracy": 0.858994796614297,
+      "bounded_accuracy": 0.8182563362451561,
+      "bayes_value_over_prior": 0.15899479661429705,
+      "bounded_change_from_prior": 0.11825633624515619,
+      "bounded_regret_vs_bayes": 0.04073846036914086
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 11,
+      "bayes_accuracy": 0.8653935637271386,
+      "bounded_accuracy": 0.8320026137841577,
+      "bayes_value_over_prior": 0.16539356372713865,
+      "bounded_change_from_prior": 0.13200261378415779,
+      "bounded_regret_vs_bayes": 0.03339094994298086
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 12,
+      "bayes_accuracy": 0.8769369395987053,
+      "bounded_accuracy": 0.8415158326230608,
+      "bayes_value_over_prior": 0.17693693959870538,
+      "bounded_change_from_prior": 0.1415158326230609,
+      "bounded_regret_vs_bayes": 0.03542110697564449
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 13,
+      "bayes_accuracy": 0.8824270817815235,
+      "bounded_accuracy": 0.8529408220949762,
+      "bayes_value_over_prior": 0.18242708178152356,
+      "bounded_change_from_prior": 0.15294082209497628,
+      "bounded_regret_vs_bayes": 0.029486259686547278
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 14,
+      "bayes_accuracy": 0.8921812343929975,
+      "bounded_accuracy": 0.8604304639751011,
+      "bayes_value_over_prior": 0.1921812343929975,
+      "bounded_change_from_prior": 0.1604304639751012,
+      "bounded_regret_vs_bayes": 0.03175077041789631
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 15,
+      "bayes_accuracy": 0.8969170539154888,
+      "bounded_accuracy": 0.86980270807584,
+      "bayes_value_over_prior": 0.19691705391548886,
+      "bounded_change_from_prior": 0.16980270807584008,
+      "bounded_regret_vs_bayes": 0.02711434583964878
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 16,
+      "bayes_accuracy": 0.9052385653621523,
+      "bounded_accuracy": 0.8757350028799101,
+      "bayes_value_over_prior": 0.20523856536215235,
+      "bounded_change_from_prior": 0.17573500287991017,
+      "bounded_regret_vs_bayes": 0.029503562482242174
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 17,
+      "bayes_accuracy": 0.9093429422816449,
+      "bounded_accuracy": 0.8833659826819327,
+      "bayes_value_over_prior": 0.20934294228164496,
+      "bounded_change_from_prior": 0.18336598268193272,
+      "bounded_regret_vs_bayes": 0.025976959599712246
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 18,
+      "bayes_accuracy": 0.9164948190638609,
+      "bounded_accuracy": 0.8880861780608508,
+      "bayes_value_over_prior": 0.21649481906386092,
+      "bounded_change_from_prior": 0.18808617806085082,
+      "bounded_regret_vs_bayes": 0.028408641003010104
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 19,
+      "bayes_accuracy": 0.9200663965544918,
+      "bounded_accuracy": 0.8942708487222714,
+      "bayes_value_over_prior": 0.2200663965544919,
+      "bounded_change_from_prior": 0.1942708487222714,
+      "bounded_regret_vs_bayes": 0.02579554783222049
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 20,
+      "bayes_accuracy": 0.9262491940327173,
+      "bounded_accuracy": 0.8980386481139844,
+      "bayes_value_over_prior": 0.22624919403271737,
+      "bounded_change_from_prior": 0.19803864811398442,
+      "bounded_regret_vs_bayes": 0.028210545918732954
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 21,
+      "bayes_accuracy": 0.9293680109424654,
+      "bounded_accuracy": 0.9030364077146469,
+      "bayes_value_over_prior": 0.2293680109424654,
+      "bounded_change_from_prior": 0.20303640771464693,
+      "bounded_regret_vs_bayes": 0.026331603227818468
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 22,
+      "bayes_accuracy": 0.9347386136610512,
+      "bounded_accuracy": 0.9060505723230039,
+      "bayes_value_over_prior": 0.2347386136610512,
+      "bounded_change_from_prior": 0.20605057232300394,
+      "bounded_regret_vs_bayes": 0.028688041338047254
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 23,
+      "bayes_accuracy": 0.9374703074218769,
+      "bounded_accuracy": 0.9100814818485643,
+      "bayes_value_over_prior": 0.23747030742187691,
+      "bounded_change_from_prior": 0.21008148184856434,
+      "bounded_regret_vs_bayes": 0.02738882557331257
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 24,
+      "bayes_accuracy": 0.9421539205427103,
+      "bounded_accuracy": 0.9124963222019065,
+      "bayes_value_over_prior": 0.24215392054271034,
+      "bounded_change_from_prior": 0.2124963222019065,
+      "bounded_regret_vs_bayes": 0.029657598340803837
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 25,
+      "bayes_accuracy": 0.9445528443363078,
+      "bounded_accuracy": 0.9157433419600434,
+      "bayes_value_over_prior": 0.24455284433630786,
+      "bounded_change_from_prior": 0.2157433419600434,
+      "bounded_regret_vs_bayes": 0.02880950237626445
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 26,
+      "bayes_accuracy": 0.9486510058170373,
+      "bounded_accuracy": 0.9176799446413071,
+      "bayes_value_over_prior": 0.24865100581703736,
+      "bounded_change_from_prior": 0.21767994464130713,
+      "bounded_regret_vs_bayes": 0.03097106117573023
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 27,
+      "bayes_accuracy": 0.9507625585311936,
+      "bounded_accuracy": 0.9202933488005124,
+      "bayes_value_over_prior": 0.25076255853119367,
+      "bounded_change_from_prior": 0.22029334880051243,
+      "bounded_regret_vs_bayes": 0.030469209730681235
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 28,
+      "bayes_accuracy": 0.9543586952305336,
+      "bounded_accuracy": 0.9218474537398593,
+      "bayes_value_over_prior": 0.25435869523053367,
+      "bounded_change_from_prior": 0.22184745373985937,
+      "bounded_regret_vs_bayes": 0.0325112414906743
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 29,
+      "bayes_accuracy": 0.9562210847244194,
+      "bounded_accuracy": 0.9239497301539221,
+      "bayes_value_over_prior": 0.2562210847244194,
+      "bounded_change_from_prior": 0.22394973015392217,
+      "bounded_regret_vs_bayes": 0.032271354570497235
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 30,
+      "bayes_accuracy": 0.9593844863076055,
+      "bounded_accuracy": 0.9251974353202488,
+      "bayes_value_over_prior": 0.2593844863076056,
+      "bounded_change_from_prior": 0.22519743532024883,
+      "bounded_regret_vs_bayes": 0.03418705098735675
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 31,
+      "bayes_accuracy": 0.9610300820244687,
+      "bounded_accuracy": 0.9268879347525895,
+      "bayes_value_over_prior": 0.26103008202446876,
+      "bounded_change_from_prior": 0.2268879347525895,
+      "bounded_regret_vs_bayes": 0.03414214727187925
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 32,
+      "bayes_accuracy": 0.9638188182326461,
+      "bounded_accuracy": 0.9278899431083586,
+      "bayes_value_over_prior": 0.2638188182326462,
+      "bounded_change_from_prior": 0.22788994310835864,
+      "bounded_regret_vs_bayes": 0.03592887512428755
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 33,
+      "bayes_accuracy": 0.9652752027086527,
+      "bounded_accuracy": 0.9292489929748964,
+      "bayes_value_over_prior": 0.2652752027086528,
+      "bounded_change_from_prior": 0.22924899297489643,
+      "bounded_regret_vs_bayes": 0.036026209733756365
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 34,
+      "bayes_accuracy": 0.9677383129536985,
+      "bounded_accuracy": 0.9300538443924746,
+      "bayes_value_over_prior": 0.26773831295369854,
+      "bounded_change_from_prior": 0.23005384439247467,
+      "bounded_regret_vs_bayes": 0.03768446856122387
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 35,
+      "bayes_accuracy": 0.969029109548918,
+      "bounded_accuracy": 0.9311462556077515,
+      "bayes_value_over_prior": 0.269029109548918,
+      "bounded_change_from_prior": 0.2311462556077516,
+      "bounded_regret_vs_bayes": 0.03788285394116642
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 36,
+      "bayes_accuracy": 0.9712082779184934,
+      "bounded_accuracy": 0.9317928271999352,
+      "bayes_value_over_prior": 0.27120827791849345,
+      "bounded_change_from_prior": 0.23179282719993521,
+      "bounded_regret_vs_bayes": 0.03941545071855823
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 37,
+      "bayes_accuracy": 0.9723538099433218,
+      "bounded_accuracy": 0.9326708194509001,
+      "bayes_value_over_prior": 0.2723538099433218,
+      "bounded_change_from_prior": 0.23267081945090018,
+      "bounded_regret_vs_bayes": 0.03968299049242163
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 38,
+      "bayes_accuracy": 0.9742846678118378,
+      "bounded_accuracy": 0.9331902830477036,
+      "bayes_value_over_prior": 0.2742846678118378,
+      "bounded_change_from_prior": 0.23319028304770362,
+      "bounded_regret_vs_bayes": 0.041094384764134184
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 39,
+      "bayes_accuracy": 0.9753024889260646,
+      "bounded_accuracy": 0.9338958926948011,
+      "bayes_value_over_prior": 0.2753024889260647,
+      "bounded_change_from_prior": 0.23389589269480116,
+      "bounded_regret_vs_bayes": 0.041406596231263526
+    },
+    {
+      "q0": 0.7,
+      "p": 0.65,
+      "n": 40,
+      "bayes_accuracy": 0.9770156425699054,
+      "bounded_accuracy": 0.9343132601764128,
+      "bayes_value_over_prior": 0.2770156425699054,
+      "bounded_change_from_prior": 0.23431326017641285,
+      "bounded_regret_vs_bayes": 0.042702382393492555
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 0,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 1,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 2,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 3,
+      "bayes_accuracy": 0.8547499999999999,
+      "bounded_accuracy": 0.8499999999999999,
+      "bayes_value_over_prior": 0.004749999999999921,
+      "bounded_change_from_prior": -1.1102230246251565e-16,
+      "bounded_regret_vs_bayes": 0.004750000000000032
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 4,
+      "bayes_accuracy": 0.864020625,
+      "bounded_accuracy": 0.8570103124999999,
+      "bayes_value_over_prior": 0.014020625000000009,
+      "bounded_change_from_prior": 0.007010312499999949,
+      "bounded_regret_vs_bayes": 0.00701031250000006
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 5,
+      "bayes_accuracy": 0.868343125,
+      "bounded_accuracy": 0.8634803124999999,
+      "bayes_value_over_prior": 0.018343125000000016,
+      "bounded_change_from_prior": 0.013480312499999925,
+      "bounded_regret_vs_bayes": 0.004862812500000091
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 6,
+      "bayes_accuracy": 0.8788884609375,
+      "bounded_accuracy": 0.8698596968749999,
+      "bayes_value_over_prior": 0.02888846093749997,
+      "bounded_change_from_prior": 0.019859696874999888,
+      "bounded_regret_vs_bayes": 0.009028764062500083
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 7,
+      "bayes_accuracy": 0.88257609375,
+      "bounded_accuracy": 0.8772193218750001,
+      "bayes_value_over_prior": 0.032576093750000035,
+      "bounded_change_from_prior": 0.02721932187500009,
+      "bounded_regret_vs_bayes": 0.005356771874999944
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 8,
+      "bayes_accuracy": 0.8926521622382813,
+      "bounded_accuracy": 0.8822989066835937,
+      "bayes_value_over_prior": 0.04265216223828128,
+      "bounded_change_from_prior": 0.0322989066835937,
+      "bounded_regret_vs_bayes": 0.01035325555468758
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 9,
+      "bayes_accuracy": 0.8957841917070313,
+      "bounded_accuracy": 0.8889961654335937,
+      "bayes_value_over_prior": 0.045784191707031296,
+      "bounded_change_from_prior": 0.038996165433593744,
+      "bounded_regret_vs_bayes": 0.006788026273437553
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 10,
+      "bayes_accuracy": 0.9049534140313672,
+      "bounded_accuracy": 0.8929582415842967,
+      "bayes_value_over_prior": 0.05495341403136722,
+      "bounded_change_from_prior": 0.04295824158429673,
+      "bounded_regret_vs_bayes": 0.01199517244707049
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 11,
+      "bayes_accuracy": 0.9076254266718945,
+      "bounded_accuracy": 0.8986718404553906,
+      "bayes_value_over_prior": 0.05762542667189452,
+      "bounded_change_from_prior": 0.048671840455390636,
+      "bounded_regret_vs_bayes": 0.008953586216503884
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 12,
+      "bayes_accuracy": 0.9158204191242697,
+      "bounded_accuracy": 0.9017703078201202,
+      "bayes_value_over_prior": 0.06582041912426972,
+      "bounded_change_from_prior": 0.051770307820120265,
+      "bounded_regret_vs_bayes": 0.01405011130414946
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 13,
+      "bayes_accuracy": 0.9181130059698422,
+      "bounded_accuracy": 0.906519070295182,
+      "bayes_value_over_prior": 0.06811300596984227,
+      "bounded_change_from_prior": 0.056519070295181995,
+      "bounded_regret_vs_bayes": 0.011593935674660272
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 14,
+      "bayes_accuracy": 0.9253840130232122,
+      "bounded_accuracy": 0.9089584560942534,
+      "bayes_value_over_prior": 0.07538401302321218,
+      "bounded_change_from_prior": 0.05895845609425343,
+      "bounded_regret_vs_bayes": 0.01642555692895875
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 15,
+      "bayes_accuracy": 0.9273616079886482,
+      "bounded_accuracy": 0.9128540011362958,
+      "bayes_value_over_prior": 0.07736160798864822,
+      "bounded_change_from_prior": 0.0628540011362958,
+      "bounded_regret_vs_bayes": 0.014507606852352417
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 16,
+      "bayes_accuracy": 0.933794429506699,
+      "bounded_accuracy": 0.9147861570300717,
+      "bayes_value_over_prior": 0.08379442950669902,
+      "bounded_change_from_prior": 0.06478615703007173,
+      "bounded_regret_vs_bayes": 0.019008272476627286
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 17,
+      "bayes_accuracy": 0.9355083451434103,
+      "bounded_accuracy": 0.9179579508090399,
+      "bayes_value_over_prior": 0.08550834514341032,
+      "bounded_change_from_prior": 0.06795795080903988,
+      "bounded_regret_vs_bayes": 0.017550394334370445
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 18,
+      "bayes_accuracy": 0.9411949593653673,
+      "bounded_accuracy": 0.9194953243925127,
+      "bayes_value_over_prior": 0.09119495936536737,
+      "bounded_change_from_prior": 0.06949532439251271,
+      "bounded_regret_vs_bayes": 0.021699634972854653
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 19,
+      "bayes_accuracy": 0.9426863873284878,
+      "bounded_accuracy": 0.9220659641318107,
+      "bayes_value_over_prior": 0.09268638732848777,
+      "bounded_change_from_prior": 0.07206596413181077,
+      "bounded_regret_vs_bayes": 0.020620423196677007
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 20,
+      "bayes_accuracy": 0.947714194368708,
+      "bounded_accuracy": 0.9232931411420073,
+      "bayes_value_over_prior": 0.09771419436870799,
+      "bounded_change_from_prior": 0.07329314114200736,
+      "bounded_regret_vs_bayes": 0.02442105322670063
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 21,
+      "bayes_accuracy": 0.9490165574738774,
+      "bounded_accuracy": 0.9253704448725139,
+      "bayes_value_over_prior": 0.09901655747387739,
+      "bounded_change_from_prior": 0.07537044487251388,
+      "bounded_regret_vs_bayes": 0.02364611260136351
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 22,
+      "bayes_accuracy": 0.9534647700914054,
+      "bounded_accuracy": 0.9263521620840137,
+      "bayes_value_over_prior": 0.10346477009140542,
+      "bounded_change_from_prior": 0.07635216208401374,
+      "bounded_regret_vs_bayes": 0.02711260800739168
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 23,
+      "bayes_accuracy": 0.9546054773761458,
+      "bounded_accuracy": 0.9280275974918453,
+      "bayes_value_over_prior": 0.10460547737614578,
+      "bounded_change_from_prior": 0.07802759749184529,
+      "bounded_regret_vs_bayes": 0.026577879884300493
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 24,
+      "bayes_accuracy": 0.9585443696489667,
+      "bounded_accuracy": 0.9288141140381971,
+      "bayes_value_over_prior": 0.10854436964896674,
+      "bounded_change_from_prior": 0.07881411403819716,
+      "bounded_regret_vs_bayes": 0.029730255610769585
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 25,
+      "bayes_accuracy": 0.9595461180462931,
+      "bounded_accuracy": 0.9301637280243742,
+      "bayes_value_over_prior": 0.1095461180462931,
+      "bounded_change_from_prior": 0.08016372802437421,
+      "bounded_regret_vs_bayes": 0.02938239002191889
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 26,
+      "bayes_accuracy": 0.9630374089244756,
+      "bounded_accuracy": 0.9307944819582378,
+      "bayes_value_over_prior": 0.11303740892447567,
+      "bounded_change_from_prior": 0.0807944819582378,
+      "bounded_regret_vs_bayes": 0.03224292696623787
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 27,
+      "bayes_accuracy": 0.9639191562117059,
+      "bounded_accuracy": 0.9318807355284413,
+      "bayes_value_over_prior": 0.1139191562117059,
+      "bounded_change_from_prior": 0.08188073552844133,
+      "bounded_regret_vs_bayes": 0.03203842068326457
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 28,
+      "bayes_accuracy": 0.967016804043373,
+      "bounded_accuracy": 0.9323869094657251,
+      "bayes_value_over_prior": 0.117016804043373,
+      "bounded_change_from_prior": 0.08238690946572513,
+      "bounded_regret_vs_bayes": 0.03462989457764787
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 29,
+      "bayes_accuracy": 0.9677945051507097,
+      "bounded_accuracy": 0.9332607143275895,
+      "bayes_value_over_prior": 0.11779450515070977,
+      "bounded_change_from_prior": 0.08326071432758952,
+      "bounded_regret_vs_bayes": 0.03453379082312025
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 30,
+      "bayes_accuracy": 0.9705456036312095,
+      "bounded_accuracy": 0.9336670934726647,
+      "bayes_value_over_prior": 0.12054560363120947,
+      "bounded_change_from_prior": 0.08366709347266477,
+      "bounded_regret_vs_bayes": 0.03687851015854471
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 31,
+      "bayes_accuracy": 0.9712327754690203,
+      "bounded_accuracy": 0.9343697444718755,
+      "bayes_value_over_prior": 0.12123277546902034,
+      "bounded_change_from_prior": 0.08436974447187551,
+      "bounded_regret_vs_bayes": 0.03686303099714483
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 32,
+      "bayes_accuracy": 0.973678421103523,
+      "bounded_accuracy": 0.9346960998561162,
+      "bayes_value_over_prior": 0.123678421103523,
+      "bounded_change_from_prior": 0.08469609985611626,
+      "bounded_regret_vs_bayes": 0.03898232124740675
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 33,
+      "bayes_accuracy": 0.9742865816539436,
+      "bounded_accuracy": 0.9352609848412461,
+      "bayes_value_over_prior": 0.12428658165394357,
+      "bounded_change_from_prior": 0.08526098484124611,
+      "bounded_regret_vs_bayes": 0.03902559681269746
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 34,
+      "bayes_accuracy": 0.9764626627918433,
+      "bounded_accuracy": 0.9355231259622541,
+      "bayes_value_over_prior": 0.12646266279184337,
+      "bounded_change_from_prior": 0.08552312596225409,
+      "bounded_regret_vs_bayes": 0.040939536829589285
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 35,
+      "bayes_accuracy": 0.9770016767546821,
+      "bounded_accuracy": 0.9359771833947965,
+      "bayes_value_over_prior": 0.1270016767546821,
+      "bounded_change_from_prior": 0.08597718339479654,
+      "bounded_regret_vs_bayes": 0.04102449335988556
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 36,
+      "bayes_accuracy": 0.9789395700640833,
+      "bounded_accuracy": 0.9361877725772033,
+      "bayes_value_over_prior": 0.1289395700640833,
+      "bounded_change_from_prior": 0.08618777257720334,
+      "bounded_regret_vs_bayes": 0.04275179748687996
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 37,
+      "bayes_accuracy": 0.9794179240964289,
+      "bounded_accuracy": 0.9365527074128132,
+      "bayes_value_over_prior": 0.12941792409642894,
+      "bounded_change_from_prior": 0.08655270741281318,
+      "bounded_regret_vs_bayes": 0.04286521668361576
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 38,
+      "bayes_accuracy": 0.9811451000068637,
+      "bounded_accuracy": 0.9367218973609386,
+      "bayes_value_over_prior": 0.13114510000686375,
+      "bounded_change_from_prior": 0.0867218973609386,
+      "bounded_regret_vs_bayes": 0.04442320264592514
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 39,
+      "bayes_accuracy": 0.981570124208409,
+      "bounded_accuracy": 0.9370151818862693,
+      "bayes_value_over_prior": 0.13157012420840897,
+      "bounded_change_from_prior": 0.08701518188626933,
+      "bounded_regret_vs_bayes": 0.044554942322139635
+    },
+    {
+      "q0": 0.85,
+      "p": 0.65,
+      "n": 40,
+      "bayes_accuracy": 0.9831106691662995,
+      "bounded_accuracy": 0.9371511190010117,
+      "bayes_value_over_prior": 0.13311066916629954,
+      "bounded_change_from_prior": 0.08715111900101169,
+      "bounded_regret_vs_bayes": 0.045959550165287855
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 0,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 1,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 2,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 3,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.9499999999999998,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -1.1102230246251565e-16,
+      "bounded_regret_vs_bayes": 1.1102230246251565e-16
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 4,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.9473346874999998,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": -0.0026653125000001276,
+      "bounded_regret_vs_bayes": 0.0026653125000001276
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 5,
+      "bayes_accuracy": 0.9508118749999999,
+      "bounded_accuracy": 0.9477406249999999,
+      "bayes_value_over_prior": 0.0008118749999999064,
+      "bounded_change_from_prior": -0.0022593750000000634,
+      "bounded_regret_vs_bayes": 0.00307124999999997
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 6,
+      "bayes_accuracy": 0.9520245921874999,
+      "bounded_accuracy": 0.9453151906249998,
+      "bayes_value_over_prior": 0.0020245921874999517,
+      "bounded_change_from_prior": -0.004684809375000154,
+      "bounded_regret_vs_bayes": 0.006709401562500106
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 7,
+      "bayes_accuracy": 0.9531328015624999,
+      "bounded_accuracy": 0.94577694453125,
+      "bayes_value_over_prior": 0.003132801562499954,
+      "bounded_change_from_prior": -0.004223055468749903,
+      "bounded_regret_vs_bayes": 0.007355857031249857
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 8,
+      "bayes_accuracy": 0.9550640536835937,
+      "bounded_accuracy": 0.9438456924101561,
+      "bayes_value_over_prior": 0.00506405368359375,
+      "bounded_change_from_prior": -0.00615430758984381,
+      "bounded_regret_vs_bayes": 0.01121836127343756
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 9,
+      "bayes_accuracy": 0.9562406026367186,
+      "bounded_accuracy": 0.9442658884648437,
+      "bayes_value_over_prior": 0.006240602636718662,
+      "bounded_change_from_prior": -0.005734111535156239,
+      "bounded_regret_vs_bayes": 0.0119747141718749
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 10,
+      "bayes_accuracy": 0.9585001676183985,
+      "bounded_accuracy": 0.9427595118103904,
+      "bayes_value_over_prior": 0.008500167618398558,
+      "bounded_change_from_prior": -0.00724048818960954,
+      "bounded_regret_vs_bayes": 0.015740655808008097
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 11,
+      "bayes_accuracy": 0.9596473028476952,
+      "bounded_accuracy": 0.943117991569546,
+      "bayes_value_over_prior": 0.009647302847695216,
+      "bounded_change_from_prior": -0.006882008430453945,
+      "bounded_regret_vs_bayes": 0.01652931127814916
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 12,
+      "bayes_accuracy": 0.962003370083801,
+      "bounded_accuracy": 0.9419399579514931,
+      "bayes_value_over_prior": 0.012003370083801035,
+      "bounded_change_from_prior": -0.008060042048506855,
+      "bounded_regret_vs_bayes": 0.02006341213230789
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 13,
+      "bayes_accuracy": 0.9630798848005442,
+      "bounded_accuracy": 0.9422379024286525,
+      "bayes_value_over_prior": 0.013079884800544228,
+      "bounded_change_from_prior": -0.007762097571347493,
+      "bounded_regret_vs_bayes": 0.02084198237189172
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 14,
+      "bayes_accuracy": 0.9654025744174715,
+      "bounded_accuracy": 0.9413104508403548,
+      "bayes_value_over_prior": 0.015402574417471504,
+      "bounded_change_from_prior": -0.008689549159645149,
+      "bounded_regret_vs_bayes": 0.024092123577116653
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 15,
+      "bayes_accuracy": 0.9663930875696217,
+      "bounded_accuracy": 0.9415548631765996,
+      "bayes_value_over_prior": 0.016393087569621767,
+      "bounded_change_from_prior": -0.008445136823400312,
+      "bounded_regret_vs_bayes": 0.02483822439302208
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 16,
+      "bayes_accuracy": 0.9686124174985957,
+      "bounded_accuracy": 0.940820259796846,
+      "bayes_value_over_prior": 0.018612417498595768,
+      "bounded_change_from_prior": -0.00917974020315393,
+      "bounded_regret_vs_bayes": 0.027792157701749698
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 17,
+      "bayes_accuracy": 0.9695137844670523,
+      "bounded_accuracy": 0.941019262893778,
+      "bayes_value_over_prior": 0.01951378446705232,
+      "bounded_change_from_prior": -0.008980737106221937,
+      "bounded_regret_vs_bayes": 0.028494521573274256
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 18,
+      "bayes_accuracy": 0.9715945744065209,
+      "bounded_accuracy": 0.9404347552802872,
+      "bayes_value_over_prior": 0.021594574406520906,
+      "bounded_change_from_prior": -0.009565244719712762,
+      "bounded_regret_vs_bayes": 0.031159819126233668
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 19,
+      "bayes_accuracy": 0.9724094920884575,
+      "bounded_accuracy": 0.9405960410715037,
+      "bayes_value_over_prior": 0.02240949208845755,
+      "bounded_change_from_prior": -0.009403958928496214,
+      "bounded_regret_vs_bayes": 0.031813451016953764
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 20,
+      "bayes_accuracy": 0.9743368237698903,
+      "bounded_accuracy": 0.940129469827356,
+      "bayes_value_over_prior": 0.024336823769890326,
+      "bounded_change_from_prior": -0.009870530172643943,
+      "bounded_regret_vs_bayes": 0.03420735394253427
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 21,
+      "bayes_accuracy": 0.9750706741199257,
+      "bounded_accuracy": 0.9402598029777584,
+      "bayes_value_over_prior": 0.025070674119925695,
+      "bounded_change_from_prior": -0.009740197022241603,
+      "bounded_regret_vs_bayes": 0.0348108711421673
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 22,
+      "bayes_accuracy": 0.9768414101022419,
+      "bounded_accuracy": 0.9398865552580203,
+      "bayes_value_over_prior": 0.026841410102241947,
+      "bounded_change_from_prior": -0.010113444741979616,
+      "bounded_regret_vs_bayes": 0.03695485484422156
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 23,
+      "bayes_accuracy": 0.9775006523333573,
+      "bounded_accuracy": 0.939991674587366,
+      "bayes_value_over_prior": 0.0275006523333573,
+      "bounded_change_from_prior": -0.010008325412633967,
+      "bounded_regret_vs_bayes": 0.03750897774599127
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 24,
+      "bayes_accuracy": 0.9791184164016455,
+      "bounded_accuracy": 0.9396926419290577,
+      "bayes_value_over_prior": 0.029118416401645586,
+      "bounded_change_from_prior": -0.010307358070942296,
+      "bounded_regret_vs_bayes": 0.03942577447258788
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 25,
+      "bayes_accuracy": 0.9797097566829559,
+      "bounded_accuracy": 0.939777318733928,
+      "bayes_value_over_prior": 0.029709756682955946,
+      "bounded_change_from_prior": -0.010222681266071953,
+      "bounded_regret_vs_bayes": 0.0399324379490279
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 26,
+      "bayes_accuracy": 0.9811819219850983,
+      "bounded_accuracy": 0.9395375068361916,
+      "bayes_value_over_prior": 0.031181921985098393,
+      "bounded_change_from_prior": -0.010462493163808317,
+      "bounded_regret_vs_bayes": 0.04164441514890671
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 27,
+      "bayes_accuracy": 0.9817118883129697,
+      "bounded_accuracy": 0.9396056600137271,
+      "bayes_value_over_prior": 0.03171188831296978,
+      "bounded_change_from_prior": -0.010394339986272816,
+      "bounded_regret_vs_bayes": 0.0421062282992426
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 28,
+      "bayes_accuracy": 0.9830477528560301,
+      "bounded_accuracy": 0.939413213282969,
+      "bayes_value_over_prior": 0.03304775285603012,
+      "bounded_change_from_prior": -0.01058678671703095,
+      "bounded_regret_vs_bayes": 0.04363453957306107
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 29,
+      "bayes_accuracy": 0.9835224867556692,
+      "bounded_accuracy": 0.9394680371100343,
+      "bayes_value_over_prior": 0.03352248675566927,
+      "bounded_change_from_prior": -0.010531962889965607,
+      "bounded_regret_vs_bayes": 0.044054449645634874
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 30,
+      "bayes_accuracy": 0.9847321644862549,
+      "bounded_accuracy": 0.939313532240942,
+      "bayes_value_over_prior": 0.034732164486254935,
+      "bounded_change_from_prior": -0.010686467759057905,
+      "bounded_regret_vs_bayes": 0.04541863224531284
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 31,
+      "bayes_accuracy": 0.9851573305816664,
+      "bounded_accuracy": 0.9393576176180661,
+      "bayes_value_over_prior": 0.03515733058166648,
+      "bounded_change_from_prior": -0.010642382381933824,
+      "bounded_regret_vs_bayes": 0.0457997129636003
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 32,
+      "bayes_accuracy": 0.9862510808630717,
+      "bounded_accuracy": 0.9392335376879547,
+      "bayes_value_over_prior": 0.036251080863071716,
+      "bounded_change_from_prior": -0.010766462312045255,
+      "bounded_regret_vs_bayes": 0.04701754317511697
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 33,
+      "bayes_accuracy": 0.9866318407218513,
+      "bounded_accuracy": 0.9392689794188126,
+      "bayes_value_over_prior": 0.03663184072185133,
+      "bounded_change_from_prior": -0.010731020581187356,
+      "bounded_regret_vs_bayes": 0.047362861303038684
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 34,
+      "bayes_accuracy": 0.9876196699233725,
+      "bounded_accuracy": 0.9391693136754402,
+      "bayes_value_over_prior": 0.03761966992337251,
+      "bounded_change_from_prior": -0.010830686324559746,
+      "bounded_regret_vs_bayes": 0.04845035624793226
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 35,
+      "bayes_accuracy": 0.9879606904768913,
+      "bounded_accuracy": 0.9391978019194931,
+      "bayes_value_over_prior": 0.03796069047689132,
+      "bounded_change_from_prior": -0.010802198080506864,
+      "bounded_regret_vs_bayes": 0.04876288855739819
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 36,
+      "bayes_accuracy": 0.9888521240121642,
+      "bounded_accuracy": 0.9391177361620487,
+      "bayes_value_over_prior": 0.0388521240121642,
+      "bounded_change_from_prior": -0.010882263837951212,
+      "bounded_regret_vs_bayes": 0.049734387850115414
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 37,
+      "bayes_accuracy": 0.9891576038298708,
+      "bounded_accuracy": 0.9391406327207552,
+      "bayes_value_over_prior": 0.03915760382987088,
+      "bounded_change_from_prior": -0.010859367279244747,
+      "bounded_regret_vs_bayes": 0.05001697110911563
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 38,
+      "bayes_accuracy": 0.9899615654494953,
+      "bounded_accuracy": 0.9390763069030954,
+      "bayes_value_over_prior": 0.03996156544949536,
+      "bounded_change_from_prior": -0.010923693096904552,
+      "bounded_regret_vs_bayes": 0.050885258546399914
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 39,
+      "bayes_accuracy": 0.9902352693763603,
+      "bounded_accuracy": 0.9390947080139147,
+      "bayes_value_over_prior": 0.04023526937636035,
+      "bounded_change_from_prior": -0.010905291986085253,
+      "bounded_regret_vs_bayes": 0.0511405613624456
+    },
+    {
+      "q0": 0.95,
+      "p": 0.65,
+      "n": 40,
+      "bayes_accuracy": 0.9909600278786714,
+      "bounded_accuracy": 0.9390430248840775,
+      "bayes_value_over_prior": 0.04096002787867148,
+      "bounded_change_from_prior": -0.010956975115922418,
+      "bounded_regret_vs_bayes": 0.0519170029945939
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 0,
+      "bayes_accuracy": 0.7,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 1,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.15000000000000002,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.15000000000000002
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 2,
+      "bayes_accuracy": 0.9009999999999999,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.20099999999999996,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.20099999999999996
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 3,
+      "bayes_accuracy": 0.9392499999999999,
+      "bounded_accuracy": 0.7,
+      "bayes_value_over_prior": 0.23924999999999996,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.23924999999999996
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 4,
+      "bayes_accuracy": 0.9587574999999998,
+      "bounded_accuracy": 0.7781237499999999,
+      "bayes_value_over_prior": 0.25875749999999986,
+      "bounded_change_from_prior": 0.07812374999999994,
+      "bounded_regret_vs_bayes": 0.18063374999999993
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 5,
+      "bayes_accuracy": 0.973388125,
+      "bounded_accuracy": 0.84465296875,
+      "bayes_value_over_prior": 0.2733881250000001,
+      "bounded_change_from_prior": 0.14465296875,
+      "bounded_regret_vs_bayes": 0.1287351562500001
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 6,
+      "bayes_accuracy": 0.9816788125,
+      "bounded_accuracy": 0.88449608125,
+      "bayes_value_over_prior": 0.28167881250000004,
+      "bounded_change_from_prior": 0.18449608125000005,
+      "bounded_regret_vs_bayes": 0.09718273124999999
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 7,
+      "bayes_accuracy": 0.987896828125,
+      "bounded_accuracy": 0.926908458203125,
+      "bayes_value_over_prior": 0.28789682812500006,
+      "bounded_change_from_prior": 0.226908458203125,
+      "bounded_regret_vs_bayes": 0.06098836992187506
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 8,
+      "bayes_accuracy": 0.9915965474218751,
+      "bounded_accuracy": 0.9446884471562499,
+      "bayes_value_over_prior": 0.29159654742187513,
+      "bounded_change_from_prior": 0.24468844715624993,
+      "bounded_regret_vs_bayes": 0.0469081002656252
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 9,
+      "bayes_accuracy": 0.9943713368945313,
+      "bounded_accuracy": 0.9663187594023437,
+      "bayes_value_over_prior": 0.2943713368945313,
+      "bounded_change_from_prior": 0.26631875940234373,
+      "bounded_regret_vs_bayes": 0.02805257749218759
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 10,
+      "bayes_accuracy": 0.9960695080517968,
+      "bounded_accuracy": 0.9740911545732811,
+      "bayes_value_over_prior": 0.2960695080517969,
+      "bounded_change_from_prior": 0.27409115457328115,
+      "bounded_regret_vs_bayes": 0.021978353478515733
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 11,
+      "bayes_accuracy": 0.997343136419746,
+      "bounded_accuracy": 0.9844331476159447,
+      "bayes_value_over_prior": 0.2973431364197461,
+      "bounded_change_from_prior": 0.28443314761594474,
+      "bounded_regret_vs_bayes": 0.012909988803801342
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 12,
+      "bayes_accuracy": 0.9981370314357677,
+      "bounded_accuracy": 0.9878396426869571,
+      "bayes_value_over_prior": 0.29813703143576775,
+      "bounded_change_from_prior": 0.28783964268695716,
+      "bounded_regret_vs_bayes": 0.010297388748810588
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 13,
+      "bayes_accuracy": 0.998732452697784,
+      "bounded_accuracy": 0.9926569430462299,
+      "bayes_value_over_prior": 0.29873245269778403,
+      "bounded_change_from_prior": 0.2926569430462299,
+      "bounded_regret_vs_bayes": 0.006075509651554123
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 14,
+      "bayes_accuracy": 0.9991084186946572,
+      "bounded_accuracy": 0.9941599815759716,
+      "bayes_value_over_prior": 0.2991084186946572,
+      "bounded_change_from_prior": 0.2941599815759717,
+      "bounded_regret_vs_bayes": 0.004948437118685534
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 15,
+      "bayes_accuracy": 0.999390393192312,
+      "bounded_accuracy": 0.9963747090440651,
+      "bayes_value_over_prior": 0.2993903931923121,
+      "bounded_change_from_prior": 0.29637470904406515,
+      "bounded_regret_vs_bayes": 0.003015684148246933
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 16,
+      "bayes_accuracy": 0.999570151934567,
+      "bounded_accuracy": 0.9970419160075215,
+      "bayes_value_over_prior": 0.29957015193456704,
+      "bounded_change_from_prior": 0.2970419160075215,
+      "bounded_regret_vs_bayes": 0.0025282359270455412
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 17,
+      "bayes_accuracy": 0.9997049709912582,
+      "bounded_accuracy": 0.9980525311205934,
+      "bayes_value_over_prior": 0.29970497099125826,
+      "bounded_change_from_prior": 0.2980525311205935,
+      "bounded_regret_vs_bayes": 0.001652439870664768
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 18,
+      "bayes_accuracy": 0.9997915547854442,
+      "bounded_accuracy": 0.9983500582720806,
+      "bayes_value_over_prior": 0.2997915547854443,
+      "bounded_change_from_prior": 0.2983500582720806,
+      "bounded_regret_vs_bayes": 0.0014414965133636715
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 19,
+      "bayes_accuracy": 0.9998564926310839,
+      "bounded_accuracy": 0.9988090986054713,
+      "bayes_value_over_prior": 0.29985649263108394,
+      "bounded_change_from_prior": 0.29880909860547133,
+      "bounded_regret_vs_bayes": 0.0010473940256126024
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 20,
+      "bayes_accuracy": 0.9998984424793672,
+      "bounded_accuracy": 0.9989422001773726,
+      "bayes_value_over_prior": 0.29989844247936726,
+      "bounded_change_from_prior": 0.2989422001773726,
+      "bounded_regret_vs_bayes": 0.0009562423019946475
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 21,
+      "bayes_accuracy": 0.9999299048655794,
+      "bounded_accuracy": 0.9991500924822062,
+      "bayes_value_over_prior": 0.29992990486557947,
+      "bounded_change_from_prior": 0.29915009248220625,
+      "bounded_regret_vs_bayes": 0.0007798123833732129
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 22,
+      "bayes_accuracy": 0.9999503268144484,
+      "bounded_accuracy": 0.9992097673083871,
+      "bayes_value_over_prior": 0.29995032681444844,
+      "bounded_change_from_prior": 0.2992097673083871,
+      "bounded_regret_vs_bayes": 0.0007405595060613335
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 23,
+      "bayes_accuracy": 0.9999656432760999,
+      "bounded_accuracy": 0.9993037385329439,
+      "bayes_value_over_prior": 0.2999656432761,
+      "bounded_change_from_prior": 0.2993037385329439,
+      "bounded_regret_vs_bayes": 0.0006619047431560832
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 24,
+      "bayes_accuracy": 0.9999756245036097,
+      "bounded_accuracy": 0.9993305327705851,
+      "bayes_value_over_prior": 0.2999756245036097,
+      "bounded_change_from_prior": 0.2993305327705852,
+      "bounded_regret_vs_bayes": 0.0006450917330245165
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 25,
+      "bayes_accuracy": 0.9999831104242416,
+      "bounded_accuracy": 0.9993729561783065,
+      "bayes_value_over_prior": 0.29998311042424164,
+      "bounded_change_from_prior": 0.2993729561783065,
+      "bounded_regret_vs_bayes": 0.000610154245935135
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 26,
+      "bayes_accuracy": 0.9999880050646551,
+      "bounded_accuracy": 0.9993849988346404,
+      "bayes_value_over_prior": 0.29998800506465517,
+      "bounded_change_from_prior": 0.2993849988346404,
+      "bounded_regret_vs_bayes": 0.0006030062300147465
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 27,
+      "bayes_accuracy": 0.9999916760449651,
+      "bounded_accuracy": 0.9994041350469777,
+      "bayes_value_over_prior": 0.2999916760449651,
+      "bounded_change_from_prior": 0.2994041350469777,
+      "bounded_regret_vs_bayes": 0.0005875409979874124
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 28,
+      "bayes_accuracy": 0.999994083159197,
+      "bounded_accuracy": 0.9994095511995343,
+      "bayes_value_over_prior": 0.29999408315919707,
+      "bounded_change_from_prior": 0.2994095511995344,
+      "bounded_regret_vs_bayes": 0.0005845319596626819
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 29,
+      "bayes_accuracy": 0.9999958884948708,
+      "bounded_accuracy": 0.9994181783625629,
+      "bayes_value_over_prior": 0.2999958884948708,
+      "bounded_change_from_prior": 0.2994181783625629,
+      "bounded_regret_vs_bayes": 0.0005777101323078959
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 30,
+      "bayes_accuracy": 0.9999970752021871,
+      "bounded_accuracy": 0.9994206153388594,
+      "bayes_value_over_prior": 0.2999970752021871,
+      "bounded_change_from_prior": 0.29942061533885944,
+      "bounded_regret_vs_bayes": 0.0005764598633276607
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 31,
+      "bayes_accuracy": 0.9999979652326743,
+      "bounded_accuracy": 0.9994245033007574,
+      "bayes_value_over_prior": 0.2999979652326743,
+      "bounded_change_from_prior": 0.2994245033007574,
+      "bounded_regret_vs_bayes": 0.0005734619319168743
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 32,
+      "bayes_accuracy": 0.9999985515402581,
+      "bounded_accuracy": 0.9994256001311059,
+      "bayes_value_over_prior": 0.2999985515402581,
+      "bounded_change_from_prior": 0.299425600131106,
+      "bounded_regret_vs_bayes": 0.0005729514091521448
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 33,
+      "bayes_accuracy": 0.9999989912709454,
+      "bounded_accuracy": 0.9994273518771563,
+      "bayes_value_over_prior": 0.2999989912709454,
+      "bounded_change_from_prior": 0.2994273518771563,
+      "bounded_regret_vs_bayes": 0.0005716393937891251
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 34,
+      "bayes_accuracy": 0.9999992814931993,
+      "bounded_accuracy": 0.9994278456334136,
+      "bayes_value_over_prior": 0.2999992814931993,
+      "bounded_change_from_prior": 0.2994278456334136,
+      "bounded_regret_vs_bayes": 0.0005714358597856961
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 35,
+      "bayes_accuracy": 0.9999994991598893,
+      "bounded_accuracy": 0.9994286347672923,
+      "bayes_value_over_prior": 0.2999994991598893,
+      "bounded_change_from_prior": 0.2994286347672923,
+      "bounded_regret_vs_bayes": 0.0005708643925970147
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 36,
+      "bayes_accuracy": 0.9999996430617571,
+      "bounded_accuracy": 0.999428857068746,
+      "bayes_value_over_prior": 0.2999996430617572,
+      "bounded_change_from_prior": 0.299428857068746,
+      "bounded_regret_vs_bayes": 0.0005707859930111914
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 37,
+      "bayes_accuracy": 0.9999997509881579,
+      "bounded_accuracy": 0.9994292125232366,
+      "bayes_value_over_prior": 0.2999997509881579,
+      "bounded_change_from_prior": 0.2994292125232366,
+      "bounded_regret_vs_bayes": 0.0005705384649212775
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 38,
+      "bayes_accuracy": 0.9999998224467955,
+      "bounded_accuracy": 0.9994293126175914,
+      "bayes_value_over_prior": 0.29999982244679557,
+      "bounded_change_from_prior": 0.2994293126175914,
+      "bounded_regret_vs_bayes": 0.0005705098292041466
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 39,
+      "bayes_accuracy": 0.9999998760407741,
+      "bounded_accuracy": 0.999429472715853,
+      "bayes_value_over_prior": 0.29999987604077416,
+      "bounded_change_from_prior": 0.2994294727158531,
+      "bounded_regret_vs_bayes": 0.0005704033249210871
+    },
+    {
+      "q0": 0.7,
+      "p": 0.85,
+      "n": 40,
+      "bayes_accuracy": 0.9999999115735818,
+      "bounded_accuracy": 0.999429517787337,
+      "bayes_value_over_prior": 0.29999991157358186,
+      "bounded_change_from_prior": 0.29942951778733706,
+      "bounded_regret_vs_bayes": 0.0005703937862447939
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 0,
+      "bayes_accuracy": 0.85,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 1,
+      "bayes_accuracy": 0.8499999999999999,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": -1.1102230246251565e-16,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": -1.1102230246251565e-16
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 2,
+      "bayes_accuracy": 0.9392499999999999,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.08924999999999994,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.08924999999999994
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 3,
+      "bayes_accuracy": 0.9392499999999999,
+      "bounded_accuracy": 0.85,
+      "bayes_value_over_prior": 0.08924999999999994,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.08924999999999994
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 4,
+      "bayes_accuracy": 0.9733881249999998,
+      "bounded_accuracy": 0.8889353124999999,
+      "bayes_value_over_prior": 0.12338812499999985,
+      "bounded_change_from_prior": 0.03893531249999993,
+      "bounded_regret_vs_bayes": 0.08445281249999992
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 5,
+      "bayes_accuracy": 0.973388125,
+      "bounded_accuracy": 0.9221809375,
+      "bayes_value_over_prior": 0.12338812500000007,
+      "bounded_change_from_prior": 0.07218093749999999,
+      "bounded_regret_vs_bayes": 0.051207187500000084
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 6,
+      "bayes_accuracy": 0.987896828125,
+      "bounded_accuracy": 0.9420379468750001,
+      "bayes_value_over_prior": 0.13789682812500004,
+      "bounded_change_from_prior": 0.09203794687500011,
+      "bounded_regret_vs_bayes": 0.04585888124999993
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 7,
+      "bayes_accuracy": 0.987896828125,
+      "bounded_accuracy": 0.9632320328124999,
+      "bayes_value_over_prior": 0.13789682812500004,
+      "bounded_change_from_prior": 0.11323203281249994,
+      "bounded_regret_vs_bayes": 0.0246647953125001
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 8,
+      "bayes_accuracy": 0.9943713368945312,
+      "bounded_accuracy": 0.9720932232460937,
+      "bayes_value_over_prior": 0.1443713368945312,
+      "bounded_change_from_prior": 0.12209322324609373,
+      "bounded_regret_vs_bayes": 0.02227811364843746
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 9,
+      "bayes_accuracy": 0.9943713368945312,
+      "bounded_accuracy": 0.9829022070742186,
+      "bayes_value_over_prior": 0.1443713368945312,
+      "bounded_change_from_prior": 0.13290220707421863,
+      "bounded_regret_vs_bayes": 0.011469129820312562
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 10,
+      "bayes_accuracy": 0.9973431364197461,
+      "bounded_accuracy": 0.9867758131780469,
+      "bayes_value_over_prior": 0.14734313641974617,
+      "bounded_change_from_prior": 0.13677581317804688,
+      "bounded_regret_vs_bayes": 0.010567323241699289
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 11,
+      "bayes_accuracy": 0.997343136419746,
+      "bounded_accuracy": 0.9919438585708691,
+      "bayes_value_over_prior": 0.14734313641974606,
+      "bounded_change_from_prior": 0.1419438585708691,
+      "bounded_regret_vs_bayes": 0.005399277848876949
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 12,
+      "bayes_accuracy": 0.9987324526977841,
+      "bounded_accuracy": 0.9936415874960625,
+      "bayes_value_over_prior": 0.14873245269778412,
+      "bounded_change_from_prior": 0.14364158749606248,
+      "bounded_regret_vs_bayes": 0.005090865201721639
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 13,
+      "bayes_accuracy": 0.9987324526977839,
+      "bounded_accuracy": 0.996048863040039,
+      "bayes_value_over_prior": 0.1487324526977839,
+      "bounded_change_from_prior": 0.14604886304003906,
+      "bounded_regret_vs_bayes": 0.002683589657744845
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 14,
+      "bayes_accuracy": 0.9993903931923119,
+      "bounded_accuracy": 0.9967979473435324,
+      "bayes_value_over_prior": 0.14939039319231195,
+      "bounded_change_from_prior": 0.14679794734353246,
+      "bounded_regret_vs_bayes": 0.00259244584877949
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 15,
+      "bayes_accuracy": 0.999390393192312,
+      "bounded_accuracy": 0.9979046790963599,
+      "bayes_value_over_prior": 0.14939039319231207,
+      "bounded_change_from_prior": 0.14790467909635996,
+      "bounded_regret_vs_bayes": 0.0014857140959521065
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 16,
+      "bayes_accuracy": 0.9997049709912581,
+      "bounded_accuracy": 0.9982372016855131,
+      "bayes_value_over_prior": 0.14970497099125812,
+      "bounded_change_from_prior": 0.14823720168551313,
+      "bounded_regret_vs_bayes": 0.0014677693057449925
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 17,
+      "bayes_accuracy": 0.9997049709912581,
+      "bounded_accuracy": 0.9987422208590402,
+      "bayes_value_over_prior": 0.14970497099125812,
+      "bounded_change_from_prior": 0.1487422208590402,
+      "bounded_regret_vs_bayes": 0.0009627501322179155
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 18,
+      "bayes_accuracy": 0.999856492631084,
+      "bounded_accuracy": 0.9988905024330862,
+      "bayes_value_over_prior": 0.14985649263108403,
+      "bounded_change_from_prior": 0.1488905024330862,
+      "bounded_regret_vs_bayes": 0.0009659901979978125
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 19,
+      "bayes_accuracy": 0.9998564926310838,
+      "bounded_accuracy": 0.9991198916108117,
+      "bayes_value_over_prior": 0.1498564926310838,
+      "bounded_change_from_prior": 0.14911989161081174,
+      "bounded_regret_vs_bayes": 0.0007366010202720652
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 20,
+      "bayes_accuracy": 0.9999299048655796,
+      "bounded_accuracy": 0.9991862267687659,
+      "bayes_value_over_prior": 0.14992990486557967,
+      "bounded_change_from_prior": 0.14918622676876592,
+      "bounded_regret_vs_bayes": 0.0007436780968137491
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 21,
+      "bayes_accuracy": 0.9999299048655794,
+      "bounded_accuracy": 0.9992901135982935,
+      "bayes_value_over_prior": 0.14992990486557944,
+      "bounded_change_from_prior": 0.14929011359829347,
+      "bounded_regret_vs_bayes": 0.0006397912672859718
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 22,
+      "bayes_accuracy": 0.9999656432760998,
+      "bounded_accuracy": 0.9993198543366186,
+      "bayes_value_over_prior": 0.14996564327609985,
+      "bounded_change_from_prior": 0.14931985433661865,
+      "bounded_regret_vs_bayes": 0.0006457889394811955
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 23,
+      "bayes_accuracy": 0.9999656432760998,
+      "bounded_accuracy": 0.9993668131338375,
+      "bayes_value_over_prior": 0.14996564327609985,
+      "bounded_change_from_prior": 0.14936681313383748,
+      "bounded_regret_vs_bayes": 0.0005988301422623632
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 24,
+      "bayes_accuracy": 0.9999831104242417,
+      "bounded_accuracy": 0.9993801668452985,
+      "bayes_value_over_prior": 0.14998311042424173,
+      "bounded_change_from_prior": 0.14938016684529853,
+      "bounded_regret_vs_bayes": 0.0006029435789431936
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 25,
+      "bayes_accuracy": 0.9999831104242417,
+      "bounded_accuracy": 0.9994013664434724,
+      "bayes_value_over_prior": 0.14998311042424173,
+      "bounded_change_from_prior": 0.14940136644347246,
+      "bounded_regret_vs_bayes": 0.000581743980769267
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 26,
+      "bayes_accuracy": 0.9999916760449651,
+      "bounded_accuracy": 0.9994073682622241,
+      "bayes_value_over_prior": 0.1499916760449651,
+      "bounded_change_from_prior": 0.14940736826222412,
+      "bounded_regret_vs_bayes": 0.0005843077827409893
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 27,
+      "bayes_accuracy": 0.9999916760449651,
+      "bounded_accuracy": 0.999416930907799,
+      "bayes_value_over_prior": 0.1499916760449651,
+      "bounded_change_from_prior": 0.14941693090779906,
+      "bounded_regret_vs_bayes": 0.0005747451371660439
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 28,
+      "bayes_accuracy": 0.9999958884948709,
+      "bounded_accuracy": 0.9994196302097698,
+      "bayes_value_over_prior": 0.1499958884948709,
+      "bounded_change_from_prior": 0.14941963020976978,
+      "bounded_regret_vs_bayes": 0.0005762582851011055
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 29,
+      "bayes_accuracy": 0.9999958884948708,
+      "bounded_accuracy": 0.9994239413294892,
+      "bayes_value_over_prior": 0.14999588849487078,
+      "bounded_change_from_prior": 0.14942394132948922,
+      "bounded_regret_vs_bayes": 0.0005719471653815589
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 30,
+      "bayes_accuracy": 0.9999979652326743,
+      "bounded_accuracy": 0.9994251558696726,
+      "bayes_value_over_prior": 0.14999796523267428,
+      "bounded_change_from_prior": 0.14942515586967264,
+      "bounded_regret_vs_bayes": 0.0005728093630016362
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 31,
+      "bayes_accuracy": 0.9999979652326741,
+      "bounded_accuracy": 0.9994270987411764,
+      "bayes_value_over_prior": 0.14999796523267417,
+      "bounded_change_from_prior": 0.14942709874117643,
+      "bounded_regret_vs_bayes": 0.0005708664914977346
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 32,
+      "bayes_accuracy": 0.9999989912709454,
+      "bounded_accuracy": 0.999427645379457,
+      "bayes_value_over_prior": 0.1499989912709454,
+      "bounded_change_from_prior": 0.14942764537945707,
+      "bounded_regret_vs_bayes": 0.0005713458914883285
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 33,
+      "bayes_accuracy": 0.9999989912709454,
+      "bounded_accuracy": 0.9994285207526146,
+      "bayes_value_over_prior": 0.1499989912709454,
+      "bounded_change_from_prior": 0.1494285207526146,
+      "bounded_regret_vs_bayes": 0.0005704705183308123
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 34,
+      "bayes_accuracy": 0.9999994991598897,
+      "bounded_accuracy": 0.9994287668308452,
+      "bayes_value_over_prior": 0.14999949915988975,
+      "bounded_change_from_prior": 0.14942876683084527,
+      "bounded_regret_vs_bayes": 0.0005707323290444766
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 35,
+      "bayes_accuracy": 0.9999994991598896,
+      "bounded_accuracy": 0.9994291611726022,
+      "bayes_value_over_prior": 0.14999949915988964,
+      "bounded_change_from_prior": 0.1494291611726022,
+      "bounded_regret_vs_bayes": 0.0005703379872874503
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 36,
+      "bayes_accuracy": 0.9999997509881577,
+      "bounded_accuracy": 0.999429271963195,
+      "bayes_value_over_prior": 0.14999975098815777,
+      "bounded_change_from_prior": 0.149429271963195,
+      "bounded_regret_vs_bayes": 0.0005704790249627667
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 37,
+      "bayes_accuracy": 0.9999997509881576,
+      "bounded_accuracy": 0.9994294495890099,
+      "bayes_value_over_prior": 0.14999975098815765,
+      "bounded_change_from_prior": 0.14942944958900994,
+      "bounded_regret_vs_bayes": 0.0005703013991477102
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 38,
+      "bayes_accuracy": 0.9999998760407741,
+      "bounded_accuracy": 0.9994294994740318,
+      "bayes_value_over_prior": 0.14999987604077414,
+      "bounded_change_from_prior": 0.14942949947403183,
+      "bounded_regret_vs_bayes": 0.0005703765667423033
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 39,
+      "bayes_accuracy": 0.9999998760407741,
+      "bounded_accuracy": 0.999429579477478,
+      "bayes_value_over_prior": 0.14999987604077414,
+      "bounded_change_from_prior": 0.14942957947747804,
+      "bounded_regret_vs_bayes": 0.0005702965632961021
+    },
+    {
+      "q0": 0.85,
+      "p": 0.85,
+      "n": 40,
+      "bayes_accuracy": 0.9999999382231876,
+      "bounded_accuracy": 0.9994296019402031,
+      "bayes_value_over_prior": 0.14999993822318758,
+      "bounded_change_from_prior": 0.14942960194020316,
+      "bounded_regret_vs_bayes": 0.0005703362829844183
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 0,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 1,
+      "bayes_accuracy": 0.95,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.0,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.0
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 2,
+      "bayes_accuracy": 0.9647499999999999,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.01474999999999993,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.01474999999999993
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 3,
+      "bayes_accuracy": 0.9774999999999998,
+      "bounded_accuracy": 0.95,
+      "bayes_value_over_prior": 0.027499999999999858,
+      "bounded_change_from_prior": 0.0,
+      "bounded_regret_vs_bayes": 0.027499999999999858
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 4,
+      "bayes_accuracy": 0.9831418749999998,
+      "bounded_accuracy": 0.9628096875,
+      "bayes_value_over_prior": 0.033141874999999876,
+      "bounded_change_from_prior": 0.0128096875,
+      "bounded_regret_vs_bayes": 0.020332187499999876
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 5,
+      "bayes_accuracy": 0.9896443749999999,
+      "bounded_accuracy": 0.9738662499999999,
+      "bayes_value_over_prior": 0.039644374999999954,
+      "bounded_change_from_prior": 0.023866249999999978,
+      "bounded_regret_vs_bayes": 0.015778124999999976
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 6,
+      "bayes_accuracy": 0.9920421718750001,
+      "bounded_accuracy": 0.980399190625,
+      "bayes_value_over_prior": 0.042042171875000145,
+      "bounded_change_from_prior": 0.030399190625000072,
+      "bounded_regret_vs_bayes": 0.011642981250000073
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 7,
+      "bayes_accuracy": 0.9951511796875001,
+      "bounded_accuracy": 0.98744774921875,
+      "bayes_value_over_prior": 0.045151179687500154,
+      "bounded_change_from_prior": 0.03744774921875005,
+      "bounded_regret_vs_bayes": 0.007703430468750105
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 8,
+      "bayes_accuracy": 0.9962211965429688,
+      "bounded_accuracy": 0.9903630739726561,
+      "bayes_value_over_prior": 0.046221196542968856,
+      "bounded_change_from_prior": 0.04036307397265615,
+      "bounded_regret_vs_bayes": 0.005858122570312707
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 9,
+      "bayes_accuracy": 0.9977010842617187,
+      "bounded_accuracy": 0.9939578388554686,
+      "bayes_value_over_prior": 0.04770108426171871,
+      "bounded_change_from_prior": 0.04395783885546867,
+      "bounded_regret_vs_bayes": 0.0037432454062500398
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 10,
+      "bayes_accuracy": 0.998192221998379,
+      "bounded_accuracy": 0.9952322522478905,
+      "bayes_value_over_prior": 0.048192221998379026,
+      "bounded_change_from_prior": 0.045232252247890514,
+      "bounded_regret_vs_bayes": 0.0029599697504885114
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 11,
+      "bayes_accuracy": 0.9988997933139061,
+      "bounded_accuracy": 0.9969509992074852,
+      "bayes_value_over_prior": 0.04889979331390615,
+      "bounded_change_from_prior": 0.046950999207485244,
+      "bounded_regret_vs_bayes": 0.0019487941064209036
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 12,
+      "bayes_accuracy": 0.999129400205795,
+      "bounded_accuracy": 0.9975095507021327,
+      "bayes_value_over_prior": 0.04912940020579504,
+      "bounded_change_from_prior": 0.0475095507021327,
+      "bounded_regret_vs_bayes": 0.0016198495036623406
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 13,
+      "bayes_accuracy": 0.9994696409269469,
+      "bounded_accuracy": 0.9983101430359119,
+      "bayes_value_over_prior": 0.049469640926946945,
+      "bounded_change_from_prior": 0.04831014303591197,
+      "bounded_regret_vs_bayes": 0.0011594978910349774
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 14,
+      "bayes_accuracy": 0.9995783761907485,
+      "bounded_accuracy": 0.998556591188573,
+      "bayes_value_over_prior": 0.04957837619074856,
+      "bounded_change_from_prior": 0.04855659118857303,
+      "bounded_regret_vs_bayes": 0.0010217850021755348
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 15,
+      "bayes_accuracy": 0.9997428613143806,
+      "bounded_accuracy": 0.9989246591312233,
+      "bayes_value_over_prior": 0.04974286131438066,
+      "bounded_change_from_prior": 0.04892465913122335,
+      "bounded_regret_vs_bayes": 0.0008182021831573127
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 16,
+      "bayes_accuracy": 0.9997948503623857,
+      "bounded_accuracy": 0.9990340588041742,
+      "bayes_value_over_prior": 0.049794850362385734,
+      "bounded_change_from_prior": 0.04903405880417422,
+      "bounded_regret_vs_bayes": 0.0007607915582115155
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 17,
+      "bayes_accuracy": 0.9998747431367212,
+      "bounded_accuracy": 0.9992020140180045,
+      "bayes_value_over_prior": 0.049874743136721245,
+      "bounded_change_from_prior": 0.0492020140180045,
+      "bounded_regret_vs_bayes": 0.0006727291187167417
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 18,
+      "bayes_accuracy": 0.999899784528177,
+      "bounded_accuracy": 0.9992507985404232,
+      "bayes_value_over_prior": 0.049899784528177005,
+      "bounded_change_from_prior": 0.049250798540423246,
+      "bounded_regret_vs_bayes": 0.0006489859877537585
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 19,
+      "bayes_accuracy": 0.9999387472355608,
+      "bounded_accuracy": 0.9993270869477053,
+      "bayes_value_over_prior": 0.0499387472355608,
+      "bounded_change_from_prior": 0.04932708694770538,
+      "bounded_regret_vs_bayes": 0.00061166028785542
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 20,
+      "bayes_accuracy": 0.999950879789721,
+      "bounded_accuracy": 0.999348911163028,
+      "bayes_value_over_prior": 0.049950879789721014,
+      "bounded_change_from_prior": 0.049348911163028086,
+      "bounded_regret_vs_bayes": 0.0006019686266929281
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 21,
+      "bayes_accuracy": 0.999969947902577,
+      "bounded_accuracy": 0.9993834610090183,
+      "bayes_value_over_prior": 0.04996994790257703,
+      "bounded_change_from_prior": 0.04938346100901836,
+      "bounded_regret_vs_bayes": 0.0005864868935586687
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 22,
+      "bayes_accuracy": 0.9999758542505343,
+      "bounded_accuracy": 0.999393245688773,
+      "bayes_value_over_prior": 0.0499758542505343,
+      "bounded_change_from_prior": 0.04939324568877301,
+      "bounded_regret_vs_bayes": 0.0005826085617612886
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 23,
+      "bayes_accuracy": 0.9999852143104324,
+      "bounded_accuracy": 0.9994088628677665,
+      "bayes_value_over_prior": 0.04998521431043246,
+      "bounded_change_from_prior": 0.04940886286776658,
+      "bounded_regret_vs_bayes": 0.0005763514426658789
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 24,
+      "bayes_accuracy": 0.9999881010379964,
+      "bounded_accuracy": 0.9994132562284408,
+      "bayes_value_over_prior": 0.049988101037996446,
+      "bounded_change_from_prior": 0.04941325622844084,
+      "bounded_regret_vs_bayes": 0.000574844809555608
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 25,
+      "bayes_accuracy": 0.9999927077583856,
+      "bounded_accuracy": 0.9994203066202498,
+      "bayes_value_over_prior": 0.0499927077583856,
+      "bounded_change_from_prior": 0.049420306620249876,
+      "bounded_regret_vs_bayes": 0.0005724011381357252
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 26,
+      "bayes_accuracy": 0.9999941233651718,
+      "bounded_accuracy": 0.9994222812139465,
+      "bayes_value_over_prior": 0.04999412336517184,
+      "bounded_change_from_prior": 0.04942228121394654,
+      "bounded_regret_vs_bayes": 0.0005718421512252991
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 27,
+      "bayes_accuracy": 0.9999963958767923,
+      "bounded_accuracy": 0.99942546148168,
+      "bayes_value_over_prior": 0.04999639587679239,
+      "bounded_change_from_prior": 0.04942546148168003,
+      "bounded_regret_vs_bayes": 0.0005709343951123547
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 28,
+      "bayes_accuracy": 0.9999970920519867,
+      "bounded_accuracy": 0.9994263495499268,
+      "bayes_value_over_prior": 0.04999709205198677,
+      "bounded_change_from_prior": 0.04942634954992686,
+      "bounded_regret_vs_bayes": 0.0005707425020599066
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 29,
+      "bayes_accuracy": 0.9999982153719617,
+      "bounded_accuracy": 0.99942778330744,
+      "bayes_value_over_prior": 0.049998215371961696,
+      "bounded_change_from_prior": 0.04942778330744002,
+      "bounded_regret_vs_bayes": 0.0005704320645216754
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 30,
+      "bayes_accuracy": 0.9999985585863325,
+      "bounded_accuracy": 0.9994281828902147,
+      "bayes_value_over_prior": 0.04999855858633251,
+      "bounded_change_from_prior": 0.04942818289021478,
+      "bounded_regret_vs_bayes": 0.0005703756961177309
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 31,
+      "bayes_accuracy": 0.9999991148553872,
+      "bounded_accuracy": 0.999428829034789,
+      "bayes_value_over_prior": 0.04999911485538722,
+      "bounded_change_from_prior": 0.04942882903478907,
+      "bounded_regret_vs_bayes": 0.0005702858205981487
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 32,
+      "bayes_accuracy": 0.9999992844247371,
+      "bounded_accuracy": 0.9994290088783578,
+      "bayes_value_over_prior": 0.04999928442473711,
+      "bounded_change_from_prior": 0.04942900887835788,
+      "bounded_regret_vs_bayes": 0.0005702755463792286
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 33,
+      "bayes_accuracy": 0.9999995603341881,
+      "bounded_accuracy": 0.9994293000029202,
+      "bayes_value_over_prior": 0.049999560334188176,
+      "bounded_change_from_prior": 0.04942930000292023,
+      "bounded_regret_vs_bayes": 0.0005702603312679466
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 34,
+      "bayes_accuracy": 0.9999996442710166,
+      "bounded_accuracy": 0.9994293809624664,
+      "bayes_value_over_prior": 0.04999964427101666,
+      "bounded_change_from_prior": 0.04942938096246641,
+      "bounded_regret_vs_bayes": 0.0005702633085502562
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 35,
+      "bayes_accuracy": 0.9999997813204142,
+      "bounded_accuracy": 0.9994295121094754,
+      "bayes_value_over_prior": 0.04999978132041427,
+      "bounded_change_from_prior": 0.04942951210947544,
+      "bounded_regret_vs_bayes": 0.0005702692109388341
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 36,
+      "bayes_accuracy": 0.9999998229390914,
+      "bounded_accuracy": 0.9994295485594943,
+      "bayes_value_over_prior": 0.04999982293909144,
+      "bounded_change_from_prior": 0.04942954855949433,
+      "bounded_regret_vs_bayes": 0.0005702743795971132
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 37,
+      "bayes_accuracy": 0.9999998911031341,
+      "bounded_accuracy": 0.9994296076328588,
+      "bayes_value_over_prior": 0.049999891103134186,
+      "bounded_change_from_prior": 0.04942960763285886,
+      "bounded_regret_vs_bayes": 0.0005702834702753234
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 38,
+      "bayes_accuracy": 0.999999911770093,
+      "bounded_accuracy": 0.9994296240449921,
+      "bayes_value_over_prior": 0.049999911770093,
+      "bounded_change_from_prior": 0.04942962404499218,
+      "bounded_regret_vs_bayes": 0.0005702877251008154
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 39,
+      "bayes_accuracy": 0.999999945712946,
+      "bounded_accuracy": 0.9994296506518947,
+      "bayes_value_over_prior": 0.04999994571294608,
+      "bounded_change_from_prior": 0.04942965065189475,
+      "bounded_regret_vs_bayes": 0.0005702950610513291
+    },
+    {
+      "q0": 0.95,
+      "p": 0.85,
+      "n": 40,
+      "bayes_accuracy": 0.9999999559895916,
+      "bounded_accuracy": 0.9994296580421137,
+      "bayes_value_over_prior": 0.049999955989591616,
+      "bounded_change_from_prior": 0.049429658042113744,
+      "bounded_regret_vs_bayes": 0.0005702979474778713
+    }
+  ],
+  "limitations": [
+    "Conditional cue independence and a stable binary world are benchmark assumptions, not claims about all environments.",
+    "The comparator diagnoses the bounded update rule; it does not establish that people or organisms implement Bayes.",
+    "The V5 demographic simulations contain feedbacks absent from this one-task accuracy calculation."
+  ]
+}

@@ -1,0 +1,6 @@
+{'scenario': 'stable', 'resident_d': 0.0, 'resident_N': 3900.68388777605, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': 0.0014643744012203808}
+{'scenario': 'stable', 'resident_d': 1.0, 'resident_N': 5207.6349742628145, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': -0.01195695956314445}
+{'scenario': 'noisy', 'resident_d': 0.0, 'resident_N': 2737.7407922758525, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': -0.0011890977709511478}
+{'scenario': 'noisy', 'resident_d': 1.0, 'resident_N': 3816.763088893194, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': -0.015775592657907955}
+{'scenario': 'sparse', 'resident_d': 0.0, 'resident_N': 2835.054923226123, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': 0.00020926350620975587}
+{'scenario': 'sparse', 'resident_d': 1.0, 'resident_N': 5214.572071827106, 'variant': 'action_only', 'mutant_d': 1.0, 'tau': 3.0, 'invasion': -0.024671215638783064}

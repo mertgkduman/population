@@ -1,0 +1,18 @@
+[
+  {
+    "scenario": "stable",
+    "cells": 1221,
+    "d_opt": 1.0,
+    "tau_opt": 3.19222305,
+    "rT_opt": 0.01016317,
+    "tau_boundary": false
+  },
+  {
+    "scenario": "shock",
+    "cells": 1221,
+    "d_opt": 1.0,
+    "tau_opt": 3.19222305,
+    "rT_opt": 0.01016312,
+    "tau_boundary": false
+  }
+]

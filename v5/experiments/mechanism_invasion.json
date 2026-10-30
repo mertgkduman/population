@@ -1,0 +1,1085 @@
+{
+  "scope": "Each mutant uses the same declared resident adult culture/resources. Tests immediate conflict override separately from persistent acceptance; lower monomorphic N is not automatically negative invasion fitness.",
+  "rows": [
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.003041591
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.006048788
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.009119691
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.012336173
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 7.6624e-05
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.000337475
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.000794457
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.001464374
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.002794171
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.005077748
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.006984132
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.008602763
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 0.0,
+      "resident_N": 3900.683887776,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.012019928
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.008032014
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.004066924
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.015411371
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.014457702
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.013315349
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.01195696
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.01300453
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.010507004
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.008497144
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.006844284
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "stable",
+      "resident_d": 1.0,
+      "resident_N": 5207.634974263,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.016197042
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.002595251
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.005319427
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.00823766
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.011415475
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.000668514
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.001093543
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.001270523
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.001189098
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.003066063
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.005674001
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.00792844
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.009903542
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 0.0,
+      "resident_N": 2737.740792276,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.013422769
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.009069226
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.004636912
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.017675482
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.017280349
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.016655485
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.015775593
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.013845487
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.010559896
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.007810615
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.005471342
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "noisy",
+      "resident_d": 1.0,
+      "resident_N": 3816.763088893,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.017858518
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.00529153
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.009619832
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.013489406
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.017152358
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.000229559
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.000266617
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.000119097
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.000209264
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.005191554
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.008884055
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.011752132
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.014096922
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 0.0,
+      "resident_N": 2835.054923226,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "both",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "both",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.020993245
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "both",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.013130405
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "both",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.006321409
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "both",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": 0.0
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "action_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "action_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.02985868
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "action_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.02833175
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "action_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.026610443
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "action_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.024671216
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "storage_only",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "storage_only",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.022834024
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "storage_only",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.017532159
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "storage_only",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.013766681
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "storage_only",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.010914067
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "neither",
+      "mutant_d": 0.0,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "neither",
+      "mutant_d": 0.25,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "neither",
+      "mutant_d": 0.5,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "neither",
+      "mutant_d": 0.75,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    },
+    {
+      "scenario": "sparse",
+      "resident_d": 1.0,
+      "resident_N": 5214.572071827,
+      "variant": "neither",
+      "mutant_d": 1.0,
+      "tau": 3.0,
+      "invasion": -0.03120862
+    }
+  ]
+}

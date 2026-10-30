@@ -1,0 +1,383 @@
+{
+  "status": "PASS",
+  "scope": "Read-only cross-artifact and accounting audit; no simulation results regenerated.",
+  "run_id": "20261030T151329Z",
+  "checks_passed": 30,
+  "checks_total": 30,
+  "failed": [],
+  "checks": [
+    {
+      "name": "required exported artifacts exist",
+      "passed": true,
+      "measured": [],
+      "detail": ""
+    },
+    {
+      "name": "main grid and context cardinality",
+      "passed": true,
+      "measured": {
+        "d": 13,
+        "tau": 15,
+        "time": 81,
+        "contexts": 50,
+        "sweep_rows": 9750
+      },
+      "detail": "Expected 13 x 15 x 81 per context, 50 contexts and 9,750 view rows."
+    },
+    {
+      "name": "manifest cardinalities agree with exports",
+      "passed": true,
+      "measured": {
+        "pilot": 200,
+        "main_unique_trajectories": 7950,
+        "main_view_cells": 9750
+      },
+      "detail": ""
+    },
+    {
+      "name": "run identifiers agree",
+      "passed": true,
+      "measured": "20261030T151329Z",
+      "detail": ""
+    },
+    {
+      "name": "within-context configuration and grid are fixed",
+      "passed": true,
+      "measured": null,
+      "detail": ""
+    },
+    {
+      "name": "NPZ, dashboard series and distributions agree",
+      "passed": true,
+      "measured": {
+        "max_series_error": 5.002220859751105e-10,
+        "max_distribution_error": 5.000018177270249e-10
+      },
+      "detail": ""
+    },
+    {
+      "name": "dashboard metrics and sweep CSV agree",
+      "passed": true,
+      "measured": 5.002220859751105e-10,
+      "detail": "CSV nan and dashboard null are treated as the same censored value."
+    },
+    {
+      "name": "all exported densities are nonnegative",
+      "passed": true,
+      "measured": 0.0,
+      "detail": "No clipping is performed by the simulator."
+    },
+    {
+      "name": "score distributions reconcile to stage stocks",
+      "passed": true,
+      "measured": 2.7284841053187847e-12,
+      "detail": ""
+    },
+    {
+      "name": "maturation survival is a probability",
+      "passed": true,
+      "measured": {
+        "min": 0.355923005,
+        "max": 0.985221675
+      },
+      "detail": ""
+    },
+    {
+      "name": "recovery uses explicit censoring",
+      "passed": true,
+      "measured": {
+        "observed": 1950,
+        "censored": 7800,
+        "range": [
+          10.0,
+          80.0
+        ]
+      },
+      "detail": ""
+    },
+    {
+      "name": "main tail growth is exactly the last 100 time units",
+      "passed": true,
+      "measured": 4.998369862539015e-10,
+      "detail": ""
+    },
+    {
+      "name": "fixed-policy d=0 preserves u=b in exported source states",
+      "passed": true,
+      "measured": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "oracle output is exactly duplicated across inert d views",
+      "passed": true,
+      "measured": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "all candidate architectures use the common retained resident",
+      "passed": true,
+      "measured": null,
+      "detail": ""
+    },
+    {
+      "name": "access/load equivalence holds only on the no-social d=0 slice",
+      "passed": true,
+      "measured": {
+        "retained": {
+          "d0_state_error": 0.0,
+          "d1_N_difference": 2655.522655686289
+        },
+        "frozen": {
+          "d0_state_error": 0.0,
+          "d1_N_difference": 2964.933579338378
+        },
+        "audit": {
+          "d0_state_error": 0.0,
+          "d1_N_difference": 2707.5813527061687
+        },
+        "reset": {
+          "d0_state_error": 0.0,
+          "d1_N_difference": 1.8189894035458565e-12
+        }
+      },
+      "detail": "At d>0, load changes social exposure too; the nonzero contrasts are expected and must not be called source-only effects."
+    },
+    {
+      "name": "obsolete supplemental tail-growth field is omitted",
+      "passed": true,
+      "measured": {
+        "mechanisms.csv": false,
+        "source_conditions.csv": false,
+        "histories.csv": false,
+        "sensitivity.csv": false,
+        "mechanisms.json": false,
+        "sensitivity.json": false,
+        "source_conditions.json": false
+      },
+      "detail": ""
+    },
+    {
+      "name": "mechanism factorial cardinality",
+      "passed": true,
+      "measured": null,
+      "detail": ""
+    },
+    {
+      "name": "mechanism CSV and JSON agree",
+      "passed": true,
+      "measured": 4.998597091798729e-10,
+      "detail": ""
+    },
+    {
+      "name": "2x2 mechanisms are reported as measured contrasts, not assumed benefits",
+      "passed": true,
+      "measured": {
+        "misinformation": {
+          "action_rT": 1.4650103635868716e-05,
+          "storage_rT": 0.0004397273972568654,
+          "interaction_rT": 0.0002677919909079285,
+          "action_public_accuracy": 0.0751199921755149
+        },
+        "no_cost": {
+          "action_rT": 1.83271783197117e-05,
+          "storage_rT": 0.0004276563796339738,
+          "interaction_rT": 0.0002725085587802368,
+          "action_public_accuracy": 0.07611711379341124
+        },
+        "noisy": {
+          "action_rT": -0.0001301495128275664,
+          "storage_rT": 0.000624776369824255,
+          "interaction_rT": 0.00033604719489799435,
+          "action_public_accuracy": 0.050252753751825696
+        },
+        "sparse": {
+          "action_rT": -4.517054514847907e-05,
+          "storage_rT": 0.0010292892807777943,
+          "interaction_rT": 0.0005393704390529337,
+          "action_public_accuracy": 0.05606784045179969
+        },
+        "stable": {
+          "action_rT": 1.5058314325544844e-05,
+          "storage_rT": 0.00043969443265177294,
+          "interaction_rT": 0.0002676820515354981,
+          "action_public_accuracy": 0.07514017924628158
+        },
+        "truth_reversal": {
+          "action_rT": 1.5054847417674683e-05,
+          "storage_rT": 0.0004396930439056132,
+          "interaction_rT": 0.0002676807079229071,
+          "action_public_accuracy": 0.07514002810697629
+        },
+        "wrong_history": {
+          "action_rT": 1.5058312485247832e-05,
+          "storage_rT": 0.0004396944326408459,
+          "interaction_rT": 0.000267682052110722,
+          "action_public_accuracy": 0.07514017919036808
+        }
+      },
+      "detail": "The isolated action effect is negative in at least one environment despite higher current public accuracy."
+    },
+    {
+      "name": "source-condition factorial cardinality",
+      "passed": true,
+      "measured": null,
+      "detail": ""
+    },
+    {
+      "name": "source-condition JSON contrasts are recomputed from paired CSV rows",
+      "passed": true,
+      "measured": {
+        "max_error": 4.99958115055335e-10,
+        "positive_delta_rT": 486,
+        "negative_delta_rT": 0
+      },
+      "detail": ""
+    },
+    {
+      "name": "history design cardinality",
+      "passed": true,
+      "measured": null,
+      "detail": ""
+    },
+    {
+      "name": "history summaries recompute from seed-level rows",
+      "passed": true,
+      "measured": 4.983723199682394e-10,
+      "detail": ""
+    },
+    {
+      "name": "repertoire cardinalities and invariants",
+      "passed": true,
+      "measured": {
+        "csv": 23328,
+        "runs": 972,
+        "aggregates": 162,
+        "failed_invariants": []
+      },
+      "detail": ""
+    },
+    {
+      "name": "architecture invasion spectrum has neutral self diagonal",
+      "passed": true,
+      "measured": 3.4471916711732685e-15,
+      "detail": ""
+    },
+    {
+      "name": "pairwise invasion spectrum has neutral self diagonal and converged residents",
+      "passed": true,
+      "measured": {
+        "diagonal": 3.3659619394621856e-09,
+        "residual": 5.079603741891049e-10,
+        "resident_self": 3.3659619394621856e-09
+      },
+      "detail": ""
+    },
+    {
+      "name": "competition frequencies are normalized and nonnegative",
+      "passed": true,
+      "measured": {
+        "sum_error": 3.000000026176508e-09,
+        "minimum": 0.0
+      },
+      "detail": ""
+    },
+    {
+      "name": "dynamic rare-mutant run has shared-resident self neutrality and dt halving",
+      "passed": true,
+      "measured": {
+        "rows": 216,
+        "max_self": 2.4231918555051024e-17,
+        "max_absolute_difference": 6.74577581294411e-12,
+        "self_relative": 7.15573433840433e-18,
+        "half_self_relative": 2.168404344971009e-19,
+        "dt": 0.1,
+        "half_dt": 0.05,
+        "storage": "full precision; previous rounded JSON replaced"
+      },
+      "detail": "Rates are finite-window, common-resident relative growth, not an ESS proof."
+    },
+    {
+      "name": "selection bundle includes every evolution artifact",
+      "passed": true,
+      "measured": {
+        "architecture_invasion": 96,
+        "pairwise": 648,
+        "competition": 10,
+        "dynamic_invasion": 216
+      },
+      "detail": ""
+    }
+  ],
+  "diagnostics": {
+    "access_load": {
+      "retained": {
+        "d0_state_error": 0.0,
+        "d1_N_difference": 2655.522655686289
+      },
+      "frozen": {
+        "d0_state_error": 0.0,
+        "d1_N_difference": 2964.933579338378
+      },
+      "audit": {
+        "d0_state_error": 0.0,
+        "d1_N_difference": 2707.5813527061687
+      },
+      "reset": {
+        "d0_state_error": 0.0,
+        "d1_N_difference": 1.8189894035458565e-12
+      }
+    },
+    "mechanism_contrasts_d1_tau3": {
+      "misinformation": {
+        "action_rT": 1.4650103635868716e-05,
+        "storage_rT": 0.0004397273972568654,
+        "interaction_rT": 0.0002677919909079285,
+        "action_public_accuracy": 0.0751199921755149
+      },
+      "no_cost": {
+        "action_rT": 1.83271783197117e-05,
+        "storage_rT": 0.0004276563796339738,
+        "interaction_rT": 0.0002725085587802368,
+        "action_public_accuracy": 0.07611711379341124
+      },
+      "noisy": {
+        "action_rT": -0.0001301495128275664,
+        "storage_rT": 0.000624776369824255,
+        "interaction_rT": 0.00033604719489799435,
+        "action_public_accuracy": 0.050252753751825696
+      },
+      "sparse": {
+        "action_rT": -4.517054514847907e-05,
+        "storage_rT": 0.0010292892807777943,
+        "interaction_rT": 0.0005393704390529337,
+        "action_public_accuracy": 0.05606784045179969
+      },
+      "stable": {
+        "action_rT": 1.5058314325544844e-05,
+        "storage_rT": 0.00043969443265177294,
+        "interaction_rT": 0.0002676820515354981,
+        "action_public_accuracy": 0.07514017924628158
+      },
+      "truth_reversal": {
+        "action_rT": 1.5054847417674683e-05,
+        "storage_rT": 0.0004396930439056132,
+        "interaction_rT": 0.0002676807079229071,
+        "action_public_accuracy": 0.07514002810697629
+      },
+      "wrong_history": {
+        "action_rT": 1.5058312485247832e-05,
+        "storage_rT": 0.0004396944326408459,
+        "interaction_rT": 0.000267682052110722,
+        "action_public_accuracy": 0.07514017919036808
+      }
+    },
+    "source_condition_signs": {
+      "positive_delta_rT": 486,
+      "negative_delta_rT": 0
+    }
+  },
+  "limitations": [
+    "Parity across exports can reveal serialization or wiring errors but is not independent validation of model equations.",
+    "Mechanism and source-condition results are conditional simulation contrasts, not general causal or optimality proofs."
+  ]
+}

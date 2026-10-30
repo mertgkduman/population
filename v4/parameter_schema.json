@@ -1,0 +1,130 @@
+{
+  "source": "experiments/model.py:Config and validate; generated, not a second parameter authority",
+  "defaults": {
+    "H": 6,
+    "p": 0.65,
+    "juvenile_rate": 1.0,
+    "adult_rate": 0.3,
+    "transmission_error": 0.05,
+    "mu_F": 0.03,
+    "mu_A": 0.1,
+    "error_death": 0.25,
+    "adult_error_death": 0.1,
+    "beta_base": 0.35,
+    "beta_skill": 0.85,
+    "K": 1000.0,
+    "S0": 1.0,
+    "KS": 1.0,
+    "feedback": 1.0,
+    "trust_temperature": 1.5,
+    "internalize": true,
+    "reset_maturation": false,
+    "payoff": true,
+    "initial_adult_correct": 0.8,
+    "policy": "fixed",
+    "dt": 0.1,
+    "T": 400.0
+  },
+  "units": {
+    "H": "score_steps",
+    "p": "dimensionless",
+    "juvenile_rate": "1/model_time",
+    "adult_rate": "1/model_time",
+    "transmission_error": "dimensionless",
+    "mu_F": "1/model_time",
+    "mu_A": "1/model_time",
+    "error_death": "1/model_time",
+    "adult_error_death": "1/model_time",
+    "beta_base": "1/model_time",
+    "beta_skill": "1/model_time",
+    "K": "population_density",
+    "S0": "resource",
+    "KS": "resource",
+    "feedback": "dimensionless",
+    "trust_temperature": "dimensionless",
+    "internalize": "dimensionless",
+    "reset_maturation": "dimensionless",
+    "payoff": "dimensionless",
+    "initial_adult_correct": "dimensionless",
+    "policy": "dimensionless",
+    "dt": "model_time",
+    "T": "model_time"
+  },
+  "traits": {
+    "d": {
+      "bounds": [
+        0,
+        1
+      ],
+      "units": "probability on private/adult conflict"
+    },
+    "tau": {
+      "lower_exclusive": 0,
+      "units": "model_time",
+      "main_range": [
+        0.5,
+        12
+      ]
+    }
+  },
+  "initial_densities": {
+    "F": 80,
+    "A": 20
+  },
+  "models": {
+    "fixed": {},
+    "public_only": {
+      "internalize": false
+    },
+    "memoryless": {
+      "H": 1
+    },
+    "private": {
+      "policy": "private"
+    },
+    "oracle": {
+      "policy": "oracle"
+    },
+    "rl": {
+      "policy": "rl"
+    }
+  },
+  "scenarios": [
+    "stable",
+    "shock",
+    "periodic",
+    "wrong_history",
+    "no_payoff"
+  ],
+  "scenario_definitions": {
+    "stable": "theta=+1",
+    "shock": "theta switches +1 to -1 at t=150",
+    "periodic": "first reversal at120, then every60",
+    "wrong_history": "stable theta; initial adult correctness .2 instead of .8",
+    "no_payoff": "stable theta; correctness effects on all vital rates disabled"
+  },
+  "independent_environment_seed_ranges": {
+    "exploratory": [
+      100,
+      119
+    ],
+    "confirmatory": [
+      1000,
+      1019
+    ],
+    "dynamic": [
+      [
+        2000,
+        2004
+      ],
+      [
+        3000,
+        3004
+      ]
+    ],
+    "volatility": [
+      4000,
+      4005
+    ]
+  }
+}

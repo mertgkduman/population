@@ -1,0 +1,130 @@
+[
+  {
+    "model": "retained",
+    "scenario": "stable",
+    "d": 1.0,
+    "tau": 1.591197463,
+    "N": 5351.739640024,
+    "local_bracket": [
+      1.239698493,
+      1.952041776
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 1293.424979376,
+    "step_halving_N_difference": 9.094947017729282e-13,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "frozen",
+    "scenario": "stable",
+    "d": 1.0,
+    "tau": 2.836977634,
+    "N": 5190.536196027,
+    "local_bracket": [
+      2.449489743,
+      3.856991304
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 2090.625231558,
+    "step_halving_N_difference": 4.729372449219227e-11,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "audit",
+    "scenario": "stable",
+    "d": 1.0,
+    "tau": 1.882720467,
+    "N": 5820.431801759,
+    "local_bracket": [
+      1.555616678,
+      2.449489743
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 1669.065914678,
+    "step_halving_N_difference": 5.4569682106375694e-12,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "retained",
+    "scenario": "noisy",
+    "d": 1.0,
+    "tau": 0.5,
+    "N": 4056.694387225,
+    "local_bracket": [
+      0.5,
+      0.627417346
+    ],
+    "tau_domain_boundary": true,
+    "d_boundary": true,
+    "d_slope": 365.265940105,
+    "step_halving_N_difference": 1.3642420526593924e-12,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "frozen",
+    "scenario": "noisy",
+    "d": 1.0,
+    "tau": 2.843724644,
+    "N": 4365.541982702,
+    "local_bracket": [
+      2.449489743,
+      3.856991304
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 2502.46669731,
+    "step_halving_N_difference": 5.429683369584382e-10,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "audit",
+    "scenario": "noisy",
+    "d": 1.0,
+    "tau": 1.882154257,
+    "N": 4531.965066009,
+    "local_bracket": [
+      1.555616678,
+      2.449489743
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 1695.035223102,
+    "step_halving_N_difference": 9.458744898438454e-11,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "retained",
+    "scenario": "sparse",
+    "d": 1.0,
+    "tau": 3.974010623,
+    "N": 5271.512726075,
+    "local_bracket": [
+      3.073704709,
+      4.839886498
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 3902.740376981,
+    "step_halving_N_difference": 1.3278622645884752e-10,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  },
+  {
+    "model": "audit",
+    "scenario": "sparse",
+    "d": 1.0,
+    "tau": 4.003499171,
+    "N": 5376.115948743,
+    "local_bracket": [
+      3.073704709,
+      4.839886498
+    ],
+    "tau_domain_boundary": false,
+    "d_boundary": true,
+    "d_slope": 3993.799593286,
+    "step_halving_N_difference": 1.546140993013978e-10,
+    "scope": "Local abundance/r400 refinement after coarse full-domain map; not an evolutionary optimum."
+  }
+]

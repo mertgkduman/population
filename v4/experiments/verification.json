@@ -1,0 +1,290 @@
+{
+  "status": "PASS",
+  "scope": "Independent algebra, generator, numerical-integrator, equilibrium, and negative-control checks; not empirical validation.",
+  "checks": [
+    {
+      "name": "reflecting_score_caps_move_inward",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reflecting_trust_caps_move_inward",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "learning_and_maturation_conserve_total_density",
+      "pass": true,
+      "measured": 2.220446049250313e-16,
+      "tolerance": 2e-13,
+      "detail": ""
+    },
+    {
+      "name": "pure_maturation_closed_form",
+      "pass": true,
+      "measured": 9.781937393427143e-08,
+      "tolerance": 2e-07,
+      "detail": ""
+    },
+    {
+      "name": "maturation_preserves_cognitive_state",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reset_maturation_routes_to_neutral_state",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "births_enter_neutral_score_and_trust",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "total_flux_identity",
+      "pass": true,
+      "measured": 2.6645352591003757e-15,
+      "tolerance": 2e-12,
+      "detail": ""
+    },
+    {
+      "name": "equal_accuracy_full_generator_d_null",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "fixed_conflict_choice_accuracy_formula",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-15,
+      "detail": ""
+    },
+    {
+      "name": "oracle_inverts_only_when_effectively_more_accurate",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-15,
+      "detail": ""
+    },
+    {
+      "name": "rl_trust_uses_realized_objective_feedback",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-12,
+      "detail": ""
+    },
+    {
+      "name": "no_payoff_d_demographic_null",
+      "pass": true,
+      "measured": 2.8421709430404007e-13,
+      "tolerance": 2e-09,
+      "detail": "Cultural states are allowed to differ."
+    },
+    {
+      "name": "maturation_survival_probability_range",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "maturation_survival_fixed_scalar_endpoints",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-15,
+      "detail": ""
+    },
+    {
+      "name": "maturation_survival_rl_no_feedback_scalar",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-15,
+      "detail": ""
+    },
+    {
+      "name": "maturation_survival_zero_mortality",
+      "pass": true,
+      "measured": 4.440892098500626e-16,
+      "tolerance": 3e-15,
+      "detail": ""
+    },
+    {
+      "name": "maturation_survival_rl_transient_integral",
+      "pass": true,
+      "measured": 1.1260280887197208e-16,
+      "tolerance": 2e-11,
+      "detail": "Error includes the residual unmatured/undead transient mass at integration cutoff."
+    },
+    {
+      "name": "mutant_generators_are_metzler",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-14,
+      "detail": ""
+    },
+    {
+      "name": "primary_transition_graphs_irreducible",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "fixed_environment_matrix_exponential_parity",
+      "pass": true,
+      "measured": 3.1021835234659433e-10,
+      "tolerance": 1e-08,
+      "detail": ""
+    },
+    {
+      "name": "rk4_dt_0p1_vs_DOP853",
+      "pass": true,
+      "measured": 1.4045371137480356e-05,
+      "tolerance": 2e-05,
+      "detail": ""
+    },
+    {
+      "name": "rk4_dt_0p05_vs_DOP853",
+      "pass": true,
+      "measured": 7.919407517068865e-07,
+      "tolerance": 2e-06,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_operator_residual",
+      "pass": true,
+      "measured": 8.181949120179956e-14,
+      "tolerance": 2e-09,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_spectral_abscissa",
+      "pass": true,
+      "measured": 3.0125976579616453e-13,
+      "tolerance": 2e-08,
+      "detail": ""
+    },
+    {
+      "name": "self_invasion_resource_negative_control",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "all_zero_state_absorbing",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "invalid_parameters_rejected_early",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0.0,
+      "detail": "missed case indexes: []"
+    }
+  ],
+  "diagnostics": {
+    "no_payoff_max_adult_belief_difference": 0.0509752242603142,
+    "maturation_survival": {
+      "range_samples": {
+        "fixed": [
+          0.9445100354191263,
+          0.7393715341959335,
+          0.7352941176470588
+        ],
+        "private": [
+          0.9445100354191263,
+          0.7393715341959335,
+          0.4149377593360996
+        ],
+        "oracle": [
+          0.9852216748768474,
+          0.7393715341959335,
+          0.7352941176470588
+        ],
+        "rl": [
+          0.917397425258703,
+          0.7393715341959336,
+          0.6786336613690036
+        ]
+      },
+      "fixed_scalar_observed": [
+        0.6802721088435374,
+        0.7692307692307692
+      ],
+      "fixed_scalar_expected": [
+        0.6802721088435374,
+        0.7692307692307692
+      ],
+      "rl_no_feedback_observed": [
+        0.6639004149377593,
+        0.6639004149377593
+      ],
+      "rl_no_feedback_expected": 0.6639004149377593,
+      "rl_transient_linear_solve": 0.7244970687049673,
+      "rl_transient_time_integral": 0.7244970687049672,
+      "rl_transient_tail": -1.5805064094564243e-18
+    },
+    "rk4_scaled_errors": {
+      "fixed_dt_0.1": 1.3565876780340476e-05,
+      "fixed_dt_0.05": 7.623152816729741e-07,
+      "rl_dt_0.1": 1.4045371137480356e-05,
+      "rl_dt_0.05": 7.919407517068865e-07
+    },
+    "representative_equilibria": [
+      {
+        "d": 0.1,
+        "tau": 1.0,
+        "N": 5039.826175553135,
+        "q_adv": 0.7218603762310409,
+        "resource": 0.1420489618724752,
+        "reported_residual": 2.199374798207403e-16,
+        "independent_residual": 2.2557690238024645e-16,
+        "reported_self_rate": 7.267452177883524e-16,
+        "independent_self_rate": 7.267452177883524e-16,
+        "resource_plus_5pct_rate": 0.004827104706544081
+      },
+      {
+        "d": 0.5,
+        "tau": 3.0,
+        "N": 4731.861093263875,
+        "q_adv": 0.781803929689148,
+        "resource": 0.14854733128712852,
+        "reported_residual": 1.1862748085516896e-16,
+        "independent_residual": 1.2558092409169371e-16,
+        "reported_self_rate": 6.367280210318181e-16,
+        "independent_self_rate": 6.367280210318181e-16,
+        "resource_plus_5pct_rate": 0.004149193737512679
+      },
+      {
+        "d": 0.9,
+        "tau": 12.0,
+        "N": 3930.6427331755885,
+        "q_adv": 0.8825033751045196,
+        "resource": 0.1686157883708071,
+        "reported_residual": 8.181949120179956e-14,
+        "independent_residual": 8.181854465848701e-14,
+        "reported_self_rate": 3.0125976579616453e-13,
+        "independent_self_rate": 3.0125976579616453e-13,
+        "resource_plus_5pct_rate": 0.0029418267002984666
+      }
+    ],
+    "invalid_case_count": 18
+  }
+}

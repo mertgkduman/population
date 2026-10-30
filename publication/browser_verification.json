@@ -1,0 +1,238 @@
+{
+  "mode": "HTTP with a project-site path prefix; HTTPS blocked",
+  "checks": [
+    {
+      "name": "portal_loaded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "six_top_tabs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "future_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "future_changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "future_shortcomings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "future_results_explicitly_unrun",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "keyboard_version_navigation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v1_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v1/all.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v1_displayed_zip_export",
+      "pass": true,
+      "detail": "v1-heatmap-data.zip"
+    },
+    {
+      "name": "v2_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v2_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v2/all.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v2_displayed_zip_export",
+      "pass": true,
+      "detail": "v2-populationPlot-data.zip"
+    },
+    {
+      "name": "v3_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v3_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v3/all.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v3_displayed_zip_export",
+      "pass": true,
+      "detail": "v3-populationPlot-data.zip"
+    },
+    {
+      "name": "v4_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v4_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v4/fixed_stable.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v4/evolution.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v4/volatility.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v4_displayed_zip_export",
+      "pass": true,
+      "detail": "v4-traitMap-data.zip"
+    },
+    {
+      "name": "v5_plots_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_every_plot_download",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "v5_reference_links_resolve",
+      "pass": true,
+      "detail": "[{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/retained_stable.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/mechanisms.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/source_conditions.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/repertoire.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/repertoire_tutors.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/bayes_benchmark.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/histories.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/evolution.zip\",\"status\":200},{\"url\":\"http://127.0.0.1:8765/docs/downloads/v5/frozen_replacement.zip\",\"status\":200}]"
+    },
+    {
+      "name": "v5_displayed_zip_export",
+      "pass": true,
+      "detail": "v5-traitMap-data.zip"
+    },
+    {
+      "name": "deep_link_state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive_portal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_remote_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no_console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

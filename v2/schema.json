@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "units": {"time":"model time","population":"population density","resource":"resource units","error":"action-error units","rate":"1/model time"},
+  "defaults": {"sigma_I":1.0,"sigma_A":0.4,"bias_A":0.0,"rho":0.0,"mu_F_base":0.03,"k_error":0.30,"mu_A":0.15,"S0":1.0,"K_S":1.0,"K_N":1000.0,"beta_const":1.2,"beta_min":0.2,"beta_gain":2.4,"tau_learning":3.0,"F_initial":80.0,"A_initial":20.0,"T":200.0,"d":0.5,"tau":3.0,"policy":"copy","model":"M0","scenario":"helpful","drift_rate":0.005,"sigma_floor":0.1,"sigma_ceiling":3.0},
+  "scenarios": {
+    "helpful":{"label":"Helpful at t=0","sigma_A":0.4,"bias_A":0.0,"rho":0.0,"k_error":0.30},
+    "equal":{"label":"Equal independent at t=0","sigma_A":1.0,"bias_A":0.0,"rho":0.0,"k_error":0.30},
+    "cloned":{"label":"Perfectly correlated, equal at t=0","sigma_A":1.0,"bias_A":0.0,"rho":1.0,"k_error":0.30},
+    "noisy":{"label":"Noisy at t=0","sigma_A":2.0,"bias_A":0.0,"rho":0.0,"k_error":0.30},
+    "biased":{"label":"Biased at t=0","sigma_A":0.4,"bias_A":1.5,"rho":0.0,"k_error":0.30},
+    "no_effect":{"label":"No mortality consequence","sigma_A":0.4,"bias_A":0.0,"rho":0.0,"k_error":0.0}
+  },
+  "experiment": {"drift_rates":[-0.01,-0.0075,-0.005,-0.0025,0,0.0025,0.005,0.0075,0.01],"horizons":[50,100,200],"d_values":9,"tau_values":11,"tau_min":0.5,"tau_max":20,"refined_grid":25},
+  "solver": {"python_method":"DOP853","python_rtol":1e-9,"python_atol":1e-11,"browser_method":"RK4","browser_max_step":0.05,"browser_output_points":401}
+}

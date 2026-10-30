@@ -1,0 +1,149 @@
+{
+  "browser": "Chrome for Testing 154.0.8037.92",
+  "mode": "file:// with HTTP(S) blocked",
+  "checks": [
+    {
+      "name": "offline_load",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trait_heatmap_and_surface",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rate_interaction_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "five_additional_visualizations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_http_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "initial_two_states",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "d_decreases_Q_increases_sigma_decreases",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chrome_scipy_trajectory_parity",
+      "pass": true,
+      "detail": "64 cases; max absolute=0.0007899591651039373; max scaled=4.5758346178299816e-7"
+    },
+    {
+      "name": "chrome_step_halving",
+      "pass": true,
+      "detail": "max scaled=3.605645798748234e-7"
+    },
+    {
+      "name": "play",
+      "pass": true,
+      "detail": "cursor=4"
+    },
+    {
+      "name": "pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scrub_synchronizes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reset_time",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trait_map_selection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rate_map_selection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "three_matched_pins",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_delta_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "signed_map_centered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rate_interaction_trait_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "policy_model_controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario_preserves_demography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "configuration_import",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cancel_restart_no_stale_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exports",
+      "pass": true,
+      "detail": "[{\"name\":\"v3-config-20261030T022304Z.json\",\"size\":1016,\"run\":true,\"sim\":true},{\"name\":\"v3-map-20261030T022304Z.csv\",\"size\":82098,\"run\":true,\"sim\":true},{\"name\":\"v3-map-20261030T022304Z.json\",\"size\":234181,\"run\":true,\"sim\":true},{\"name\":\"v3-summary-20261030T022304Z.csv\",\"size\":5528,\"run\":true,\"sim\":true},{\"name\":\"v3-series-20261030T022304Z.csv\",\"size\":109938,\"run\":true,\"sim\":true},{\"name\":\"v3-series-20261030T022304Z.json\",\"size\":152565,\"run\":true,\"sim\":true}]"
+    },
+    {
+      "name": "precomputed_summary_49_rate_pairs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "surface_webgl_canvas",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive_layout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser_console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

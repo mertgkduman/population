@@ -1,0 +1,129 @@
+{
+  "browser": "Chrome for Testing 154.0.8037.92",
+  "mode": "file:// with HTTP(S) blocked",
+  "checks": [
+    {
+      "name": "offline_load",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "analytic_map_render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "only_local_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "initial_trajectory",
+      "pass": true,
+      "detail": "{\"F\":\"80.000\",\"A\":\"20.000\",\"N\":100,\"map\":\"51 × 61 analytic cells · 3111 defined · 0 missing · color limits ±0.400 · simulation data\"}"
+    },
+    {
+      "name": "browser_scipy_trajectory_parity",
+      "pass": true,
+      "detail": "12 cases; max absolute=0.00008517214109815541; max scaled=0.0000023482469427575008; denominator=max(1,|reference state|)"
+    },
+    {
+      "name": "browser_rk4_step_halving",
+      "pass": true,
+      "detail": "max scaled h=0.05 vs 0.025: 0.000002209071588690499"
+    },
+    {
+      "name": "play_advances",
+      "pass": true,
+      "detail": "cursor=4"
+    },
+    {
+      "name": "pause_stops",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scrub_sync",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reset_time",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_selection",
+      "pass": true,
+      "detail": "before=0.5"
+    },
+    {
+      "name": "three_pins",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invasion_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_invasion",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "numerical_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario_preserves_demography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "resident_invalidated_on_scenario_change",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "r0_boundary_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "policy_model_controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "configuration_import",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cancel_restart_no_stale_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exports",
+      "pass": true,
+      "detail": "[{\"name\":\"configuration-20261029T232817Z.json\",\"bytes\":870,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"sweep-20261029T232817Z.csv\",\"bytes\":409101,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"sweep-20261029T232817Z.json\",\"bytes\":1186966,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"series-20261029T232817Z.csv\",\"bytes\":78781,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"series-20261029T232817Z.json\",\"bytes\":110044,\"hasRun\":true,\"hasSimulation\":true}]"
+    },
+    {
+      "name": "responsive_layout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser_console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

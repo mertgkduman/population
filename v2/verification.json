@@ -1,0 +1,321 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "g0_v1_trajectory_parity",
+      "pass": true,
+      "measured": 1.6820046628554228e-07,
+      "tolerance": 2e-06,
+      "detail": "12 v1 fixtures; scaled by max(1, |reference state|)"
+    },
+    {
+      "name": "g0_v1_analytic_parity",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "d0_drift_invariance_batched_scaled",
+      "pass": true,
+      "measured": 6.119350310603497e-09,
+      "tolerance": 2e-07,
+      "detail": "max spread across nine g values divided by max(1, mean N); batched adaptive steps depend on other cells"
+    },
+    {
+      "name": "d0_drift_invariance_individual",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-10,
+      "detail": "single-trait DOP853 solves have identical RHS"
+    },
+    {
+      "name": "k_error0_d_and_g_invariance",
+      "pass": true,
+      "measured": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "detail": ""
+    },
+    {
+      "name": "sigma_monotonic_g_-0.01",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-14,
+      "detail": ""
+    },
+    {
+      "name": "sigma_bounds_g_-0.01",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "sigma_monotonic_g_0.01",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-14,
+      "detail": ""
+    },
+    {
+      "name": "sigma_bounds_g_0.01",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "copy_mortality_effect_reverses_at_MSE_crossing",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_individual_DOP853",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 2e-06,
+      "detail": ""
+    },
+    {
+      "name": "maturation_conserves_N_closed_form",
+      "pass": true,
+      "measured": 1.9854553556797327e-08,
+      "tolerance": 1e-06,
+      "detail": ""
+    },
+    {
+      "name": "flux_identity_dynamic",
+      "pass": true,
+      "measured": 2.842170943040401e-14,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "all_zero_absorbing",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "sweep_nonnegative",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "invalid_ranges_rejected",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "js_scipy_trajectory_parity",
+      "pass": true,
+      "measured": 2.3491938069104982e-06,
+      "tolerance": 2e-05,
+      "detail": "24 signed-drift fixtures; denominator max(1, |reference state|)"
+    },
+    {
+      "name": "js_step_halving",
+      "pass": true,
+      "measured": 2.2090715907821848e-06,
+      "tolerance": 2e-05,
+      "detail": ""
+    },
+    {
+      "name": "js_analytic_moment_parity",
+      "pass": true,
+      "measured": 2.6645352591003757e-15,
+      "tolerance": 1e-11,
+      "detail": ""
+    }
+  ],
+  "metrics": {
+    "main_horizon_records": 64152,
+    "main_trajectories": 21384,
+    "helpful_decay_crossing_time": 91.6290731874155,
+    "d0_batched_absolute_spread": 9.663572200224735e-06,
+    "d0_batched_scaled_spread": 6.119350310603497e-09,
+    "g0_v1_scaled_error": 1.6820046628554228e-07,
+    "batch_scaled_error": 0,
+    "min_population": 6.126815697791079e-12,
+    "js_parity": {
+      "engine": "Node executing v2 browser science.js",
+      "max_absolute_error": 0.000496223789468786,
+      "max_scaled_error": 2.3491938069104982e-06,
+      "max_halving_scaled": 2.2090715907821848e-06,
+      "max_analytic_error": 2.6645352591003757e-15,
+      "step": 0.05,
+      "half_step": 0.025,
+      "relative_denominator": "max(1, |reference state|)"
+    },
+    "refinement": {
+      "-0.005": {
+        "coarse_max_rT": 0.019425265573913407,
+        "refined_max_rT": 0.01942526557391341,
+        "refined_d": 0.0,
+        "refined_tau": 0.5,
+        "tau_boundary": true
+      },
+      "0.0": {
+        "coarse_max_rT": 0.020215003034566154,
+        "refined_max_rT": 0.020215003034566466,
+        "refined_d": 1.0,
+        "refined_tau": 0.5,
+        "tau_boundary": true
+      },
+      "0.005": {
+        "coarse_max_rT": 0.020348526481008357,
+        "refined_max_rT": 0.020348526481008003,
+        "refined_d": 1.0,
+        "refined_tau": 0.5,
+        "tau_boundary": true
+      }
+    }
+  },
+  "browser_ui": {
+    "status": "PASS",
+    "browser": "Chrome for Testing 154.0.8037.92",
+    "mode": "file:// with HTTP(S) blocked",
+    "checks": [
+      {
+        "name": "offline_load",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "numerical_map_render",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "no_http_requests",
+        "pass": true,
+        "detail": "[]"
+      },
+      {
+        "name": "initial_two_states",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "chrome_scipy_trajectory_parity",
+        "pass": true,
+        "detail": "24 cases; max absolute 0.000496223789468786; max scaled 0.0000023491938069104982"
+      },
+      {
+        "name": "chrome_rk4_step_halving",
+        "pass": true,
+        "detail": "max scaled 0.0000022090715907821848"
+      },
+      {
+        "name": "play",
+        "pass": true,
+        "detail": "cursor 4"
+      },
+      {
+        "name": "pause",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scrub_sync",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "reset_time",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "positive_drift_improves_sigma",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "negative_drift_decays_sigma",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "quality_plot_updates",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "heatmap_select",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "matched_pins",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "matched_delta_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "signed_zero_centered",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "drift_vs_static_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "policy_and_model",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scenario_preserves_demography",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "config_import",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "cancel_restart",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "exports",
+        "pass": true,
+        "detail": "[{\"name\":\"v2-config-20261030T013236Z.json\",\"bytes\":942,\"run\":true,\"sim\":true},{\"name\":\"v2-map-20261030T013236Z.csv\",\"bytes\":79741,\"run\":true,\"sim\":true},{\"name\":\"v2-map-20261030T013236Z.json\",\"bytes\":220564,\"run\":true,\"sim\":true},{\"name\":\"v2-summary-20261030T013236Z.csv\",\"bytes\":2008,\"run\":true,\"sim\":true},{\"name\":\"v2-series-20261030T013236Z.csv\",\"bytes\":89001,\"run\":true,\"sim\":true},{\"name\":\"v2-series-20261030T013236Z.json\",\"bytes\":125966,\"run\":true,\"sim\":true}]"
+      },
+      {
+        "name": "experiment_library",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "responsive",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "console_errors",
+        "pass": true,
+        "detail": "[]"
+      }
+    ],
+    "console_errors": [],
+    "remote_requests": []
+  },
+  "overall_status": "PASS"
+}

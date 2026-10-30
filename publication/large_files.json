@@ -1,0 +1,43 @@
+[
+  {
+    "path": "v5/experiments/dashboard_data.json.gz",
+    "bytes": 139335849,
+    "sha256": "a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba",
+    "chunks": [
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-000.bin",
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-001.bin",
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-002.bin",
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-003.bin",
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-004.bin",
+      "v5/.large-files/a594a71f80a28f155e797f1dcd57928ee495b4b437c516f0deb39c6fcdb7c7ba/part-005.bin"
+    ]
+  },
+  {
+    "path": "v5/index.html",
+    "bytes": 171310027,
+    "sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
+    "chunks": [
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-000.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-001.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-002.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-003.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-004.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-005.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-006.bin"
+    ]
+  },
+  {
+    "path": "v5/research_dashboard.html",
+    "bytes": 171310027,
+    "sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
+    "chunks": [
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-000.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-001.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-002.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-003.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-004.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-005.bin",
+      "v5/.large-files/74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19/part-006.bin"
+    ]
+  }
+]

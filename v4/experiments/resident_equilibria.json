@@ -1,0 +1,182 @@
+{
+  "fixed_stable": {
+    "N": 4806.82808394,
+    "q": 0.78699979,
+    "resource_factor": 0.14691131,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "fixed_wrong_history": {
+    "N": 4806.82808394,
+    "q": 0.78699979,
+    "resource_factor": 0.14691131,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "fixed_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.73967912,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "public_only_stable": {
+    "N": 4392.99145519,
+    "q": 0.75755217,
+    "resource_factor": 0.15642129,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "public_only_wrong_history": {
+    "N": 4392.99145519,
+    "q": 0.75755217,
+    "resource_factor": 0.15642129,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "public_only_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.71508134,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "memoryless_stable": {
+    "N": 3549.27270145,
+    "q": 0.69107433,
+    "resource_factor": 0.18020379,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "memoryless_wrong_history": {
+    "N": 3549.27270145,
+    "q": 0.69107433,
+    "resource_factor": 0.18020379,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "memoryless_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.65291931,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "private_stable": {
+    "N": 4186.7750355,
+    "q": 0.75618787,
+    "resource_factor": 0.1616351,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "private_wrong_history": {
+    "N": 4186.7750355,
+    "q": 0.75618787,
+    "resource_factor": 0.1616351,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "private_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.71508134,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "oracle_stable": {
+    "N": 5825.64941257,
+    "q": 0.8274316,
+    "resource_factor": 0.12778492,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "oracle_wrong_history": {
+    "N": 5825.64941257,
+    "q": 0.8274316,
+    "resource_factor": 0.12778492,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "oracle_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.7786034,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "rl_stable": {
+    "N": 5084.02873998,
+    "q": 0.79751676,
+    "resource_factor": 0.14116261,
+    "self_invasion": -0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "rl_wrong_history": {
+    "N": 5084.02873998,
+    "q": 0.79751676,
+    "resource_factor": 0.14116261,
+    "self_invasion": -0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  },
+  "rl_no_payoff": {
+    "N": 1211.00917392,
+    "q": 0.74547064,
+    "resource_factor": 0.31142857,
+    "self_invasion": 0.0,
+    "residual": 0.0,
+    "persistent": true,
+    "resident_d": 0.5,
+    "resident_tau": 3
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "workflow": "gsd-spike",
+  "mode": "--quick",
+  "interface": "Installed Codex skill adapter, continued from explicitly invoked V4 workflow; actual installed workflow and runtime identity read before V5 execution",
+  "version": "1.14.0",
+  "skill": "/hpc/home/mg551/.agents/skills/gsd-spike/SKILL.md",
+  "branch": "v5-information-access",
+  "parent_commit": "40187b0",
+  "spikes": [
+    9,
+    10,
+    11
+  ],
+  "commit_docs": true,
+  "roles": "Continued literature, modeling/implementation, adversarial verification and dashboard roles; no new automatic Astra routing",
+  "no_full_project_planning": true,
+  "no_public_deployment": true
+}

@@ -1,0 +1,43 @@
+{
+  "ecosystem": "scientific-literature",
+  "config": {
+    "exa_search": false,
+    "brave_search": true,
+    "firecrawl": false,
+    "tavily_search": false
+  },
+  "questions": [
+    {
+      "text": "Lehmann 2013 primary paper evolution of learning schedules age structured social individual learning juvenile adults model",
+      "kind": "web"
+    },
+    {
+      "text": "Acerbi 2009 primary paper cultural conservatism age cultural learning model",
+      "kind": "web"
+    },
+    {
+      "text": "Herbert Simon 1990 docility social learning primary paper mechanism social selection successful altruism",
+      "kind": "web"
+    },
+    {
+      "text": "Maisonneuve 2025 social learning evolution primary paper juvenile deference adult cultural knowledge",
+      "kind": "web"
+    },
+    {
+      "text": "van den Berg 2024 social learning evolution primary paper cultural learning schedules",
+      "kind": "web"
+    },
+    {
+      "text": "rare mutant invasion linear operator frozen resident cultural environment adaptive dynamics social learning cultural transmission",
+      "kind": "web"
+    },
+    {
+      "text": "age structured social learning individual learning optimal learning schedule environment change cultural evolution primary research",
+      "kind": "web"
+    },
+    {
+      "text": "credibility calibrated social learning Bayesian testimony reliability reinforcement learning cultural evolution primary research",
+      "kind": "web"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "browser": "Chrome for Testing",
+  "mode": "file:// with HTTP(S) blocked",
+  "checks": [
+    {
+      "name": "duplicate_html_hash",
+      "pass": true,
+      "detail": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19"
+    },
+    {
+      "name": "offline_load_and_gzip_decode",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_http_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "schema_version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "declared_grid_shape",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fifty_contexts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "five_models",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ten_scenarios",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "simulation_data_label",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "precomputed_only_disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "log_tau_axis",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "explicit_numeric_tau_ticks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rendered_axis_title_objects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rendered_colorbar_title",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_endpoint_plot",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_metrics_table",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_retention_disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private_held_distinct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "conditional_override_denominator",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "query_units_use_two_axes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "juvenile_distribution_heatmap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "adult_distribution_heatmap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution_cursor_bars",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution_mass_normalized",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw_distribution_reconciles_population",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "conviction_not_log_evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "irreversible_maturation_arrow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "architecture_contract_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario_segments_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "load_scope_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "misinformation_reversal_distinct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "six_hypotheses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "repertoire_benchmark_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "repertoire_seed_uncertainty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "repertoire_scope_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "repertoire_measured_finding",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "observable_tutor_filter_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tutor_filter_not_correctness_oracle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tutor_search_scope_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tutor_availability_quality_actuals",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "wrong_confident_tutor_harm_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bayes_benchmark_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bayes_worst_case_exact_values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bayes_scope_no_demography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bayes_exact_checks_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanism_factorial_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanism_storage_action_distinct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_condition_map_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_access_log_ticks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_scope_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "paired_histories_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "paired_histories_uncertainty_scope",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "architecture_invasion_matrix",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "actual_genotype_frequency_trajectory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "selection_limits_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "selection_refinement_candidates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanism_invasion_table",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanism_invasion_scope",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen_replacement_trajectory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "replacement_contract_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "replacement_cost_control",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "memory_cost_table_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "refinement_table_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full_precision_dynamic_convergence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "supplement_inventory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "three_initial_pins",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "d0_identity_invariant",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen_has_zero_adult_queries",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_cost_has_zero_query_cost",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "neutral_contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_click_loads_cell",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_selection_synchronizes_sliders",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scrub_synchronizes_cursor",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "animation_play",
+      "pass": true,
+      "detail": "cursor=43"
+    },
+    {
+      "name": "animation_pause",
+      "pass": true,
+      "detail": "cursor=43"
+    },
+    {
+      "name": "animation_restart",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "pin_matched_set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oracle_d_inactive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oracle_privilege_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oracle_lossless_compaction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oracle_duplicate_view_reconstructed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reset_ablation_warning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid_invasion_is_blank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "truth_reversal_segment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "misinformation_segments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "json_csv_exports",
+      "pass": true,
+      "detail": "[{\"name\":\"v5-config.json\",\"size\":1007,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v5-config.csv\",\"size\":740,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v5-map.json\",\"size\":144154,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v5-map.csv\",\"size\":84063,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v5-series.json\",\"size\":95467,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v5-series.csv\",\"size\":79268,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v5-b-distributions.json\",\"size\":20052,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v5-selected-evidence.json\",\"size\":260401,\"run\":true,\"label\":true,\"type\":\"application/json\"}]"
+    },
+    {
+      "name": "plotly_image_export",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fixed_within_sweep_invariants",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop_ready_before_capture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "query_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "selection_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "replacement_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tutor_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bayes_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile_ready_before_capture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive_layout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser_console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

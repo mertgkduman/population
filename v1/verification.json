@@ -1,0 +1,445 @@
+{
+  "run_id": "20261029T232817Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "copy_equal_MSE_flat",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "d0_adult_moments_copy",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "cloned_copy_flat",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "k_error_zero_copy_flat",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "d0_adult_moments_blend",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "cloned_blend_flat",
+      "pass": true,
+      "measured": 1.000444171950221e-10,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "k_error_zero_blend_flat",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "copy_helpful_muF_decreases",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "copy_noisy_muF_increases",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "equal_independent_blend_interior",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "zero_birth_death_maturation_closed_form",
+      "pass": true,
+      "measured": 2.048651026598236e-09,
+      "tolerance": 1e-07,
+      "detail": ""
+    },
+    {
+      "name": "fixed_resource_matrix_exponential",
+      "pass": true,
+      "measured": 3.825272187896189e-08,
+      "tolerance": 1e-06,
+      "detail": ""
+    },
+    {
+      "name": "dominant_eigenvalue_independent",
+      "pass": true,
+      "measured": 2.7755575615628914e-17,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "positive_equilibrium_flux_balance",
+      "pass": true,
+      "measured": 5.684341886080802e-14,
+      "tolerance": 1e-08,
+      "detail": ""
+    },
+    {
+      "name": "resident_self_invasion",
+      "pass": true,
+      "measured": 5.551115123125783e-17,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "r0_zero_boundary",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "threshold_equilibrium_zero",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "near_threshold_nonnegative",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "all_zero_absorbing",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "invalid_ranges_rejected",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "flux_identity",
+      "pass": true,
+      "measured": 2.842170943040401e-14,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "js_rk4_vs_scipy",
+      "pass": true,
+      "measured": 2.3482469427575008e-06,
+      "tolerance": 2e-05,
+      "detail": "Node executes the exact science.js bundled in the browser; browser UI tested separately"
+    },
+    {
+      "name": "js_rk4_step_halving",
+      "pass": true,
+      "measured": 2.209071588690499e-06,
+      "tolerance": 2e-05,
+      "detail": ""
+    },
+    {
+      "name": "js_analytic_parity",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-09,
+      "detail": ""
+    }
+  ],
+  "details": {
+    "near_threshold_r0": 1.172645913982695e-06,
+    "near_threshold_N_T": 41.493827755273884,
+    "near_threshold_N_star": 0.020000000000131024,
+    "helpful_muF_d0": 0.32999999999999996,
+    "helpful_muF_d1": 0.07800000000000001,
+    "noisy_muF_d0": 0.32999999999999996,
+    "noisy_muF_d1": 1.23
+  },
+  "js_parity": {
+    "engine": "Node executing browser science.js",
+    "cases": [
+      {
+        "model": "M0",
+        "policy": "copy",
+        "d": 0,
+        "tau": 0.5,
+        "max_absolute_error": 7.731292557622282e-05,
+        "max_scaled_error": 2.2888142372931415e-06,
+        "max_step_halving_scaled": 2.153809772148165e-06,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M0",
+        "policy": "copy",
+        "d": 1,
+        "tau": 20,
+        "max_absolute_error": 6.237814886844717e-08,
+        "max_scaled_error": 8.341774558565808e-11,
+        "max_step_halving_scaled": 8.256472559315374e-12,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M0",
+        "policy": "copy",
+        "d": 0.5,
+        "tau": 3,
+        "max_absolute_error": 7.293963903975964e-06,
+        "max_scaled_error": 7.94196628405817e-09,
+        "max_step_halving_scaled": 6.579204331238364e-09,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M0",
+        "policy": "blend",
+        "d": 0,
+        "tau": 0.5,
+        "max_absolute_error": 7.731292557622282e-05,
+        "max_scaled_error": 2.2888142372931415e-06,
+        "max_step_halving_scaled": 2.153809772148165e-06,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M0",
+        "policy": "blend",
+        "d": 1,
+        "tau": 20,
+        "max_absolute_error": 6.237814886844717e-08,
+        "max_scaled_error": 8.341774558565808e-11,
+        "max_step_halving_scaled": 8.256472559315374e-12,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M0",
+        "policy": "blend",
+        "d": 0.5,
+        "tau": 3,
+        "max_absolute_error": 8.517214109815541e-05,
+        "max_scaled_error": 7.002203353819395e-08,
+        "max_step_halving_scaled": 4.0359556352668955e-09,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "copy",
+        "d": 0,
+        "tau": 0.5,
+        "max_absolute_error": 6.206208613335207e-05,
+        "max_scaled_error": 2.3482469427575008e-06,
+        "max_step_halving_scaled": 2.209071588690499e-06,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "copy",
+        "d": 1,
+        "tau": 20,
+        "max_absolute_error": 1.4499162716674618e-05,
+        "max_scaled_error": 4.896733862756684e-09,
+        "max_step_halving_scaled": 3.102615122484604e-11,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "copy",
+        "d": 0.5,
+        "tau": 3,
+        "max_absolute_error": 1.5475636246264912e-05,
+        "max_scaled_error": 1.315780896698053e-08,
+        "max_step_halving_scaled": 6.7951879646718615e-09,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "blend",
+        "d": 0,
+        "tau": 0.5,
+        "max_absolute_error": 6.206208613335207e-05,
+        "max_scaled_error": 2.3482469427575008e-06,
+        "max_step_halving_scaled": 2.209071588690499e-06,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "blend",
+        "d": 1,
+        "tau": 20,
+        "max_absolute_error": 1.4499162716674618e-05,
+        "max_scaled_error": 4.896733862756684e-09,
+        "max_step_halving_scaled": 3.102615122484604e-11,
+        "max_analytic_error": 0
+      },
+      {
+        "model": "M1",
+        "policy": "blend",
+        "d": 0.5,
+        "tau": 3,
+        "max_absolute_error": 4.970704594597919e-05,
+        "max_scaled_error": 3.265718586412181e-08,
+        "max_step_halving_scaled": 4.249574715569031e-09,
+        "max_analytic_error": 0
+      }
+    ],
+    "max_absolute_error": 8.517214109815541e-05,
+    "max_scaled_error": 2.3482469427575008e-06,
+    "max_halving_scaled": 2.209071588690499e-06,
+    "max_analytic_error": 0,
+    "step": 0.05,
+    "half_step": 0.025,
+    "relative_denominator": "max(1, |reference state|)"
+  },
+  "browser_ui": {
+    "status": "PASS",
+    "browser": "Chrome for Testing 154.0.8037.92",
+    "mode": "file:// with HTTP(S) blocked",
+    "checks": [
+      {
+        "name": "offline_load",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "analytic_map_render",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "only_local_requests",
+        "pass": true,
+        "detail": "[]"
+      },
+      {
+        "name": "initial_trajectory",
+        "pass": true,
+        "detail": "{\"F\":\"80.000\",\"A\":\"20.000\",\"N\":100,\"map\":\"51 \u00d7 61 analytic cells \u00b7 3111 defined \u00b7 0 missing \u00b7 color limits \u00b10.400 \u00b7 simulation data\"}"
+      },
+      {
+        "name": "browser_scipy_trajectory_parity",
+        "pass": true,
+        "detail": "12 cases; max absolute=0.00008517214109815541; max scaled=0.0000023482469427575008; denominator=max(1,|reference state|)"
+      },
+      {
+        "name": "browser_rk4_step_halving",
+        "pass": true,
+        "detail": "max scaled h=0.05 vs 0.025: 0.000002209071588690499"
+      },
+      {
+        "name": "play_advances",
+        "pass": true,
+        "detail": "cursor=4"
+      },
+      {
+        "name": "pause_stops",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scrub_sync",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "reset_time",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "heatmap_selection",
+        "pass": true,
+        "detail": "before=0.5"
+      },
+      {
+        "name": "three_pins",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "invasion_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "resident_self_invasion",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "numerical_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scenario_preserves_demography",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "resident_invalidated_on_scenario_change",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "r0_boundary_visible",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "policy_model_controls",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "configuration_import",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "cancel_restart_no_stale_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "exports",
+        "pass": true,
+        "detail": "[{\"name\":\"configuration-20261029T232817Z.json\",\"bytes\":870,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"sweep-20261029T232817Z.csv\",\"bytes\":409101,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"sweep-20261029T232817Z.json\",\"bytes\":1186966,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"series-20261029T232817Z.csv\",\"bytes\":78781,\"hasRun\":true,\"hasSimulation\":true},{\"name\":\"series-20261029T232817Z.json\",\"bytes\":110044,\"hasRun\":true,\"hasSimulation\":true}]"
+      },
+      {
+        "name": "responsive_layout",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "browser_console_errors",
+        "pass": true,
+        "detail": "[]"
+      }
+    ],
+    "console_errors": [],
+    "remote_requests": []
+  },
+  "overall_status": "PASS"
+}

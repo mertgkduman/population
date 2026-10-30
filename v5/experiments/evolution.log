@@ -1,0 +1,44 @@
+architecture invasion 96
+pairwise 648
+competition 10
+Traceback (most recent call last):
+  File "/hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py", line 103, in <module>
+    for i in range(len(d)):rows.append(dict(world=world,seed=seed,phase='explore' if seed<3000 else 'confirm',d=d[i],tau=tau[i],rate=rate[i],resident_rate=res,relative_rate=rate[i]-res))
+                                                            ^^^^^^^^^
+  File "/hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py", line 96, in dynamic
+    return rates,resident_growth,d,tau
+                     ^^^^^^^^^^^^^^^^^^
+  File "/hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py", line 88, in dynamic_run
+    if t>=T:break
+            ^^^^^^
+  File "/hpc/home/mg551/miniconda3/lib/python3.12/site-packages/numba/core/dispatcher.py", line 424, in _compile_for_args
+    error_rewrite(e, 'typing')
+  File "/hpc/home/mg551/miniconda3/lib/python3.12/site-packages/numba/core/dispatcher.py", line 365, in error_rewrite
+    raise e.with_traceback(None)
+numba.core.errors.TypingError: Failed in nopython mode pipeline (step: nopython frontend)
+No implementation of function Function(<function repeat at 0x7f9b6f8e59e0>) found for signature:
+ 
+ >>> repeat(array(float64, 2d, C), int64, axis=Literal[int](0))
+ 
+There are 2 candidate implementations:
+ - Of which 2 did not match due to:
+ Overload in function 'np_repeat': File: numba/np/arrayobj.py: Line 2714.
+   With argument(s): '(array(float64, 2d, C), int64, axis=int64)':
+  Rejected as the implementation raised a specific error:
+    TypingError: got an unexpected keyword argument 'axis'
+  raised from /hpc/home/mg551/miniconda3/lib/python3.12/site-packages/numba/core/typing/templates.py:791
+
+During: resolving callee type: Function(<function repeat at 0x7f9b6f8e59e0>)
+During: typing of call at /hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py (59)
+During: typing of call at /hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py (61)
+During: typing of call at /hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py (63)
+During: typing of call at /hpc/group/pfisterlab/mg551/storage/population/v5/experiments/evolution.py (65)
+
+File "v5/experiments/evolution.py", line 59:
+def _repeat_env(e,n):
+    <source elided>
+ return out
+
+ ^
+
+During: Pass nopython_type_inference

@@ -1,0 +1,564 @@
+{
+  "optima": [
+    {
+      "model": "fixed",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.2750997399633,
+      "rT": 0.006682395887301941,
+      "ties": 17,
+      "d_inactive": false
+    },
+    {
+      "model": "fixed",
+      "scenario": "periodic",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5044.440093020531,
+      "rT": 0.009802179395219202,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "fixed",
+      "scenario": "shock",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.802471295835,
+      "rT": 0.010161775453409207,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "fixed",
+      "scenario": "stable",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.9310364052035,
+      "rT": 0.01016183063282996,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "fixed",
+      "scenario": "wrong_history",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.9309650513205,
+      "rT": 0.010161830602205612,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "memoryless",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.275099739964,
+      "rT": 0.006682395887301942,
+      "ties": 17,
+      "d_inactive": false
+    },
+    {
+      "model": "memoryless",
+      "scenario": "periodic",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4541.0394794671365,
+      "rT": 0.009539352597687399,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "memoryless",
+      "scenario": "shock",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4630.68612807582,
+      "rT": 0.009588225354804749,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "memoryless",
+      "scenario": "stable",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4630.686140986737,
+      "rT": 0.009588225361775053,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "memoryless",
+      "scenario": "wrong_history",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4630.6861409866,
+      "rT": 0.009588225361774979,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "oracle",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.2750997399626,
+      "rT": 0.006682395887301938,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "oracle",
+      "scenario": "periodic",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5094.395613435213,
+      "rT": 0.009826815322913327,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "oracle",
+      "scenario": "shock",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.860061219307,
+      "rT": 0.010161800170830553,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "oracle",
+      "scenario": "stable",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.9310364052035,
+      "rT": 0.01016183063282996,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "oracle",
+      "scenario": "wrong_history",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        3.486843294886783,
+        3.486843294886783
+      ],
+      "N": 5824.931016011553,
+      "rT": 0.010161830624077215,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "private",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.2750997399633,
+      "rT": 0.006682395887301941,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "private",
+      "scenario": "periodic",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4966.2840946559645,
+      "rT": 0.009763142465972322,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "private",
+      "scenario": "shock",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5195.733308545083,
+      "rT": 0.009876057160462842,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "private",
+      "scenario": "stable",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5195.733571311159,
+      "rT": 0.009876057286896424,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "private",
+      "scenario": "wrong_history",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5195.733571307931,
+      "rT": 0.00987605728689487,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "public_only",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.2750997399633,
+      "rT": 0.006682395887301941,
+      "ties": 17,
+      "d_inactive": false
+    },
+    {
+      "model": "public_only",
+      "scenario": "periodic",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 4995.195877711168,
+      "rT": 0.009777654297706686,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "public_only",
+      "scenario": "shock",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5245.071951470167,
+      "rT": 0.009899685132137535,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "public_only",
+      "scenario": "stable",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5245.0722886278845,
+      "rT": 0.009899685292839671,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "public_only",
+      "scenario": "wrong_history",
+      "d_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5245.07228862263,
+      "rT": 0.009899685292837168,
+      "ties": 1,
+      "d_inactive": false
+    },
+    {
+      "model": "rl",
+      "scenario": "no_payoff",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 1448.2750997399633,
+      "rT": 0.006682395887301941,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "rl",
+      "scenario": "periodic",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5009.876974469345,
+      "rT": 0.009784991129487934,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "rl",
+      "scenario": "shock",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5300.151264391671,
+      "rT": 0.009925801133990273,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "rl",
+      "scenario": "stable",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5300.151803889334,
+      "rT": 0.009925801388463029,
+      "ties": 17,
+      "d_inactive": true
+    },
+    {
+      "model": "rl",
+      "scenario": "wrong_history",
+      "d_range": [
+        0.0,
+        1.0
+      ],
+      "tau_range": [
+        0.5,
+        0.5
+      ],
+      "N": 5300.151803878087,
+      "rT": 0.009925801388457722,
+      "ties": 17,
+      "d_inactive": true
+    }
+  ],
+  "environment_seed_contrasts": [
+    {
+      "phase": "exploratory",
+      "tau": 1.0,
+      "paired_d1_minus_d0_mean": 5.885499831571766e-05,
+      "CI95": [
+        4.6549088199522234e-06,
+        0.0001130550878114831
+      ],
+      "positive_histories": 14,
+      "n": 20
+    },
+    {
+      "phase": "exploratory",
+      "tau": 3.0,
+      "paired_d1_minus_d0_mean": 0.0001772931588461959,
+      "CI95": [
+        -2.228676351809743e-06,
+        0.00035681499404420156
+      ],
+      "positive_histories": 14,
+      "n": 20
+    },
+    {
+      "phase": "exploratory",
+      "tau": 8.0,
+      "paired_d1_minus_d0_mean": 0.00021919963447458016,
+      "CI95": [
+        -0.0001960723737101657,
+        0.000634471642659326
+      ],
+      "positive_histories": 13,
+      "n": 20
+    },
+    {
+      "phase": "confirmatory",
+      "tau": 1.0,
+      "paired_d1_minus_d0_mean": 8.034201670589274e-05,
+      "CI95": [
+        2.7548275846445974e-05,
+        0.0001331357575653395
+      ],
+      "positive_histories": 15,
+      "n": 20
+    },
+    {
+      "phase": "confirmatory",
+      "tau": 3.0,
+      "paired_d1_minus_d0_mean": 0.0002525270986562126,
+      "CI95": [
+        7.023958124943274e-05,
+        0.00043481461606299245
+      ],
+      "positive_histories": 15,
+      "n": 20
+    },
+    {
+      "phase": "confirmatory",
+      "tau": 8.0,
+      "paired_d1_minus_d0_mean": 0.00039258779888976523,
+      "CI95": [
+        -4.844861873862011e-05,
+        0.0008336242165181506
+      ],
+      "positive_histories": 14,
+      "n": 20
+    }
+  ],
+  "history_convergence": {
+    "fixed": 5.848139498221272e-07,
+    "memoryless": 3.5996238356705845e-07,
+    "oracle": 6.439430444427074e-08,
+    "private": 4.77176755664388e-07,
+    "public_only": 7.182943019268251e-07,
+    "rl": 4.3774876756774717e-07
+  },
+  "labels": {
+    "growth": "r400 finite-horizon log growth; N400 same ordering at fixed initial N",
+    "uncertainty": "95% Student-t interval for paired mean across random environment histories only; deterministic within each history"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "model": "fixed",
+    "scenario": "stable",
+    "N_min": 100.0,
+    "N_max": 5796.59448493,
+    "finite": true
+  },
+  {
+    "model": "fixed",
+    "scenario": "shock",
+    "N_min": 100.0,
+    "N_max": 5796.5444787,
+    "finite": true
+  },
+  {
+    "model": "public_only",
+    "scenario": "stable",
+    "N_min": 100.0,
+    "N_max": 5245.07228863,
+    "finite": true
+  },
+  {
+    "model": "public_only",
+    "scenario": "shock",
+    "N_min": 100.0,
+    "N_max": 5245.07195147,
+    "finite": true
+  }
+]

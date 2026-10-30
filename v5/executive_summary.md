@@ -1,0 +1,17 @@
+# V5 executive research summary
+
+**The proposed information-access mechanism matters.** V5 gives private learners memory of their own childhood evidence, makes adult advice arise from prior learning, and varies noise, access and sampling cost without changing cognitive ability across deference traits. It separates storing adult information from currently overriding one's own judgment.
+
+In matched main-grid comparisons near tau=3, deference plus retained culture raises N(400) by 33.9% in the default stable case,40.2% with noisy private cues, and85.5% when private access is scarce. Slowing both private and social exposure reduces the gain to 13.6%. Thus the relative accessibility of usable adult knowledge matters more than a generic label of environmental difficulty.
+
+Frozen convictions can beat continuous private updating in a stable noisy world. At p=.55,d=1,tau=3, the population reaches 3816.8 with continuous updating,4364.3 with freezing and4479.5 with confidence-based auditing. Under a common confidence-audit rule, more childhood deference also reduces adult query frequency through acquired conviction. Some freezing benefit persists without query cost, but the exact Bayesian control shows why this is conditional: crude bounded unit-step updating can misweight weak cues. Optimal cost-free calibrated Bayesian updating does not lose expected accuracy from valid independent evidence in the stable benchmark.
+
+The action/storage factorial changes the interpretation. In the noisy case, overriding current private judgment alone reduces abundance and has negative invasion in the tested private-learning resident. Storing testimony without immediate override is beneficial. A positive tied-deference result is therefore not automatically a separate authority or obedience effect.
+
+Actual multi-fact experiments show that a large repertoire can dilute adult knowledge too. Selecting teachers by observable conviction improves access to useful information in stable environments, but the cost-free full-cohort search also increases testimony availability. After a true change, the same filter can preserve confident error. Freezing is more protective against misleading observations and less responsive to actual environmental change.
+
+Evolutionary analysis uses shared teachers and resources. In noisy conditions a frozen policy invades an auditing resident with query cost .02, but cannot do so when that cost is zero. From0.1%, the frozen lineage reaches 98.25% over a long deterministic run, while abundance falls about 2.5%. This establishes a conditional selection–abundance disagreement for specified inherited architectures; freezing was not generated spontaneously as a developmental phenotype.
+
+The main-grid deference optimum is usually the boundary d=1, with exact neutral ties identified separately. Retained-model invasion candidates for tau differ from abundance maxima; the noisy case favors the lower primary boundary and has an interior candidate only in an explicitly expanded domain below it. None is an analytical ESS proof.
+
+All outputs, counterexamples, source code, raw data, numerical checks and offline interactive figures are preserved. The strongest conclusion is that **acquiring and selectively preserving cultural knowledge can be useful under difficult information access**. A distinct historical evolutionary adaptation for childhood dogmatism remains unsupported.

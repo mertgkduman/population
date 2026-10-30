@@ -1,0 +1,366 @@
+{
+  "paired_delta": "r600(d1)-r600(d0)",
+  "scope": "Across environmental paths only; not demographic stochasticity. Each true-change/channel-change pair has identical signed cue statistics and event times, but truth-dependent demographic filtering remains active. All begin in +1 with aligned majority, so finite-horizon phase effects remain.",
+  "rows": [
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000190708,
+      "se": 2.4657e-05,
+      "positive": 11
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000294863,
+      "se": 5.5277e-05,
+      "positive": 10
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 8.0,
+      "n": 12,
+      "mean": 0.000241108,
+      "se": 0.000117314,
+      "positive": 9
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000191449,
+      "se": 2.9851e-05,
+      "positive": 12
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000234913,
+      "se": 7.895e-05,
+      "positive": 9
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -4.0265e-05,
+      "se": 0.00019938,
+      "positive": 6
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000202081,
+      "se": 2.8158e-05,
+      "positive": 11
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000288931,
+      "se": 6.5161e-05,
+      "positive": 10
+    },
+    {
+      "phase": "explore",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 8.0,
+      "n": 12,
+      "mean": 0.000153693,
+      "se": 0.000148888,
+      "positive": 8
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000101759,
+      "se": 4.7097e-05,
+      "positive": 7
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 3.0,
+      "n": 12,
+      "mean": -4.438e-05,
+      "se": 0.000190271,
+      "positive": 8
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.004210212,
+      "se": 0.002064405,
+      "positive": 4
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000294703,
+      "se": 1.2017e-05,
+      "positive": 12
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000554782,
+      "se": 4.8482e-05,
+      "positive": 12
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 8.0,
+      "n": 12,
+      "mean": 0.001277388,
+      "se": 0.000123871,
+      "positive": 12
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000193958,
+      "se": 3.2719e-05,
+      "positive": 12
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000276134,
+      "se": 0.000123137,
+      "positive": 9
+    },
+    {
+      "phase": "explore",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.000656754,
+      "se": 0.001049316,
+      "positive": 9
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 9.2522e-05,
+      "se": 3.9054e-05,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 6.6609e-05,
+      "se": 9.0368e-05,
+      "positive": 7
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "retained",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.00012396,
+      "se": 0.000168792,
+      "positive": 5
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 8.1195e-05,
+      "se": 4.3565e-05,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 3.0,
+      "n": 12,
+      "mean": -1.5595e-05,
+      "se": 0.000107162,
+      "positive": 5
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "frozen",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.000374862,
+      "se": 0.000227704,
+      "positive": 5
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 8.8949e-05,
+      "se": 4.4584e-05,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 3.9092e-05,
+      "se": 0.000100482,
+      "positive": 6
+    },
+    {
+      "phase": "confirm",
+      "world": "real_changes",
+      "model": "audit",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.000217349,
+      "se": 0.000193232,
+      "positive": 5
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 7.8189e-05,
+      "se": 4.3402e-05,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 3.0,
+      "n": 12,
+      "mean": -6.995e-05,
+      "se": 0.000183341,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "retained",
+      "tau": 8.0,
+      "n": 12,
+      "mean": -0.003332899,
+      "se": 0.001687001,
+      "positive": 6
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.000299434,
+      "se": 1.4926e-05,
+      "positive": 12
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.00058726,
+      "se": 5.3148e-05,
+      "positive": 12
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "frozen",
+      "tau": 8.0,
+      "n": 12,
+      "mean": 0.001467468,
+      "se": 0.000109318,
+      "positive": 12
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 1.0,
+      "n": 12,
+      "mean": 0.0001844,
+      "se": 3.5277e-05,
+      "positive": 12
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 3.0,
+      "n": 12,
+      "mean": 0.000289677,
+      "se": 0.000123953,
+      "positive": 8
+    },
+    {
+      "phase": "confirm",
+      "world": "channel_changes",
+      "model": "audit",
+      "tau": 8.0,
+      "n": 12,
+      "mean": 8.8599e-05,
+      "se": 0.000519021,
+      "positive": 7
+    }
+  ]
+}

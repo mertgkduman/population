@@ -1,0 +1,139 @@
+{
+  "browser": "Chrome for Testing 154.0.8037.92",
+  "mode": "file:// with HTTP(S) blocked",
+  "checks": [
+    {
+      "name": "offline_load",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "numerical_map_render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_http_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "initial_two_states",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chrome_scipy_trajectory_parity",
+      "pass": true,
+      "detail": "24 cases; max absolute 0.000496223789468786; max scaled 0.0000023491938069104982"
+    },
+    {
+      "name": "chrome_rk4_step_halving",
+      "pass": true,
+      "detail": "max scaled 0.0000022090715907821848"
+    },
+    {
+      "name": "play",
+      "pass": true,
+      "detail": "cursor 4"
+    },
+    {
+      "name": "pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scrub_sync",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reset_time",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "positive_drift_improves_sigma",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "negative_drift_decays_sigma",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "quality_plot_updates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_select",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_pins",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "matched_delta_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "signed_zero_centered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drift_vs_static_map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "policy_and_model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scenario_preserves_demography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "config_import",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cancel_restart",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exports",
+      "pass": true,
+      "detail": "[{\"name\":\"v2-config-20261030T013236Z.json\",\"bytes\":942,\"run\":true,\"sim\":true},{\"name\":\"v2-map-20261030T013236Z.csv\",\"bytes\":79741,\"run\":true,\"sim\":true},{\"name\":\"v2-map-20261030T013236Z.json\",\"bytes\":220564,\"run\":true,\"sim\":true},{\"name\":\"v2-summary-20261030T013236Z.csv\",\"bytes\":2008,\"run\":true,\"sim\":true},{\"name\":\"v2-series-20261030T013236Z.csv\",\"bytes\":89001,\"run\":true,\"sim\":true},{\"name\":\"v2-series-20261030T013236Z.json\",\"bytes\":125966,\"run\":true,\"sim\":true}]"
+    },
+    {
+      "name": "experiment_library",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

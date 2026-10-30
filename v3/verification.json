@@ -1,0 +1,340 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "zero_rates_v1_trajectory_parity",
+      "pass": true,
+      "measured": 1.6820046628554228e-07,
+      "tolerance": 2e-06,
+      "detail": "12 v1 fixtures, scaled by max(1, |reference state|)"
+    },
+    {
+      "name": "zero_rates_v1_analytic_parity",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "deference_never_increases",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-14,
+      "detail": ""
+    },
+    {
+      "name": "adult_feature_never_decreases",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-14,
+      "detail": ""
+    },
+    {
+      "name": "adult_error_never_increases",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-14,
+      "detail": ""
+    },
+    {
+      "name": "d0_zero_quality_rate_null_scaled",
+      "pass": true,
+      "measured": 1.3250214378755954e-08,
+      "tolerance": 2e-07,
+      "detail": "spread over both rate axes; common d_floor=0"
+    },
+    {
+      "name": "k_error_zero_null_scaled",
+      "pass": true,
+      "measured": 1.5076305722634742e-15,
+      "tolerance": 2e-07,
+      "detail": "spread over d0 and both rate axes"
+    },
+    {
+      "name": "d0_zero_individual_null",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-09,
+      "detail": ""
+    },
+    {
+      "name": "biased_copy_always_harmful",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": "minimum adult MSE minus private MSE must stay positive"
+    },
+    {
+      "name": "noisy_MSE_crossing_sign",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "batch_individual_DOP853_parity",
+      "pass": true,
+      "measured": 1.4591515804321961e-15,
+      "tolerance": 2e-06,
+      "detail": ""
+    },
+    {
+      "name": "maturation_conserves_N_closed_form",
+      "pass": true,
+      "measured": 1.9854553556797327e-08,
+      "tolerance": 1e-06,
+      "detail": ""
+    },
+    {
+      "name": "flux_identity",
+      "pass": true,
+      "measured": 5.684341886080802e-14,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "all_zero_absorbing",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "sweep_nonnegative",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "all_main_outputs_finite",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "rT_definition",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 1e-12,
+      "detail": ""
+    },
+    {
+      "name": "invalid_parameters_rejected",
+      "pass": true,
+      "measured": 0.0,
+      "tolerance": 0,
+      "detail": ""
+    },
+    {
+      "name": "refined_max_at_least_coarse_max",
+      "pass": true,
+      "measured": 1.1356020290786972e-12,
+      "tolerance": 2e-07,
+      "detail": ""
+    },
+    {
+      "name": "js_scipy_scaled_parity",
+      "pass": true,
+      "measured": 4.5758346178299816e-07,
+      "tolerance": 2e-05,
+      "detail": "64 signed-rate fixtures; denominator max(1, |reference state|)"
+    },
+    {
+      "name": "js_step_halving",
+      "pass": true,
+      "measured": 3.605645798748234e-07,
+      "tolerance": 2e-05,
+      "detail": ""
+    },
+    {
+      "name": "js_analytic_parity",
+      "pass": true,
+      "measured": 2.6645352591003757e-15,
+      "tolerance": 1e-11,
+      "detail": ""
+    }
+  ],
+  "metrics": {
+    "main_shape": [
+      5,
+      2,
+      2,
+      7,
+      7,
+      21,
+      21,
+      3
+    ],
+    "main_trait_trajectories": 432180,
+    "main_horizon_records": 1296540,
+    "noisy_crossing_time_lambdaQ_0p01": 69.31471805599453,
+    "v1_scaled_error": 1.6820046628554228e-07,
+    "d0_batch_scaled_spread": 1.3250214378755954e-08,
+    "no_effect_batch_scaled_spread": 1.5076305722634742e-15,
+    "batch_scaled_error": 1.4591515804321961e-15,
+    "minimum_population_density": 1.993107438164442e-10,
+    "refinement_max_coarse_minus_fine": 1.1356020290786972e-12,
+    "js_parity": {
+      "engine": "Node executing v3 browser science.js",
+      "max_absolute_error": 0.0007899591651039373,
+      "max_scaled_error": 4.5758346178299816e-07,
+      "max_halving_scaled": 3.605645798748234e-07,
+      "max_analytic_error": 2.6645352591003757e-15,
+      "step": 0.05,
+      "half_step": 0.025,
+      "relative_denominator": "max(1, |reference state|)"
+    }
+  },
+  "browser_ui": {
+    "status": "PASS",
+    "browser": "Chrome for Testing 154.0.8037.92",
+    "mode": "file:// with HTTP(S) blocked",
+    "checks": [
+      {
+        "name": "offline_load",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "trait_heatmap_and_surface",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "rate_interaction_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "five_additional_visualizations",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "no_http_requests",
+        "pass": true,
+        "detail": "[]"
+      },
+      {
+        "name": "initial_two_states",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "d_decreases_Q_increases_sigma_decreases",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "chrome_scipy_trajectory_parity",
+        "pass": true,
+        "detail": "64 cases; max absolute=0.0007899591651039373; max scaled=4.5758346178299816e-7"
+      },
+      {
+        "name": "chrome_step_halving",
+        "pass": true,
+        "detail": "max scaled=3.605645798748234e-7"
+      },
+      {
+        "name": "play",
+        "pass": true,
+        "detail": "cursor=4"
+      },
+      {
+        "name": "pause",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scrub_synchronizes",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "reset_time",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "trait_map_selection",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "rate_map_selection",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "three_matched_pins",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "matched_delta_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "signed_map_centered",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "rate_interaction_trait_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "policy_model_controls",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "scenario_preserves_demography",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "configuration_import",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "cancel_restart_no_stale_map",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "exports",
+        "pass": true,
+        "detail": "[{\"name\":\"v3-config-20261030T022304Z.json\",\"size\":1016,\"run\":true,\"sim\":true},{\"name\":\"v3-map-20261030T022304Z.csv\",\"size\":82098,\"run\":true,\"sim\":true},{\"name\":\"v3-map-20261030T022304Z.json\",\"size\":234181,\"run\":true,\"sim\":true},{\"name\":\"v3-summary-20261030T022304Z.csv\",\"size\":5528,\"run\":true,\"sim\":true},{\"name\":\"v3-series-20261030T022304Z.csv\",\"size\":109938,\"run\":true,\"sim\":true},{\"name\":\"v3-series-20261030T022304Z.json\",\"size\":152565,\"run\":true,\"sim\":true}]"
+      },
+      {
+        "name": "precomputed_summary_49_rate_pairs",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "surface_webgl_canvas",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "responsive_layout",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "browser_console_errors",
+        "pass": true,
+        "detail": "[]"
+      }
+    ],
+    "console_errors": [],
+    "remote_requests": []
+  },
+  "overall_status": "PASS"
+}

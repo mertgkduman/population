@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+.planning/research/.cache/
+v4_research_complete.zip
+
+v5_research_complete.zip
+
+# Generated Pages build and non-destructive GitHub snapshot
+/docs/
+/dist/
+
+# Reconstructed originals are generated from preserved version-local chunks.
+/v5/experiments/dashboard_data.json.gz
+/v5/index.html
+/v5/research_dashboard.html

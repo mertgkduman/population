@@ -1,0 +1,58 @@
+[
+  {
+    "model": "retained",
+    "scenario": "stable",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5324.324145471
+  },
+  {
+    "model": "retained",
+    "scenario": "noisy",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 4056.694387225
+  },
+  {
+    "model": "retained",
+    "scenario": "truth_reversal",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5324.322646978
+  },
+  {
+    "model": "retained",
+    "scenario": "misinformation",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5324.182602078
+  },
+  {
+    "model": "frozen",
+    "scenario": "stable",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5176.421681018
+  },
+  {
+    "model": "frozen",
+    "scenario": "noisy",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 4356.753956777
+  },
+  {
+    "model": "frozen",
+    "scenario": "truth_reversal",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5176.345365149
+  },
+  {
+    "model": "frozen",
+    "scenario": "misinformation",
+    "min_state": 0.0,
+    "finite": true,
+    "max_N": 5175.22436689
+  }
+]

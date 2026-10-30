@@ -1,0 +1,37 @@
+{
+  "archive": "/hpc/group/pfisterlab/mg551/storage/population/v5_research_complete.zip",
+  "bytes": 594106436,
+  "sha256": "12d30207af27df7538898f10e753d8bd698a597f391577b6702a3c8eb15438ee",
+  "files": 150,
+  "verification": {
+    "numerical": {
+      "passed": 30,
+      "total": 30
+    },
+    "artifacts": {
+      "passed": 30,
+      "total": 30
+    },
+    "followups": {
+      "passed": 12,
+      "total": 12
+    },
+    "bayes": {
+      "passed": 6,
+      "total": 6
+    },
+    "repertoire": {
+      "passed": 8,
+      "total": 8
+    },
+    "tutors": {
+      "passed": 7,
+      "total": 7
+    },
+    "browser": {
+      "passed": 99,
+      "total": 99
+    }
+  },
+  "archive_crc": "PASS"
+}

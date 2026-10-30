@@ -1,0 +1,106 @@
+{
+  "stable": {
+    "environment": [
+      0.804086774,
+      0.155454914,
+      1.0
+    ],
+    "N": 4432.733269827,
+    "residual": 0.0,
+    "self_rate": -0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "clean": {
+    "environment": [
+      0.898504126,
+      0.122728832,
+      1.0
+    ],
+    "N": 6148.044596238,
+    "residual": 0.0,
+    "self_rate": 0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "noisy": {
+    "environment": [
+      0.704866506,
+      0.195536856,
+      1.0
+    ],
+    "N": 3114.12539742,
+    "residual": 0.0,
+    "self_rate": 0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "sparse": {
+    "environment": [
+      0.72750188,
+      0.174019902,
+      1.0
+    ],
+    "N": 3746.469170737,
+    "residual": 0.0,
+    "self_rate": -0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "load": {
+    "environment": [
+      0.659822229,
+      0.200859397,
+      1.0
+    ],
+    "N": 2978.607010739,
+    "residual": 0.0,
+    "self_rate": 0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "wrong_history": {
+    "environment": [
+      0.804086774,
+      0.155454914,
+      1.0
+    ],
+    "N": 4432.733269827,
+    "residual": 0.0,
+    "self_rate": -0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "no_cost": {
+    "environment": [
+      0.811002008,
+      0.138996137,
+      1.0
+    ],
+    "N": 5194.444559079,
+    "residual": 0.0,
+    "self_rate": 0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  },
+  "neutral": {
+    "environment": [
+      0.75733757,
+      0.311428571,
+      1.0
+    ],
+    "N": 1211.009173923,
+    "residual": 0.0,
+    "self_rate": 0.0,
+    "d": 0.5,
+    "tau": 3.0,
+    "architecture": "retained"
+  }
+}

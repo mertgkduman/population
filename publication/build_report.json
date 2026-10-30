@@ -1,0 +1,45 @@
+{
+  "bytes": 680901544,
+  "versions": [
+    {
+      "version": "v1",
+      "packages": 1,
+      "source_sha256": "7bc54e702c2391c87f49bcd43425b0f8c6a828845afc40fb97408ec3eff12343",
+      "hosted_bytes": 29041
+    },
+    {
+      "version": "v2",
+      "packages": 1,
+      "source_sha256": "3a95c76adee124d154c530ca58e1f1723a5651bd26300b918a6e428920ed4aba",
+      "hosted_bytes": 127774
+    },
+    {
+      "version": "v3",
+      "packages": 1,
+      "source_sha256": "d5f35ac3ae6e563be9b51c60293c1d908dad234e31019a0b218e2550f4335df6",
+      "hosted_bytes": 507470
+    },
+    {
+      "version": "v4",
+      "packages": 35,
+      "source_sha256": "ba97f5a75a95171f978263ed80da5ae2ec8db47f99496f050764ad28f668a0e7",
+      "hosted_bytes": 49607
+    },
+    {
+      "version": "v5",
+      "packages": 59,
+      "source_sha256": "74806ca0b91da2d5aae35146e9ba2beaa02bd3cf82268ccd495532d96cf43d19",
+      "hosted_bytes": 72574
+    }
+  ],
+  "tabs": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "Further work"
+  ],
+  "science_unchanged": true,
+  "largest_file_bytes": 36964711
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "scenario": "stable",
+    "d": 1.0,
+    "scan_tau": [
+      0.2,
+      0.35,
+      0.5,
+      0.75,
+      1.5,
+      3.0,
+      6.0,
+      12.0
+    ],
+    "gradient": [
+      0.008089372149028851,
+      0.004479202527613866,
+      0.0022741971109314072,
+      3.692231835561845e-05,
+      -0.0027318350050246445,
+      -0.0037795379534942878,
+      -0.003345355113889189,
+      -0.002325607120872567
+    ],
+    "roots": [
+      {
+        "tau": 0.7555177907025892,
+        "sign_change": [
+          3.692231835561845e-05,
+          -0.0027318350050246445
+        ],
+        "N": 5260.677360973997,
+        "max_sampled_invader": [
+          1.0,
+          0.7829735282337729,
+          -3.5700527452181977e-06
+        ],
+        "mutants_tested": 225,
+        "main_domain": true
+      }
+    ],
+    "primary_domain": [
+      0.5,
+      12
+    ],
+    "scope": "Finite-difference rare-mutant gradient under a matched resident cultural environment; numerical candidates, not an ESS proof. Expanded lower bound .2 is separately labeled."
+  },
+  {
+    "scenario": "noisy",
+    "d": 1.0,
+    "scan_tau": [
+      0.2,
+      0.35,
+      0.5,
+      0.75,
+      1.5,
+      3.0,
+      6.0,
+      12.0
+    ],
+    "gradient": [
+      0.0004697283947301119,
+      -0.0019953699220893804,
+      -0.0033379990676960136,
+      -0.004500665400436348,
+      -0.005415704295389882,
+      -0.005080972361904691,
+      -0.003950853031922281,
+      -0.0026219029897027804
+    ],
+    "roots": [
+      {
+        "tau": 0.22170265841319442,
+        "sign_change": [
+          0.0004697283947301119,
+          -0.0019953699220893804
+        ],
+        "N": 4044.557723317467,
+        "max_sampled_invader": [
+          1.0,
+          0.23720270160883017,
+          -3.3979060001260612e-06
+        ],
+        "mutants_tested": 225,
+        "main_domain": false
+      }
+    ],
+    "primary_domain": [
+      0.5,
+      12
+    ],
+    "scope": "Finite-difference rare-mutant gradient under a matched resident cultural environment; numerical candidates, not an ESS proof. Expanded lower bound .2 is separately labeled."
+  },
+  {
+    "scenario": "sparse",
+    "d": 1.0,
+    "scan_tau": [
+      0.2,
+      0.35,
+      0.5,
+      0.75,
+      1.5,
+      3.0,
+      6.0,
+      12.0
+    ],
+    "gradient": [
+      0.009537427173780377,
+      0.005741279944837532,
+      0.0035102327943846894,
+      0.0013871023377145816,
+      -0.001081511945011456,
+      -0.002369295166878872,
+      -0.002452167387700932,
+      -0.0017994990160358707
+    ],
+    "roots": [
+      {
+        "tau": 1.0554230313376631,
+        "sign_change": [
+          0.0013871023377145816,
+          -0.001081511945011456
+        ],
+        "N": 4602.49216754897,
+        "max_sampled_invader": [
+          1.0,
+          1.1013525203804029,
+          -7.623677318075457e-06
+        ],
+        "mutants_tested": 225,
+        "main_domain": true
+      }
+    ],
+    "primary_domain": [
+      0.5,
+      12
+    ],
+    "scope": "Finite-difference rare-mutant gradient under a matched resident cultural environment; numerical candidates, not an ESS proof. Expanded lower bound .2 is separately labeled."
+  }
+]

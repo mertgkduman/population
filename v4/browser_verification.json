@@ -1,0 +1,234 @@
+{
+  "browser": "Chrome for Testing",
+  "mode": "file:// with HTTP(S) blocked",
+  "checks": [
+    {
+      "name": "offline_load_and_gzip_decode",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_http_requests",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "expected_grid_shape",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all_model_contexts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all_scenario_contexts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "precomputed_only_label",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "log_tau_axis",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rendered_axis_and_colorbar_titles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "explicit_log_tau_ticks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "irreversible_maturation_arrow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "synchronized_trajectory_plots",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "flux_units_use_two_axes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "three_initial_pins",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hypothesis_discovery_panel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "growth_invasion_distinction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tail_growth_labeled_finite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "wrong_confidence_metrics_available",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline_normalized_recovery_available",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "survival_scope_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "genotype_frequency_evolution",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mean_trait_evolution",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "pairwise_invasion_surface",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "selection_refinement_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "explicit_replacement_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "next_generation_benchmark_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "stochastic_paths_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "volatility_contrast_visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "heatmap_click_loads_stored_cell",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scrub_synchronizes_cursor",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "animation_play",
+      "pass": true,
+      "detail": "cursor=43"
+    },
+    {
+      "name": "animation_pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "animation_restart",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inactive_d_for_rl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inactive_d_axis_disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inactive_d_for_private",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid_invasion_is_blank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "json_csv_exports",
+      "pass": true,
+      "detail": "[{\"name\":\"v4-config-20261030T060627Z.json\",\"size\":774,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v4-config-20261030T060627Z.csv\",\"size\":468,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v4-map-fixed_shock-invasion.json\",\"size\":234104,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v4-map-fixed_shock-invasion.csv\",\"size\":74060,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v4-series-fixed_shock.json\",\"size\":56806,\"run\":true,\"label\":true,\"type\":\"application/json\"},{\"name\":\"v4-series-fixed_shock.csv\",\"size\":19478,\"run\":true,\"label\":true,\"type\":\"text/csv\"},{\"name\":\"v4-selected-evidence-fixed_shock.json\",\"size\":1372295,\"run\":true,\"label\":true,\"type\":\"application/json\"}]"
+    },
+    {
+      "name": "plotly_image_export_available",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop_ready_before_capture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "flux_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "volatility_render_geometry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile_ready_before_capture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive_layout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser_console_errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "pass": true
+}

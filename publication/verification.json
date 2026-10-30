@@ -1,0 +1,128 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "all local links resolve",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "five versions plus proposals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no fabricated future results",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four nested sections have content",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all reference archives preserve source bytes",
+      "pass": true,
+      "detail": {
+        "packages": 96,
+        "source_entries": 514
+      }
+    },
+    {
+      "name": "Pages site below 1GB",
+      "pass": true,
+      "detail": 680882479
+    },
+    {
+      "name": "every published file below 100MiB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v1 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v1 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v2 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v2 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v3 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v3 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v4 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v4 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v5 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v5 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v5/part-004.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v5/part-003.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v5/part-001.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v5/part-000.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v5/part-002.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v4/part-001.bin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "payload chunk payload/v4/part-000.bin",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

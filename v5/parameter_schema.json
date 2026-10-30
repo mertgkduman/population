@@ -1,0 +1,226 @@
+{
+  "authority": "experiments/model.py Config and validate; generated metadata",
+  "defaults": {
+    "H": 4,
+    "p": 0.65,
+    "access": 1.0,
+    "load": 1.0,
+    "nu_private": 1.0,
+    "nu_social": 1.0,
+    "nu_adult": 0.3,
+    "transmission_error": 0.05,
+    "mu_F": 0.03,
+    "mu_A": 0.1,
+    "error_F": 0.25,
+    "error_A": 0.1,
+    "beta_base": 0.35,
+    "beta_skill": 0.85,
+    "query_cost": 0.02,
+    "K": 1000.0,
+    "S0": 1.0,
+    "KS": 1.0,
+    "adult_mode": "update",
+    "audit_floor": 0.05,
+    "audit_threshold": 2,
+    "policy": "fixed",
+    "accept": true,
+    "override": true,
+    "conflict_only": false,
+    "reset": false,
+    "payoff": true,
+    "initial_correct": 0.8,
+    "dt": 0.1,
+    "T": 400.0
+  },
+  "units": {
+    "H": "score_steps",
+    "p": "dimensionless",
+    "access": "dimensionless",
+    "load": "dimensionless",
+    "nu_private": "1/model_time",
+    "nu_social": "1/model_time",
+    "nu_adult": "1/model_time",
+    "transmission_error": "dimensionless",
+    "mu_F": "1/model_time",
+    "mu_A": "1/model_time",
+    "error_F": "1/model_time",
+    "error_A": "1/model_time",
+    "beta_base": "1/model_time",
+    "beta_skill": "1/model_time",
+    "query_cost": "mortality_hazard_per_private_query",
+    "K": "continuous_population_density",
+    "S0": "resource",
+    "KS": "resource",
+    "adult_mode": "dimensionless",
+    "audit_floor": "dimensionless",
+    "audit_threshold": "score_steps",
+    "policy": "dimensionless",
+    "accept": "dimensionless",
+    "override": "dimensionless",
+    "conflict_only": "dimensionless",
+    "reset": "dimensionless",
+    "payoff": "dimensionless",
+    "initial_correct": "dimensionless",
+    "dt": "model_time",
+    "T": "model_time"
+  },
+  "traits": {
+    "d": {
+      "range": [
+        0,
+        1
+      ],
+      "units": "probability of override conditional on disagreement"
+    },
+    "tau": {
+      "range": [
+        0.5,
+        12
+      ],
+      "units": "mean_maturation_hazard_timescale",
+      "expanded_selection_range": [
+        0.2,
+        12
+      ]
+    }
+  },
+  "models": {
+    "retained": {},
+    "frozen": {
+      "adult_mode": "frozen"
+    },
+    "audit": {
+      "adult_mode": "audit"
+    },
+    "reset": {
+      "reset": true
+    },
+    "oracle": {
+      "policy": "oracle_gate"
+    }
+  },
+  "scenarios": {
+    "stable": {},
+    "clean": {
+      "p": 0.85
+    },
+    "noisy": {
+      "p": 0.55
+    },
+    "sparse": {
+      "access": 0.2
+    },
+    "load": {
+      "load": 5.0
+    },
+    "truth_reversal": {},
+    "misinformation": {},
+    "wrong_history": {
+      "initial_correct": 0.2
+    },
+    "no_cost": {
+      "query_cost": 0.0
+    },
+    "neutral": {
+      "payoff": false,
+      "query_cost": 0.0
+    }
+  },
+  "scenario_segments": {
+    "stable": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ],
+    "clean": [
+      [
+        0,
+        1,
+        0.85
+      ]
+    ],
+    "noisy": [
+      [
+        0,
+        1,
+        0.55
+      ]
+    ],
+    "sparse": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ],
+    "load": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ],
+    "truth_reversal": [
+      [
+        0,
+        1,
+        0.65
+      ],
+      [
+        150,
+        -1,
+        0.35
+      ]
+    ],
+    "misinformation": [
+      [
+        0,
+        1,
+        0.65
+      ],
+      [
+        150,
+        1,
+        0.15
+      ],
+      [
+        210,
+        1,
+        0.65
+      ]
+    ],
+    "wrong_history": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ],
+    "no_cost": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ],
+    "neutral": [
+      [
+        0,
+        1,
+        0.65
+      ]
+    ]
+  },
+  "initial_stage_densities": {
+    "F": 80,
+    "A": 20
+  },
+  "separate_benchmarks": [
+    "repertoire.py",
+    "repertoire_tutors.py",
+    "bayes_benchmark.py"
+  ],
+  "private_cognition": "Fixed cue processing and memory capacity within each scenario; private-only learners retain acquired evidence."
+}

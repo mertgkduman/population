@@ -1,0 +1,290 @@
+[
+  {
+    "scenario": "stable",
+    "resident": "private",
+    "environment": [
+      0.772786226,
+      0.169471881,
+      1.0
+    ],
+    "N": 3900.683887776,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "stable",
+    "resident": "social",
+    "environment": [
+      0.834646017,
+      0.138741765,
+      1.0
+    ],
+    "N": 5207.634974263,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "stable",
+    "resident": "frozen",
+    "environment": [
+      0.812249517,
+      0.1391136,
+      1.0
+    ],
+    "N": 5188.369797169,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "stable",
+    "resident": "audit",
+    "environment": [
+      0.84760829,
+      0.129539141,
+      1.0
+    ],
+    "N": 5719.674492093,
+    "residual": 0.0,
+    "self_rate": -0.0
+  },
+  {
+    "scenario": "noisy",
+    "resident": "private",
+    "environment": [
+      0.675325735,
+      0.211071066,
+      1.0
+    ],
+    "N": 2737.740792276,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "noisy",
+    "resident": "social",
+    "environment": [
+      0.744284171,
+      0.171916921,
+      1.0
+    ],
+    "N": 3816.763088893,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "noisy",
+    "resident": "frozen",
+    "environment": [
+      0.761864071,
+      0.157126827,
+      1.0
+    ],
+    "N": 4364.285604506,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "noisy",
+    "resident": "audit",
+    "environment": [
+      0.776402147,
+      0.154333543,
+      1.0
+    ],
+    "N": 4479.472849769,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "sparse",
+    "resident": "private",
+    "environment": [
+      0.654063849,
+      0.206822883,
+      1.0
+    ],
+    "N": 2835.054923226,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "sparse",
+    "resident": "social",
+    "environment": [
+      0.802443277,
+      0.13860836,
+      1.0
+    ],
+    "N": 5214.572071827,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "sparse",
+    "resident": "frozen",
+    "environment": [
+      0.789851949,
+      0.14147799,
+      1.0
+    ],
+    "N": 5068.237249212,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "sparse",
+    "resident": "audit",
+    "environment": [
+      0.805871818,
+      0.136730555,
+      1.0
+    ],
+    "N": 5313.654240767,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "load",
+    "resident": "private",
+    "environment": [
+      0.654063849,
+      0.206822883,
+      1.0
+    ],
+    "N": 2835.054923226,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "load",
+    "resident": "social",
+    "environment": [
+      0.668051032,
+      0.191749974,
+      1.0
+    ],
+    "N": 3215.124573991,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "load",
+    "resident": "frozen",
+    "environment": [
+      0.627514829,
+      0.20954496,
+      1.0
+    ],
+    "N": 2772.245542924,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "load",
+    "resident": "audit",
+    "environment": [
+      0.669974797,
+      0.190460367,
+      1.0
+    ],
+    "N": 3250.436173819,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "no_cost",
+    "resident": "private",
+    "environment": [
+      0.779334724,
+      0.152123589,
+      1.0
+    ],
+    "N": 4573.602455215,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "no_cost",
+    "resident": "social",
+    "environment": [
+      0.84121231,
+      0.123511722,
+      1.0
+    ],
+    "N": 6096.397511984,
+    "residual": 0.0,
+    "self_rate": -0.0
+  },
+  {
+    "scenario": "no_cost",
+    "resident": "frozen",
+    "environment": [
+      0.817629485,
+      0.13090531,
+      1.0
+    ],
+    "N": 5639.109527213,
+    "residual": 0.0,
+    "self_rate": -0.0
+  },
+  {
+    "scenario": "no_cost",
+    "resident": "audit",
+    "environment": [
+      0.849952468,
+      0.120868507,
+      1.0
+    ],
+    "N": 6273.453742962,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "wrong_history",
+    "resident": "private",
+    "environment": [
+      0.772786226,
+      0.169471881,
+      1.0
+    ],
+    "N": 3900.683887776,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "wrong_history",
+    "resident": "social",
+    "environment": [
+      0.834646017,
+      0.138741765,
+      1.0
+    ],
+    "N": 5207.634974263,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "wrong_history",
+    "resident": "frozen",
+    "environment": [
+      0.812249517,
+      0.1391136,
+      1.0
+    ],
+    "N": 5188.369797169,
+    "residual": 0.0,
+    "self_rate": 0.0
+  },
+  {
+    "scenario": "wrong_history",
+    "resident": "audit",
+    "environment": [
+      0.84760829,
+      0.129539141,
+      1.0
+    ],
+    "N": 5719.674492093,
+    "residual": 0.0,
+    "self_rate": -0.0
+  }
+]
