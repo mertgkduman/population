@@ -27,15 +27,15 @@
   "restored_export_build_and_checks_pass": true,
   "deployment": {
     "url": "https://mertgkduman.github.io/population/",
-    "source_commit": "8414d3b62",
-    "workflow_run": 41109321797,
+    "source_commit": "9e95c6c",
+    "workflow_run": 41135361370,
     "workflow_conclusion": "success",
-    "browser_checks": 57,
+    "browser_checks": 69,
     "browser_pass": true,
-    "url_checks": 116,
+    "url_checks": 151,
     "url_checks_pass": true,
-    "tested_at": "2026-10-30T18:45:26.915760+00:00",
-    "canonical_root_and_all_five_app_paths": "HTTP 200; root contains generated version catalogue"
+    "tested_at": "2026-10-30T22:06:48.401240+00:00",
+    "includes": "Original V6 and new situational-advice explorer, source equations, raw reference packages and actual plot ZIPs"
   },
   "equations": "Bundled KaTeX; six scientific version guides and README use mathematical notation.",
   "current_local_release": {
@@ -63,7 +63,7 @@
     "branch": "v6-situational-advice",
     "baseline_published_commit": "a313939",
     "push_authorized": true,
-    "publication_status": "verified locally; live evidence saved after deployment",
+    "publication_status": "Published and verified live",
     "run_id": "v6-local-20261030T212739Z",
     "publication_browser_checks": 69,
     "standalone_browser_checks": 19,
@@ -75,5 +75,17 @@
     "main_mutant_trajectories": 9504,
     "dense_validation_population_trajectories": 6336,
     "ablation_population_trajectories": 1320
+  },
+  "previous_deployment": {
+    "url": "https://mertgkduman.github.io/population/",
+    "source_commit": "8414d3b62",
+    "workflow_run": 41109321797,
+    "workflow_conclusion": "success",
+    "browser_checks": 57,
+    "browser_pass": true,
+    "url_checks": 116,
+    "url_checks_pass": true,
+    "tested_at": "2026-10-30T18:45:26.915760+00:00",
+    "canonical_root_and_all_five_app_paths": "HTTP 200; root contains generated version catalogue"
   }
 }

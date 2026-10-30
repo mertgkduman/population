@@ -45,3 +45,6 @@ At tau=3, adult local precision.85 favors d=1 in stable/slow environments and d=
 
 
 Investigation also verified lossless payload pooling, eight-unit strict-subset trajectory display, and both V6 experiment switches. Source precision and conditional invasion remain distinct from displayed density and evolutionary claims.
+
+
+Live publication verified after workflow41135361370 succeeded for source9e95c6c. All69 live Chrome checks and151 page/payload/archive URL checks pass, including both V6 experiment selectors and all raw-data reference archives. No console or HTTP errors were found. Evidence is saved in publication/live_situational_browser_verification.json and publication/live_situational_url_verification.json. This final commit records evidence only; model, UI code, simulation data and rendered app assets are unchanged.

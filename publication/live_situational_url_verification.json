@@ -1,0 +1,769 @@
+{
+  "source_commit": "9e95c6c",
+  "checked_at": "2026-10-30T22:06:48.401240+00:00",
+  "base_url": "https://mertgkduman.github.io/population/",
+  "pass": true,
+  "checks": [
+    {
+      "name": "new V6 catalogue and both experiment URLs",
+      "pass": true
+    },
+    {
+      "name": "v1 app",
+      "url": "https://mertgkduman.github.io/population/apps/v1.html?v=fbc0490b0cc6",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v2 app",
+      "url": "https://mertgkduman.github.io/population/apps/v2.html?v=c65a3b8c49de",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v3 app",
+      "url": "https://mertgkduman.github.io/population/apps/v3.html?v=d169c30c9e81",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v4 app",
+      "url": "https://mertgkduman.github.io/population/apps/v4.html?v=6bfb28877dc2",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v5 app",
+      "url": "https://mertgkduman.github.io/population/apps/v5.html?v=1b04be1b361b",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v6 app",
+      "url": "https://mertgkduman.github.io/population/apps/v6.html?v=a6147318c689",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "name": "v6 extra_app",
+      "url": "https://mertgkduman.github.io/population/apps/v6-situational.html?v=c835621c6884",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/assets/katex/contrib/auto-render.min.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/assets/katex/fonts/KaTeX_Main-Regular.woff2",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/assets/katex/katex.min.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/assets/site.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/assets/site.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v1/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v2/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v3/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/evolution.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/fixed_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/fixed_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/fixed_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/fixed_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/fixed_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/memoryless_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/memoryless_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/memoryless_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/memoryless_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/memoryless_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/oracle_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/oracle_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/oracle_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/oracle_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/oracle_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/private_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/private_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/private_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/private_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/private_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/public_only_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/public_only_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/public_only_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/public_only_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/public_only_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/refined_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/refined_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/rl_no_payoff.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/rl_periodic.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/rl_shock.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/rl_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/rl_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v4/volatility.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_clean.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_load.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_misinformation.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_neutral.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_no_cost.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_noisy.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_sparse.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_truth_reversal.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/audit_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/bayes_benchmark.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/evolution.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_clean.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_load.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_misinformation.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_neutral.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_no_cost.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_noisy.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_replacement.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_sparse.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_truth_reversal.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/frozen_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/histories.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/mechanisms.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_clean.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_load.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_misinformation.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_neutral.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_no_cost.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_noisy.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_sparse.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_truth_reversal.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/oracle_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/repertoire.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/repertoire_tutors.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_clean.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_load.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_misinformation.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_neutral.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_no_cost.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_noisy.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_sparse.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_truth_reversal.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/reset_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_clean.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_load.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_misinformation.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_neutral.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_no_cost.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_noisy.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_sparse.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_stable.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_truth_reversal.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/retained_wrong_history.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v5/source_conditions.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p0_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p0_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p0_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p0_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p1_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p1_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p1_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult0p1_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult1p0_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult1p0_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult1p0_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/adult1p0_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/fixed_equilibria.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/followups.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/heldout_k0.0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/heldout_k0.01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/heldout_k0.2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_all.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p55_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p55_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p55_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p55_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p7_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p7_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p7_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p7_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p85_k0p0.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p85_k0p01.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p85_k0p05.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/downloads/v6/local_p0p85_k0p2.zip",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v4/part-000.bin?v=1b52b2463962",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v4/part-001.bin?v=e26fb67484f7",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v5/part-000.bin?v=8265d70e9237",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v5/part-001.bin?v=89594593b4dd",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v5/part-002.bin?v=8bf61fe4bc0f",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v5/part-003.bin?v=e67aa2b8bf87",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v5/part-004.bin?v=45bd54a497e7",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v6-situational/part-000.bin?v=4cd762debe1b",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v6/part-000.bin?v=7be8d4e9b6d2",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "https://mertgkduman.github.io/population/payload/v6/part-001.bin?v=70f1ec5bd351",
+      "status": 200,
+      "pass": true
+    }
+  ]
+}
