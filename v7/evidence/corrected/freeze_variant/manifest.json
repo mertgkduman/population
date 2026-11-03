@@ -1,0 +1,36 @@
+{
+  "base_frozen_sha256": {
+    "experiments/analyze_results.py": "f6b3a54645115b724166cd3760ae843967b2c5fc986edc00f58ebe82159350a4",
+    "experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+    "experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/run_experiments.py": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0",
+    "parameter_schema.json": "ab3df8ccad8155af380a5e591b95ed1727747c0da8b4c28fb7a3c9f0b9ef91b1"
+  },
+  "candidate_rule": "top two vector policies by corrected discovery mean net_energy; lexical tiebreak; best scalar by same rule",
+  "comparators": [
+    "vector_0_0",
+    "feature_trust",
+    "candidate_b_resource_rational",
+    "asocial_access_off"
+  ],
+  "config_sha256": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+  "discovery_sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+  "frozen_at": "2026-11-03T00:04:04.239177+00:00",
+  "frozen_scalar": "scalar_0_25",
+  "frozen_vectors": [
+    "vector_0_5_0",
+    "vector_1_0"
+  ],
+  "no_teacher_fix": "teacher=None exposes only private action and uses private cue; base teacher-present path unchanged.",
+  "overlay_archive_sha256": "d87f582d37a7cfc8448379543621116029c5b354e27e02d1393870ac19eb1287",
+  "overlay_sha256": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+  "replay": {
+    "replay_digest": "708132b42d001a03bbe39db751221946246125afeb2c318103410009c6ad5d23",
+    "seed": 77999
+  },
+  "runner_sha256": "ba01b501f97ba44d748f9d980cad34cbbb63fbf3902c844a7a0a8a48c8d638d1",
+  "stage": "corrected_overlay_freeze",
+  "status": "frozen_before_holdout"
+}

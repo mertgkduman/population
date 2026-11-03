@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "rows": 48,
+  "independent_paired_seeds": 24,
+  "all_off_no_recipe": true,
+  "all_on_origins_trace": true,
+  "storage_on_recovery_runs": 24,
+  "max_stock_residual": 3.126388037344441e-12,
+  "raw_sha256": {
+    "v7/experiments/output/carrier_control/endpoints.csv.gz": "ca07ac544c1a14c8966bc3320777d736405a0e5abe0afea5ce7fca70ad669cce",
+    "v7/experiments/output/carrier_control/seasons.csv.gz": "6c89ae916e39dc0b83a3dad1e2508660f64b23188e500e676c26d4a12e9640b0",
+    "v7/experiments/output/carrier_control/artifact_ledger.json.gz": "69e7292771cd3c828384103ff0c5ad5b546b51ad280e0713591d693f175ea832"
+  },
+  "scope": "Naive-restart intervention with explicit external energy/population input; not an invasion or natural growth experiment."
+}

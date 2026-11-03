@@ -1,0 +1,15 @@
+{
+  "archive_mismatches": [],
+  "archive_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+  "checks": {
+    "archive_replay": true,
+    "live_and_archive_source_bytes": true,
+    "live_replay": true,
+    "registered_replay_record": true
+  },
+  "expected_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+  "live_mismatches": [],
+  "live_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+  "stage": "postfreeze-freeze-verification",
+  "status": "passed"
+}

@@ -1,0 +1,10 @@
+{
+  "scientific_configuration_unchanged": true,
+  "source_sha256": {
+    "v7/cumulative_dag.md": "aedcf359c9fc84eefa1be07db962a6962b15529d7fc44d5c0d72235a3d47291d",
+    "v7/experiments/cumulative_dag.py": "18a42fde6a87768a2befd04b0c1514747b4d7ddc60af233a4276134c7f67fc6b",
+    "v7/experiments/run_cumulative_dag.py": "744378862ddaf6f6be5cf5a8ad221ff1bc788f31eb1122ab65d5f3850e2333d9",
+    "v7/tests/test_cumulative_dag.py": "c25449d0d7732e76ccd9d2e916762bf2d83ec36c1da70f86d84e32774051f2f1"
+  },
+  "status": "final_source_archived_before_confirmation"
+}

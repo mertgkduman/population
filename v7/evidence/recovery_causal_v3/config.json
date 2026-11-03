@@ -1,0 +1,1 @@
+{"name":"R3 acquired-state and randomized-role-label controls","juvenile":{"seeds":[83201,83224],"regimes":[1,5,9],"tau":5,"private_accuracy":0.8},"adult":{"seeds":[84101,84124],"training_episodes":40,"arms":["baseline","audience_removal","free_audit","reliable_evidence"],"directions":["supporting","contrary"],"steps":20,"likelihood":0.8},"cap":24}

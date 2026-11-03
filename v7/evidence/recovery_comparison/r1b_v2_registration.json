@@ -1,0 +1,53 @@
+{
+  "archive_sha256": "c242316285e6bd78f72053744f747240221ea96c654843f3efb0c8bd7202be5a",
+  "arms": [
+    "transmission_innovation",
+    "no_transmission",
+    "equal_work_independent",
+    "prerequisite_shuffle",
+    "carrier_loss_storage_off",
+    "carrier_loss_storage_on"
+  ],
+  "cap_rule": "At actual would-exceed birth event, record cap_censored and stop without deleting/replacing/suppressing an existing individual.",
+  "checks": [
+    "forced small-cap run records status cap_censored and cap_events=1",
+    "blank newborn acquired state",
+    "paid work/nonnegative ledger",
+    "storage-off contains no storage"
+  ],
+  "claim_limit": "No long-run growth inference.",
+  "fresh_seeds": [
+    82101,
+    82102,
+    82103,
+    82104,
+    82105,
+    82106,
+    82107,
+    82108,
+    82109,
+    82110,
+    82111,
+    82112,
+    82113,
+    82114,
+    82115,
+    82116,
+    82117,
+    82118,
+    82119,
+    82120,
+    82121,
+    82122,
+    82123,
+    82124
+  ],
+  "horizon": 18,
+  "operational_population_cap": 256,
+  "reason": "R1b pilot had active capacity-constrained births without cap events; retained as pilot only.",
+  "source_sha256": {
+    "experiments/recovery_culture_v2.py": "3510dd5b39e37a96c2b66efa67c13c5fec6b899eaa6c8069247037bd500b4a24",
+    "experiments/run_recovery_culture_v2.py": "b693ee3de8535d2a7145181a9a427e1bf824195c7e335ecc715c5f6853d76c17"
+  },
+  "status": "registered_before_outcomes"
+}

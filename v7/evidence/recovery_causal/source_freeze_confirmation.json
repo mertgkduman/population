@@ -1,0 +1,19 @@
+{
+  "archive": "evidence/recovery_causal/source_freeze_confirmation.tar.gz",
+  "archive_sha256": "706feb2e5c4a3d3bf95b1a0027c621f7810d2034851a40b6f38c06f9311d9929",
+  "files": {
+    "evidence/recovery_causal/recovery_causal_config.json": "44e9ec90b3711147fce7f7ccf1c504d848a83edbcf11a62b23595a714aed22e6",
+    "experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/postfreeze.py": "e34d7bd30ccf2490a5ecc8d716c83da5c65f3330825146406e56366c8c157035",
+    "experiments/recovery_causal.py": "f22786d457502814409bb6f881cf9bfa9d93cb989fd63f65fd13d3111b7afce2",
+    "experiments/run_recovery_causal.py": "1e6727f7422af9d211d38f505fc5575566425a20f7aba4a0b12bc7ffe47cb9dd"
+  },
+  "frozen_at": "2026-11-03T03:33:17.123122+00:00",
+  "immutable_dependencies": [
+    "v7/experiments/model.py",
+    "v7/experiments/corrected_model.py",
+    "v7/experiments/postfreeze.py"
+  ],
+  "stage": "recovery-causal-source-freeze"
+}

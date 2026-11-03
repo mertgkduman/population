@@ -1,0 +1,133 @@
+{
+  "claim_limit": "Finite paid-newborn lineage only; no asymptotic invasion, fixation, or ESS claim.",
+  "core_freeze_source_sha256": {
+    "experiments/analyze_results.py": "f6b3a54645115b724166cd3760ae843967b2c5fc986edc00f58ebe82159350a4",
+    "experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+    "experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/run_experiments.py": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0",
+    "parameter_schema.json": "ab3df8ccad8155af380a5e591b95ed1727747c0da8b4c28fb7a3c9f0b9ef91b1"
+  },
+  "corrected_ecology_freeze_manifest_sha256": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13",
+  "directed_pairs": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.0
+      ]
+    ]
+  ],
+  "horizon": 80,
+  "immutable_source_snapshot": {
+    "archive_sha256": "57698ea421d1f27793a11623c704c693bc2da8ed1c2c1ae6357470f5df206dfc",
+    "manifest_sha256": "04f453fb97544149f70e29a48b90bda1cf196275af650faeed58275981622ac3"
+  },
+  "jobs": 1152,
+  "overlay_source_sha256": {
+    "corrected_evolution.py": "1f67409eb7699fec11f1e172064addc7cac0a1011560c87363090ae54eaa3b63",
+    "corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "run_corrected_evolution.py": "dcd21cd532b5cbffd52f904c583c21f8c11564fd020f6b61f9087f50050a1c40"
+  },
+  "regimes": {
+    "1": {
+      "chi": 0.5,
+      "depth": 1,
+      "q_theta": 0.0
+    },
+    "5": {
+      "chi": 0.75,
+      "depth": 3,
+      "q_theta": 0.005
+    },
+    "9": {
+      "chi": 1.0,
+      "depth": 6,
+      "q_theta": 0.02
+    }
+  },
+  "registered_at": "2026-11-03T01:03:38.511781+00:00",
+  "registered_trajectories": 2304,
+  "seeds": {
+    "extension_batches": [
+      [
+        79025,
+        79032
+      ],
+      [
+        79033,
+        79040
+      ],
+      [
+        79041,
+        79048
+      ],
+      [
+        79049,
+        79056
+      ],
+      [
+        79057,
+        79064
+      ],
+      [
+        79065,
+        79072
+      ],
+      [
+        79073,
+        79080
+      ],
+      [
+        79081,
+        79088
+      ],
+      [
+        79089,
+        79096
+      ]
+    ],
+    "initial": [
+      79001,
+      79024
+    ],
+    "maximum": 79096
+  },
+  "stage": "corrected_finite_lineage",
+  "status": "registered_before_outcomes",
+  "workers": 4
+}

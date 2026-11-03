@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "interpretation": "Ordinary skill-transmission control, not authority-deference selection or proof of cumulative culture beyond individuals.",
+  "endpoint_rows": 168,
+  "pair_rows": 48,
+  "pair_count": 24,
+  "max_stock_residual": 8.037659426918253e-11,
+  "max_person_work": 4,
+  "status_counts": {
+    "complete_horizon": 192,
+    "extinct": 24
+  },
+  "core_arm_means": {
+    "transmission_innovation": {
+      "n": 24,
+      "mean_N": 19.794444444444444,
+      "functional_end": 16.166666666666668
+    },
+    "no_transmission": {
+      "n": 24,
+      "mean_N": 14.99236111111111,
+      "functional_end": 0.4583333333333333
+    },
+    "prerequisite_scramble": {
+      "n": 24,
+      "mean_N": 20.0125,
+      "functional_end": 18.375
+    },
+    "carrier_loss_storage_off": {
+      "n": 24,
+      "mean_N": 10.786111111111111,
+      "functional_end": 2.0416666666666665
+    },
+    "carrier_loss_storage_on": {
+      "n": 24,
+      "mean_N": 13.396527777777777,
+      "functional_end": 10.0
+    }
+  },
+  "source_sha256": {
+    "v7/experiments/resource_control.py": "d2cbe6c65c85fb8feac891e00ada86cb8198cc1324e09788d8a6f97e988117d7",
+    "v7/experiments/run_resource_control.py": "bb8236428432fee954c583d3705061e97f08fdb3dd0614dbf4ce91a85de8ec5c",
+    "v7/tests/test_resource_control.py": "c8e4fd1df7330d553c73cec8c1da1b48c6ab6698b64a4bbae239310f9f90bbb9"
+  },
+  "raw_sha256": {
+    "v7/experiments/output/resource_control/endpoints.csv.gz": "d828e3f6822401b516b1971cb3ef47475e052ddd3b609a3625131c03202c1e74",
+    "v7/experiments/output/resource_control/representative_acquisitions.json.gz": "723705608205da91a05490df7096f02aebd3d71c32f7bd699462386c8892344e",
+    "v7/experiments/output/resource_control/pairs.csv.gz": "d779e041db6bcfabf753b44f2964323b8a30f1b2916b82523843708bfedf339e",
+    "v7/experiments/output/resource_control/seasons.csv.gz": "3b8c4f53c20a3611c58247cfa19c26a2759f7c8baf36fdc3a4b3367fd2c3f761"
+  }
+}

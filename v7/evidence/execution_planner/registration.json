@@ -1,0 +1,75 @@
+{
+  "registered_at": "2026-11-03T04:30:14.463995+00:00",
+  "status": "registered_before_confirmation",
+  "config": {
+    "seeds": [
+      82701,
+      82702,
+      82703,
+      82704,
+      82705,
+      82706,
+      82707,
+      82708,
+      82709,
+      82710,
+      82711,
+      82712,
+      82713,
+      82714,
+      82715,
+      82716,
+      82717,
+      82718,
+      82719,
+      82720,
+      82721,
+      82722,
+      82723,
+      82724
+    ],
+    "sentinels": [
+      1,
+      5,
+      9
+    ],
+    "policies": [
+      "ordinary",
+      "vector_0_5_0",
+      "execution_evi"
+    ],
+    "horizon": 240,
+    "deliberation_units": 12,
+    "query_accuracy": 0.8,
+    "verify_accuracy": 0.9,
+    "claim_scope": "Bounded one-decision planner under shared Q0 and explicitly priced12 abstract units; not globally optimal/resource-rational RL.",
+    "precision": "Fixed24 independent paired seed blocks; per-seed contrasts and MCSE, no pooled event binomial intervals.",
+    "gwt": [
+      {
+        "given": "Shared one-task-per-season engine",
+        "when": "information purchased",
+        "then": "one token and incremental executed costs apply; physical execution remains feasible"
+      },
+      {
+        "given": "Common deliberation already executed",
+        "when": "options ranked",
+        "then": "its sunk cost cannot penalize only purchase"
+      },
+      {
+        "given": "Actor dies after decisions",
+        "when": "counts reported",
+        "then": "world-level counts retain its requests"
+      }
+    ],
+    "source_sha256": {
+      "v7/experiments/run_execution_planner.py": "047446bf1f47c7f18fddb72e428b6a96e0e181859986e86a70a9af6766697e14",
+      "v7/experiments/execution_planner.py": "132213c87acdcc6b1c24db78a8a3aac2b3910abcb52f69327b582894ec8c3b9b",
+      "v7/tests/test_execution_planner.py": "7f531d67e117f74e297b488fd06f77c04fd3d3968b3689b907134bb07be79192",
+      "v7/experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+      "v7/experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+      "v7/experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+      "v7/experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988"
+    }
+  },
+  "python": "3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 17:35:02) [GCC 11.2.0]"
+}

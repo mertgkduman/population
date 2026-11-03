@@ -1,0 +1,17 @@
+{
+  "amended_source_sha256": {
+    "v7/cumulative_dag.md": "aedcf359c9fc84eefa1be07db962a6962b15529d7fc44d5c0d72235a3d47291d",
+    "v7/experiments/cumulative_dag.py": "18a42fde6a87768a2befd04b0c1514747b4d7ddc60af233a4276134c7f67fc6b",
+    "v7/experiments/run_cumulative_dag.py": "1a1f482ca3baac86950bb5223f1fa4fe02fbbefdf5d0f3e13bfcc3e2008f105d",
+    "v7/tests/test_cumulative_dag.py": "c25449d0d7732e76ccd9d2e916762bf2d83ec36c1da70f86d84e32774051f2f1"
+  },
+  "original_source_sha256": {
+    "v7/cumulative_dag.md": "aedcf359c9fc84eefa1be07db962a6962b15529d7fc44d5c0d72235a3d47291d",
+    "v7/experiments/cumulative_dag.py": "18a42fde6a87768a2befd04b0c1514747b4d7ddc60af233a4276134c7f67fc6b",
+    "v7/experiments/run_cumulative_dag.py": "d685533a2fd3319831e33eb6b6d5d33814ed167d778fd0228f2cb83630e03743",
+    "v7/tests/test_cumulative_dag.py": "c25449d0d7732e76ccd9d2e916762bf2d83ec36c1da70f86d84e32774051f2f1"
+  },
+  "reason": "Pilot newborn_blank_gate inspected all living descendants rather than birth events; corrected gate now checks the recorded birth receipt count.",
+  "scientific_configuration_unchanged": true,
+  "status": "source_amendment_before_confirmation"
+}

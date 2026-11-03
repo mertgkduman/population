@@ -1,0 +1,70 @@
+{
+  "cap_usage": {
+    "launched_trajectories": 3,
+    "trajectory_cap": 12000,
+    "wall_hours": 0.01,
+    "workers": 1
+  },
+  "checks": {
+    "CAP-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "GROWTH-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "LEDGER-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "NEUTRAL-VIABILITY-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "REPLAY-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "TASK-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    },
+    "TEACH-01": {
+      "evidence": "v7/experiments/output/run_manifest.json",
+      "status": "passed"
+    }
+  },
+  "claim_scope": "Validity sentinels only; no policy-grid discovery, holdout, selection, or persistence result was launched.",
+  "config_sha256": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+  "executed_checks_sha256": "6f310d2974b454681df0b7071c4c08b55000379ec3ecec41a8217fed38dfb635",
+  "manifest_sha256": "09cbdc5977885b13575818ab1da518fb8f08753851a7ebb11a7d8538c709161c",
+  "next_preconditions": [
+    "All ecology-gates checks must remain passed against these source/config hashes.",
+    "Slice 2B may tune only declared neutral-viability/task-adequacy and comparator approximation parameters on discovery seeds."
+  ],
+  "predecessor": {
+    "executed_checks_sha256": "af0201fa6111d6d7e5bb4d2fabe16bbbd4be4b753b894e0425fec351caff54dd",
+    "handoff": "v7/evidence/handoffs/02-kernel.json",
+    "handoff_sha256": "3cd188fde49dd9e4f1ad444ed33d64100d9dad8d11adaa8bb3792c63d1e3f7dc",
+    "kernel_output_sha256": "355f59bf240b86511a7a789f30491024cf439ed6adebe5a0a6790b1cfceb9d63",
+    "predecessor_source_sha256": {
+      "experiments/exact.py": "681a585ac2842a0b9803d7f1b881e17984542ee9dcf6bbd1f7f8308c133646c0",
+      "experiments/model.py": "8fc29507bf03f6bbd58e6a565dac15ad08d4b50fc36900d786839e63488bd503",
+      "experiments/run_experiments.py": "23585d1a1dc7d591007333cb15f21b1fd0188e65e3831666c038ad20f4c9a615",
+      "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0"
+    }
+  },
+  "slice": "2A-ecology-validity",
+  "source_sha256": {
+    "experiments/exact.py": "681a585ac2842a0b9803d7f1b881e17984542ee9dcf6bbd1f7f8308c133646c0",
+    "experiments/model.py": "a324c91a3c3d1100e9bf1c4da48eda427ab95bd2955c783ad3b9237520a8dd0f",
+    "experiments/run_experiments.py": "288021d3a24767061e4eedd240b871a66fda16291bdd33a438879b2f74c69241",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0",
+    "tests/test_ecology.py": "0ca3374be5507573b9e1b9363d5412f4758a1368f66ddc9ddebc0daf7e39dca7"
+  },
+  "status": "passed",
+  "unresolved": [
+    "Discovery, holdout, candidate tuning, selection, and post-freeze work are intentionally unrun in Slice 2A."
+  ]
+}

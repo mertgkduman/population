@@ -1,0 +1,46 @@
+{
+  "control": "cumulative_dag",
+  "pass": true,
+  "source_verified": true,
+  "scientific_configuration_verified": true,
+  "original_registrations_and_raw_unchanged": true,
+  "runner_source_sha256": {
+    "v7/cumulative_dag.md": "aedcf359c9fc84eefa1be07db962a6962b15529d7fc44d5c0d72235a3d47291d",
+    "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+    "v7/experiments/run_cumulative_dag.py": "13c46a9b51c883e1864a4d4b26f7ef2a9d3094eba7d39b11da10cb1bc1951bbe",
+    "v7/tests/test_cumulative_dag.py": "c25449d0d7732e76ccd9d2e916762bf2d83ec36c1da70f86d84e32774051f2f1"
+  },
+  "files": [
+    {
+      "file": "endpoints.csv.gz",
+      "sha256": "6b04b9b460b5a5f17f2939672a7d5772c9aaed0ed5faa3269403085dbb55da8d",
+      "reference_sha256": "6b04b9b460b5a5f17f2939672a7d5772c9aaed0ed5faa3269403085dbb55da8d",
+      "equal": true
+    },
+    {
+      "file": "full_dag_seed82901.json.gz",
+      "sha256": "1759ba0154972e4647f87bf45736e5720e90b8c22fb95f92a8bd857162cc6a4c",
+      "reference_sha256": "1759ba0154972e4647f87bf45736e5720e90b8c22fb95f92a8bd857162cc6a4c",
+      "equal": true
+    },
+    {
+      "file": "full_dag_seed82902.json.gz",
+      "sha256": "058a632ed3a18065c0a7664d06a67ce2da48780f45d1a66f26de39d620297eb6",
+      "reference_sha256": "058a632ed3a18065c0a7664d06a67ce2da48780f45d1a66f26de39d620297eb6",
+      "equal": true
+    },
+    {
+      "file": "heldout.csv.gz",
+      "sha256": "fefb2ea688cdea9f19ba06dda9273e37c980812b71ba2e5acc49371c4b9a4a9a",
+      "reference_sha256": "fefb2ea688cdea9f19ba06dda9273e37c980812b71ba2e5acc49371c4b9a4a9a",
+      "equal": true
+    },
+    {
+      "file": "seasons.csv.gz",
+      "sha256": "c9ffbede9264e85746bdf617c731675e843492fbf918c5cc1ed3b72e0f6e4ef5",
+      "reference_sha256": "c9ffbede9264e85746bdf617c731675e843492fbf918c5cc1ed3b72e0f6e4ef5",
+      "equal": true
+    }
+  ],
+  "adapter_sha256": "ac57c341398a831f2ea1a93bebc46282d4abdd4c77f798249022fced67225f0e"
+}

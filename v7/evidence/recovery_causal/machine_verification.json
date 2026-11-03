@@ -1,0 +1,48 @@
+{
+  "adult": {
+    "all_direct_inherited_adult_override_zero": true,
+    "directional_sequences": 48,
+    "dogmatism_disposition": "unsupported: symmetric accessible evidence changes B in both directions; persistent action would be a separate H finding.",
+    "every_sequence_exactly_steps_1_to_20": true,
+    "histories": 24,
+    "matched_likelihood_strength": [
+      "0.8"
+    ],
+    "representative_rows": 40,
+    "representative_trajectory": "v7/experiments/output/recovery_causal/representative_adult_trajectories.csv.gz",
+    "separate_state_columns": [
+      "B_factual_belief",
+      "K_acquired_procedure",
+      "H_learned_action_value",
+      "T_source_trust"
+    ]
+  },
+  "authority": {
+    "d0_action_changes": 0,
+    "d0_pairs": 1728,
+    "interpretation": "d=0 label-neutral contrast is exactly null; d=.5 is an operational intervention contrast, not evidence of naturally learned authority responsiveness.",
+    "matched_content_and_preoverride_state": true,
+    "operational_d_half_action_changes": 0,
+    "operational_d_half_override_changes": 0,
+    "operational_d_half_pairs": 1728,
+    "operational_limit": "Terminal sampled observations are adults, for whom the model disables direct override; the optional d=.5 operational treatment is a measured null, not a responsiveness test."
+  },
+  "ecological_integrity": {
+    "actual_cost_fields_present": true,
+    "fixed_cap_seed_clusters": 24,
+    "passive_observation_digest_parity_single_replay": true,
+    "precision": "Repeated within-seed rows are correlated and not independent binomial replicates; Wilson is retained only at seed-cluster n=24.",
+    "private_hardware_accuracy_values": [
+      "0.8"
+    ]
+  },
+  "provenance": {
+    "all_independent_have_distinct_actual_roots": true,
+    "content_preserved": true,
+    "hidden_unknown_never_independence": true,
+    "independent_rows": 3456,
+    "visible_rows": 3456
+  },
+  "raw_sha256": "1052d803c6ad4b10cb72769634a5e34120bb4d0cbd513fe6291701eec7d87a02",
+  "stage": "recovery-causal-machine-verification"
+}

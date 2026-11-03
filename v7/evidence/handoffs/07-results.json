@@ -1,0 +1,1209 @@
+{
+  "slice": "3B-results-synthesis",
+  "status": "complete",
+  "primary_evidence": "corrected_overlay",
+  "canonical_reporting_registry": "v7/experiments/output/corrected_primary_registry.json",
+  "dashboard_source_contract": "v7/experiments/output/summary.json",
+  "final_controls_signature": "1414b7d06d92528bdc10ff82cd62ff66e46f216476782ecc72a1fc94b0881c3f",
+  "scientific_verdict": "PARTIAL_WITH_CORRECTED_PRIMARY_AND_FROZEN_INVALIDATION",
+  "software_test": {
+    "command": "python -m unittest discover -s v7/tests -p test_*.py",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "......................................................................................x...............\n----------------------------------------------------------------------\nRan 102 tests in 5.852s\n\nOK (expected failures=1)",
+    "status": "passed"
+  },
+  "corrected_inventory": {
+    "discovery": {
+      "path": "v7/experiments/output/corrected/discovery.csv.gz",
+      "rows": 504,
+      "sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341"
+    },
+    "holdout": {
+      "path": "v7/experiments/output/corrected/holdout.csv.gz",
+      "rows": 1368,
+      "sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0"
+    },
+    "depth_reliability_control": {
+      "path": "v7/experiments/output/corrected/depth_reliability_control.csv.gz",
+      "rows": 288,
+      "sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6"
+    },
+    "evolution": {
+      "path": "v7/experiments/output/corrected/corrected_evolution.csv.gz",
+      "rows": 2112,
+      "sha256": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e"
+    },
+    "h9": {
+      "path": "v7/experiments/output/corrected/corrected_h9.csv.gz",
+      "rows": 216,
+      "sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+    }
+  },
+  "frozen_invalidated_inventory": {
+    "discovery": {
+      "path": "v7/experiments/output/discovery.csv.gz",
+      "rows": 504,
+      "sha256": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098"
+    },
+    "holdout": {
+      "path": "v7/experiments/output/holdout.csv.gz",
+      "rows": 1368,
+      "sha256": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb"
+    },
+    "depth_reliability_control": {
+      "path": "v7/experiments/output/depth_reliability_control.csv.gz",
+      "rows": 288,
+      "sha256": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b"
+    },
+    "evolution": {
+      "path": "v7/experiments/output/evolution.csv.gz",
+      "rows": 1242,
+      "sha256": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9"
+    },
+    "persistence": {
+      "path": "v7/experiments/output/persistence.csv.gz",
+      "rows": 120,
+      "sha256": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99"
+    },
+    "postfreeze_yoked": {
+      "path": "v7/experiments/output/postfreeze_yoked.csv.gz",
+      "rows": 648,
+      "sha256": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47"
+    },
+    "cumulative_assay": {
+      "path": "v7/experiments/output/cumulative_assay.csv.gz",
+      "rows": 144,
+      "sha256": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599"
+    },
+    "postfreeze_h9_observation": {
+      "path": "v7/experiments/output/postfreeze_h9_observation.csv.gz",
+      "rows": 216,
+      "sha256": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+    }
+  },
+  "raw_row_counts": {
+    "discovery": 504,
+    "holdout": 1368,
+    "depth_reliability_control": 288,
+    "evolution": 2112,
+    "h9": 216
+  },
+  "raw_sha256": {
+    "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+    "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+    "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+    "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+    "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+  },
+  "generated_sha256": {
+    "v7/results.md": "e82a14eaee50171f12012ba00e093b45975c64a0661e2e06aca0d59f7527f15f",
+    "v7/verification.md": "e559aa085365ce24456480913f3b192ebe9019b983a3fe02d4ad6b40faf65e97",
+    "v7/manuscript_outline.md": "209b7f3c6140ba507b428ce6a20629b68164695839f8c22969b6c16ea5458d8a",
+    "v7/README.md": "b8eb7398f76a98ba22419fe2a4c0374cf5ffee31452e01c152536a30a5004789",
+    "v7/final_controls.md": "fae73e2ef2ff447b30c2f6a245428f48ea1a5cd1b17d45afbb777fa6807985b9",
+    "v7/research_gaps_and_next_steps.md": "b748117c67b11b36cdb1f3f8d0b32232fdb1007e8123ec81109ccdbaf4ff8e61",
+    "v7/project_manifest.json": "6ef34b7ed18a31bcaee5982f7d76ab370f11791566efe4003690f1a0cfbb22d2",
+    "v7/evidence/hypothesis_ledger.json": "adeeb9f04810465011b6a0cb5c043fef49a690e5488d010bc7fb34e9568b137e",
+    "v7/evidence/executed_checks.json": "2cebaa52d2f3014cfe2a8a489dfbaa45bafdf32874565f37a5d1d0be6e23003d",
+    "v7/evidence/frozen_local_no_teacher_defect.json": "a840a4c16f5c99eacc407580505b18305a5399de1bfc62d35b47576e88287240",
+    "v7/evidence/corrected_local_no_teacher_audit.json": "4c2ebd044ca5669df12e1fa8370285683427a538ddf3ca26208651649ee80b06",
+    "v7/evidence/data_quality.json": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481",
+    ".planning/spikes/MANIFEST.md": "3abd9b45f333ef7f0b99d84f57b3b172895c7953a397bc6dcff59cee75aaf16e",
+    ".planning/spikes/015-behavioral-kernel/README.md": "3110d63bbd1f8f4198229afb21e21af1aef96eed8dfcd37973aed87bfa177fa6",
+    ".planning/spikes/016-procedures-cost/README.md": "18c6ae2caa0c855eea83b279f196a0057d608a6cd7ef5a066d99f362e2d9ad42",
+    ".planning/spikes/017-local-context/README.md": "39316e0f6d58fb8a3655103a3006b88865300df6b3c81c7e146809736669ec2d",
+    ".planning/spikes/018-learned-persistence/README.md": "96982fdbd93ef61b158b2dd980936dc82e55c79ae18b01ea1cffbc18d881cb49",
+    ".planning/spikes/019-finite-selection/README.md": "f6146479150bdb0445533144c3b8b0555eb8441c1f8a0f273f819eb9ee257d91",
+    "v7/evidence/final_scientific_review.md": "dcadb3bc6761f6fd5f39db4e46cf90cacbe0847723fe4f2cf0ec2107b7c59b17"
+  },
+  "core_freeze_replay_digest": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+  "corrected_freeze_manifest_sha256": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13",
+  "corrected_replay_digest": "708132b42d001a03bbe39db751221946246125afeb2c318103410009c6ad5d23",
+  "data_quality_status": "passed",
+  "check_status_counts": {
+    "passed": 6,
+    "partial": 18,
+    "not_run": 1
+  },
+  "checks": [
+    {
+      "id": "AUTH-01",
+      "scientific_status": "partial",
+      "basis": "Kernel isolation is consistent with conflict-only override, but the registered ecological decision-level bitwise B/K/T/H/budget audit was not exported."
+    },
+    {
+      "id": "AUTH-02",
+      "scientific_status": "passed",
+      "basis": "R4 crosses genuinely randomized uninformative labels with label-neutral, generic-source and imposed authority-sensitive policies, identical acquired tutor histories and common draws. Unconditional and conflict contrasts are exported. This is a mechanism assay, not evolved authority sensitivity."
+    },
+    {
+      "id": "AUTH-03",
+      "scientific_status": "passed",
+      "basis": "R4 runs the full joint-exposure memory-acceptance (0/1) by immediate override (0/.5) factorial with blank states, acquired B/K/T/H, actual budgets, actions and twenty adult reuse steps; adults have zero inherited override. Memory intervention changes storage, not cognitive capacity."
+    },
+    {
+      "id": "INHERIT-01",
+      "scientific_status": "partial",
+      "basis": "Births blank B/K/T/H and transmit genotype only; no cross-fostering/full relabel audit."
+    },
+    {
+      "id": "FOUNDER-01",
+      "scientific_status": "partial",
+      "basis": "Blank initialization is tested in fixtures, not all registered founder cultures and failed burn-ins."
+    },
+    {
+      "id": "COMP-01",
+      "scientific_status": "partial",
+      "basis": "ExactTinyPOMDP validates only a restricted two-episode toy; IBM Q0 is greedy, FeatureTrust is action-blind, and Candidate B is approximate with mismatched evaluated/executed query accuracy. The overlay repairs the asocial local oracle but does not create a strong general-RL or optimal-planning comparator."
+    },
+    {
+      "id": "BUDGET-01",
+      "scientific_status": "partial",
+      "basis": "The final resource_control enforces4 tokens/person and closed energy/resource budgets with24 equal-realized-work pairs. The final execution_planner charges12 common abstract deliberation units and actual incremental fees. Global-optimal learner matching and the old pooled upper bound remain unsupported."
+    },
+    {
+      "id": "TASK-01",
+      "scientific_status": "partial",
+      "basis": "Tiny and cognitive landscapes have partial alternatives/coverage; full ensemble and causal prerequisite robustness are incomplete."
+    },
+    {
+      "id": "ACCUM-01",
+      "scientific_status": "partial",
+      "basis": "The R4 eight-node DAG adds actual branching/recombination, receipt genealogies, held-out physical tests and fresh exactly equal-work pairs. Its solo-protocol energy bound excludes independent completion. Paid two-edge transfer passes23/24; private-only/no-retention/no-bootstrap controls produce no complete programs. Prerequisite scramble has identical endpoints and no separate modification-disabled control ran, so full causal-ablations criterion remains partial."
+    },
+    {
+      "id": "ACCUM-02",
+      "scientific_status": "passed",
+      "basis": "The final carrier_control removes all people, restarts ten blank agents with audited external energy, disables innovation, and tests costed artifacts on/off over24 fresh pairs. Off retains no recipe; recovered on-origins trace to paid artifacts. This is an intervention, not natural growth."
+    },
+    {
+      "id": "PROV-01",
+      "scientific_status": "partial",
+      "basis": "R4 blank tutors acquire independent .8 private histories; copied testimony shares an actual physical root. Exact enumeration verifies same-root duplication invariance and independent versus explicit hidden-mixture posteriors. The broader ecological merged-root implementation and attribution remain partial."
+    },
+    {
+      "id": "CLASS-01",
+      "scientific_status": "partial",
+      "basis": "Schema and grid classes are explicit; sampled-grid classification is descriptive and not a general surface recovery test."
+    },
+    {
+      "id": "MATURITY-01",
+      "scientific_status": "partial",
+      "basis": "Age threshold tau=5 and adult genetic override off are tested; full life-course confound audit is incomplete."
+    },
+    {
+      "id": "LEDGER-01",
+      "scientific_status": "passed",
+      "basis": "Material/time ledgers and residual checks pass across frozen and fresh corrected exports."
+    },
+    {
+      "id": "TEACH-01",
+      "scientific_status": "partial",
+      "basis": "Teacher eligibility is age-neutral, but the never-updated ranking key resolves by identity and the lexical-first K offer creates a second order artifact; updated performance selection is absent."
+    },
+    {
+      "id": "GROWTH-01",
+      "scientific_status": "passed",
+      "basis": "Mean N and per-agent-season net resource are exported separately with no scalar-growth relabeling."
+    },
+    {
+      "id": "INVASION-01",
+      "scientific_status": "partial",
+      "basis": "Fresh corrected paired neutral-tag finite descendants ran, but not rare-mutant growth or direct competition."
+    },
+    {
+      "id": "INVASION-02",
+      "scientific_status": "partial",
+      "basis": "Fresh corrected finite directional contrasts ran; no ESS, fixation, or stable-polymorphism identification."
+    },
+    {
+      "id": "NORM-01",
+      "scientific_status": "partial",
+      "basis": "The final belief_control trains blank learners on a fixed proposition, clones actual states, and gives matched-direction evidence/audience/cost controls under static/switching priors. Factual updating is likelihood-aware; no irrational dogmatism is established. Full normative/source-asymmetry probes remain absent."
+    },
+    {
+      "id": "NORM-02",
+      "scientific_status": "partial",
+      "basis": "Audience/reward probes exist in a separate process; obligation and novel-context injunction were not modeled."
+    },
+    {
+      "id": "RNG-01",
+      "scientific_status": "partial",
+      "basis": "Frozen and corrected replay identities/source snapshots pass, but common-random-number verification is narrower than full registered event identity audits."
+    },
+    {
+      "id": "HIDDEN-01",
+      "scientific_status": "partial",
+      "basis": "The frozen behavioral path fails because a phantom tutor equals hidden z. The separately registered three-method overlay passes the same adversarial no-teacher probe, while broader policy/world truth-firewall coverage remains partial."
+    },
+    {
+      "id": "RISK-01",
+      "scientific_status": "not_run",
+      "basis": "No low-density random-projection or branching-growth validation was run."
+    },
+    {
+      "id": "COND-01",
+      "scientific_status": "partial",
+      "basis": "Primary denominators are preserved. execution_planner adds actual whole-world initial-arbitration purchase/no-teacher/conflict counts, including dead actors; real juvenile label controls retain opportunity denominators. Independent information-history and demographic-ITT claims remain limited."
+    },
+    {
+      "id": "EXPORT-01",
+      "scientific_status": "passed",
+      "basis": "Reporting tests recompute frozen and corrected hashes, row counts, corrected paired contrasts, all 25 statuses, finite-claim guards, and both frozen-defect/corrected-path probes."
+    }
+  ],
+  "corrected_holdout_contrasts": [
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.003066522153690713,
+      "paired_mcse": 0.0007920091243436265,
+      "min_delta": -0.006425256689349332,
+      "max_delta": 0.008441759115335942,
+      "population_mean_delta": 1.6713541666666663,
+      "population_paired_mcse": 0.1567530775009169,
+      "birth_flux_mean_delta": 16.75,
+      "birth_flux_paired_mcse": 2.8144618761272846,
+      "death_flux_mean_delta": 17.125,
+      "death_flux_paired_mcse": 2.9069584807313045,
+      "regime": 1,
+      "policy": "asocial_access_off",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.017254028319747938,
+      "paired_mcse": 0.0008881312055385687,
+      "min_delta": -0.030316226047773523,
+      "max_delta": -0.010258198199498886,
+      "population_mean_delta": -7.108680555555556,
+      "population_paired_mcse": 0.19533272506661845,
+      "birth_flux_mean_delta": -67.625,
+      "birth_flux_paired_mcse": 3.6449351895790807,
+      "death_flux_mean_delta": -58.291666666666664,
+      "death_flux_paired_mcse": 3.9441201727632578,
+      "regime": 1,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.016680045753259775,
+      "paired_mcse": 0.0008758066762201772,
+      "min_delta": -0.026739905917939996,
+      "max_delta": -0.009365544895374597,
+      "population_mean_delta": -7.292013888888889,
+      "population_paired_mcse": 0.13258107837342265,
+      "birth_flux_mean_delta": -70.875,
+      "birth_flux_paired_mcse": 2.9899060258607233,
+      "death_flux_mean_delta": -64.58333333333333,
+      "death_flux_paired_mcse": 3.0264035351367014,
+      "regime": 1,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.002126621070263454,
+      "paired_mcse": 0.0006513116599526883,
+      "min_delta": -0.009878485975656562,
+      "max_delta": 0.005963754404140265,
+      "population_mean_delta": -0.7343750000000014,
+      "population_paired_mcse": 0.16655949339493023,
+      "birth_flux_mean_delta": -0.25,
+      "birth_flux_paired_mcse": 2.4607424942867158,
+      "death_flux_mean_delta": 1.5,
+      "death_flux_paired_mcse": 2.713359327582639,
+      "regime": 1,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0006521405682755407,
+      "paired_mcse": 0.0008918945912601687,
+      "min_delta": -0.009154283303786842,
+      "max_delta": 0.006065354021571032,
+      "population_mean_delta": -0.3902777777777784,
+      "population_paired_mcse": 0.15005401659805281,
+      "birth_flux_mean_delta": 1.5,
+      "birth_flux_paired_mcse": 2.468643939200371,
+      "death_flux_mean_delta": 2.6666666666666665,
+      "death_flux_paired_mcse": 2.765382974412239,
+      "regime": 1,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 8.07854444503809e-05,
+      "paired_mcse": 0.000792079359143505,
+      "min_delta": -0.006991800727470215,
+      "max_delta": 0.008030490805657223,
+      "population_mean_delta": -0.009895833333333512,
+      "population_paired_mcse": 0.13994289359392856,
+      "birth_flux_mean_delta": 3.9166666666666665,
+      "birth_flux_paired_mcse": 2.803282668552489,
+      "death_flux_mean_delta": 5.125,
+      "death_flux_paired_mcse": 2.8183614445070844,
+      "regime": 1,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.013692359893816257,
+      "paired_mcse": 0.0011478763583922563,
+      "min_delta": -0.022789227364214237,
+      "max_delta": -0.0026845828702439095,
+      "population_mean_delta": -6.76892361111111,
+      "population_paired_mcse": 0.19295864882121275,
+      "birth_flux_mean_delta": -69.95833333333333,
+      "birth_flux_paired_mcse": 3.31907048203775,
+      "death_flux_mean_delta": -64.0,
+      "death_flux_paired_mcse": 3.3530215661681044,
+      "regime": 2,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.015487424783133122,
+      "paired_mcse": 0.00092971607600904,
+      "min_delta": -0.022470818810011423,
+      "max_delta": -0.0010898139112255623,
+      "population_mean_delta": -6.601215277777778,
+      "population_paired_mcse": 0.2470908737839655,
+      "birth_flux_mean_delta": -61.291666666666664,
+      "birth_flux_paired_mcse": 4.1259514347051995,
+      "death_flux_mean_delta": -56.916666666666664,
+      "death_flux_paired_mcse": 3.3448623087855647,
+      "regime": 2,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0001154914722145643,
+      "paired_mcse": 0.0010167506042889915,
+      "min_delta": -0.009298945964124991,
+      "max_delta": 0.010442987881715854,
+      "population_mean_delta": -0.2517361111111107,
+      "population_paired_mcse": 0.15794668908801932,
+      "birth_flux_mean_delta": 1.1666666666666667,
+      "birth_flux_paired_mcse": 2.337212097023595,
+      "death_flux_mean_delta": 0.7083333333333334,
+      "death_flux_paired_mcse": 1.716795935754787,
+      "regime": 2,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.00042538683041736083,
+      "paired_mcse": 0.001006579583857121,
+      "min_delta": -0.009263586697768347,
+      "max_delta": 0.008334371563738355,
+      "population_mean_delta": -0.04999999999999982,
+      "population_paired_mcse": 0.2625127000225092,
+      "birth_flux_mean_delta": 0.20833333333333334,
+      "birth_flux_paired_mcse": 3.41245542874044,
+      "death_flux_mean_delta": -0.625,
+      "death_flux_paired_mcse": 2.3326700661862065,
+      "regime": 2,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0009463359512155428,
+      "paired_mcse": 0.001046313047900338,
+      "min_delta": -0.010499339241503064,
+      "max_delta": 0.007996492566360577,
+      "population_mean_delta": -0.10451388888888798,
+      "population_paired_mcse": 0.19282363156564533,
+      "birth_flux_mean_delta": 1.0,
+      "birth_flux_paired_mcse": 2.6015602899085364,
+      "death_flux_mean_delta": 0.5416666666666666,
+      "death_flux_paired_mcse": 2.1408544673194267,
+      "regime": 2,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.015647822931515096,
+      "paired_mcse": 0.0009419666424655721,
+      "min_delta": -0.025816909707344127,
+      "max_delta": -0.0063852042570486794,
+      "population_mean_delta": -6.663715277777777,
+      "population_paired_mcse": 0.1638040084008725,
+      "birth_flux_mean_delta": -72.875,
+      "birth_flux_paired_mcse": 2.7814815283861987,
+      "death_flux_mean_delta": -68.0,
+      "death_flux_paired_mcse": 2.5445309353905334,
+      "regime": 3,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.016263505387335467,
+      "paired_mcse": 0.0008151186445154645,
+      "min_delta": -0.021824943933490104,
+      "max_delta": -0.009233223449733013,
+      "population_mean_delta": -6.606249999999999,
+      "population_paired_mcse": 0.1982512110255771,
+      "birth_flux_mean_delta": -69.5,
+      "birth_flux_paired_mcse": 2.5445309353905334,
+      "death_flux_mean_delta": -64.04166666666667,
+      "death_flux_paired_mcse": 2.7123437420207694,
+      "regime": 3,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.00032776593310203096,
+      "paired_mcse": 0.0010070196732047797,
+      "min_delta": -0.008170275483576711,
+      "max_delta": 0.013242711254546888,
+      "population_mean_delta": -0.05173611111111113,
+      "population_paired_mcse": 0.1996971962771454,
+      "birth_flux_mean_delta": -2.9166666666666665,
+      "birth_flux_paired_mcse": 2.8161778153949557,
+      "death_flux_mean_delta": -3.75,
+      "death_flux_paired_mcse": 3.019411834461632,
+      "regime": 3,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0003359672377054798,
+      "paired_mcse": 0.0009732925079369967,
+      "min_delta": -0.009415643229009896,
+      "max_delta": 0.008422206828518741,
+      "population_mean_delta": -0.1999999999999987,
+      "population_paired_mcse": 0.21620849340572373,
+      "birth_flux_mean_delta": -7.25,
+      "birth_flux_paired_mcse": 2.419912862247227,
+      "death_flux_mean_delta": -7.833333333333333,
+      "death_flux_paired_mcse": 3.1860580948210724,
+      "regime": 3,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0003588295372772664,
+      "paired_mcse": 0.0007186243322475159,
+      "min_delta": -0.005432848918543759,
+      "max_delta": 0.007832875490665067,
+      "population_mean_delta": -0.22013888888888852,
+      "population_paired_mcse": 0.21143935635478872,
+      "birth_flux_mean_delta": -3.0833333333333335,
+      "birth_flux_paired_mcse": 3.099156422544846,
+      "death_flux_mean_delta": -3.0,
+      "death_flux_paired_mcse": 3.2032592098076287,
+      "regime": 3,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.013055915691264243,
+      "paired_mcse": 0.0009908427288218646,
+      "min_delta": -0.021809304859424297,
+      "max_delta": -0.005223647835113102,
+      "population_mean_delta": -6.8961805555555555,
+      "population_paired_mcse": 0.23468553859286725,
+      "birth_flux_mean_delta": -47.708333333333336,
+      "birth_flux_paired_mcse": 4.224874222751209,
+      "death_flux_mean_delta": -45.583333333333336,
+      "death_flux_paired_mcse": 4.710425019542749,
+      "regime": 4,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.01386941139984828,
+      "paired_mcse": 0.0009228457964975787,
+      "min_delta": -0.021257100380079247,
+      "max_delta": -0.0048653978344765925,
+      "population_mean_delta": -6.533854166666667,
+      "population_paired_mcse": 0.26547162884168435,
+      "birth_flux_mean_delta": -45.875,
+      "birth_flux_paired_mcse": 3.992435101974516,
+      "death_flux_mean_delta": -41.833333333333336,
+      "death_flux_paired_mcse": 4.197422719708215,
+      "regime": 4,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.00019439476505927686,
+      "paired_mcse": 0.0009245191381559604,
+      "min_delta": -0.009073279132751022,
+      "max_delta": 0.00771393337183901,
+      "population_mean_delta": -0.6774305555555552,
+      "population_paired_mcse": 0.19148672185140447,
+      "birth_flux_mean_delta": -4.5,
+      "birth_flux_paired_mcse": 3.1224989991991996,
+      "death_flux_mean_delta": -5.833333333333333,
+      "death_flux_paired_mcse": 3.4967203405615126,
+      "regime": 4,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.0004973198267742042,
+      "paired_mcse": 0.0010748596497848165,
+      "min_delta": -0.007610970228689173,
+      "max_delta": 0.01191326208238093,
+      "population_mean_delta": -0.06388888888888793,
+      "population_paired_mcse": 0.2595086423872978,
+      "birth_flux_mean_delta": -2.2916666666666665,
+      "birth_flux_paired_mcse": 3.510067904018561,
+      "death_flux_mean_delta": -3.4583333333333335,
+      "death_flux_paired_mcse": 3.721256589361279,
+      "regime": 4,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.00010102607069057551,
+      "paired_mcse": 0.0011907495393317972,
+      "min_delta": -0.01613730029325959,
+      "max_delta": 0.009725415018028372,
+      "population_mean_delta": -0.4538194444444435,
+      "population_paired_mcse": 0.22546931125476896,
+      "birth_flux_mean_delta": -5.5,
+      "birth_flux_paired_mcse": 3.0686587732536617,
+      "death_flux_mean_delta": -9.375,
+      "death_flux_paired_mcse": 3.017348689817276,
+      "regime": 4,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.003025530155279073,
+      "paired_mcse": 0.0008300970670423317,
+      "min_delta": -0.008427055699934877,
+      "max_delta": 0.011223314986180427,
+      "population_mean_delta": 1.4999999999999993,
+      "population_paired_mcse": 0.19429449877551433,
+      "birth_flux_mean_delta": 1.1666666666666667,
+      "birth_flux_paired_mcse": 4.33500525160016,
+      "death_flux_mean_delta": -0.7083333333333334,
+      "death_flux_paired_mcse": 4.381068944517805,
+      "regime": 5,
+      "policy": "asocial_access_off",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.014761681698560979,
+      "paired_mcse": 0.0008726454721963685,
+      "min_delta": -0.023154028810208213,
+      "max_delta": -0.0072984753778296135,
+      "population_mean_delta": -6.980555555555554,
+      "population_paired_mcse": 0.2688641561218757,
+      "birth_flux_mean_delta": -44.958333333333336,
+      "birth_flux_paired_mcse": 4.590269784099978,
+      "death_flux_mean_delta": -40.583333333333336,
+      "death_flux_paired_mcse": 4.492310929568735,
+      "regime": 5,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.016686528882317395,
+      "paired_mcse": 0.0007837801304566132,
+      "min_delta": -0.023277197126010604,
+      "max_delta": -0.006821304499566042,
+      "population_mean_delta": -7.0375000000000005,
+      "population_paired_mcse": 0.255543781562947,
+      "birth_flux_mean_delta": -42.625,
+      "birth_flux_paired_mcse": 4.1923033774639515,
+      "death_flux_mean_delta": -36.875,
+      "death_flux_paired_mcse": 3.909905897900202,
+      "regime": 5,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.000235669941869582,
+      "paired_mcse": 0.0006888106067844782,
+      "min_delta": -0.007534839177173638,
+      "max_delta": 0.004387538384168013,
+      "population_mean_delta": -0.16111111111111084,
+      "population_paired_mcse": 0.2418139006071373,
+      "birth_flux_mean_delta": -1.875,
+      "birth_flux_paired_mcse": 4.081734010960524,
+      "death_flux_mean_delta": -2.5833333333333335,
+      "death_flux_paired_mcse": 4.192348390121531,
+      "regime": 5,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0007900207603932594,
+      "paired_mcse": 0.0009468228381986366,
+      "min_delta": -0.008370096640837793,
+      "max_delta": 0.009410256259702918,
+      "population_mean_delta": 0.19079861111111107,
+      "population_paired_mcse": 0.20492455506069635,
+      "birth_flux_mean_delta": 5.583333333333333,
+      "birth_flux_paired_mcse": 3.8325062119629116,
+      "death_flux_mean_delta": 5.375,
+      "death_flux_paired_mcse": 3.7772260448909987,
+      "regime": 5,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.0003981428466710759,
+      "paired_mcse": 0.0006120739380215579,
+      "min_delta": -0.005688898190722047,
+      "max_delta": 0.006290580819836217,
+      "population_mean_delta": -0.04496527777777685,
+      "population_paired_mcse": 0.24111787742748053,
+      "birth_flux_mean_delta": 3.5833333333333335,
+      "birth_flux_paired_mcse": 2.7365724003606156,
+      "death_flux_mean_delta": 4.916666666666667,
+      "death_flux_paired_mcse": 3.155921893071672,
+      "regime": 5,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.017300561700382237,
+      "paired_mcse": 0.0010150924824188087,
+      "min_delta": -0.02496242704934229,
+      "max_delta": -0.0038152722971852293,
+      "population_mean_delta": -6.824305555555555,
+      "population_paired_mcse": 0.2563780642378158,
+      "birth_flux_mean_delta": -47.958333333333336,
+      "birth_flux_paired_mcse": 4.550632686807577,
+      "death_flux_mean_delta": -40.125,
+      "death_flux_paired_mcse": 4.560508052361292,
+      "regime": 6,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.01703504188807703,
+      "paired_mcse": 0.0009570182353008095,
+      "min_delta": -0.024516533431901993,
+      "max_delta": -0.008415968718156072,
+      "population_mean_delta": -6.812673611111111,
+      "population_paired_mcse": 0.23326477911126903,
+      "birth_flux_mean_delta": -46.75,
+      "birth_flux_paired_mcse": 4.246588571165521,
+      "death_flux_mean_delta": -39.791666666666664,
+      "death_flux_paired_mcse": 4.305363678130593,
+      "regime": 6,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0015292071919067885,
+      "paired_mcse": 0.0008628576133356904,
+      "min_delta": -0.010724141729416783,
+      "max_delta": 0.007754497851897982,
+      "population_mean_delta": -0.46111111111111125,
+      "population_paired_mcse": 0.2681540956771848,
+      "birth_flux_mean_delta": 2.5833333333333335,
+      "birth_flux_paired_mcse": 3.3529765419431823,
+      "death_flux_mean_delta": 3.75,
+      "death_flux_paired_mcse": 3.522829273035599,
+      "regime": 6,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.000591326107179098,
+      "paired_mcse": 0.0009425386201918992,
+      "min_delta": -0.008017928756869852,
+      "max_delta": 0.009139035614497554,
+      "population_mean_delta": 0.4480902777777776,
+      "population_paired_mcse": 0.22116762410627488,
+      "birth_flux_mean_delta": -0.08333333333333333,
+      "birth_flux_paired_mcse": 3.778714540009503,
+      "death_flux_mean_delta": 0.5833333333333334,
+      "death_flux_paired_mcse": 3.6175481461028243,
+      "regime": 6,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0007207809335315075,
+      "paired_mcse": 0.0008141006236999704,
+      "min_delta": -0.009825496571413406,
+      "max_delta": 0.006666066153687519,
+      "population_mean_delta": 0.13229166666666595,
+      "population_paired_mcse": 0.27869198706888,
+      "birth_flux_mean_delta": 0.6666666666666666,
+      "birth_flux_paired_mcse": 3.678012748452319,
+      "death_flux_mean_delta": 2.0833333333333335,
+      "death_flux_paired_mcse": 3.7949798392977443,
+      "regime": 6,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.015509673885401894,
+      "paired_mcse": 0.0016298591885779523,
+      "min_delta": -0.032051045954559376,
+      "max_delta": -0.0010468444392296578,
+      "population_mean_delta": -6.836631944444444,
+      "population_paired_mcse": 0.28746334779655913,
+      "birth_flux_mean_delta": -29.625,
+      "birth_flux_paired_mcse": 5.219394052508617,
+      "death_flux_mean_delta": -21.041666666666668,
+      "death_flux_paired_mcse": 5.154665526571172,
+      "regime": 7,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.017706529921451584,
+      "paired_mcse": 0.0012907965280744118,
+      "min_delta": -0.03107473641541418,
+      "max_delta": -0.006072962957904091,
+      "population_mean_delta": -6.7109375,
+      "population_paired_mcse": 0.286638180532706,
+      "birth_flux_mean_delta": -25.375,
+      "birth_flux_paired_mcse": 4.301925967399429,
+      "death_flux_mean_delta": -17.875,
+      "death_flux_paired_mcse": 3.970595043567148,
+      "regime": 7,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.001813357421613812,
+      "paired_mcse": 0.001854657574414425,
+      "min_delta": -0.01891818353897838,
+      "max_delta": 0.009834180224869801,
+      "population_mean_delta": 0.01545138888888816,
+      "population_paired_mcse": 0.32502849644039805,
+      "birth_flux_mean_delta": -4.5,
+      "birth_flux_paired_mcse": 4.187628431947846,
+      "death_flux_mean_delta": -2.6666666666666665,
+      "death_flux_paired_mcse": 3.7162328335869854,
+      "regime": 7,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.000999734850974551,
+      "paired_mcse": 0.0017070547952070343,
+      "min_delta": -0.011763833382915284,
+      "max_delta": 0.024684799277659486,
+      "population_mean_delta": 0.44513888888888786,
+      "population_paired_mcse": 0.3992750723504155,
+      "birth_flux_mean_delta": 3.5416666666666665,
+      "birth_flux_paired_mcse": 5.5719858189144365,
+      "death_flux_mean_delta": 5.458333333333333,
+      "death_flux_paired_mcse": 5.029975065006722,
+      "regime": 7,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0015254501752842563,
+      "paired_mcse": 0.0016946386868792497,
+      "min_delta": -0.022317419926060317,
+      "max_delta": 0.011070008016612995,
+      "population_mean_delta": -0.09166666666666679,
+      "population_paired_mcse": 0.34932368303247824,
+      "birth_flux_mean_delta": -2.6666666666666665,
+      "birth_flux_paired_mcse": 5.73246117397328,
+      "death_flux_mean_delta": -0.08333333333333333,
+      "death_flux_paired_mcse": 5.078341573791253,
+      "regime": 7,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.01430857235471063,
+      "paired_mcse": 0.0013150466467283925,
+      "min_delta": -0.024132576457493005,
+      "max_delta": 0.0007727402561644725,
+      "population_mean_delta": -7.046354166666667,
+      "population_paired_mcse": 0.3552878417769779,
+      "birth_flux_mean_delta": -30.041666666666668,
+      "birth_flux_paired_mcse": 5.283443913714991,
+      "death_flux_mean_delta": -23.791666666666668,
+      "death_flux_paired_mcse": 5.5482008987202684,
+      "regime": 8,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.013938429748615087,
+      "paired_mcse": 0.0013835678100745667,
+      "min_delta": -0.028766650152900183,
+      "max_delta": -0.0021495159517979923,
+      "population_mean_delta": -7.005729166666666,
+      "population_paired_mcse": 0.3304999038951268,
+      "birth_flux_mean_delta": -31.875,
+      "birth_flux_paired_mcse": 4.261945063540552,
+      "death_flux_mean_delta": -27.791666666666668,
+      "death_flux_paired_mcse": 4.397372060520618,
+      "regime": 8,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.002411127808462997,
+      "paired_mcse": 0.001427696327795709,
+      "min_delta": -0.01905509196975766,
+      "max_delta": 0.009090804809508482,
+      "population_mean_delta": -0.8624999999999989,
+      "population_paired_mcse": 0.3736103815340471,
+      "birth_flux_mean_delta": -1.5,
+      "birth_flux_paired_mcse": 5.3982686435398985,
+      "death_flux_mean_delta": -1.875,
+      "death_flux_paired_mcse": 4.96849221143321,
+      "regime": 8,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.0014776329962312255,
+      "paired_mcse": 0.0011369475318433859,
+      "min_delta": -0.011959201303104822,
+      "max_delta": 0.013120058523168526,
+      "population_mean_delta": 0.1267361111111125,
+      "population_paired_mcse": 0.4022015011106234,
+      "birth_flux_mean_delta": 6.5,
+      "birth_flux_paired_mcse": 6.620674688680403,
+      "death_flux_mean_delta": 6.708333333333333,
+      "death_flux_paired_mcse": 6.012510859511923,
+      "regime": 8,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.0007164250728058768,
+      "paired_mcse": 0.0013323353894503702,
+      "min_delta": -0.010924256852942266,
+      "max_delta": 0.014940102142628545,
+      "population_mean_delta": -0.3380208333333332,
+      "population_paired_mcse": 0.3861890283412536,
+      "birth_flux_mean_delta": -3.4583333333333335,
+      "birth_flux_paired_mcse": 4.687316824118233,
+      "death_flux_mean_delta": -1.25,
+      "death_flux_paired_mcse": 4.434813689859825,
+      "regime": 8,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.005687627932591341,
+      "paired_mcse": 0.001832630643125856,
+      "min_delta": -0.006700821916842986,
+      "max_delta": 0.02225633608483299,
+      "population_mean_delta": 2.51875,
+      "population_paired_mcse": 0.24417877972789553,
+      "birth_flux_mean_delta": 16.625,
+      "birth_flux_paired_mcse": 4.126975811393385,
+      "death_flux_mean_delta": 16.416666666666668,
+      "death_flux_paired_mcse": 4.222917403995274,
+      "regime": 9,
+      "policy": "asocial_access_off",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.01105946992711198,
+      "paired_mcse": 0.0020672827588077915,
+      "min_delta": -0.033047388635125796,
+      "max_delta": 0.011299747120935066,
+      "population_mean_delta": -6.034722222222222,
+      "population_paired_mcse": 0.24422098097208447,
+      "birth_flux_mean_delta": -16.708333333333332,
+      "birth_flux_paired_mcse": 4.114079381172582,
+      "death_flux_mean_delta": -10.875,
+      "death_flux_paired_mcse": 3.753892906906341,
+      "regime": 9,
+      "policy": "candidate_b_resource_rational",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": -0.01224113336580271,
+      "paired_mcse": 0.0018165421902089167,
+      "min_delta": -0.030090294989109534,
+      "max_delta": 0.0026626847453643104,
+      "population_mean_delta": -6.064409722222223,
+      "population_paired_mcse": 0.34270344448727486,
+      "birth_flux_mean_delta": -20.583333333333332,
+      "birth_flux_paired_mcse": 5.572615713802613,
+      "death_flux_mean_delta": -14.666666666666666,
+      "death_flux_paired_mcse": 5.870790711214226,
+      "regime": 9,
+      "policy": "feature_trust",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.0015926429642063578,
+      "paired_mcse": 0.001685910771520004,
+      "min_delta": -0.015388912226390647,
+      "max_delta": 0.016726923661226217,
+      "population_mean_delta": 0.2194444444444447,
+      "population_paired_mcse": 0.26223815474759077,
+      "birth_flux_mean_delta": 12.458333333333334,
+      "birth_flux_paired_mcse": 6.040017266107708,
+      "death_flux_mean_delta": 10.708333333333334,
+      "death_flux_paired_mcse": 5.685118880975248,
+      "regime": 9,
+      "policy": "scalar_0_25",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.0003784744163316458,
+      "paired_mcse": 0.0016163799507985083,
+      "min_delta": -0.011372978641518885,
+      "max_delta": 0.018473479284745922,
+      "population_mean_delta": 0.15746527777777727,
+      "population_paired_mcse": 0.2892186103750504,
+      "birth_flux_mean_delta": 4.583333333333333,
+      "birth_flux_paired_mcse": 4.843536207686393,
+      "death_flux_mean_delta": 4.958333333333333,
+      "death_flux_paired_mcse": 4.639339957531233,
+      "regime": 9,
+      "policy": "vector_0_5_0",
+      "reference": "ordinary_social/vector_0_0"
+    },
+    {
+      "n_pairs": 24,
+      "mean_delta": 0.003155935825511413,
+      "paired_mcse": 0.0015904416094339052,
+      "min_delta": -0.009415435923925089,
+      "max_delta": 0.017512861059558946,
+      "population_mean_delta": 0.7786458333333334,
+      "population_paired_mcse": 0.27819510986686036,
+      "birth_flux_mean_delta": 10.791666666666666,
+      "birth_flux_paired_mcse": 4.622714541727568,
+      "death_flux_mean_delta": 10.791666666666666,
+      "death_flux_paired_mcse": 4.244766243144279,
+      "regime": 9,
+      "policy": "vector_1_0",
+      "reference": "ordinary_social/vector_0_0"
+    }
+  ],
+  "corrected_selection_contrasts": [
+    {
+      "regime": 1,
+      "directed_pair": "(0.0, 0.0)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.09090909090909091,
+      "paired_mcse": 0.11726191294211968,
+      "zero_delta_count": 84
+    },
+    {
+      "regime": 1,
+      "directed_pair": "(0.5, 0.0)->(0.0, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": 0.07954545454545454,
+      "paired_mcse": 0.0778861112072574,
+      "zero_delta_count": 81
+    },
+    {
+      "regime": 1,
+      "directed_pair": "(0.5, 0.0)->(0.5, 0.5)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.10227272727272728,
+      "paired_mcse": 0.11085279375269537,
+      "zero_delta_count": 76
+    },
+    {
+      "regime": 1,
+      "directed_pair": "(0.5, 0.5)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": 0.5681818181818182,
+      "paired_mcse": 0.22558148160849792,
+      "zero_delta_count": 64
+    },
+    {
+      "regime": 5,
+      "directed_pair": "(0.0, 0.0)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.1590909090909091,
+      "paired_mcse": 0.09682305068678439,
+      "zero_delta_count": 85
+    },
+    {
+      "regime": 5,
+      "directed_pair": "(0.5, 0.0)->(0.0, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": 0.03409090909090909,
+      "paired_mcse": 0.049682544036242504,
+      "zero_delta_count": 83
+    },
+    {
+      "regime": 5,
+      "directed_pair": "(0.5, 0.0)->(0.5, 0.5)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.09090909090909091,
+      "paired_mcse": 0.1299428815483548,
+      "zero_delta_count": 82
+    },
+    {
+      "regime": 5,
+      "directed_pair": "(0.5, 0.5)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.23863636363636365,
+      "paired_mcse": 0.16081226534998921,
+      "zero_delta_count": 75
+    },
+    {
+      "regime": 9,
+      "directed_pair": "(0.0, 0.0)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": 0.13636363636363635,
+      "paired_mcse": 0.09722080861335301,
+      "zero_delta_count": 83
+    },
+    {
+      "regime": 9,
+      "directed_pair": "(0.5, 0.0)->(0.0, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.011363636363636364,
+      "paired_mcse": 0.011363636363636364,
+      "zero_delta_count": 87
+    },
+    {
+      "regime": 9,
+      "directed_pair": "(0.5, 0.0)->(0.5, 0.5)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": -0.011363636363636364,
+      "paired_mcse": 0.19089400721623134,
+      "zero_delta_count": 82
+    },
+    {
+      "regime": 9,
+      "directed_pair": "(0.5, 0.5)->(0.5, 0.0)",
+      "n_pairs": 88,
+      "mean_delta_living_descendants": 0.13636363636363635,
+      "paired_mcse": 0.07781938299251667,
+      "zero_delta_count": 83
+    }
+  ],
+  "selection_denominators": {
+    "registered_raw_rows": 2112,
+    "completed_batch_rows": 2112,
+    "excluded_incomplete_batch_rows": 0,
+    "paid_birth_rows": 2112,
+    "no_birth_censored": 0,
+    "cap_censored": 0,
+    "extinction_rows": 1846,
+    "paired_paid_birth_pairs": 1056
+  },
+  "selection_precision": {
+    "runner_status": "complete",
+    "registered_precision_rule": "all 12 paired descendant MCSE values <=0.25 and all 24 arm-level establishment Wilson half-widths <=0.10",
+    "maximum_paired_descendant_mcse": 0.22558148160849797,
+    "maximum_establishment_wilson_half_width": 0.09717376663071624,
+    "runner_unresolved": []
+  },
+  "frozen_local_no_teacher_defect": {
+    "status": "CONFIRMED_FROZEN_DEFECT",
+    "source": "v7/experiments/model.py",
+    "source_sha256": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "audit_seed": 71901,
+    "teacher": null,
+    "feasible_actions": [
+      "private",
+      "teacher"
+    ],
+    "q0_values": [
+      [
+        "private",
+        0.0
+      ],
+      [
+        "teacher",
+        0.0
+      ]
+    ],
+    "neutral_action": "teacher",
+    "chosen_action": "teacher",
+    "latent_local_state_z": 0,
+    "private_signal": 1,
+    "phantom_tutor_signal": 0,
+    "phantom_tutor_equals_hidden_state": true,
+    "mechanism": "No advice leaves private/teacher Q0 tied at zero; lexical tie-break selects teacher. With no teacher, local-state construction sets the synthetic tutor signal equal to hidden z.",
+    "scientific_impact": "Asocial local comparisons are invalid. Other ecology/holdout/lineage results are descriptive under an unquantified no-teacher-local contamination until replay exports exposure counts or a corrected frozen variant is run.",
+    "repair_boundary": "Do not edit frozen/archive bytes or cached primary data; future corrected variant must remove teacher action without a teacher or route it to the private cue and rerun affected ecology evidence."
+  },
+  "corrected_local_no_teacher_audit": {
+    "status": "CORRECTED_PATH_VALIDATED",
+    "source": "v7/experiments/corrected_model.py",
+    "source_sha256": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "base_source_sha256": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "audit_seed": 71901,
+    "teacher": null,
+    "feasible_actions": [
+      "private"
+    ],
+    "action_values": [
+      [
+        "private",
+        2.0
+      ]
+    ],
+    "chosen_action": "private",
+    "latent_local_state_z": 0,
+    "private_signal": 1,
+    "unused_tutor_placeholder": 1,
+    "placeholder_equals_private": true,
+    "executed_success_matches_private_cue": true,
+    "scope": "No-teacher local path only; teacher-present behavior delegates to the frozen base."
+  },
+  "limitations": [
+    "d=0 is ordinary social learning, not asocial or fully deferential.",
+    "tau=5 is a fixed age threshold and differs from V1-V6 exponential maturation means; tau was not optimized.",
+    "The IBM Q0 is a greedy whole-procedure posterior proxy without a two-episode continuation term; ExactTinyPOMDP is a separate reduced toy.",
+    "FeatureTrust predicts reward from source features without action input; Candidate B remains approximate and charges a declared procedure opportunity proxy.",
+    "The procedural teacher-ranking key is never updated, leaving an identity-order tie; the offer is the lexical first eligible K sequence, not chosen from updated B or predicted performance.",
+    "Population N, per-agent-season net resource, and conditional finite descendants are different estimands.",
+    "Frozen no-tutor local decisions contain a confirmed phantom-oracle defect; their ecology and lineage exports are invalidated rather than mixed with the fresh corrected-primary results.",
+    "The corrected overlay changes only the three no-teacher local methods; it does not repair lexical teacher selection, action-blind FeatureTrust, Candidate-B evaluator/execution mismatch, or missing purchase/event counts.",
+    "Corrected outcomes remain finite, conditional simulation results and do not identify significance, equivalence, biological adaptation, invasion fitness, ESS, fixation, or stable polymorphism.",
+    "Wilson precision for action/revision/success rates is unresolved without exported event counts.",
+    "Candidate-B information-purchase counts were not exported.",
+    "Independent final scientific review is a separate reviewer-owned artifact."
+  ]
+}

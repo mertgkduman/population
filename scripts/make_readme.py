@@ -8,6 +8,7 @@ for v in versions:
  folder=v['id'] if v['id']!='future' else 'proposals'
  table+='| '+v['title']+' | '+v['summary']+' | ['+folder+'/]('+folder+'/) |\n'
 text=(ROOT/'publication/README_HEADER.md').read_text().replace('VERSION_TABLE_PLACEHOLDER',table)
+text=text.replace('seven-tab site','eight-tab site').replace('The tabs are V1–V5, Further work and V6, in that order.','The tabs are V1–V5, Further work, V6 and V7, in that order. V7 is local and unpublished.')
 text+='\n## Equations and definitions\n\nThe equations below use mathematical notation. Time and density units are hypothetical; cognitive substates do not add biological stages. Full original specifications remain in each version folder.\n'
 for v in versions:
  if v['id']=='future':continue

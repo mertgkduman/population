@@ -1,0 +1,178 @@
+{
+  "arm_summaries": {
+    "causal_prerequisite_scramble": {
+      "copies": {
+        "mean": 738.3333333333334,
+        "n": 24,
+        "seed_mcse": 14.97179312480575
+      },
+      "functional_end": {
+        "mean": 22.833333333333332,
+        "n": 24,
+        "seed_mcse": 0.5667945294790195
+      },
+      "innovations": {
+        "mean": 19.375,
+        "n": 24,
+        "seed_mcse": 1.0931481263245877
+      },
+      "mean_population": {
+        "mean": 24.23125,
+        "n": 24,
+        "seed_mcse": 0.35481407508499707
+      },
+      "recombinations": {
+        "mean": 77.66666666666667,
+        "n": 24,
+        "seed_mcse": 1.6304025761714418
+      }
+    },
+    "no_retention": {
+      "copies": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "functional_end": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "innovations": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "mean_population": {
+        "mean": 16.79722222222222,
+        "n": 24,
+        "seed_mcse": 0.5078784163317346
+      },
+      "recombinations": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      }
+    },
+    "private_only": {
+      "copies": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "functional_end": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "innovations": {
+        "mean": 254.79166666666666,
+        "n": 24,
+        "seed_mcse": 7.314859594942327
+      },
+      "mean_population": {
+        "mean": 16.79722222222222,
+        "n": 24,
+        "seed_mcse": 0.5078784163317346
+      },
+      "recombinations": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      }
+    },
+    "transmission_innovation_retention": {
+      "copies": {
+        "mean": 738.3333333333334,
+        "n": 24,
+        "seed_mcse": 14.97179312480575
+      },
+      "functional_end": {
+        "mean": 22.833333333333332,
+        "n": 24,
+        "seed_mcse": 0.5667945294790195
+      },
+      "innovations": {
+        "mean": 19.375,
+        "n": 24,
+        "seed_mcse": 1.0931481263245877
+      },
+      "mean_population": {
+        "mean": 24.23125,
+        "n": 24,
+        "seed_mcse": 0.35481407508499707
+      },
+      "recombinations": {
+        "mean": 77.66666666666667,
+        "n": 24,
+        "seed_mcse": 1.6304025761714418
+      }
+    },
+    "transmission_only_no_bootstrap_innovation": {
+      "copies": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "functional_end": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "innovations": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      },
+      "mean_population": {
+        "mean": 32.802083333333336,
+        "n": 24,
+        "seed_mcse": 0.4961884841220746
+      },
+      "recombinations": {
+        "mean": 0.0,
+        "n": 24,
+        "seed_mcse": 0.0
+      }
+    }
+  },
+  "denominators": {
+    "all_statuses_retained": true,
+    "extinct_censored_infeasible_retained": true,
+    "fresh_seed_blocks": 24
+  },
+  "gates": {
+    "newborn_blank_gate": true,
+    "population_gate": true,
+    "receipt_objects": true,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  "heldout": {
+    "n": 24,
+    "paid_two_edge_passes": 23,
+    "status_counts": {
+      "failed_paid_transfer": 1,
+      "passed": 23
+    }
+  },
+  "interpretation": "Additional causal-DAG validation fixture. Any positive cumulative performance demonstrates the specified reusable-learning/work assumptions, not childhood deference, authority adaptation, novelty, or a changed primary V7 effect.",
+  "raw_sha256": {
+    "v7/experiments/output/cumulative_dag/endpoints.csv.gz": "6b04b9b460b5a5f17f2939672a7d5772c9aaed0ed5faa3269403085dbb55da8d",
+    "v7/experiments/output/cumulative_dag/full_dag_seed82901.json.gz": "d75fd365afa02051990ab56ec58173c1b348f4d3d1e3d1e415b5b2f61ad73386",
+    "v7/experiments/output/cumulative_dag/full_dag_seed82902.json.gz": "b640c866e76b3dc96807c912125fa854ed69cc9922936c2f1380b30fa1224371",
+    "v7/experiments/output/cumulative_dag/heldout.csv.gz": "b9ac8c54d99bbf7b33a77149d03f892ed091aab4c38ddaa99d6bed6b7bdce5aa",
+    "v7/experiments/output/cumulative_dag/seasons.csv.gz": "c9ffbede9264e85746bdf617c731675e843492fbf918c5cc1ed3b72e0f6e4ef5"
+  },
+  "source_sha256": {
+    "v7/cumulative_dag.md": "aedcf359c9fc84eefa1be07db962a6962b15529d7fc44d5c0d72235a3d47291d",
+    "v7/experiments/cumulative_dag.py": "e275de75ea1a77d48904c9f14d5fc7abe1e5ce3156e2ea54576ae86dee056f5d",
+    "v7/experiments/run_cumulative_dag.py": "abb4aa771169a97c92b7928748e99091ab06d857d11e5e591ab6d6ad0011b67b",
+    "v7/tests/test_cumulative_dag.py": "c25449d0d7732e76ccd9d2e916762bf2d83ec36c1da70f86d84e32774051f2f1"
+  },
+  "status": "complete",
+  "status_counts": {
+    "complete_horizon": 120
+  }
+}

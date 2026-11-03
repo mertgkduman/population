@@ -1,5 +1,5 @@
 {
-  "bytes": 986712317,
+  "bytes": 994347772,
   "versions": [
     {
       "version": "v1",
@@ -41,6 +41,12 @@
       "version": "v6-situational",
       "source_sha256": "c3727edcc0ece8bfbc1ff273fc6f9000b013c5b18c22b0c6685ca4467619a046",
       "hosted_bytes": 28850
+    },
+    {
+      "version": "v7",
+      "packages": 1,
+      "source_sha256": "381922dd03493671ac6a5ea2468c2dca61039f5507fe714851f70a0c11659697",
+      "hosted_bytes": 2960759
     }
   ],
   "tabs": [
@@ -50,7 +56,8 @@
     "V4",
     "V5",
     "Further work",
-    "V6"
+    "V6",
+    "V7"
   ],
   "science_unchanged": true,
   "largest_file_bytes": 36964711

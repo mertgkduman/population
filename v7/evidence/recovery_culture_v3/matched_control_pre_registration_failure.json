@@ -1,0 +1,7 @@
+{
+  "status": "not_run",
+  "stage": "pre_registration_safety_probe",
+  "reason": "Initial paired shared-work prototype did not satisfy finite snapshot/cap safety gates before source freeze. It was stopped before registration and before any scientific output.",
+  "required_repair": "Use per-season snapshot births, prospective cap/event censoring, and a material upper-bound assertion before a fresh paired-control registration.",
+  "claim": "No matched-work v3 result exists."
+}

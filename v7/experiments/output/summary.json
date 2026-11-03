@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "kind": "dashboard_source_contract",
+  "primary_evidence": "corrected_overlay",
+  "registry": {
+    "path": "v7/experiments/output/corrected_primary_registry.json",
+    "bytes": 19738,
+    "sha256": "db10dd52611ed1ee4eea8b08fd8d59b2efa358ebd905c21f2853f6c97a571c08"
+  },
+  "dashboard_inputs": [
+    {
+      "path": "v7/evidence/handoffs/07-results.json",
+      "bytes": 50260,
+      "sha256": "c56ab238a5028a969d8e3a01843e4d1b8144d010c69ed0e98bab9251c5be2d0a"
+    },
+    {
+      "path": "v7/evidence/hypothesis_ledger.json",
+      "bytes": 3638,
+      "sha256": "adeeb9f04810465011b6a0cb5c043fef49a690e5488d010bc7fb34e9568b137e"
+    },
+    {
+      "path": "v7/experiments/output/corrected/dashboard_replays.json.gz",
+      "bytes": 1703259,
+      "sha256": "cc82b2be8c5e033a873a38268578fcc5baeed987b47f74205725fe892cb0566a"
+    },
+    {
+      "path": "v7/experiments/output/final_controls.json",
+      "bytes": 5908379,
+      "sha256": "333248945dfced894f78d760ec2fd5afd6556aaf8cacd818743857453d9a6912"
+    },
+    {
+      "path": "v7/experiments/output/corrected/discovery.csv.gz",
+      "bytes": 60275,
+      "sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341"
+    },
+    {
+      "path": "v7/experiments/output/corrected/holdout.csv.gz",
+      "bytes": 158338,
+      "sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0"
+    },
+    {
+      "path": "v7/experiments/output/corrected/depth_reliability_control.csv.gz",
+      "bytes": 32737,
+      "sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6"
+    },
+    {
+      "path": "v7/experiments/output/corrected/corrected_evolution.csv.gz",
+      "bytes": 273800,
+      "sha256": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e"
+    },
+    {
+      "path": "v7/experiments/output/corrected/corrected_h9.csv.gz",
+      "bytes": 12859,
+      "sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+    }
+  ],
+  "views": {
+    "decision_microscope": "corrected passive focal decisions",
+    "policy_map": "corrected discovery rows; observed four-seed cells",
+    "regime_map": "corrected discovery; sample leader only",
+    "life_course": "corrected passive cohorts and real-event sampled genealogy",
+    "intervention": "belief_control; carrier_control separately",
+    "evolution": "corrected T=80 lineage contrasts, not exponent",
+    "research_ledger": "original check ledger plus final registered controls"
+  },
+  "obsolete_path_migration": "Legacy run_manifest remains provenance-only; this summary route and derived registry are the current reporting contract."
+}

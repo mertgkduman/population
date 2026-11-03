@@ -1,0 +1,53 @@
+{
+  "archive_sha256": "e6e4882cb2f945435f6217d254decbe0372d8ac74fa371e130ab5961a51cf731",
+  "arms": [
+    "transmission_innovation",
+    "no_transmission",
+    "prerequisite_scramble",
+    "carrier_loss_storage_off",
+    "carrier_loss_storage_on"
+  ],
+  "at": "2026-11-03T04:02:31.999352+00:00",
+  "gates": [
+    "finite stock residual",
+    "blank newborn",
+    "paid birth/death",
+    "teacher time",
+    "physical recipe harvest",
+    "storage off",
+    "cap prospective stop"
+  ],
+  "horizon": 60,
+  "limit": "No tuning after pilot.",
+  "seeds": [
+    82301,
+    82302,
+    82303,
+    82304,
+    82305,
+    82306,
+    82307,
+    82308,
+    82309,
+    82310,
+    82311,
+    82312,
+    82313,
+    82314,
+    82315,
+    82316,
+    82317,
+    82318,
+    82319,
+    82320,
+    82321,
+    82322,
+    82323,
+    82324
+  ],
+  "source_sha256": {
+    "experiments/recovery_culture_v3.py": "21d0edadaf5fd61894e5b4f54035e80d8460ee7ed57e921361525ea92cf1a837",
+    "experiments/run_recovery_culture_v3.py": "85b1c97901443e45364087fc9508f85e113a59f6bee3168390af3884a522be28"
+  },
+  "status": "registered_before_outcomes"
+}

@@ -1,0 +1,17 @@
+{
+  "amended_source_sha256": {
+    "v7/cumulative_dag_matched.md": "53434ff7d39fa57a338c3ebfdd3c9f965cb3ceb665cda12555a8deeb21f90461",
+    "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+    "v7/experiments/run_cumulative_dag_matched.py": "c1572e7535fe19393c1bb746237a0a1fcf9e7b55cfc282dbbf57c7cc26bcf027",
+    "v7/tests/test_cumulative_dag_matched.py": "b33ad545fd53acfe020b4d99fc76a31772cf13dcd297b41693f0fa0030fe53c0"
+  },
+  "original_source_sha256": {
+    "v7/cumulative_dag_matched.md": "53434ff7d39fa57a338c3ebfdd3c9f965cb3ceb665cda12555a8deeb21f90461",
+    "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+    "v7/experiments/run_cumulative_dag_matched.py": "00a6a1b95e62911372851fead986db406e5845b3e438a4fba9c99d2fc9d09d6e",
+    "v7/tests/test_cumulative_dag_matched.py": "b33ad545fd53acfe020b4d99fc76a31772cf13dcd297b41693f0fa0030fe53c0"
+  },
+  "reason": "Endpoint merge let World.result arm overwrite the comparison label, causing a KeyError during summary assembly; corrected merge preserves the explicit pair arm label. No seed, horizon, setting, or work protocol changed.",
+  "scientific_configuration_unchanged": true,
+  "status": "source_correction_before_completed_run"
+}

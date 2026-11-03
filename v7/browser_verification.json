@@ -1,0 +1,113 @@
+{
+  "url": "file:///hpc/group/pfisterlab/mg551/storage/population/v7/research_dashboard.html",
+  "pass": true,
+  "checks": [
+    {
+      "name": "canonical_corrected_controls_loaded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "twelve_rendered_views",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "compiled_mathml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "play_pause_actual_seasons",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scrub_stage_flux_and_cursor_synchronize",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "heatmap_selects_actual_matching_trajectory",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "three_independent_population_pins",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "beginning_N_denominator",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "belief_control_real_selector_effect",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "execution_resource_carrier_controls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "logged_genealogy_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "r4_actual_information_memory_dag_and_paid_edges",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_twelve_exports_local_central_crc_exact_trace_and_model_metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "complete_configuration_roundtrip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "file_configuration_import",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "invalid_configuration_rejected_without_mutation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "configuration_download_actual_json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "reset_playback_clears_frame_and_pins",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mobile_390_no_overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_external_requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no_console_errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "remote": []
+}

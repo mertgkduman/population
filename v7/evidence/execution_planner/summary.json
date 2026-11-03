@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "rows": 216,
+  "raw_sha256": "8e05b545132bacd7601f109cf69745da2ae52430c9c58785c821fe222b1dbc2e",
+  "source_sha256": {
+    "v7/experiments/run_execution_planner.py": "047446bf1f47c7f18fddb72e428b6a96e0e181859986e86a70a9af6766697e14",
+    "v7/experiments/execution_planner.py": "132213c87acdcc6b1c24db78a8a3aac2b3910abcb52f69327b582894ec8c3b9b",
+    "v7/tests/test_execution_planner.py": "7f531d67e117f74e297b488fd06f77c04fd3d3968b3689b907134bb07be79192",
+    "v7/experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "v7/experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "v7/experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "v7/experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988"
+  },
+  "completion_counts": {
+    "complete_horizon": 216
+  },
+  "max_ledger_residual": 2.7284841053187847e-12,
+  "max_time_tokens_used": 11,
+  "counts": {
+    "ordinary": {
+      "all_initial_decisions": 1078318,
+      "no_teacher": 295562,
+      "teacher_present": 782756,
+      "initial_conflicts": 173896,
+      "query_purchases": 0,
+      "verify_purchases": 0
+    },
+    "vector_0_5_0": {
+      "all_initial_decisions": 1078241,
+      "no_teacher": 293709,
+      "teacher_present": 784532,
+      "initial_conflicts": 173851,
+      "query_purchases": 0,
+      "verify_purchases": 0
+    },
+    "execution_evi": {
+      "all_initial_decisions": 992169,
+      "no_teacher": 271646,
+      "teacher_present": 720523,
+      "initial_conflicts": 153158,
+      "query_purchases": 18972,
+      "verify_purchases": 236739
+    }
+  },
+  "mean_population": {
+    "1": {
+      "ordinary": 61.388194444444444,
+      "vector_0_5_0": 61.39149305555555,
+      "execution_evi": 56.93315972222222
+    },
+    "5": {
+      "ordinary": 64.04340277777779,
+      "vector_0_5_0": 63.841145833333336,
+      "execution_evi": 57.636805555555554
+    },
+    "9": {
+      "ordinary": 61.65815972222222,
+      "vector_0_5_0": 61.85086805555556,
+      "execution_evi": 57.525
+    }
+  },
+  "claim_scope": "Bounded one-decision planner under shared Q0 and explicitly priced12 abstract units; not globally optimal/resource-rational RL."
+}

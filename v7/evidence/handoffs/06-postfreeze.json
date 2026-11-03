@@ -1,0 +1,74 @@
+{
+  "slice": "3A-postfreeze-assays",
+  "status": "complete_with_explicit_partial_and_not_modeled_claims",
+  "core_freeze": {
+    "live_source_bytes": "identical",
+    "archive_source_bytes": "identical",
+    "live_replay_digest": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "archive_replay_digest": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "verification": "v7/evidence/postfreeze_freeze_verification.json",
+    "verification_sha256": "52b2c59c013df3407d81a987815d177b20be4872fa3d89096eba31c28b329c67"
+  },
+  "adult_persistence": {
+    "seeds": "74001..74024",
+    "training_seasons": 40,
+    "intervention_seasons_each": 20,
+    "rows": 120,
+    "probes": ["audience_removal", "bidirectional_equalized_counterevidence", "free_audit", "outcome_devaluation", "contingency_degradation"],
+    "raw": "v7/experiments/output/persistence.csv.gz",
+    "raw_sha256": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+    "direct_adult_override_all_zero": true,
+    "matched_independent_evidence_per_probe": 2,
+    "adult_error_count": 0,
+    "all_material_transfer_nets_zero": true,
+    "construct_exports": ["B_factual_posterior", "K_procedural_knowledge", "T_source_calibration", "H_learned_action_value"],
+    "verdict": "MEASURED learned action persistence with factual revision; dogmatism NULL/unsupported and obligation UNSUPPORTED."
+  },
+  "yoked_access": {
+    "seeds": "74001..74024",
+    "design": "3 depths x 3 contexts x 3 juvenile d coordinates, adult age 7",
+    "rows": 648,
+    "same_history_groups": 216,
+    "adult_direct_overrides": 0,
+    "raw": "v7/experiments/output/postfreeze_yoked.csv.gz",
+    "raw_sha256": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+    "limitation": "A decision assay only; it does not identify demographic or evolutionary effects."
+  },
+  "bundles_and_obligation": {
+    "H4": "NOT_MODELED: no validated institutional evaluator/teaching-access mechanism, so no fabricated hitchhiking result.",
+    "obligation": "UNSUPPORTED: no acquired injunction, countermand, or novel-context generalization state."
+  },
+  "h9_diagnostic": {
+    "seeds": "74001..74024",
+    "regimes": [1, 5, 9],
+    "policy_arms": [0.0],
+    "shock_measurement_season": 90,
+    "rows": 216,
+    "arms": ["control", "shock", "shock_memory_erasure"],
+    "external_storage_enabled": false,
+    "erased_K_entries": 5657,
+    "raw": "v7/experiments/output/postfreeze_h9_observation.csv.gz",
+    "raw_sha256": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4",
+    "verdict": "PARTIAL diagnostic only: memory erasure is not carrier death; frozen core lacks root-diversity export and this run has no d-by-shock mediation."
+  },
+  "frozen_core_content_limit": "Procedure advice selects the lexically first eligible K sequence, not a sequence selected from updated B or expected performance. Post-shock recovery is therefore not evidence about adult factual dogmatism or adaptive advice.",
+  "cumulative_cognitive_assay": {
+    "fresh_seeds": "74601..74624",
+    "rows": 144,
+    "all_arm_total_work": 360,
+    "all_arm_material_debit": 3.6,
+    "two_edge_procedures": 28,
+    "mean_useful_depth": 2.0833,
+    "raw_sha256": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+    "prior_export": "INVALIDATED: v7/experiments/output/cumulative_invalidated_74001_74024.csv.gz",
+    "verdict": "PARTIAL separate cognitive feasibility assay; not frozen-IBM cumulative complexity, selection, deference, ACCUM-01 completion, or H2 evidence."
+  },
+  "hypothesis_status": {
+    "H3": "measured: acquired learned-action persistence after audience removal; not dogmatism",
+    "H4": "not_modeled",
+    "H6": "partial: B/K/T/H dissociation is exported, but no ecological competence-independence conclusion",
+    "H8": "not re-estimated here; use frozen provenance evidence only",
+    "H9": "partial d=0 shock/memory-erasure diagnostic; no diversity mediation"
+  },
+  "next_precondition": "Synthesis must retain every limitation above and must not promote cognitive PARTIAL, memory erasure, or lexical-offer artifacts into selection, carrier-loss, obligation, dogmatism, or cumulative-culture claims."
+}

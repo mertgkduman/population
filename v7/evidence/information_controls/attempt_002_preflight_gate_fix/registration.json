@@ -1,0 +1,83 @@
+{
+  "config": {
+    "claim_limit": "Mechanism-positive-control cognitive assays only: no demographic, selection, historical-adaptation, or novelty claim. Equal-information optimum cannot be beaten by extra override in expected payoff.",
+    "fixed_cap": 24,
+    "hidden_provenance": "exact .5 prior mixture of independent and copied generating structures; never automatic independence",
+    "information_factorial": [
+      "independent/copied true root",
+      "visible/hidden provenance",
+      "peer/authority uninformative label",
+      "three inherited policies"
+    ],
+    "information_seeds": [
+      83301,
+      83302,
+      83303,
+      83304,
+      83305,
+      83306,
+      83307,
+      83308,
+      83309,
+      83310,
+      83311,
+      83312,
+      83313,
+      83314,
+      83315,
+      83316,
+      83317,
+      83318,
+      83319,
+      83320,
+      83321,
+      83322,
+      83323,
+      83324
+    ],
+    "memory_factorial": [
+      "memory_acceptance=0/1",
+      "juvenile_d=0/.5",
+      "40 fixed-proposition training episodes",
+      "20 adult reuse episodes"
+    ],
+    "memory_seeds": [
+      84301,
+      84302,
+      84303,
+      84304,
+      84305,
+      84306,
+      84307,
+      84308,
+      84309,
+      84310,
+      84311,
+      84312,
+      84313,
+      84314,
+      84315,
+      84316,
+      84317,
+      84318,
+      84319,
+      84320,
+      84321,
+      84322,
+      84323,
+      84324
+    ],
+    "private_accuracy": 0.8,
+    "source_sha256": {
+      "v7/experiments/information_controls.py": "a1fde0a05fdd8bdf6ed07942c26b652d106319aeeefacae13f968f8dd1789dec",
+      "v7/experiments/run_information_controls.py": "fbc828ad31a79db70f43ad092dd28dc85fc3642b2f23bba1bae1674f37e8d6ea",
+      "v7/tests/test_information_controls.py": "d2797b647564372576c0de33f3c9e398faef7ade1530b50d803f46771123e2cf"
+    },
+    "stage": "R4 information authority provenance and memory acceptance controls",
+    "status": "registered_before_outcomes",
+    "tutor_majority_accuracy": 0.8960000000000001,
+    "tutor_private_observations": 3
+  },
+  "python": "3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 17:35:02) [GCC 11.2.0]",
+  "registered_at": "2026-11-03T06:10:03.048655+00:00"
+}

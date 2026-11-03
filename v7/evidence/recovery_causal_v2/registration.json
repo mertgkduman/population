@@ -1,0 +1,55 @@
+{
+  "adult_arms": [
+    "baseline",
+    "audience_removal",
+    "free_audit",
+    "evidence"
+  ],
+  "adult_directions": [
+    "supporting",
+    "contrary"
+  ],
+  "adult_steps": 20,
+  "authority": "randomized matched labels; compare d=(0,0) with applicable d=(.5,0) or (0,.5), no forced conflict",
+  "fixed_cap": 24,
+  "juvenile_definition": "actual age < 5 and teacher-present message during live corrected rollout",
+  "mode": "confirmation",
+  "passive_instrumentation": "paired unobserved replay digest must match recorded replay digest",
+  "regimes": [
+    1,
+    5,
+    9
+  ],
+  "registered_at": "2026-11-03T03:45:34.256844+00:00",
+  "seeds": [
+    83101,
+    83102,
+    83103,
+    83104,
+    83105,
+    83106,
+    83107,
+    83108,
+    83109,
+    83110,
+    83111,
+    83112,
+    83113,
+    83114,
+    83115,
+    83116,
+    83117,
+    83118,
+    83119,
+    83120,
+    83121,
+    83122,
+    83123,
+    83124
+  ],
+  "source_freeze_sha256": "ece2e7e4536e0795470607256c4999b10c413333909fe9edd5841fa25308f14a",
+  "stage": "r2v2-registration",
+  "status": "registered_before_outcomes",
+  "tau": 5,
+  "workers": 2
+}

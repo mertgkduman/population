@@ -1,0 +1,52 @@
+{
+  "denominators": {
+    "all_pairs_retained": true,
+    "fresh_independent_pairs": 24
+  },
+  "functional_end": {
+    "independent": {
+      "mean": 0.0,
+      "n": 24,
+      "seed_mcse": 0.0
+    },
+    "paired_difference_shared_minus_independent": {
+      "mean": 2.0833333333333335,
+      "n": 24,
+      "seed_mcse": 0.5739409486701454
+    },
+    "shared": {
+      "mean": 2.0833333333333335,
+      "n": 24,
+      "seed_mcse": 0.5739409486701454
+    }
+  },
+  "interpretation": "Fresh matched-total-work comparator for the additional DAG fixture. It tests the specified reusable-learning/work implementation, not authority, deference, novelty, or a primary V7 selection claim.",
+  "raw_sha256": {
+    "v7/experiments/output/cumulative_dag_matched/endpoints.csv.gz": "8cf4451ec406338ff765e3d848fec5375b8f022a2c76525325a8942b3d9ca136",
+    "v7/experiments/output/cumulative_dag_matched/endpoints.csv_pre_runtime_fix.gz": "b034c3dd8899b2bac129c2258dfd727ee1c8bf126e6d8fc8be9e365e86e9d209",
+    "v7/experiments/output/cumulative_dag_matched/pair_work.csv.gz": "0e01ca55825efb394d891ceada67a1403f77c783b127b71731c3de3a8a540a95",
+    "v7/experiments/output/cumulative_dag_matched/pair_work.csv_pre_runtime_fix.gz": "0e01ca55825efb394d891ceada67a1403f77c783b127b71731c3de3a8a540a95",
+    "v7/experiments/output/cumulative_dag_matched/seasons.csv.gz": "c41a32d65f5fb5a57bedaef10a8c020d8ffbaaa7400a78e6d4e941271e414368",
+    "v7/experiments/output/cumulative_dag_matched/seasons.csv_pre_runtime_fix.gz": "c41a32d65f5fb5a57bedaef10a8c020d8ffbaaa7400a78e6d4e941271e414368"
+  },
+  "source_sha256": {
+    "v7/cumulative_dag_matched.md": "53434ff7d39fa57a338c3ebfdd3c9f965cb3ceb665cda12555a8deeb21f90461",
+    "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+    "v7/experiments/run_cumulative_dag_matched.py": "c1572e7535fe19393c1bb746237a0a1fcf9e7b55cfc282dbbf57c7cc26bcf027",
+    "v7/tests/test_cumulative_dag_matched.py": "b33ad545fd53acfe020b4d99fc76a31772cf13dcd297b41693f0fa0030fe53c0"
+  },
+  "status": "complete",
+  "status_counts": {
+    "independent": {
+      "complete_horizon": 24
+    },
+    "shared": {
+      "complete_horizon": 24
+    }
+  },
+  "work_gate": {
+    "all_pair_endpoints_exact_work": true,
+    "all_season_rows_exact_equal": true,
+    "n_pair_season_rows": 1440
+  }
+}

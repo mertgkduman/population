@@ -1,0 +1,35 @@
+{
+  "by_arm": {
+    "carrier_loss_storage_off": {
+      "functional_mean": 0.20833333333333334,
+      "n": 24,
+      "work_mean": 1901.75
+    },
+    "carrier_loss_storage_on": {
+      "functional_mean": 2.2083333333333335,
+      "n": 24,
+      "work_mean": 1785.8333333333333
+    },
+    "no_transmission": {
+      "functional_mean": 0.8333333333333334,
+      "n": 24,
+      "work_mean": 2496.4583333333335
+    },
+    "prerequisite_scramble": {
+      "functional_mean": 0.8333333333333334,
+      "n": 24,
+      "work_mean": 2463.25
+    },
+    "transmission_innovation": {
+      "functional_mean": 1.2083333333333333,
+      "n": 24,
+      "work_mean": 2918.75
+    }
+  },
+  "raw_sha256": "45761eb31abddde2ee1919d0eef9961c738a196b47c37f6e6304359ebae0dec9",
+  "rows": 120,
+  "status_counts": {
+    "complete_horizon": 89,
+    "extinct": 31
+  }
+}

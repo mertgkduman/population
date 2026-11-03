@@ -1,0 +1,40 @@
+{
+  "adult_evidence_directions": [
+    "supporting",
+    "contrary"
+  ],
+  "adult_seeds": [
+    84001
+  ],
+  "adult_steps": 20,
+  "authority_design": "message/evidence matched randomized visible label; d=0 label-neutral arm and d=.5 operational treatment; no obedience reward",
+  "ecological_seeds": [
+    83001
+  ],
+  "fixed_seed_cap": 24,
+  "given_when_then": [
+    "Given matched actual messages, when labels change under d=0, then paired action is unchanged.",
+    "Given actual distinct root IDs, when visibility changes, then content is preserved and hidden provenance is evaluator-only.",
+    "Given matched likelihood directions, when twenty adult updates run, then B/K/H/T and action are separately exported with direct adult override zero."
+  ],
+  "horizon": {
+    "burn_in": 60,
+    "measurement": 120
+  },
+  "likelihood_strength": 0.8,
+  "mode": "pilot",
+  "precision": "Wilson only on seed-level clusters; repeated records are not independent Bernoulli trials; no extensions beyond fixed cap.",
+  "private_hardware_accuracy": 0.8,
+  "provenance_design": "actual corrected-world physical root IDs; copied/independent x visible/hidden; unknown never counted as independent",
+  "registered_at": "2026-11-03T03:32:00.087004+00:00",
+  "sentinel_regimes": [
+    1,
+    5,
+    9
+  ],
+  "source_archive_sha256": "23a3fb7a547bfbe206ea8fc5aef3dba5cb0841107493a89930d413038c8e423c",
+  "source_freeze_sha256": "37a7e35491fe1ed840bdd8df0669baa93ed2badc08411ce68b4daf4782e62dc3",
+  "stage": "recovery-causal-registration",
+  "status": "registered_before_outcomes",
+  "workers": 2
+}

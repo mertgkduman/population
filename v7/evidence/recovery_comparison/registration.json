@@ -1,0 +1,127 @@
+{
+  "given_when_then": [
+    "Given only PolicyObservation, when comparator chooses information, then it cannot access truth and expected/executed query accuracy are .8.",
+    "Given a selected information action, when ecology executes it, then time, posted price, computation and production compete under common budgets.",
+    "Given births, when child is created, then acquired knowledge is blank and genes remain separate.",
+    "Given carrier loss with storage off, when carriers are removed, then knowledge is lost before any possible reinvention.",
+    "Given equal-work independent control, when agents solve, then each has its own finite budget and no pooled solver."
+  ],
+  "limits": "R1a is a bounded one-step comparator; R1b is an additional bounded demographic sensitivity model.",
+  "r1a": {
+    "extensions": "none; fixed 24 fresh seeds",
+    "paired_by_seed": true,
+    "pilot": [
+      81001,
+      81002
+    ],
+    "policies": [
+      "ordinary_social",
+      "feature_trust",
+      "vector_0_5_0",
+      "vector_1_0",
+      "matched_action_conditional"
+    ],
+    "regime_params": {
+      "1": [
+        1,
+        0.5,
+        0.0,
+        0.1
+      ],
+      "5": [
+        3,
+        0.75,
+        0.005,
+        0.5
+      ],
+      "9": [
+        6,
+        1.0,
+        0.02,
+        1.5
+      ]
+    },
+    "regimes": [
+      1,
+      5,
+      9
+    ],
+    "seeds": [
+      81001,
+      81002,
+      81003,
+      81004,
+      81005,
+      81006,
+      81007,
+      81008,
+      81009,
+      81010,
+      81011,
+      81012,
+      81013,
+      81014,
+      81015,
+      81016,
+      81017,
+      81018,
+      81019,
+      81020,
+      81021,
+      81022,
+      81023,
+      81024
+    ]
+  },
+  "r1b": {
+    "arms": [
+      "transmission_innovation",
+      "no_transmission",
+      "equal_work_independent",
+      "prerequisite_shuffle",
+      "carrier_loss_storage_off",
+      "carrier_loss_storage_on"
+    ],
+    "no_innovation_postloss_checks": true,
+    "pilot": [
+      82001,
+      82002
+    ],
+    "seeds": [
+      82001,
+      82002,
+      82003,
+      82004,
+      82005,
+      82006,
+      82007,
+      82008,
+      82009,
+      82010,
+      82011,
+      82012,
+      82013,
+      82014,
+      82015,
+      82016,
+      82017,
+      82018,
+      82019,
+      82020,
+      82021,
+      82022,
+      82023,
+      82024
+    ]
+  },
+  "registered_at": "2026-11-03T03:28:08.969402+00:00",
+  "source_snapshot": {
+    "archive_sha256": "28691ad07c545fe2b412011a913289850b74d9d3fb102634468d6ff269268797",
+    "experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/recovery_comparators.py": "eb68e8b4bb6499f1a5e6a25209af52bf54d9f9378adbc4a2543a18d961e5bbd0",
+    "experiments/recovery_culture.py": "1c177496d4b495f2f7d96e1183b61f59932fe8bf41bcba605251e8049a0d5c9a",
+    "experiments/run_recovery_comparison.py": "7f2b3f8b5699127193b17de5c0227f0530d19e17e7cecb50a5c4771707da52fb"
+  },
+  "status": "registered_before_outcomes"
+}

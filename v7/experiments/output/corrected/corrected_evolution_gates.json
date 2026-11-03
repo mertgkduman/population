@@ -1,0 +1,119 @@
+{
+  "checks": {
+    "blank_state": true,
+    "drift_replay": true,
+    "label_genotype_exchange": true,
+    "ledger": true,
+    "neutral_self_mutant": true,
+    "paid_birth": true,
+    "resident_teacher_pool": true
+  },
+  "claim_limit": "Corrected-overlay implementation equality gates only; not selection outcomes.",
+  "neutral_tag": {
+    "arm": "neutral_tag",
+    "birth_cost": 16.0,
+    "blank_acquired_state": true,
+    "born_id": "birth-79001-60-22348",
+    "cap_censored": false,
+    "dead_descendants": 0,
+    "directed_pair": "(0.0, 0.0)->(0.0, 0.0)",
+    "events": 24867,
+    "extinct": false,
+    "frequency_trajectory": [
+      0.015873015873015872,
+      0.014925373134328358,
+      0.01639344262295082,
+      0.01694915254237288,
+      0.01694915254237288,
+      0.016666666666666666,
+      0.01694915254237288,
+      0.01694915254237288
+    ],
+    "horizon": 8,
+    "ledger_residual_max": 1.3642420526593924e-12,
+    "living_descendants": 1,
+    "mutant_traits": [
+      0.0,
+      0.0
+    ],
+    "newborn_energy": 8.0,
+    "no_birth_censored": false,
+    "parent_age": 44,
+    "parent_energy_after": 5.119999999999987,
+    "parent_energy_before": 21.119999999999987,
+    "parent_id": "birth-79001-16-5261",
+    "post_birth_sha256": "456d8c73be130ca637e2febb4ca2aee6fa202c687c47df60b66ad05515d38b33",
+    "regime": 1,
+    "replay_digest": "cc355ee37f5870944b370c77faf75db83da88a3d2d150276a40ab6650591092f",
+    "resident_state_sha256": "707681778d991fc92e25899aaed22012095823113d9389530bb1393bd687273c",
+    "resident_traits": [
+      0.0,
+      0.0
+    ],
+    "seed": 79001,
+    "teacher_pool": {
+      "eligible_teacher_fraction": 0.7457627118644068,
+      "eligible_teachers": 44,
+      "mean_age_eligible": 25.5,
+      "residents": 59,
+      "source": "resident acquired state only; corrected-overlay base",
+      "stored_sequences_eligible": 80
+    },
+    "terminal_status": "running",
+    "total_descendants": 1
+  },
+  "self_mutant": {
+    "arm": "mutant",
+    "birth_cost": 16.0,
+    "blank_acquired_state": true,
+    "born_id": "birth-79001-60-22348",
+    "cap_censored": false,
+    "dead_descendants": 0,
+    "directed_pair": "(0.0, 0.0)->(0.0, 0.0)",
+    "events": 24867,
+    "extinct": false,
+    "frequency_trajectory": [
+      0.015873015873015872,
+      0.014925373134328358,
+      0.01639344262295082,
+      0.01694915254237288,
+      0.01694915254237288,
+      0.016666666666666666,
+      0.01694915254237288,
+      0.01694915254237288
+    ],
+    "horizon": 8,
+    "ledger_residual_max": 1.3642420526593924e-12,
+    "living_descendants": 1,
+    "mutant_traits": [
+      0.0,
+      0.0
+    ],
+    "newborn_energy": 8.0,
+    "no_birth_censored": false,
+    "parent_age": 44,
+    "parent_energy_after": 5.119999999999987,
+    "parent_energy_before": 21.119999999999987,
+    "parent_id": "birth-79001-16-5261",
+    "post_birth_sha256": "456d8c73be130ca637e2febb4ca2aee6fa202c687c47df60b66ad05515d38b33",
+    "regime": 1,
+    "replay_digest": "cc355ee37f5870944b370c77faf75db83da88a3d2d150276a40ab6650591092f",
+    "resident_state_sha256": "707681778d991fc92e25899aaed22012095823113d9389530bb1393bd687273c",
+    "resident_traits": [
+      0.0,
+      0.0
+    ],
+    "seed": 79001,
+    "teacher_pool": {
+      "eligible_teacher_fraction": 0.7457627118644068,
+      "eligible_teachers": 44,
+      "mean_age_eligible": 25.5,
+      "residents": 59,
+      "source": "resident acquired state only; corrected-overlay base",
+      "stored_sequences_eligible": 80
+    },
+    "terminal_status": "running",
+    "total_descendants": 1
+  },
+  "status": "passed"
+}

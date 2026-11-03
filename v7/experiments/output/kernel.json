@@ -1,0 +1,540 @@
+{
+  "authority_label_placebo": {
+    "features": [
+      "bias",
+      "calibrated_source",
+      "context_match",
+      "unique_roots"
+    ],
+    "novice": {
+      "advice": "teacher",
+      "charged_cost": 0.01,
+      "chosen_action": "private",
+      "conflict": true,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "private",
+      "operation_count": 1,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "bfacff29a827d0c48f25eb1a2e518d0178050ad5d51f07505d3bdca0ba66a113",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.1192727706713842
+        ]
+      ],
+      "social_content_used": true
+    },
+    "senior": {
+      "advice": "teacher",
+      "charged_cost": 0.01,
+      "chosen_action": "private",
+      "conflict": true,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "private",
+      "operation_count": 1,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "1a40e75a75828d80c4a219e6d7efc8175082dc5ca2d0a4d3a0933f0112d3c9d5",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.1192727706713842
+        ]
+      ],
+      "social_content_used": true
+    },
+    "weights": [
+      [
+        "bias",
+        0.24523479402836237
+      ],
+      [
+        "calibrated_source",
+        0.4588147255943481
+      ],
+      [
+        "context_match",
+        0.19981332740939484
+      ],
+      [
+        "unique_roots",
+        0.04074618540223709
+      ]
+    ]
+  },
+  "checks": {
+    "AUTH-01": true,
+    "AUTH-02": true,
+    "AUTH-03": true,
+    "BUDGET-01": true,
+    "CLASS-01": true,
+    "COMP-01": true,
+    "FOUNDER-01": true,
+    "HIDDEN-01": true,
+    "INHERIT-01": true,
+    "MATURITY-01": true,
+    "PROV-01": true,
+    "RNG-01": true,
+    "TASK-01": true
+  },
+  "config_sha256": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+  "decisions": {
+    "asocial": {
+      "advice": null,
+      "charged_cost": 0.01,
+      "chosen_action": "teacher",
+      "conflict": false,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "teacher",
+      "operation_count": 1,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "2b9c4cec152ebccd657bfe5702458cef33130e09e8d351dd325fd2b4485564c3",
+      "posterior_advice": 0.0967741935483871,
+      "pre_override_digest": "74599f94d4dd0aa477115afb47fac3e974c75422021f032b1bcdbe9a816a73b2",
+      "pre_override_learning_digest": "2b9c4cec152ebccd657bfe5702458cef33130e09e8d351dd325fd2b4485564c3",
+      "q0_values": [
+        [
+          "private",
+          1.0
+        ],
+        [
+          "teacher",
+          1.0
+        ]
+      ],
+      "social_content_used": false
+    },
+    "candidate_b": {
+      "advice": "teacher",
+      "charged_cost": 0.03,
+      "chosen_action": "private",
+      "conflict": true,
+      "information_action": "verify",
+      "information_value": 0.3661157024793389,
+      "neutral_action": "private",
+      "operation_count": 3,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "c2c256cbebd16b1189410abd9e91c635990a5515134b97e0fafd8d33d30a4a90",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.1192727706713842
+        ]
+      ],
+      "social_content_used": true
+    },
+    "feature": {
+      "advice": "teacher",
+      "charged_cost": 0.01,
+      "chosen_action": "private",
+      "conflict": true,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "private",
+      "operation_count": 1,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "c2c256cbebd16b1189410abd9e91c635990a5515134b97e0fafd8d33d30a4a90",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.1192727706713842
+        ]
+      ],
+      "social_content_used": true
+    },
+    "forced": {
+      "advice": "teacher",
+      "charged_cost": 0.01,
+      "chosen_action": "teacher",
+      "conflict": true,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "private",
+      "operation_count": 1,
+      "override_applied": true,
+      "override_draw": 0.3812809621885915,
+      "override_key": "override:fixture-agent:0:procedure",
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.9338842975206613
+        ]
+      ],
+      "social_content_used": true
+    },
+    "ordinary": {
+      "advice": "teacher",
+      "charged_cost": 0.01,
+      "chosen_action": "private",
+      "conflict": true,
+      "information_action": null,
+      "information_value": 0.0,
+      "neutral_action": "private",
+      "operation_count": 1,
+      "override_applied": false,
+      "override_draw": null,
+      "override_key": null,
+      "post_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "posterior_advice": 0.21322314049586774,
+      "pre_override_digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "pre_override_learning_digest": "e6fc5a07dd1985cdab5d4fe183edcf65fc5324fbf0acde60445cc17bbbb41c4c",
+      "q0_values": [
+        [
+          "private",
+          1.933884297520661
+        ],
+        [
+          "teacher",
+          -0.9338842975206613
+        ]
+      ],
+      "social_content_used": true
+    }
+  },
+  "exact": {
+    "exact_first_action": "learn",
+    "exact_value": 3.11137227774701,
+    "independent_restricted_mcse": 0.048466351696942314,
+    "independent_restricted_value": 2.2599999999999993,
+    "mcse": 0.048466351696942314,
+    "restricted_replicates": 4000,
+    "restricted_value": 2.2599999999999993,
+    "restricted_visits": {
+      "execute_0": 3920,
+      "execute_1": 4080,
+      "learn": 8000,
+      "query": 8000,
+      "safe": 0,
+      "verify": 8000
+    },
+    "scope": "Matched two-episode tiny-world information, utility, time, and operation contract only; no full-IBM upper-bound claim.",
+    "upper_bound_holds": true
+  },
+  "explicit_state_updates": {
+    "B": {
+      "beliefs": [
+        [
+          "procedure",
+          0.8
+        ]
+      ],
+      "habits": [],
+      "independent_successes": 0,
+      "procedures": [],
+      "provenance_roots": [],
+      "trust": []
+    },
+    "K": {
+      "beliefs": [],
+      "habits": [],
+      "independent_successes": 0,
+      "procedures": [
+        "p"
+      ],
+      "provenance_roots": [
+        "r"
+      ],
+      "trust": []
+    },
+    "T": {
+      "beliefs": [],
+      "habits": [],
+      "independent_successes": 0,
+      "procedures": [],
+      "provenance_roots": [],
+      "trust": [
+        [
+          "tutor",
+          0.6
+        ]
+      ]
+    }
+  },
+  "factorial_content_memory_override": [
+    {
+      "accept_memory": false,
+      "action": "teacher",
+      "beliefs": [],
+      "content": false,
+      "override": false,
+      "override_applied": false,
+      "procedures": []
+    },
+    {
+      "accept_memory": false,
+      "action": "teacher",
+      "beliefs": [],
+      "content": false,
+      "override": true,
+      "override_applied": false,
+      "procedures": []
+    },
+    {
+      "accept_memory": true,
+      "action": "teacher",
+      "beliefs": [],
+      "content": false,
+      "override": false,
+      "override_applied": false,
+      "procedures": []
+    },
+    {
+      "accept_memory": true,
+      "action": "teacher",
+      "beliefs": [],
+      "content": false,
+      "override": true,
+      "override_applied": false,
+      "procedures": []
+    },
+    {
+      "accept_memory": false,
+      "action": "private",
+      "beliefs": [],
+      "content": true,
+      "override": false,
+      "override_applied": false,
+      "procedures": []
+    },
+    {
+      "accept_memory": false,
+      "action": "teacher",
+      "beliefs": [],
+      "content": true,
+      "override": true,
+      "override_applied": true,
+      "procedures": []
+    },
+    {
+      "accept_memory": true,
+      "action": "private",
+      "beliefs": [],
+      "content": true,
+      "override": false,
+      "override_applied": false,
+      "procedures": [
+        "learned-sequence"
+      ]
+    },
+    {
+      "accept_memory": true,
+      "action": "teacher",
+      "beliefs": [],
+      "content": true,
+      "override": true,
+      "override_applied": true,
+      "procedures": [
+        "learned-sequence"
+      ]
+    }
+  ],
+  "hidden_history_permutation": [
+    {
+      "digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "latent_theta": 0,
+      "latent_z": 0
+    },
+    {
+      "digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "latent_theta": 0,
+      "latent_z": 1
+    },
+    {
+      "digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "latent_theta": 1,
+      "latent_z": 0
+    },
+    {
+      "digest": "b4a67361b4c704832fceb8b8ab238ebbaa01a7265cd3046d1d1dff5facc61789",
+      "latent_theta": 1,
+      "latent_z": 1
+    }
+  ],
+  "interface": {
+    "operation_cap": 6,
+    "stable": [
+      "PolicyObservation",
+      "PolicyDecision",
+      "WorldState",
+      "KeyedRNG",
+      "update_beliefs",
+      "update_trust",
+      "store_procedure",
+      "TaskEconomics"
+    ],
+    "tiny_world": "two episode theta/z posterior Bellman model"
+  },
+  "pending_for_slice_2a": [
+    "Teacher acquisition, query, and production transfers have posted kernel prices but their population ledger entries and paid event implementations are intentionally pending Slice 2A.",
+    "The kernel establishes no ecology, demography, selection, accumulation, or founder-acquisition result."
+  ],
+  "provenance_duplicate": {
+    "baseline_posterior": 0.21322314049586774,
+    "duplicated_posterior": 0.21322314049586774,
+    "unique_roots": 1
+  },
+  "source_sha256": {
+    "experiments/exact.py": "681a585ac2842a0b9803d7f1b881e17984542ee9dcf6bbd1f7f8308c133646c0",
+    "experiments/model.py": "8fc29507bf03f6bbd58e6a565dac15ad08d4b50fc36900d786839e63488bd503",
+    "experiments/run_experiments.py": "23585d1a1dc7d591007333cb15f21b1fd0188e65e3831666c038ad20f4c9a615",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0"
+  },
+  "stage": "kernel",
+  "task_economics": [
+    {
+      "depth": 1,
+      "failure_branches": [
+        [
+          "prefix_failure_1",
+          0.09999999999999998,
+          -0.2
+        ],
+        [
+          "correct_finish",
+          0.81,
+          3.8
+        ],
+        [
+          "incorrect_finish",
+          0.08999999999999998,
+          -2.0
+        ]
+      ],
+      "margin_per_token": 0.23899999999999988,
+      "procedure_return": 2.8779999999999997,
+      "reward": 4.0,
+      "safe_return": 2.4
+    },
+    {
+      "depth": 3,
+      "failure_branches": [
+        [
+          "prefix_failure_1",
+          0.09999999999999998,
+          -0.2
+        ],
+        [
+          "prefix_failure_2",
+          0.08999999999999998,
+          -0.2
+        ],
+        [
+          "prefix_failure_3",
+          0.08099999999999999,
+          -0.20000000000000007
+        ],
+        [
+          "correct_finish",
+          0.6561000000000001,
+          9.5
+        ],
+        [
+          "incorrect_finish",
+          0.07289999999999999,
+          -2.0
+        ]
+      ],
+      "margin_per_token": 0.3082375000000004,
+      "procedure_return": 6.032950000000001,
+      "reward": 10.1,
+      "safe_return": 4.8
+    },
+    {
+      "depth": 6,
+      "failure_branches": [
+        [
+          "prefix_failure_1",
+          0.09999999999999998,
+          -0.2
+        ],
+        [
+          "prefix_failure_2",
+          0.08999999999999998,
+          -0.2
+        ],
+        [
+          "prefix_failure_3",
+          0.08099999999999999,
+          -0.20000000000000007
+        ],
+        [
+          "prefix_failure_4",
+          0.07289999999999999,
+          -0.19999999999999996
+        ],
+        [
+          "prefix_failure_5",
+          0.06561,
+          -0.19999999999999996
+        ],
+        [
+          "prefix_failure_6",
+          0.059049000000000004,
+          -0.20000000000000018
+        ],
+        [
+          "correct_finish",
+          0.47829690000000014,
+          23.3
+        ],
+        [
+          "incorrect_finish",
+          0.05314410000000001,
+          -2.0
+        ]
+      ],
+      "margin_per_token": 0.3634739671428578,
+      "procedure_return": 10.944317770000005,
+      "reward": 24.5,
+      "safe_return": 8.4
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adult_cloned_sequences": 192,
+  "adult_rows": 3840,
+  "all_adult_override_zero": true,
+  "all_adult_sequences_20": true,
+  "all_passive_digest_parity": true,
+  "claim_limit": "Juvenile rows are decision counterfactuals replayed from live corrected rollouts, not altered demographic trajectories. Adult arms are a separate cognitive assay; dogmatism/normative commitment remain unsupported.",
+  "juvenile_action_changes": 16567,
+  "juvenile_conflicts": 33133,
+  "juvenile_pairs": 105438,
+  "juvenile_rows": 210876,
+  "mode": "confirmation",
+  "raw": "experiments/output/recovery_causal_v2/confirmation_raw.csv.gz",
+  "raw_sha256": "be635967eda7da27b73cd92ed0f26766edc4f5ffcb80ddc9e69cf3179120c7db",
+  "stage": "r2v2",
+  "status": "complete"
+}

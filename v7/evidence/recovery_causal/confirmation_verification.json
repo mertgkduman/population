@@ -1,0 +1,66 @@
+{
+  "adult_rows": 960,
+  "adult_seed_histories": 24,
+  "checks": {
+    "AUTH-02": {
+      "conditional_conflict": {
+        "denominator": 6912,
+        "numerator": 192
+      },
+      "itt_rows": 6912,
+      "label_neutral_zero_effect": true,
+      "status": "PASS"
+    },
+    "COND-01": {
+      "opportunities": {
+        "conflict": {
+          "denominator": 14784,
+          "numerator": 384
+        },
+        "no_teacher_opportunity": {
+          "denominator": 14784,
+          "numerator": 960
+        },
+        "purchase_opportunity": {
+          "denominator": 14784,
+          "numerator": 13824
+        },
+        "revision_opportunity": {
+          "denominator": 14784,
+          "numerator": 1344
+        }
+      },
+      "precision": "Wilson applied only to 24 seed-level ecological clusters; repeated within-seed records are not independent binomial replicates.",
+      "status": "PASS"
+    },
+    "NORM-01": {
+      "all_direct_override_zero": true,
+      "dogmatism_verdict": "unsupported/absent: factual B revises symmetrically under accessible matched evidence",
+      "matched_strength": true,
+      "sequential_steps": 960,
+      "status": "PASS"
+    },
+    "PROV-01": {
+      "hidden_unknown_not_independence": true,
+      "independent_rows": 3456,
+      "status": "PASS",
+      "visible_rows": 3456
+    }
+  },
+  "ecological_rows": 13824,
+  "ecological_seed_clusters": 24,
+  "fixed_cap_precision_disposition": "unresolved precision retained at 24 seed clusters; no pooled repeated-event inference.",
+  "mode": "confirmation",
+  "raw": "experiments/output/recovery_causal/confirmation_raw.csv.gz",
+  "raw_sha256": "1052d803c6ad4b10cb72769634a5e34120bb4d0cbd513fe6291701eec7d87a02",
+  "registration": "evidence/recovery_causal/registration.json",
+  "source_freeze": "evidence/recovery_causal/source_freeze_confirmation.json",
+  "stage": "recovery-causal",
+  "status": "complete",
+  "wilson_conflict_seed_clusters": {
+    "center": 0.7514223320498822,
+    "half_width": 0.15613077690223692,
+    "n": 24,
+    "successes": 19
+  }
+}

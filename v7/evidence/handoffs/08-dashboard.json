@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "primary_evidence": "corrected_overlay",
+  "scientific_verdict": "PARTIAL_WITH_CORRECTED_PRIMARY_AND_FROZEN_INVALIDATION",
+  "scope": "offline V7 research dashboard and local portal package",
+  "inputs": {
+    "corrected_freeze_manifest_sha256": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13",
+    "corrected_replay_manifest_sha256": "708132b42d001a03bbe39db751221946246125afeb2c318103410009c6ad5d23",
+    "observational_replay": {
+      "cells": 81,
+      "seed": 77001,
+      "sha256": "cc82b2be8c5e033a873a38268578fcc5baeed987b47f74205725fe892cb0566a",
+      "digest_and_summary_parity": true,
+      "passive_observer": "all founder and newborn policies; unobserved focal digest matched"
+    },
+    "invalidated_frozen_archive": "provenance_only; never rendered as primary V7 evidence"
+  },
+  "artifacts": {
+    "offline_dashboard": {
+      "path": "v7/research_dashboard.html",
+      "bytes": 7776465,
+      "sha256": "381922dd03493671ac6a5ea2468c2dca61039f5507fe714851f70a0c11659697",
+      "plotly": "plotly.js v4.1.1",
+      "scientific_gzip_bytes": 2185446
+    },
+    "full_local_project_zip": {
+      "path": "v7/full_v7_research_project.zip",
+      "bytes": 40061936,
+      "sha256": "57fc6159e561eca6aafe0afe3f568157752095565b96b6536ba2e4bec05327a7",
+      "crc": "verified",
+      "isolated_rebuild_dashboard_sha256": "381922dd03493671ac6a5ea2468c2dca61039f5507fe714851f70a0c11659697"
+    },
+    "portal_v7": {
+      "path": "docs/apps/v7.html",
+      "bytes": 2961191,
+      "sha256": "a86cade91f5532dfbdaf15b67ea2083fc03dd8cf9fd3de37a92b4808aa27d212"
+    },
+    "corrected_public_data_zip": {
+      "path": "docs/downloads/v7/corrected-simulation-data.zip",
+      "bytes": 3606292,
+      "sha256": "ccdcccd5a8a9d2a17f147ca4c265c26f798a3e32c5cc85d045ea907a5c6d4020"
+    }
+  },
+  "dashboard_contract": {
+    "views": 8,
+    "age_threshold": 5,
+    "ordinary_d0": "fully social",
+    "unsupported": [
+      "asymptotic invasion lambda",
+      "dogmatism",
+      "stable polymorphism"
+    ],
+    "exports": "ZIP with exact embedded records, Plotly traces/layouts, complete selected parameters, freeze revision, units, metric, seed, transmission rule, and source hashes; separate PNG download"
+  },
+  "verification": {
+    "browser": "v7/browser_verify.js: 21 passed; HTTP(S) blocked, actual stages/flux and all rendered exact-trace ZIPs checked; desktop/mobile screenshots saved",
+    "python": "python -m unittest v7.tests.test_dashboard: 3 passed",
+    "portal": "scripts/verify_pages.py: 31 passed; 994347772 bytes below 1GB",
+    "source_checks": "v7/verify_artifacts.py: ZIP CRC, every archive source byte, index alias, isolated rebuild SHA, and local Plotly verified"
+  },
+  "limits": [
+    "Observational replay is a digest-checked derived dashboard view, not new primary evidence.",
+    "Life-course state is actual population/cohort aggregate; passive replays export actual per-season B/K/T/H means, not fabricated individual histories.",
+    "Transmission graph is a bounded representative actual-event subset (births, teaching/local contacts, positive guided K additions); unlogged lineage metadata remain unknown.",
+    "Finite lineage results remain T=80 observations, not invasion, ESS, or stable-polymorphism estimates.",
+    "The d=0 H9 view is shock plus K-erasure only, not carrier-loss or monoculture-debt evidence."
+  ],
+  "publication": "local/offline only; no remote push or deployment"
+}

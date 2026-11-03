@@ -1,0 +1,71 @@
+{
+  "status": "registered_before_confirmation",
+  "registered_at": "2026-11-03T04:47:59.980860+00:00",
+  "config": {
+    "seeds": [
+      82801,
+      82802,
+      82803,
+      82804,
+      82805,
+      82806,
+      82807,
+      82808,
+      82809,
+      82810,
+      82811,
+      82812,
+      82813,
+      82814,
+      82815,
+      82816,
+      82817,
+      82818,
+      82819,
+      82820,
+      82821,
+      82822,
+      82823,
+      82824
+    ],
+    "checkpoint": 30,
+    "recovery_horizon": 20,
+    "restart_population": 10,
+    "external_energy": 80.0,
+    "source_sha256": {
+      "v7/experiments/run_carrier_control.py": "d072c8cd1ad60dba2869f02f163e03108fa3469ee6f46c369c73fd28557ee506",
+      "v7/experiments/resource_control.py": "d2cbe6c65c85fb8feac891e00ada86cb8198cc1324e09788d8a6f97e988117d7"
+    },
+    "settings": {
+      "horizon": 60,
+      "start_population": 10,
+      "lifespan": 18,
+      "maturity": 3,
+      "time_cap": 4,
+      "resource_cap": 800.0,
+      "resource_initial": 600.0,
+      "regeneration": 0.06,
+      "conversion": 0.75,
+      "maintenance": 0.5,
+      "discovery_work": 8,
+      "private_accuracy": 0.8,
+      "work_cost": 0.2,
+      "birth_cost": 6.0,
+      "newborn_energy": 4.0,
+      "birth_probability": 0.12,
+      "population_cap": 256
+    },
+    "gwt": [
+      {
+        "given": "All living people removed,ten blank replacements and matched resource",
+        "when": "storage unavailable and innovation disabled",
+        "then": "no recipe/provenance survives"
+      },
+      {
+        "given": "Paid stored artifacts retained",
+        "when": "naive replacement learns",
+        "then": "every recovered origin is stored and reading is paid"
+      }
+    ]
+  }
+}

@@ -131,5 +131,29 @@
     ],
     "changes": "Adds stage-specific private encoding probabilities $\\eta_F=1$ and $\\eta_A\\in\\{0,0.1,1\\}$ while keeping cue quality and exposure fixed. Truth flips at Poisson hazard $\\kappa$. Matched environmental histories, held-out seeds and shared-resident mutant growth distinguish retention, adaptation and conditional selection. Further work remains immediately after V5; V6 follows it. The situational-advice extension fixes juvenile local-cue accuracy at0.9 and adult local-cue accuracy at0.55,0.70 or0.85. Fixed-source nulls and cultural-learning ablations test whether observed optima are interior or boundary.",
     "shortcomings": "Adult rigidity is imposed, not an evolved outcome. Encoding thinning is mathematically an effective learning-rate reduction, and does not establish a biological distinction from attention or information access. Finite-window stochastic means do not prove stationary equilibria. Symmetric fixed environments have mirrored beliefs and equal abundance. Deference still bundles public substitution and social storage; this does not establish a distinct childhood dogmatism adaptation."
+  },
+  {
+    "id": "v7",
+    "title": "V7",
+    "name": "Costly cultural competence",
+    "summary": "Local, unpublished corrected individual-based simulation of costly acquired cultural competence; scientific conclusions remain partial.",
+    "model_files": [
+      "publication/models/v7.md"
+    ],
+    "source_specifications": [
+      "v7/mathematical_model.md",
+      "v7/research_contract.md",
+      "v7/final_controls.md",
+      "v7/information_controls.md",
+      "v7/cumulative_dag.md",
+      "v7/cumulative_dag_matched.md"
+    ],
+    "parameter_file": "v7/parameter_schema.json",
+    "results_files": [
+      "v7/executive_summary.md",
+      "v7/results.md"
+    ],
+    "changes": "Separates juvenile conflict override in procedure and local decisions, and gives acquired knowledge, teaching, private cues and computation explicit costs. The corrected overlay removes the frozen model's no-teacher hidden-state oracle. Accepted final controls add a bounded execution-priced planner, strict-resource transmission, carrier-retention intervention, and fixed-proposition adult belief/action assay without replacing primary ecology. The age threshold $\\tau=5$ is fixed, not optimized; $d=0$ remains social. Final R4 controls add acquired independent/copied tutor histories, randomized authority labels, a memory-acceptance factorial, and an eight-node physical procedure DAG with held-out two-edge transfer and equal-work solvers.",
+    "shortcomings": "The scientific verdict is PARTIAL. Corrected finite population and lineage outcomes do not establish an evolutionary stable strategy, an invasion exponent, dogmatism, or a historical adaptation. The comparator is an action-blind reward heuristic, and the implemented current-decision proxy is not a full optimal reinforcement learner. Tutor content is lexically selected; ordinary cultural accumulation works in the additional DAG fixture, while deference-caused accumulation, full modification/prerequisite ablations and H9 causal mediation remain unresolved."
   }
 ]

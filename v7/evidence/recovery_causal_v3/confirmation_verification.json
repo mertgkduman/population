@@ -1,0 +1,22 @@
+{
+  "K_changes_only_training": true,
+  "adult_initial_state_replays_training_K": true,
+  "adult_rows": 7680,
+  "adult_sequences": 384,
+  "all_adult_steps_20": true,
+  "all_passive_digest_parity": true,
+  "claim_limit": "Role labels are randomized typed-message inputs; ordinary policy structurally ignores them, so label-null results are distinct from d conflict override. Juvenile decisions are not demographic ITT. Adult assay is acquired-state cognitive evidence, not dogmatism/norm evidence.",
+  "juvenile_conflicts": 65962,
+  "juvenile_rows": 422132,
+  "label_action_changes": 0,
+  "label_pairs": 211066,
+  "mode": "confirmation",
+  "private_signal_accuracy_empirical": 0.8052083333333333,
+  "private_signal_correct": 1546,
+  "provenance_status": "PARTIAL",
+  "raw": "experiments/output/recovery_causal_v3/confirmation_raw.csv.gz",
+  "raw_sha256": "95a428731d22f65689fe70336054d8e6e045de2f4abbc519b674bd036890d896",
+  "stage": "r3",
+  "status": "complete",
+  "training_rows": 1920
+}

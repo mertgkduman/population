@@ -1,0 +1,74 @@
+{
+  "checks": {
+    "AUTH-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "AUTH-02": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "AUTH-03": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "BUDGET-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "CLASS-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "COMP-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "FOUNDER-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "HIDDEN-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "INHERIT-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "MATURITY-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "PROV-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "RNG-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    },
+    "TASK-01": {
+      "evidence": "v7/experiments/output/kernel.json",
+      "status": "passed"
+    }
+  },
+  "claim_scope": "Measured kernel-contract checks only. The exact upper bound is limited to the matched two-episode tiny world; it is not an IBM, ecology, demography, selection, or cultural-accumulation result.",
+  "config_sha256": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+  "executed_checks_sha256": "af0201fa6111d6d7e5bb4d2fabe16bbbd4be4b753b894e0425fec351caff54dd",
+  "kernel_output_sha256": "355f59bf240b86511a7a789f30491024cf439ed6adebe5a0a6790b1cfceb9d63",
+  "next_interface": "Slice 2A must use the stable policy/update/task interfaces, charge all acquisition/production transfers in a linked ledger, and must not infer any ecology gate from this kernel evidence.",
+  "pending_for_slice_2a": [
+    "Teacher acquisition, query, and production transfers have posted kernel prices but their population ledger entries and paid event implementations are intentionally pending Slice 2A.",
+    "The kernel establishes no ecology, demography, selection, accumulation, or founder-acquisition result."
+  ],
+  "predecessor": "v7/evidence/handoffs/01-wave0.json",
+  "slice": "1B-kernel-exact",
+  "source_sha256": {
+    "experiments/exact.py": "681a585ac2842a0b9803d7f1b881e17984542ee9dcf6bbd1f7f8308c133646c0",
+    "experiments/model.py": "8fc29507bf03f6bbd58e6a565dac15ad08d4b50fc36900d786839e63488bd503",
+    "experiments/run_experiments.py": "23585d1a1dc7d591007333cb15f21b1fd0188e65e3831666c038ad20f4c9a615",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0"
+  },
+  "status": "passed"
+}

@@ -1,0 +1,33 @@
+{
+  "config_sha256": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+  "freeze_sha256": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13",
+  "jobs": 1368,
+  "output": "experiments/output/corrected/holdout.csv.gz",
+  "policies": [
+    "asocial_access_off",
+    "candidate_b_resource_rational",
+    "feature_trust",
+    "scalar_0_25",
+    "vector_0_0",
+    "vector_0_5_0",
+    "vector_1_0"
+  ],
+  "registered_at": "2026-11-03T00:04:14.959224+00:00",
+  "rows": 1368,
+  "seeds": [
+    78001,
+    78024
+  ],
+  "sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+  "source_sha256": {
+    "experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+    "experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/run_corrected_experiments.py": "ba01b501f97ba44d748f9d980cad34cbbb63fbf3902c844a7a0a8a48c8d638d1",
+    "experiments/run_experiments.py": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982"
+  },
+  "stage": "corrected_holdout",
+  "status": "complete",
+  "workers": 4
+}

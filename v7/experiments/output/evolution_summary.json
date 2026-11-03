@@ -1,0 +1,647 @@
+{
+  "claim_limit": "No asymptotic invasion, ESS, fixation, or adult genetic-rigidity claim is made.",
+  "frequency_measurement": "Each lineage arm shares the resident resource/culture state at introduction and records descendant living frequency through the finite 80-season assay. A separate 120-season extension is not required unless a later direct-frequency question is specified.",
+  "frozen_core_sha256": {
+    "experiments/analyze_results.py": "f6b3a54645115b724166cd3760ae843967b2c5fc986edc00f58ebe82159350a4",
+    "experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+    "experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/run_experiments.py": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0",
+    "parameter_schema.json": "ab3df8ccad8155af380a5e591b95ed1727747c0da8b4c28fb7a3c9f0b9ef91b1"
+  },
+  "gates": {
+    "checks": {
+      "blank_state": true,
+      "drift_replay": true,
+      "label_genotype_exchange": true,
+      "ledger": true,
+      "neutral_self_mutant": true,
+      "paid_birth": true,
+      "resident_teacher_pool": true
+    },
+    "evidence": "v7/experiments/output/selection_gates.json",
+    "status": "passed"
+  },
+  "raw_sha256": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+  "records": 1242,
+  "seeds_run": [
+    73001,
+    73072
+  ],
+  "source_sha256": {
+    "evolution.py": "1bfdc457b2917a577d79bc63203f3ca774751607beedae311472d78d7a792704",
+    "run_evolution.py": "047fe201e8a971a0f7ae9fab340e75aa4bbdd029950f392095eb1e60525e4021"
+  },
+  "stage": "2C-neutral-selection",
+  "status": "complete",
+  "summary": {
+    "arms": {
+      "regime_1|(0.0, 0.0)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.2525840479893798,
+        "censored": 0,
+        "distribution": {
+          "0": 46,
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 1,
+          "6": 2,
+          "7": 1,
+          "8": 1
+        },
+        "establishment": 10,
+        "establishment_wilson_95": [
+          0.09999749741344179,
+          0.2984143097574895
+        ],
+        "establishment_wilson_half_width": 0.09920840617202385,
+        "extinction": 46,
+        "mean_expected_descendants_per_paid_newborn": 0.75,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 56
+      },
+      "regime_1|(0.0, 0.0)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.23254211420602144,
+        "censored": 0,
+        "distribution": {
+          "0": 46,
+          "1": 1,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "8": 2
+        },
+        "establishment": 10,
+        "establishment_wilson_95": [
+          0.09999749741344179,
+          0.2984143097574895
+        ],
+        "establishment_wilson_half_width": 0.09920840617202385,
+        "extinction": 46,
+        "mean_expected_descendants_per_paid_newborn": 0.6607142857142857,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 56
+      },
+      "regime_1|(0.5, 0.0)->(0.0, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.27643945991057955,
+        "censored": 0,
+        "distribution": {
+          "0": 54,
+          "1": 1,
+          "2": 5,
+          "3": 5,
+          "4": 1,
+          "6": 2,
+          "7": 2,
+          "10": 1,
+          "11": 1
+        },
+        "establishment": 18,
+        "establishment_wilson_95": [
+          0.16438921125325756,
+          0.36093725865244064
+        ],
+        "establishment_wilson_half_width": 0.09827402369959153,
+        "extinction": 54,
+        "mean_expected_descendants_per_paid_newborn": 1.0694444444444444,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.0)->(0.0, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.2845372791459621,
+        "censored": 0,
+        "distribution": {
+          "0": 54,
+          "1": 1,
+          "2": 4,
+          "3": 5,
+          "4": 1,
+          "6": 3,
+          "7": 2,
+          "10": 1,
+          "11": 1
+        },
+        "establishment": 18,
+        "establishment_wilson_95": [
+          0.16438921125325756,
+          0.36093725865244064
+        ],
+        "establishment_wilson_half_width": 0.09827402369959153,
+        "extinction": 54,
+        "mean_expected_descendants_per_paid_newborn": 1.125,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.0)->(0.5, 0.5)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.22896651524124972,
+        "censored": 0,
+        "distribution": {
+          "0": 58,
+          "1": 1,
+          "2": 1,
+          "3": 4,
+          "4": 1,
+          "5": 5,
+          "6": 1,
+          "10": 1
+        },
+        "establishment": 14,
+        "establishment_wilson_95": [
+          0.11951371043417634,
+          0.3003297527838992
+        ],
+        "establishment_wilson_half_width": 0.09040802117486142,
+        "extinction": 58,
+        "mean_expected_descendants_per_paid_newborn": 0.8333333333333334,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.0)->(0.5, 0.5)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.2845372791459621,
+        "censored": 0,
+        "distribution": {
+          "0": 54,
+          "1": 1,
+          "2": 4,
+          "3": 5,
+          "4": 1,
+          "6": 3,
+          "7": 2,
+          "10": 1,
+          "11": 1
+        },
+        "establishment": 18,
+        "establishment_wilson_95": [
+          0.16438921125325756,
+          0.36093725865244064
+        ],
+        "establishment_wilson_half_width": 0.09827402369959153,
+        "extinction": 54,
+        "mean_expected_descendants_per_paid_newborn": 1.125,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.5)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.2344866187205026,
+        "censored": 0,
+        "distribution": {
+          "0": 36,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "8": 1
+        },
+        "establishment": 4,
+        "establishment_wilson_95": [
+          0.03957888759557486,
+          0.23052074380473897
+        ],
+        "establishment_wilson_half_width": 0.09547092810458206,
+        "extinction": 36,
+        "mean_expected_descendants_per_paid_newborn": 0.425,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_1|(0.5, 0.5)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.23311574103425262,
+        "censored": 0,
+        "distribution": {
+          "0": 37,
+          "2": 2,
+          "9": 1
+        },
+        "establishment": 3,
+        "establishment_wilson_95": [
+          0.025835556771858226,
+          0.19864530159097524
+        ],
+        "establishment_wilson_half_width": 0.0864048724095585,
+        "extinction": 37,
+        "mean_expected_descendants_per_paid_newborn": 0.325,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_5|(0.0, 0.0)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.4573651928401957,
+        "censored": 0,
+        "distribution": {
+          "0": 42,
+          "3": 1,
+          "5": 1,
+          "6": 2,
+          "7": 1,
+          "19": 1
+        },
+        "establishment": 6,
+        "establishment_wilson_95": [
+          0.05856971750400844,
+          0.24700727086054822
+        ],
+        "establishment_wilson_half_width": 0.09421877667826989,
+        "extinction": 42,
+        "mean_expected_descendants_per_paid_newborn": 0.9583333333333334,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_5|(0.0, 0.0)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.46746030222977913,
+        "censored": 0,
+        "distribution": {
+          "0": 42,
+          "2": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "19": 1
+        },
+        "establishment": 6,
+        "establishment_wilson_95": [
+          0.05856971750400844,
+          0.24700727086054822
+        ],
+        "establishment_wilson_half_width": 0.09421877667826989,
+        "extinction": 42,
+        "mean_expected_descendants_per_paid_newborn": 0.9791666666666666,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.0)->(0.0, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.28427500482595075,
+        "censored": 0,
+        "distribution": {
+          "0": 41,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "6": 2,
+          "10": 1
+        },
+        "establishment": 7,
+        "establishment_wilson_95": [
+          0.07248157413793963,
+          0.27167447042858606
+        ],
+        "establishment_wilson_half_width": 0.09959644814532323,
+        "extinction": 41,
+        "mean_expected_descendants_per_paid_newborn": 0.6875,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.0)->(0.0, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.3467490866289545,
+        "censored": 0,
+        "distribution": {
+          "0": 41,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "6": 1,
+          "9": 3
+        },
+        "establishment": 7,
+        "establishment_wilson_95": [
+          0.07248157413793963,
+          0.27167447042858606
+        ],
+        "establishment_wilson_half_width": 0.09959644814532323,
+        "extinction": 41,
+        "mean_expected_descendants_per_paid_newborn": 0.875,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.0)->(0.5, 0.5)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.3091752804242068,
+        "censored": 0,
+        "distribution": {
+          "0": 63,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "6": 2,
+          "8": 1,
+          "9": 2,
+          "15": 1
+        },
+        "establishment": 9,
+        "establishment_wilson_95": [
+          0.06717708293105555,
+          0.22081262192749168
+        ],
+        "establishment_wilson_half_width": 0.07681776949821807,
+        "extinction": 63,
+        "mean_expected_descendants_per_paid_newborn": 0.8194444444444444,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_5|(0.5, 0.0)->(0.5, 0.5)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.2354946846085347,
+        "censored": 0,
+        "distribution": {
+          "0": 65,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "6": 1,
+          "9": 3
+        },
+        "establishment": 7,
+        "establishment_wilson_95": [
+          0.04789571126116793,
+          0.18735249025356804
+        ],
+        "establishment_wilson_half_width": 0.06972838949620005,
+        "extinction": 65,
+        "mean_expected_descendants_per_paid_newborn": 0.5833333333333334,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 72
+      },
+      "regime_5|(0.5, 0.5)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.4413667354407946,
+        "censored": 0,
+        "distribution": {
+          "0": 44,
+          "2": 1,
+          "3": 1,
+          "14": 1,
+          "16": 1
+        },
+        "establishment": 4,
+        "establishment_wilson_95": [
+          0.03288322434995555,
+          0.19553565161066291
+        ],
+        "establishment_wilson_half_width": 0.08132621363035368,
+        "extinction": 44,
+        "mean_expected_descendants_per_paid_newborn": 0.7291666666666666,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.5)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.3020412969040177,
+        "censored": 0,
+        "distribution": {
+          "0": 44,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "12": 1
+        },
+        "establishment": 4,
+        "establishment_wilson_95": [
+          0.03288322434995555,
+          0.19553565161066291
+        ],
+        "establishment_wilson_half_width": 0.08132621363035368,
+        "extinction": 44,
+        "mean_expected_descendants_per_paid_newborn": 0.5625,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 48
+      },
+      "regime_9|(0.0, 0.0)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.1234519526592618,
+        "censored": 0,
+        "distribution": {
+          "0": 38,
+          "3": 1,
+          "4": 1
+        },
+        "establishment": 2,
+        "establishment_wilson_95": [
+          0.013820377146101098,
+          0.165041708179252
+        ],
+        "establishment_wilson_half_width": 0.07561066551657546,
+        "extinction": 38,
+        "mean_expected_descendants_per_paid_newborn": 0.175,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.0, 0.0)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.13149778198382917,
+        "censored": 0,
+        "distribution": {
+          "0": 37,
+          "2": 1,
+          "3": 1,
+          "4": 1
+        },
+        "establishment": 3,
+        "establishment_wilson_95": [
+          0.025835556771858226,
+          0.19864530159097524
+        ],
+        "establishment_wilson_half_width": 0.0864048724095585,
+        "extinction": 37,
+        "mean_expected_descendants_per_paid_newborn": 0.225,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.0, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.1789839557341842,
+        "censored": 0,
+        "distribution": {
+          "0": 37,
+          "1": 1,
+          "4": 1,
+          "6": 1
+        },
+        "establishment": 3,
+        "establishment_wilson_95": [
+          0.025835556771858226,
+          0.19864530159097524
+        ],
+        "establishment_wilson_half_width": 0.0864048724095585,
+        "extinction": 37,
+        "mean_expected_descendants_per_paid_newborn": 0.275,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.0, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.16597613359479407,
+        "censored": 0,
+        "distribution": {
+          "0": 38,
+          "3": 1,
+          "6": 1
+        },
+        "establishment": 2,
+        "establishment_wilson_95": [
+          0.013820377146101098,
+          0.165041708179252
+        ],
+        "establishment_wilson_half_width": 0.07561066551657546,
+        "extinction": 38,
+        "mean_expected_descendants_per_paid_newborn": 0.225,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.5, 0.5)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.16698687189301853,
+        "censored": 0,
+        "distribution": {
+          "0": 37,
+          "1": 1,
+          "3": 1,
+          "6": 1
+        },
+        "establishment": 3,
+        "establishment_wilson_95": [
+          0.025835556771858226,
+          0.19864530159097524
+        ],
+        "establishment_wilson_half_width": 0.0864048724095585,
+        "extinction": 37,
+        "mean_expected_descendants_per_paid_newborn": 0.25,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.5, 0.5)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.16597613359479407,
+        "censored": 0,
+        "distribution": {
+          "0": 38,
+          "3": 1,
+          "6": 1
+        },
+        "establishment": 2,
+        "establishment_wilson_95": [
+          0.013820377146101098,
+          0.165041708179252
+        ],
+        "establishment_wilson_half_width": 0.07561066551657546,
+        "extinction": 38,
+        "mean_expected_descendants_per_paid_newborn": 0.225,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.5)->(0.5, 0.0)|mutant": {
+        "arm_expected_descendants_mcse_diagnostic": 0.0,
+        "censored": 0,
+        "distribution": {
+          "0": 40
+        },
+        "establishment": 0,
+        "establishment_wilson_95": [
+          0.0,
+          0.08762453925039232
+        ],
+        "establishment_wilson_half_width": 0.04381226962519617,
+        "extinction": 40,
+        "mean_expected_descendants_per_paid_newborn": 0,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.5)->(0.5, 0.0)|neutral_tag": {
+        "arm_expected_descendants_mcse_diagnostic": 0.0,
+        "censored": 0,
+        "distribution": {
+          "0": 40
+        },
+        "establishment": 0,
+        "establishment_wilson_95": [
+          0.0,
+          0.08762453925039232
+        ],
+        "establishment_wilson_half_width": 0.04381226962519617,
+        "extinction": 40,
+        "mean_expected_descendants_per_paid_newborn": 0,
+        "no_birth_censored": 0,
+        "paid_birth_denominator": 40
+      }
+    },
+    "batch_accounting": {
+      "partial_batch_rows_excluded_from_precision": 10,
+      "raw_rows_retained": 1242,
+      "rows_in_completed_fixed_batches": 1232
+    },
+    "paired_contrasts": {
+      "regime_1|(0.0, 0.0)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.09920840617202385,
+        "mean_descendant_difference_mutant_minus_neutral": 0.08928571428571429,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.08168988601295087,
+        "paired_paid_birth_denominator": 56
+      },
+      "regime_1|(0.5, 0.0)->(0.0, 0.0)": {
+        "max_establishment_wilson_half_width": 0.09827402369959153,
+        "mean_descendant_difference_mutant_minus_neutral": -0.05555555555555555,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.05555555555555556,
+        "paired_paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.0)->(0.5, 0.5)": {
+        "max_establishment_wilson_half_width": 0.09827402369959153,
+        "mean_descendant_difference_mutant_minus_neutral": -0.2916666666666667,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.23272682744546783,
+        "paired_paid_birth_denominator": 72
+      },
+      "regime_1|(0.5, 0.5)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.09547092810458206,
+        "mean_descendant_difference_mutant_minus_neutral": 0.1,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.10621700090875887,
+        "paired_paid_birth_denominator": 40
+      },
+      "regime_5|(0.0, 0.0)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.09421877667826989,
+        "mean_descendant_difference_mutant_minus_neutral": -0.020833333333333332,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.03633940836712691,
+        "paired_paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.0)->(0.0, 0.0)": {
+        "max_establishment_wilson_half_width": 0.09959644814532323,
+        "mean_descendant_difference_mutant_minus_neutral": -0.1875,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.15938781932868837,
+        "paired_paid_birth_denominator": 48
+      },
+      "regime_5|(0.5, 0.0)->(0.5, 0.5)": {
+        "max_establishment_wilson_half_width": 0.07681776949821807,
+        "mean_descendant_difference_mutant_minus_neutral": 0.2361111111111111,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.23693816302329332,
+        "paired_paid_birth_denominator": 72
+      },
+      "regime_5|(0.5, 0.5)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.08132621363035368,
+        "mean_descendant_difference_mutant_minus_neutral": 0.16666666666666666,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.22148221942733606,
+        "paired_paid_birth_denominator": 48
+      },
+      "regime_9|(0.0, 0.0)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.0864048724095585,
+        "mean_descendant_difference_mutant_minus_neutral": -0.05,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.11294427943198478,
+        "paired_paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.0, 0.0)": {
+        "max_establishment_wilson_half_width": 0.0864048724095585,
+        "mean_descendant_difference_mutant_minus_neutral": 0.05,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.03489912202260564,
+        "paired_paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.0)->(0.5, 0.5)": {
+        "max_establishment_wilson_half_width": 0.0864048724095585,
+        "mean_descendant_difference_mutant_minus_neutral": 0.025,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.024999999999999998,
+        "paired_paid_birth_denominator": 40
+      },
+      "regime_9|(0.5, 0.5)->(0.5, 0.0)": {
+        "max_establishment_wilson_half_width": 0.04381226962519617,
+        "mean_descendant_difference_mutant_minus_neutral": 0,
+        "no_birth_censored_pairs": 0,
+        "paired_descendant_difference_mcse": 0.0,
+        "paired_paid_birth_denominator": 40
+      }
+    }
+  },
+  "unresolved": []
+}

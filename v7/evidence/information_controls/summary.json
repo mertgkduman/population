@@ -1,0 +1,67 @@
+{
+  "authority_counts": {
+    "by_policy_role": {
+      "authority_sensitive:authority": 96,
+      "authority_sensitive:peer": 96,
+      "generic_source_dhalf:authority": 96,
+      "generic_source_dhalf:peer": 96,
+      "label_neutral_d0:authority": 96,
+      "label_neutral_d0:peer": 96
+    },
+    "conflict_rows": 24,
+    "actual_label_effect_conditional": {
+      "authority_sensitive_policy_only": true,
+      "authority_conflicts": 4,
+      "authority_overrides": 3,
+      "authority_action_correct": 1,
+      "peer_conflicts": 4,
+      "peer_overrides": 0,
+      "peer_action_correct": 4,
+      "interpretation": "Realized fixed-seed mechanism check conditional on conflict, not an independently tuned or general responsiveness estimate."
+    },
+    "unconditional_rows": 576
+  },
+  "claim_limit": "Mechanism-positive-control cognitive assays only: no demographic, selection, historical-adaptation, or novelty claim. Equal-information optimum cannot be beaten by extra override in expected payoff.",
+  "exact": {
+    "hidden_mixture_posterior": 0.936692780012704,
+    "hidden_mixture_weight": 0.5,
+    "q_tutor_enumerated": 0.8960000000000001,
+    "q_tutor_formula": 0.8960000000000001,
+    "visible_copy_duplicate_invariant": true,
+    "visible_copy_posterior": 0.8960000000000001,
+    "visible_independent_posterior": 0.9867065208841345
+  },
+  "gates": {
+    "adult_actual_twenty_steps": true,
+    "adult_direct_override_zero": true,
+    "adult_memory_reuse_separate": true,
+    "all_blank_tutors": true,
+    "all_gates_pass": true,
+    "all_memory_blank": true,
+    "authority_positive_control_label_effect": true,
+    "copy_duplicate_invariance": true,
+    "empirical_tutor_private_accuracy": 0.8125,
+    "exact_q_tutor": true,
+    "hidden_is_explicit_mixture": true,
+    "memory_crossed": true,
+    "neutral_d0_no_override": true,
+    "paid_tutor_training": true,
+    "real_independent_and_shared_roots": true,
+    "same_receipt_cost": true
+  },
+  "independent_seed_blocks": 24,
+  "information_rows": 624,
+  "memory_rows": 5760,
+  "optimal_baseline_consequence": "With equal information and utility, an extra override cannot improve expected payoff over the optimal policy; observed override loss/null is a mathematical dominance consequence, not novelty.",
+  "pilot": {
+    "gates_passed_before_confirmation": true,
+    "information_seed": 83350,
+    "memory_seed": 84350
+  },
+  "raw_sha256": {
+    "v7/experiments/output/information_controls/authority_provenance_raw.csv.gz": "2df647b65e38b94c1381e9d67da3bb33aeee8debbf17c76d4634a1163784073d",
+    "v7/experiments/output/information_controls/exact_enumeration.json": "ca286d9fd74e50e093fd0afc7e1acc28691e72346dcfe425b736d6c332d71d7d",
+    "v7/experiments/output/information_controls/memory_acceptance_raw.csv.gz": "88c4ab5ce80530f517f1854465ea96877acc7ee4c0605b992b7d5e457c55b212"
+  },
+  "status": "complete"
+}

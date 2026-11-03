@@ -1,0 +1,31 @@
+{
+  "adult_acquired_state": {
+    "B_K_T_material_reverse_check": "PASS for all 384 first adult rows",
+    "H_forward_replay_training_then_first_adult_update": {
+      "all_match": true,
+      "first_adult_rows_checked": 384,
+      "rule": "training H=clip(.85*H+.15*(material_receipt+approval_receipt)); adult H=clip(.9*H+.1*(experienced_material_reward+social_receipt))",
+      "training_histories_replayed": 48
+    },
+    "K_constant_during_adult_updates": true,
+    "cloned_arm_initial_states_checked": 384,
+    "training_endpoints": 48
+  },
+  "counter_scope": {
+    "actual_all_decision_count": "world total repeated on each captured juvenile row",
+    "actual_conflict_counter": "progressive passive counter at captured decision, not a final world denominator",
+    "actual_no_teacher_counter": "progressive passive counter at captured decision, not a final world denominator",
+    "actual_purchase_requests_counter": "progressive passive counter at captured decision, not a final world denominator",
+    "counterfactual_projected_cost": "counterfactual policy charge, not executed material debit",
+    "world_loss_operations_repeated_total": "world-level total repeated per row, never event cost"
+  },
+  "label_control": {
+    "equal_except_label_and_common_override_rng": true,
+    "pairs": 211066,
+    "structural_label_action_changes": 0,
+    "visible_label_in_messages": true
+  },
+  "provenance_status": "PARTIAL: no independent-information-history experiment was added.",
+  "raw_sha256": "95a428731d22f65689fe70336054d8e6e045de2f4abbc519b674bd036890d896",
+  "stage": "r3-machine-verification"
+}

@@ -1,0 +1,18 @@
+{
+  "adult_actual_twenty_steps": true,
+  "adult_direct_override_zero": true,
+  "adult_memory_reuse_separate": true,
+  "all_blank_tutors": true,
+  "all_gates_pass": true,
+  "all_memory_blank": true,
+  "authority_positive_control_label_effect": true,
+  "copy_duplicate_invariance": true,
+  "empirical_tutor_private_accuracy": 0.8194444444444444,
+  "exact_q_tutor": true,
+  "hidden_is_explicit_mixture": true,
+  "memory_crossed": true,
+  "neutral_d0_no_override": true,
+  "paid_tutor_training": true,
+  "real_independent_and_shared_roots": true,
+  "same_receipt_cost": true
+}

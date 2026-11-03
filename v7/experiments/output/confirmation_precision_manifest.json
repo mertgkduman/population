@@ -1,0 +1,45 @@
+{
+  "access_sentinel_regimes": [
+    1,
+    5,
+    9
+  ],
+  "batch_size": 8,
+  "completed_at": "2026-11-02T21:18:20.833593+00:00",
+  "extension_rows": 0,
+  "freeze_manifest_sha256": "7ad82bc48249af5aaab4bd0bd07f4a988371a190c65319d5167e1d8900317fae",
+  "holdout_sha256": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+  "outcomes_read": true,
+  "output_sha256": null,
+  "policies": [
+    "vector_0_0",
+    "feature_trust",
+    "candidate_b_resource_rational",
+    "scalar_0_25",
+    "vector_0_5_0",
+    "vector_1_0"
+  ],
+  "registered_at": "2026-11-02T21:18:20.792263+00:00",
+  "registered_batches": [],
+  "required_policies": [
+    "vector_0_0",
+    "feature_trust",
+    "candidate_b_resource_rational"
+  ],
+  "seed_cap": 72096,
+  "source_of_initial_rows": "v7/experiments/output/holdout.csv.gz",
+  "source_sha256": {
+    "experiments/analyze_results.py": "f6b3a54645115b724166cd3760ae843967b2c5fc986edc00f58ebe82159350a4",
+    "experiments/config.json": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+    "experiments/exact.py": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/run_experiments.py": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+    "experiments/verify.py": "116f2858add1b8643553819fe3ff138fb3eb78ba26628f0a90af7ab143d31ce0",
+    "parameter_schema.json": "ab3df8ccad8155af380a5e591b95ed1727747c0da8b4c28fb7a3c9f0b9ef91b1"
+  },
+  "stage": "confirmation_precision_extension",
+  "status": "complete",
+  "stopping_rule": "Only fixed practical precision targets decide whether to add the next full batch; no effect sign, rank, or p-value is read by this scheduler.",
+  "summary_sha256": "578fb77163c5dde932aaa4c3710de1ed19741b9687f1f03f6e6354e10628ff79",
+  "unresolved": []
+}

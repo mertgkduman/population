@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "scientific_verdict": "PARTIAL_WITH_CORRECTED_PRIMARY_AND_FROZEN_INVALIDATION",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "status": "PARTIAL; EXPLORATORY RESPONSE SURFACE",
+      "evidence": "corrected/discovery.csv.gz; corrected freeze manifest",
+      "finding": "Fresh corrected discovery shows regime-dependent procedure/local effects and frequent local-override population costs, but four seeds per cell and aliased L9 interactions do not identify a unique continuous optimum."
+    },
+    {
+      "id": "H2",
+      "status": "UNRESOLVED BY STRONG COMPARATOR",
+      "evidence": "corrected/holdout.csv.gz; corrected/depth_reliability_control.csv.gz",
+      "finding": "Corrected selected vectors have small regime-dependent contrasts against ordinary social learning. The final execution-priced bounded planner has fresh matched costs/counts but does not beat ordinary in its three sentinels. These algorithm-class comparisons do not establish a distinct authority advantage over general learning."
+    },
+    {
+      "id": "H3",
+      "status": "PARTIAL",
+      "evidence": "persistence.csv.gz",
+      "finding": "The final fixed-proposition assay uses actual training, cloned adult states and static/switching priors. Information-equalized d changes no factual posterior; H can differ through reinforcement. Prior inertia is not identified as irrational dogmatism or obligation."
+    },
+    {
+      "id": "H4",
+      "status": "NOT_MODELED",
+      "evidence": "v7/evidence/handoffs/06-postfreeze.json",
+      "finding": "No institutional teaching-access/evaluator bundle was implemented."
+    },
+    {
+      "id": "H5",
+      "status": "PARTIAL; FINITE ONLY",
+      "evidence": "corrected/discovery.csv.gz; corrected/corrected_evolution.csv.gz",
+      "finding": "Corrected ecology and paired T=80 descendants can describe regime-dependent finite outcomes; no attractor, direct competition, rare-mutant exponent, or asymptotic selection assay ran."
+    },
+    {
+      "id": "H6",
+      "status": "PARTIAL",
+      "evidence": "persistence.csv.gz; postfreeze_yoked.csv.gz",
+      "finding": "B/K/T/H are exported separately, adult direct override is off, and corrected asocial sentinels are estimable; ecological competence-independence was not identified."
+    },
+    {
+      "id": "H7",
+      "status": "UNRESOLVED; METAREASONING EQUIVALENCE NOT TESTED",
+      "evidence": "corrected/holdout.csv.gz; v7/experiments/model.py",
+      "finding": "The final execution-priced bounded EVI comparator fixes marginal costs, observes actual remaining time and retains world-level purchase counts, but remains a one-decision algorithm under common Q0. No global-planner/general-RL equivalence or specialized-adaptation result is established."
+    },
+    {
+      "id": "H8",
+      "status": "PARTIAL; PROVENANCE-SATURATION TEST NOT RUN",
+      "evidence": "kernel.json; v7/evidence/executed_checks.json",
+      "finding": "R4 now executes the independent/copied by visible/hidden-provenance cognitive factorial with acquired tutor histories and exact likelihood enumeration. Ecological cross-root attribution and a provenance-saturation fitness experiment remain untested."
+    },
+    {
+      "id": "H9",
+      "status": "DIAGNOSTIC PARTIAL; CAUSAL CLAIM NOT TESTED",
+      "evidence": "corrected/corrected_h9.csv.gz",
+      "finding": "The corrected primary diagnostic remains shock/K erasure at d0. Additional closed-resource and naive-restart controls now test actual carrier death/removal and costed artifacts. They do not test root diversity by deference mediation or prove monoculture debt."
+    }
+  ]
+}

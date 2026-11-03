@@ -1,0 +1,66 @@
+{
+  "adult_rows": 40,
+  "adult_seed_histories": 1,
+  "checks": {
+    "AUTH-02": {
+      "conditional_conflict": {
+        "denominator": 288,
+        "numerator": 8
+      },
+      "itt_rows": 288,
+      "label_neutral_zero_effect": true,
+      "status": "PASS"
+    },
+    "COND-01": {
+      "opportunities": {
+        "conflict": {
+          "denominator": 616,
+          "numerator": 16
+        },
+        "no_teacher_opportunity": {
+          "denominator": 616,
+          "numerator": 40
+        },
+        "purchase_opportunity": {
+          "denominator": 616,
+          "numerator": 576
+        },
+        "revision_opportunity": {
+          "denominator": 616,
+          "numerator": 56
+        }
+      },
+      "precision": "Wilson applied only to 24 seed-level ecological clusters; repeated within-seed records are not independent binomial replicates.",
+      "status": "PASS"
+    },
+    "NORM-01": {
+      "all_direct_override_zero": true,
+      "dogmatism_verdict": "unsupported/absent: factual B revises symmetrically under accessible matched evidence",
+      "matched_strength": true,
+      "sequential_steps": 40,
+      "status": "PASS"
+    },
+    "PROV-01": {
+      "hidden_unknown_not_independence": true,
+      "independent_rows": 144,
+      "status": "PASS",
+      "visible_rows": 144
+    }
+  },
+  "ecological_rows": 576,
+  "ecological_seed_clusters": 1,
+  "fixed_cap_precision_disposition": "unresolved precision retained at 24 seed clusters; no pooled repeated-event inference.",
+  "mode": "pilot",
+  "raw": "experiments/output/recovery_causal/pilot_raw.csv.gz",
+  "raw_sha256": "c24b6fc74cf2d474c0f59f20964658873260beedaa13ef8adc2f099809303ed5",
+  "registration": "evidence/recovery_causal/pilot_registration.json",
+  "source_freeze": "evidence/recovery_causal/source_freeze_pilot.json",
+  "stage": "recovery-causal",
+  "status": "complete",
+  "wilson_conflict_seed_clusters": {
+    "center": 0.10490776392161372,
+    "half_width": 0.09751449856680859,
+    "n": 24,
+    "successes": 1
+  }
+}

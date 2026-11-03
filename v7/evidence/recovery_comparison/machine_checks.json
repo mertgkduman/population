@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "blank_inheritance": true,
+    "carrier_off_no_storage": true,
+    "equal_work_feasible": true,
+    "hardware_08": true,
+    "paid_costs": true,
+    "r1a_ledgers": true,
+    "truth_unavailable": true
+  },
+  "rows": {
+    "postloss": 48,
+    "r1a": 360,
+    "r1b": 144
+  },
+  "status": "passed"
+}

@@ -7,7 +7,7 @@
       "detail": []
     },
     {
-      "name": "six versions plus proposals in requested order",
+      "name": "seven versions plus proposals in requested order",
       "pass": true,
       "detail": null
     },
@@ -25,14 +25,14 @@
       "name": "all reference archives preserve source bytes",
       "pass": true,
       "detail": {
-        "packages": 128,
-        "source_entries": 674
+        "packages": 129,
+        "source_entries": 714
       }
     },
     {
       "name": "Pages site below 1GB",
       "pass": true,
-      "detail": 986712317
+      "detail": 994347772
     },
     {
       "name": "every published file below 100MiB",
@@ -96,6 +96,16 @@
     },
     {
       "name": "v6 shared local Plotly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v7 download adapter present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "v7 shared local Plotly",
       "pass": true,
       "detail": null
     },

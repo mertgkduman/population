@@ -1,0 +1,12 @@
+{
+  "equal_work_pairs": 24,
+  "independent_functional_mean": 27.083333333333332,
+  "infeasible_pairs": 0,
+  "raw_sha256": "96ceeb5515fbd075e006c1086076562993a55f4393934ec62b62bd87e4ae4aa8",
+  "rows": 24,
+  "scope": "Exact paired realized effort under finite cap/horizon; no competition or long-run inference.",
+  "status_counts": {
+    "complete_horizon": 24
+  },
+  "ti_functional_mean": 37.083333333333336
+}

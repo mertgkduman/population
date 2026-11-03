@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "datasets": {
+    "discovery": {
+      "rows": 504,
+      "sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341"
+    },
+    "holdout": {
+      "rows": 1368,
+      "sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0"
+    },
+    "depth_reliability_control": {
+      "rows": 288,
+      "sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6"
+    },
+    "evolution": {
+      "rows": 2112,
+      "sha256": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e"
+    },
+    "h9": {
+      "rows": 216,
+      "sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+    }
+  },
+  "checks": [
+    {
+      "id": "discovery-row-count",
+      "status": "passed",
+      "evidence": {
+        "expected": 504,
+        "observed": 504,
+        "sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341"
+      }
+    },
+    {
+      "id": "holdout-row-count",
+      "status": "passed",
+      "evidence": {
+        "expected": 1368,
+        "observed": 1368,
+        "sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0"
+      }
+    },
+    {
+      "id": "depth_reliability_control-row-count",
+      "status": "passed",
+      "evidence": {
+        "expected": 288,
+        "observed": 288,
+        "sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6"
+      }
+    },
+    {
+      "id": "h9-row-count",
+      "status": "passed",
+      "evidence": {
+        "expected": 216,
+        "observed": 216,
+        "sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+      }
+    },
+    {
+      "id": "discovery-grain-unique",
+      "status": "passed",
+      "evidence": {
+        "grain": [
+          "seed",
+          "regime",
+          "policy"
+        ],
+        "rows": 504,
+        "unique_keys": 504
+      }
+    },
+    {
+      "id": "holdout-grain-unique",
+      "status": "passed",
+      "evidence": {
+        "grain": [
+          "seed",
+          "regime",
+          "policy"
+        ],
+        "rows": 1368,
+        "unique_keys": 1368
+      }
+    },
+    {
+      "id": "depth_reliability_control-grain-unique",
+      "status": "passed",
+      "evidence": {
+        "grain": [
+          "seed",
+          "regime",
+          "policy"
+        ],
+        "rows": 288,
+        "unique_keys": 288
+      }
+    },
+    {
+      "id": "evolution-grain-unique",
+      "status": "passed",
+      "evidence": {
+        "grain": [
+          "seed",
+          "regime",
+          "directed_pair",
+          "arm"
+        ],
+        "rows": 2112,
+        "unique_keys": 2112
+      }
+    },
+    {
+      "id": "h9-grain-unique",
+      "status": "passed",
+      "evidence": {
+        "grain": [
+          "seed",
+          "regime",
+          "arm"
+        ],
+        "rows": 216,
+        "unique_keys": 216
+      }
+    },
+    {
+      "id": "discovery-seed-partition",
+      "status": "passed",
+      "evidence": {
+        "expected_min": 77001,
+        "expected_max": 77004,
+        "observed_min": 77001,
+        "observed_max": 77004,
+        "observed_distinct": 4
+      }
+    },
+    {
+      "id": "holdout-seed-partition",
+      "status": "passed",
+      "evidence": {
+        "expected_min": 78001,
+        "expected_max": 78024,
+        "observed_min": 78001,
+        "observed_max": 78024,
+        "observed_distinct": 24
+      }
+    },
+    {
+      "id": "depth_reliability_control-seed-partition",
+      "status": "passed",
+      "evidence": {
+        "expected_min": 78501,
+        "expected_max": 78524,
+        "observed_min": 78501,
+        "observed_max": 78524,
+        "observed_distinct": 24
+      }
+    },
+    {
+      "id": "h9-seed-partition",
+      "status": "passed",
+      "evidence": {
+        "expected_min": 78601,
+        "expected_max": 78624,
+        "observed_min": 78601,
+        "observed_max": 78624,
+        "observed_distinct": 24
+      }
+    },
+    {
+      "id": "discovery-finite-metrics",
+      "status": "passed",
+      "evidence": {
+        "fields": [
+          "mean_population",
+          "net_energy_per_agent_season"
+        ],
+        "values_checked": 1008
+      }
+    },
+    {
+      "id": "holdout-finite-metrics",
+      "status": "passed",
+      "evidence": {
+        "fields": [
+          "mean_population",
+          "net_energy_per_agent_season"
+        ],
+        "values_checked": 2736
+      }
+    },
+    {
+      "id": "depth_reliability_control-finite-metrics",
+      "status": "passed",
+      "evidence": {
+        "fields": [
+          "mean_population",
+          "net_energy_per_agent_season"
+        ],
+        "values_checked": 576
+      }
+    },
+    {
+      "id": "evolution-finite-metrics",
+      "status": "passed",
+      "evidence": {
+        "fields": [
+          "living_descendants",
+          "ledger_residual_max"
+        ],
+        "values_checked": 4224
+      }
+    },
+    {
+      "id": "h9-finite-metrics",
+      "status": "passed",
+      "evidence": {
+        "fields": [
+          "mean_population",
+          "post_stored_procedures"
+        ],
+        "values_checked": 432
+      }
+    },
+    {
+      "id": "discovery-result-hash",
+      "status": "passed",
+      "evidence": {
+        "result_manifest": "v7/evidence/corrected/discovery_result.json",
+        "manifest_sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+        "recomputed_sha256": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341"
+      }
+    },
+    {
+      "id": "holdout-result-hash",
+      "status": "passed",
+      "evidence": {
+        "result_manifest": "v7/evidence/corrected/holdout_result.json",
+        "manifest_sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+        "recomputed_sha256": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0"
+      }
+    },
+    {
+      "id": "depth_reliability_control-result-hash",
+      "status": "passed",
+      "evidence": {
+        "result_manifest": "v7/evidence/corrected/depth_control_result.json",
+        "manifest_sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+        "recomputed_sha256": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6"
+      }
+    },
+    {
+      "id": "evolution-result-hash",
+      "status": "passed",
+      "evidence": {
+        "result_manifest": "v7/evidence/corrected/corrected_evolution_result.json",
+        "manifest_sha256": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+        "recomputed_sha256": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e"
+      }
+    },
+    {
+      "id": "h9-result-hash",
+      "status": "passed",
+      "evidence": {
+        "result_manifest": "v7/evidence/corrected/corrected_h9_result.json",
+        "manifest_sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4",
+        "recomputed_sha256": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+      }
+    },
+    {
+      "id": "evolution-fixed-batch-volume",
+      "status": "passed",
+      "evidence": {
+        "observed_rows": 2112,
+        "allowed": "576 + k*192, 0<=k<=9"
+      }
+    },
+    {
+      "id": "registered-source-identity",
+      "status": "passed",
+      "evidence": {
+        "experiments/config.json": {
+          "expected": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+          "actual": "3115847661bc11ff3a6c83feea290c63baad56597ae550a53f197abdd9ac3988",
+          "matches": true
+        },
+        "experiments/corrected_model.py": {
+          "expected": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+          "actual": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+          "matches": true
+        },
+        "experiments/exact.py": {
+          "expected": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+          "actual": "bc10b705cf9352e0edb4dd28d2bfd1850469d3c7608f133da21949dda7b3eb7c",
+          "matches": true
+        },
+        "experiments/model.py": {
+          "expected": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+          "actual": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+          "matches": true
+        },
+        "experiments/run_corrected_experiments.py": {
+          "expected": "ba01b501f97ba44d748f9d980cad34cbbb63fbf3902c844a7a0a8a48c8d638d1",
+          "actual": "ba01b501f97ba44d748f9d980cad34cbbb63fbf3902c844a7a0a8a48c8d638d1",
+          "matches": true
+        },
+        "experiments/run_experiments.py": {
+          "expected": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+          "actual": "63b32366eb32d228168df1246d738e027a078fe1950d9d870a92195ac9679982",
+          "matches": true
+        }
+      }
+    },
+    {
+      "id": "evolution-registered-source-identity",
+      "status": "passed",
+      "evidence": {
+        "corrected_evolution.py": {
+          "expected": "1f67409eb7699fec11f1e172064addc7cac0a1011560c87363090ae54eaa3b63",
+          "actual": "1f67409eb7699fec11f1e172064addc7cac0a1011560c87363090ae54eaa3b63",
+          "matches": true
+        },
+        "corrected_model.py": {
+          "expected": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+          "actual": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+          "matches": true
+        },
+        "run_corrected_evolution.py": {
+          "expected": "dcd21cd532b5cbffd52f904c583c21f8c11564fd020f6b61f9087f50050a1c40",
+          "actual": "dcd21cd532b5cbffd52f904c583c21f8c11564fd020f6b61f9087f50050a1c40",
+          "matches": true
+        }
+      }
+    },
+    {
+      "id": "evolution-freeze-parent",
+      "status": "passed",
+      "evidence": {
+        "registered": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13",
+        "recomputed": "4e8ff2f8a653c8720b2d2c7938458ccee5dd6c6007c46d09583a551ea9b2fc13"
+      }
+    }
+  ]
+}

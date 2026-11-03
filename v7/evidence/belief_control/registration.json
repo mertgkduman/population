@@ -1,0 +1,81 @@
+{
+  "status": "registered_before_confirmation",
+  "registered_at": "2026-11-03T04:38:29.340270+00:00",
+  "config": {
+    "seeds": [
+      84201,
+      84202,
+      84203,
+      84204,
+      84205,
+      84206,
+      84207,
+      84208,
+      84209,
+      84210,
+      84211,
+      84212,
+      84213,
+      84214,
+      84215,
+      84216,
+      84217,
+      84218,
+      84219,
+      84220,
+      84221,
+      84222,
+      84223,
+      84224
+    ],
+    "d": [
+      0.0,
+      0.5
+    ],
+    "assumed_switch_hazard": [
+      0.0,
+      0.01
+    ],
+    "arms": [
+      "baseline",
+      "audience_removal",
+      "free_audit",
+      "independent_reliable_evidence"
+    ],
+    "training_episodes": 40,
+    "adult_episodes": 20,
+    "private_accuracy": 0.8,
+    "source_accuracy": 0.7,
+    "audit_accuracy": {
+      "baseline": 0.8,
+      "audience_removal": 0.8,
+      "free_audit": 0.8,
+      "independent_reliable_evidence": 0.95
+    },
+    "inheritance": "Trait d affects juvenile conflict action only; adult override zero. No acquired state at initialization.",
+    "gwt": [
+      {
+        "given": "Common private/feedback information and one source root",
+        "when": "d varied",
+        "then": "Factual posterior trajectory invariant; action values may differ"
+      },
+      {
+        "given": "Same trained adult cloned",
+        "when": "audience removed or audit fee removed",
+        "then": "Relevant actual reinforcement/credit transition changes"
+      },
+      {
+        "given": "Stable training followed by unexpected reversal",
+        "when": "static versus switching belief model compared",
+        "then": "Persistence can depend on prior/environment model without authority-specific rigidity"
+      }
+    ],
+    "scope": "Separate cognitive assay, not demographic/invasion fitness. Posterior inertia under a static-world assumption is not irrational dogmatism.",
+    "source_sha256": {
+      "v7/experiments/run_belief_control.py": "7da1ad5420d9d7b2d292ebd432a4b6cb04c89c62966cdb6064966ec6135dad3e",
+      "v7/experiments/belief_control.py": "037ef5c2593f1bcb5cc88051e40fe59f2cc0a1f3bbac8c200648616fa81c8a85",
+      "v7/tests/test_belief_control.py": "826f2cbbe004d7e2cc0619efa5e6ce6d459daf4ee1da70ea39a5a1e134c7602c"
+    }
+  },
+  "python": "3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 17:35:02) [GCC 11.2.0]"
+}

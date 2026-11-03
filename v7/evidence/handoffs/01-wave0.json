@@ -1,0 +1,38 @@
+{
+  "slice": "1A-wave0-contract",
+  "status": "complete_red_baseline",
+  "production_implemented": false,
+  "purpose": "Contract, frozen configuration, and substantive red tests required before kernel implementation.",
+  "owned_files": [
+    "v7/research_contract.md",
+    "v7/mathematical_model.md",
+    "v7/parameter_schema.json",
+    "v7/experiments/config.json",
+    "v7/tests/test_kernel.py",
+    "v7/tests/test_ecology.py",
+    "v7/tests/test_postfreeze.py",
+    "v7/tests/test_reporting.py"
+  ],
+  "red_test_directions": {
+    "test_kernel.py": ["test_hidden_truth_permutation_cannot_change_ordinary_decision", "test_zero_override_is_still_social_and_override_cannot_update_learning", "test_unknown_or_truth_bearing_observation_fields_are_rejected", "test_unused_random_draw_does_not_perturb_shared_event"],
+    "test_ecology.py": ["test_newborn_is_blank_and_birth_is_paid_on_both_ledgers", "test_season_ledger_closes_population_energy_and_teaching_time", "test_neutral_paid_newborn_is_not_an_external_immigrant"],
+    "test_postfreeze.py": ["test_frozen_core_bytes_and_fixed_replay_are_identical", "test_adult_persistence_has_zero_direct_override_but_retains_learned_history", "test_counterevidence_revision_is_not_aliased_with_habit_persistence"],
+    "test_reporting.py": ["test_extinct_and_cap_censored_runs_remain_in_unconditional_denominators", "test_claim_requires_evidence_pointer_and_finite_selection_claim_limit"]
+  },
+  "test_file_sha256": {
+    "v7/tests/test_kernel.py": "ce8ce7ffe381bbfc37d621863dc14dd6731b73b7c692fd096b91819fbcb59636",
+    "v7/tests/test_ecology.py": "c66849cfde62534f4a2fdf67373d0e9c7e75abeea238c3a7cc148ff344387efd",
+    "v7/tests/test_postfreeze.py": "560f72c4f9dc64a3a8ec2ffa40c3e878c60f3499b6d48edba99a3dbcc8b954f6",
+    "v7/tests/test_reporting.py": "f45899f95532c77568ae1a853600a33792e14377bf35f8e4401b66d3da1666f6"
+  },
+  "required_slice_1b_exports": ["WorldState", "PolicyObservation", "PolicyDecision", "KeyedRNG", "LedgerEvent", "OrdinarySocialPolicy", "AsocialPolicy", "VectorOverridePolicy", "FeatureTrustPolicy", "CandidateBPolicy", "validate_policy_observation"],
+  "pending_future_tests": [
+    "Exact D=1 enumeration and factored D=3 equivalence remain pending Slice 1B.",
+    "Task-economics, ledger, demographic, and neutral-selection gates remain pending their mapped slices.",
+    "Post-freeze implementation and reporting synthesis are intentionally unavailable at this red-baseline stage."
+  ],
+  "checks_run": [],
+  "checks_not_run_reason": "Production modules do not exist yet; red tests are intentionally executable specifications and are expected to fail imports until their owning slices implement the interfaces.",
+  "next_slice": "1B-kernel-exact",
+  "next_slice_start_gate": "Verify all four test files and every listed red-test direction are present, then implement only the kernel/exact interfaces without weakening assertions."
+}

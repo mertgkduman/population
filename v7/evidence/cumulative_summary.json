@@ -1,0 +1,86 @@
+{
+  "accumulation_status": "PARTIAL: separate cognitive two-edge causal chain; does not repair frozen-IBM ACCUM-01 claim.",
+  "arms": {
+    "innovation_without_retention": {
+      "functional_score_mean": 0.6041666666666666,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 0,
+      "useful_depth_mean": 0
+    },
+    "matched_total_work_independent_upper_bound": {
+      "functional_score_mean": 0.9583333333333334,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 0,
+      "useful_depth_mean": 3
+    },
+    "no_transmission": {
+      "functional_score_mean": 0.6041666666666666,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 0,
+      "useful_depth_mean": 0
+    },
+    "shuffled_prerequisite_world": {
+      "functional_score_mean": 0.625,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 28,
+      "useful_depth_mean": 2.0208333333333335
+    },
+    "transmission_innovation": {
+      "functional_score_mean": 0.625,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 28,
+      "useful_depth_mean": 2.0833333333333335
+    },
+    "transmission_without_modification": {
+      "functional_score_mean": 0.6041666666666666,
+      "material_debit_unique": [
+        3.6
+      ],
+      "n": 24,
+      "total_work_unique": [
+        360
+      ],
+      "two_edge_functional_procedures_total": 0,
+      "useful_depth_mean": 0
+    }
+  },
+  "confirmation_rows": 144,
+  "h2_status": "NOT TESTED: no d mechanism or inherited-deference comparison.",
+  "invalidation": "v7/evidence/cumulative_invalidation.json",
+  "pilot_rows": 24,
+  "raw_sha256": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+  "registration": "v7/evidence/cumulative_registration.json",
+  "seed_partition": "74601..74624",
+  "stage": "corrected-cumulative-cognitive-assay",
+  "status": "complete_exploratory"
+}

@@ -1,0 +1,77 @@
+{
+  "actual_rows": 120,
+  "adult_override_all_zero": true,
+  "dogmatism_verdict": "NULL/unsupported: factual posterior is updated under matched accessible counterevidence; action persistence is reported separately.",
+  "freeze": {
+    "archive_mismatches": [],
+    "archive_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "checks": {
+      "archive_replay": true,
+      "live_and_archive_source_bytes": true,
+      "live_replay": true,
+      "registered_replay_record": true
+    },
+    "expected_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "live_mismatches": [],
+    "live_replay": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "stage": "postfreeze-freeze-verification",
+    "status": "passed"
+  },
+  "h4_bundle_verdict": "NOT_MODELED: no separately validated institutional evaluator/teaching-access mechanism; no fabricated hitchhiking outcome.",
+  "matched_evidence_all_probes": true,
+  "material_transfer_net_zero": true,
+  "normative_obligation_verdict": "UNSUPPORTED: no acquired injunction/countermand/generalization state is implemented.",
+  "outputs": {
+    "persistence.csv.gz": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+    "postfreeze_yoked.csv.gz": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47"
+  },
+  "persistence": {
+    "probes": {
+      "audience_removal": {
+        "all_direct_override_zero": true,
+        "evidence_count": 48,
+        "mean_H": 0.5749648917762954,
+        "mean_action_persistence": 0.5506869038256759,
+        "mean_posterior_revision": 0.16671173376579518,
+        "n": 24
+      },
+      "bidirectional_equalized_counterevidence": {
+        "all_direct_override_zero": true,
+        "evidence_count": 48,
+        "mean_H": 0.5749648917762954,
+        "mean_action_persistence": 0.5506869038256759,
+        "mean_posterior_revision": 0.16671173376579518,
+        "n": 24
+      },
+      "contingency_degradation": {
+        "all_direct_override_zero": true,
+        "evidence_count": 48,
+        "mean_H": 0.5749648917762954,
+        "mean_action_persistence": 0.412695329799365,
+        "mean_posterior_revision": 0.16671173376579518,
+        "n": 24
+      },
+      "free_audit": {
+        "all_direct_override_zero": true,
+        "evidence_count": 48,
+        "mean_H": 0.5749648917762954,
+        "mean_action_persistence": 0.5506869038256759,
+        "mean_posterior_revision": 0.16671173376579518,
+        "n": 24
+      },
+      "outcome_devaluation": {
+        "all_direct_override_zero": true,
+        "evidence_count": 48,
+        "mean_H": 0.5749648917762954,
+        "mean_action_persistence": 0.4299442765526538,
+        "mean_posterior_revision": 0.16671173376579518,
+        "n": 24
+      }
+    },
+    "rows": 120
+  },
+  "seed_count": 24,
+  "stage": "postfreeze-assays",
+  "status": "complete",
+  "yoked_rows": 648
+}

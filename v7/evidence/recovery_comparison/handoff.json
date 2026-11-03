@@ -1,0 +1,8 @@
+{
+  "checks": "v7/evidence/recovery_comparison/machine_checks.json",
+  "claim_limit": "Outcome summaries are descriptive finite-horizon results; no optimal-RL, selection, or asymptotic claim.",
+  "output": "v7/experiments/output/recovery_comparison",
+  "registration": "v7/evidence/recovery_comparison/registration.json",
+  "status": "complete",
+  "summary": "v7/evidence/recovery_comparison/summary.json"
+}

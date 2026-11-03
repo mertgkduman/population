@@ -1,0 +1,68 @@
+{
+  "config": {
+    "arms": {
+      "independent": "private_only",
+      "shared": "transmission_innovation_retention"
+    },
+    "denominators": "All complete, cap-censored, extinct, work-infeasible, and paired-stop outcomes are retained for all 24 pairs.",
+    "fresh_pair_seed_blocks": [
+      82925,
+      82926,
+      82927,
+      82928,
+      82929,
+      82930,
+      82931,
+      82932,
+      82933,
+      82934,
+      82935,
+      82936,
+      82937,
+      82938,
+      82939,
+      82940,
+      82941,
+      82942,
+      82943,
+      82944,
+      82945,
+      82946,
+      82947,
+      82948
+    ],
+    "horizon_fixed_before_outcomes": 60,
+    "independence": "Each pair is two different World objects with distinct people, resource stock, receipts, and events. They share no culture, resources, or people.",
+    "settings": {
+      "birth_cost": 6.0,
+      "birth_probability": 0.12,
+      "conversion": 0.75,
+      "discovery_work": 8,
+      "full_harvest_resources": 4.0,
+      "horizon": 60,
+      "lifespan": 18,
+      "maintenance": 0.5,
+      "maturity": 3,
+      "newborn_energy": 4.0,
+      "population_cap": 256,
+      "private_accuracy": 0.8,
+      "regeneration": 0.06,
+      "resource_cap": 800.0,
+      "resource_initial": 600.0,
+      "safe_harvest_resources": 2.0,
+      "start_population": 10,
+      "time_cap": 4,
+      "work_cost": 0.2
+    },
+    "source_sha256": {
+      "v7/cumulative_dag_matched.md": "53434ff7d39fa57a338c3ebfdd3c9f965cb3ceb665cda12555a8deeb21f90461",
+      "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+      "v7/experiments/run_cumulative_dag_matched.py": "00a6a1b95e62911372851fead986db406e5845b3e438a4fba9c99d2fc9d09d6e",
+      "v7/tests/test_cumulative_dag_matched.py": "b33ad545fd53acfe020b4d99fc76a31772cf13dcd297b41693f0fa0030fe53c0"
+    },
+    "work_protocol": "At season start, offer min(N_shared,N_independent)*4 tokens to each separate population. Each allocation is centrally bounded at four/person; a run is work_infeasible if either side does not realize its exact offered total. No births are deleted or otherwise forced to preserve equality."
+  },
+  "python": "3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 17:35:02) [GCC 11.2.0]",
+  "registered_at": "2026-11-03T06:26:41.749059+00:00",
+  "status": "registered_before_outcomes"
+}

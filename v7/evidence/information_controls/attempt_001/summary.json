@@ -1,0 +1,40 @@
+{
+  "claim_limit": "Mechanism-positive-control cognitive assays only: no demographic, selection, historical-adaptation, or novelty claim. Equal-information optimum cannot be beaten by extra override in expected payoff.",
+  "exact": {
+    "hidden_mixture_posterior": 0.936692780012704,
+    "hidden_mixture_weight": 0.5,
+    "q_tutor_enumerated": 0.8960000000000001,
+    "q_tutor_formula": 0.8960000000000001,
+    "visible_copy_duplicate_invariant": true,
+    "visible_copy_posterior": 0.8960000000000001,
+    "visible_independent_posterior": 0.9867065208841345
+  },
+  "gates": {
+    "adult_actual_twenty_steps": true,
+    "adult_direct_override_zero": true,
+    "adult_memory_reuse_separate": true,
+    "all_blank_tutors": true,
+    "all_gates_pass": true,
+    "all_memory_blank": true,
+    "authority_positive_control_label_effect": true,
+    "copy_duplicate_invariance": true,
+    "empirical_tutor_private_accuracy": 0.8194444444444444,
+    "exact_q_tutor": true,
+    "hidden_is_explicit_mixture": true,
+    "memory_crossed": true,
+    "neutral_d0_no_override": true,
+    "paid_tutor_training": true,
+    "real_independent_and_shared_roots": true,
+    "same_receipt_cost": true
+  },
+  "independent_seed_blocks": 24,
+  "information_rows": 624,
+  "memory_rows": 5760,
+  "optimal_baseline_consequence": "With equal information and utility, an extra override cannot improve expected payoff over the optimal policy; observed override loss/null is a mathematical dominance consequence, not novelty.",
+  "raw_sha256": {
+    "v7/experiments/output/information_controls/authority_provenance_raw.csv.gz": "2ccaa249eed338ef2921ca43e7a74af2ee9cd00c4d13ce7aaaf47387e2c76dc7",
+    "v7/experiments/output/information_controls/exact_enumeration.json": "ca286d9fd74e50e093fd0afc7e1acc28691e72346dcfe425b736d6c332d71d7d",
+    "v7/experiments/output/information_controls/memory_acceptance_raw.csv.gz": "dd742d99b6795aa9d90f5c2cdb7735b1e5244b2c22fc20408a26d72ff11fb8e6"
+  },
+  "status": "complete"
+}

@@ -1,0 +1,67 @@
+{
+  "archive_sha256": "bcc66a10cc975a3a701dc36fd9a1848086e90519aeaa861c1fdd926bd50eafeb",
+  "at": "2026-11-03T04:09:20.277150+00:00",
+  "limit": "Time-aware adapter exposes actual remaining tokens; core still executes only one task/season, so no unused-safe-output opportunity is imputed.",
+  "parity": {
+    "query_executed": 0.8,
+    "query_expected": 0.8,
+    "verify_executed": 0.9,
+    "verify_expected": 0.9
+  },
+  "policies": [
+    "ordinary",
+    "vector_0_5_0",
+    "marginal_evi"
+  ],
+  "regimes": {
+    "1": [
+      1,
+      0.5,
+      0.0,
+      0.1
+    ],
+    "5": [
+      3,
+      0.75,
+      0.005,
+      0.5
+    ],
+    "9": [
+      6,
+      1.0,
+      0.02,
+      1.5
+    ]
+  },
+  "seeds": [
+    82401,
+    82402,
+    82403,
+    82404,
+    82405,
+    82406,
+    82407,
+    82408,
+    82409,
+    82410,
+    82411,
+    82412,
+    82413,
+    82414,
+    82415,
+    82416,
+    82417,
+    82418,
+    82419,
+    82420,
+    82421,
+    82422,
+    82423,
+    82424
+  ],
+  "source_sha256": {
+    "experiments/recovery_comparator_v2.py": "37abc22e642f4c23b27e24de34eebe100665f0bc51c6dff2aab6be77cb06662a",
+    "experiments/run_recovery_comparator_v2.py": "b4d8cc6d8e2e02b84d1eb3171a9234b2a11dd06c98c76d4cf1ea17ba38d8d291"
+  },
+  "status": "registered_before_outcomes"
+}

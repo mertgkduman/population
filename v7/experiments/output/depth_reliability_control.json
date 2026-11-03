@@ -1,0 +1,11 @@
+{
+  "claim_limit": "Exploratory post-freeze strong control, separate from frozen primary confirmation; it neither changes primary candidates nor establishes latent truth access.",
+  "output_sha256": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+  "result_status": "Measured rows only; interpretation requires the full contrast table and cannot revise the primary frozen confirmation.",
+  "rows": 288,
+  "stage": "exploratory-depth-reliability-control",
+  "status": "complete",
+  "terminal_counts": {
+    "running": 288
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "status": "complete",
+  "training_rows": 3840,
+  "adult_rows": 15360,
+  "adult_sequences": 768,
+  "private_correct": 3064,
+  "private_denominator": 3840,
+  "endpoints": [
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "baseline",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "baseline",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "audience_removal",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "audience_removal",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "free_audit",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "free_audit",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "independent_reliable_evidence",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.0,
+      "arm": "independent_reliable_evidence",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 22,
+      "action_correct": 22
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "baseline",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "baseline",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "audience_removal",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "audience_removal",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "free_audit",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "free_audit",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 4,
+      "action_correct": 4
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "independent_reliable_evidence",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.0,
+      "d": 0.5,
+      "arm": "independent_reliable_evidence",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 22,
+      "action_correct": 22
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "baseline",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "baseline",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "audience_removal",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "audience_removal",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "free_audit",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "free_audit",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "independent_reliable_evidence",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.0,
+      "arm": "independent_reliable_evidence",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "baseline",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "baseline",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "audience_removal",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "audience_removal",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "free_audit",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "free_audit",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "independent_reliable_evidence",
+      "environment_change": false,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    },
+    {
+      "hazard": 0.01,
+      "d": 0.5,
+      "arm": "independent_reliable_evidence",
+      "environment_change": true,
+      "n": 24,
+      "posterior_correct": 24,
+      "action_correct": 24
+    }
+  ],
+  "source_sha256": {
+    "v7/experiments/run_belief_control.py": "7da1ad5420d9d7b2d292ebd432a4b6cb04c89c62966cdb6064966ec6135dad3e",
+    "v7/experiments/belief_control.py": "037ef5c2593f1bcb5cc88051e40fe59f2cc0a1f3bbac8c200648616fa81c8a85",
+    "v7/tests/test_belief_control.py": "826f2cbbe004d7e2cc0619efa5e6ce6d459daf4ee1da70ea39a5a1e134c7602c"
+  },
+  "raw_sha256": {
+    "v7/experiments/output/belief_control/adults.csv.gz": "f2a8861d7e4355ae19464ee35d35e61490673c52ae8a8c72908749f1e019c4f1",
+    "v7/experiments/output/belief_control/training.csv.gz": "be98c5c598c46d92bcc33746e9e043a5218c28a30d8f7fb3108ba78149644aa0"
+  },
+  "scope": "Separate cognitive assay, not demographic/invasion fitness. Posterior inertia under a static-world assumption is not irrational dogmatism."
+}

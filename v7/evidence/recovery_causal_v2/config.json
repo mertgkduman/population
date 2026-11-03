@@ -1,0 +1,1 @@
+{"name":"R2v2 juvenile identification and cloned adult arms","seeds":[83101,83124],"regimes":[1,5,9],"tau":5,"private_hardware_accuracy":0.8,"fixed_cap":24,"adult":{"arms":["baseline","audience_removal","free_audit","evidence"],"directions":["supporting","contrary"],"steps":20,"likelihood_strength":0.8,"direct_override":0.0}}

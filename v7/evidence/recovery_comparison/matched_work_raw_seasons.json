@@ -1,0 +1,4804 @@
+{
+  "rows": [
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 30,
+      "independent_knowledge": 103,
+      "independent_population": 44,
+      "independent_realized_work": 1324.0,
+      "offered_work_total": 1324,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 36,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 38,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 44,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 40,
+          "independent_realized": 140.0,
+          "offered_work": 140,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 50,
+          "ti_realized": 140.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 44,
+          "independent_realized": 160.0,
+          "offered_work": 160,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 55,
+          "ti_realized": 160.0
+        }
+      ],
+      "seed": 82201,
+      "status": "complete_horizon",
+      "ti_functional": 41,
+      "ti_knowledge": 140,
+      "ti_population": 55,
+      "ti_realized_work": 1324.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 27,
+      "independent_knowledge": 90,
+      "independent_population": 37,
+      "independent_realized_work": 1196.0,
+      "offered_work_total": 1196,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 27,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 39,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 37,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 43,
+          "ti_realized": 132.0
+        }
+      ],
+      "seed": 82202,
+      "status": "complete_horizon",
+      "ti_functional": 34,
+      "ti_knowledge": 110,
+      "ti_population": 43,
+      "ti_realized_work": 1196.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 26,
+      "independent_knowledge": 94,
+      "independent_population": 39,
+      "independent_realized_work": 1260.0,
+      "offered_work_total": 1260,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 24,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 33,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 36,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 46,
+          "ti_realized": 132.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 144.0,
+          "offered_work": 144,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 50,
+          "ti_realized": 144.0
+        }
+      ],
+      "seed": 82203,
+      "status": "complete_horizon",
+      "ti_functional": 40,
+      "ti_knowledge": 132,
+      "ti_population": 50,
+      "ti_realized_work": 1260.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 17,
+      "independent_knowledge": 62,
+      "independent_population": 27,
+      "independent_realized_work": 924.0,
+      "offered_work_total": 924,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 96.0
+        }
+      ],
+      "seed": 82204,
+      "status": "complete_horizon",
+      "ti_functional": 25,
+      "ti_knowledge": 75,
+      "ti_population": 29,
+      "ti_realized_work": 924.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 36,
+      "independent_knowledge": 115,
+      "independent_population": 46,
+      "independent_realized_work": 1428.0,
+      "offered_work_total": 1428,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 31,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 38,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 132.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 152.0,
+          "offered_work": 152,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 152.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 42,
+          "independent_realized": 156.0,
+          "offered_work": 156,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 45,
+          "ti_realized": 156.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 46,
+          "independent_realized": 168.0,
+          "offered_work": 168,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 52,
+          "ti_realized": 168.0
+        }
+      ],
+      "seed": 82205,
+      "status": "complete_horizon",
+      "ti_functional": 41,
+      "ti_knowledge": 131,
+      "ti_population": 52,
+      "ti_realized_work": 1428.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 17,
+      "independent_knowledge": 64,
+      "independent_population": 29,
+      "independent_realized_work": 948.0,
+      "offered_work_total": 948,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 34,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 39,
+          "ti_realized": 104.0
+        }
+      ],
+      "seed": 82206,
+      "status": "complete_horizon",
+      "ti_functional": 30,
+      "ti_knowledge": 97,
+      "ti_population": 39,
+      "ti_realized_work": 948.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 24,
+      "independent_knowledge": 85,
+      "independent_population": 37,
+      "independent_realized_work": 1220.0,
+      "offered_work_total": 1220,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 24,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 34,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 37,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 45,
+          "ti_realized": 132.0
+        }
+      ],
+      "seed": 82207,
+      "status": "complete_horizon",
+      "ti_functional": 36,
+      "ti_knowledge": 117,
+      "ti_population": 45,
+      "ti_realized_work": 1220.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 18,
+      "independent_knowledge": 60,
+      "independent_population": 26,
+      "independent_realized_work": 912.0,
+      "offered_work_total": 912,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 96.0
+        }
+      ],
+      "seed": 82208,
+      "status": "complete_horizon",
+      "ti_functional": 22,
+      "ti_knowledge": 74,
+      "ti_population": 28,
+      "ti_realized_work": 912.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 32,
+      "independent_knowledge": 111,
+      "independent_population": 46,
+      "independent_realized_work": 1316.0,
+      "offered_work_total": 1316,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 36,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 43,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 37,
+          "independent_realized": 140.0,
+          "offered_work": 140,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 44,
+          "ti_realized": 140.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 43,
+          "independent_realized": 148.0,
+          "offered_work": 148,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 51,
+          "ti_realized": 148.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 46,
+          "independent_realized": 172.0,
+          "offered_work": 172,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 56,
+          "ti_realized": 172.0
+        }
+      ],
+      "seed": 82209,
+      "status": "complete_horizon",
+      "ti_functional": 44,
+      "ti_knowledge": 145,
+      "ti_population": 56,
+      "ti_realized_work": 1316.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 34,
+      "independent_knowledge": 115,
+      "independent_population": 48,
+      "independent_realized_work": 1448.0,
+      "offered_work_total": 1448,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 31,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 34,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 32,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 128.0,
+          "offered_work": 128,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 128.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 140.0,
+          "offered_work": 140,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 48,
+          "ti_realized": 140.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 44,
+          "independent_realized": 156.0,
+          "offered_work": 156,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 54,
+          "ti_realized": 156.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 48,
+          "independent_realized": 176.0,
+          "offered_work": 176,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 59,
+          "ti_realized": 176.0
+        }
+      ],
+      "seed": 82210,
+      "status": "complete_horizon",
+      "ti_functional": 47,
+      "ti_knowledge": 153,
+      "ti_population": 59,
+      "ti_realized_work": 1448.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 21,
+      "independent_knowledge": 73,
+      "independent_population": 33,
+      "independent_realized_work": 996.0,
+      "offered_work_total": 996,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 31,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 124.0,
+          "offered_work": 124,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 124.0
+        }
+      ],
+      "seed": 82211,
+      "status": "complete_horizon",
+      "ti_functional": 28,
+      "ti_knowledge": 102,
+      "ti_population": 41,
+      "ti_realized_work": 996.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 34,
+      "independent_knowledge": 114,
+      "independent_population": 44,
+      "independent_realized_work": 1476.0,
+      "offered_work_total": 1476,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 31,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 124.0,
+          "offered_work": 124,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 124.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 41,
+          "independent_realized": 140.0,
+          "offered_work": 140,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 47,
+          "ti_realized": 140.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 42,
+          "independent_realized": 164.0,
+          "offered_work": 164,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 49,
+          "ti_realized": 164.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 44,
+          "independent_realized": 168.0,
+          "offered_work": 168,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 53,
+          "ti_realized": 168.0
+        }
+      ],
+      "seed": 82212,
+      "status": "complete_horizon",
+      "ti_functional": 45,
+      "ti_knowledge": 143,
+      "ti_population": 53,
+      "ti_realized_work": 1476.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 25,
+      "independent_knowledge": 87,
+      "independent_population": 37,
+      "independent_realized_work": 1112.0,
+      "offered_work_total": 1112,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 24,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 36,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 37,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 47,
+          "ti_realized": 132.0
+        }
+      ],
+      "seed": 82213,
+      "status": "complete_horizon",
+      "ti_functional": 34,
+      "ti_knowledge": 114,
+      "ti_population": 47,
+      "ti_realized_work": 1112.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 32,
+      "independent_knowledge": 109,
+      "independent_population": 48,
+      "independent_realized_work": 1348.0,
+      "offered_work_total": 1348,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 38,
+          "independent_realized": 132.0,
+          "offered_work": 132,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 132.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 41,
+          "independent_realized": 152.0,
+          "offered_work": 152,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 43,
+          "ti_realized": 152.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 48,
+          "independent_realized": 164.0,
+          "offered_work": 164,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 51,
+          "ti_realized": 164.0
+        }
+      ],
+      "seed": 82214,
+      "status": "complete_horizon",
+      "ti_functional": 37,
+      "ti_knowledge": 122,
+      "ti_population": 51,
+      "ti_realized_work": 1348.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 34,
+      "independent_knowledge": 113,
+      "independent_population": 49,
+      "independent_realized_work": 1480.0,
+      "offered_work_total": 1480,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 31,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 32,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 38,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 36,
+          "independent_realized": 128.0,
+          "offered_work": 128,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 43,
+          "ti_realized": 128.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 40,
+          "independent_realized": 144.0,
+          "offered_work": 144,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 48,
+          "ti_realized": 144.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 46,
+          "independent_realized": 160.0,
+          "offered_work": 160,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 53,
+          "ti_realized": 160.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 49,
+          "independent_realized": 184.0,
+          "offered_work": 184,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 57,
+          "ti_realized": 184.0
+        }
+      ],
+      "seed": 82215,
+      "status": "complete_horizon",
+      "ti_functional": 48,
+      "ti_knowledge": 154,
+      "ti_population": 57,
+      "ti_realized_work": 1480.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 24,
+      "independent_knowledge": 81,
+      "independent_population": 35,
+      "independent_realized_work": 1060.0,
+      "offered_work_total": 1060,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 31,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 36,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 124.0,
+          "offered_work": 124,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 124.0
+        }
+      ],
+      "seed": 82216,
+      "status": "complete_horizon",
+      "ti_functional": 32,
+      "ti_knowledge": 104,
+      "ti_population": 40,
+      "ti_realized_work": 1060.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 24,
+      "independent_knowledge": 87,
+      "independent_population": 39,
+      "independent_realized_work": 1176.0,
+      "offered_work_total": 1176,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 24,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 27,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 29,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 34,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 136.0,
+          "offered_work": 136,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 43,
+          "ti_realized": 136.0
+        }
+      ],
+      "seed": 82217,
+      "status": "complete_horizon",
+      "ti_functional": 31,
+      "ti_knowledge": 103,
+      "ti_population": 43,
+      "ti_realized_work": 1176.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 27,
+      "independent_knowledge": 103,
+      "independent_population": 46,
+      "independent_realized_work": 1248.0,
+      "offered_work_total": 1248,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 35,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 44,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 42,
+          "independent_realized": 140.0,
+          "offered_work": 140,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 52,
+          "ti_realized": 140.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 46,
+          "independent_realized": 168.0,
+          "offered_work": 168,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 56,
+          "ti_realized": 168.0
+        }
+      ],
+      "seed": 82218,
+      "status": "complete_horizon",
+      "ti_functional": 44,
+      "ti_knowledge": 146,
+      "ti_population": 56,
+      "ti_realized_work": 1248.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 24,
+      "independent_knowledge": 83,
+      "independent_population": 38,
+      "independent_realized_work": 1108.0,
+      "offered_work_total": 1108,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 22,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 34,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 36,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 38,
+          "independent_realized": 136.0,
+          "offered_work": 136,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 40,
+          "ti_realized": 136.0
+        }
+      ],
+      "seed": 82219,
+      "status": "complete_horizon",
+      "ti_functional": 29,
+      "ti_knowledge": 99,
+      "ti_population": 40,
+      "ti_realized_work": 1108.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 26,
+      "independent_knowledge": 92,
+      "independent_population": 42,
+      "independent_realized_work": 1208.0,
+      "offered_work_total": 1208,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 27,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 31,
+          "independent_realized": 108.0,
+          "offered_work": 108,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 38,
+          "ti_realized": 108.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 37,
+          "independent_realized": 124.0,
+          "offered_work": 124,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 45,
+          "ti_realized": 124.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 42,
+          "independent_realized": 148.0,
+          "offered_work": 148,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 51,
+          "ti_realized": 148.0
+        }
+      ],
+      "seed": 82220,
+      "status": "complete_horizon",
+      "ti_functional": 38,
+      "ti_knowledge": 127,
+      "ti_population": 51,
+      "ti_realized_work": 1208.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 36,
+      "independent_knowledge": 128,
+      "independent_population": 66,
+      "independent_realized_work": 1592.0,
+      "offered_work_total": 1592,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 9,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 19,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 30,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 33,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 36,
+          "independent_realized": 128.0,
+          "offered_work": 128,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 128.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 40,
+          "independent_realized": 144.0,
+          "offered_work": 144,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 42,
+          "ti_realized": 144.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 44,
+          "independent_realized": 160.0,
+          "offered_work": 160,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 49,
+          "ti_realized": 160.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 55,
+          "independent_realized": 176.0,
+          "offered_work": 176,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 59,
+          "ti_realized": 176.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 66,
+          "independent_realized": 220.0,
+          "offered_work": 220,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 71,
+          "ti_realized": 220.0
+        }
+      ],
+      "seed": 82221,
+      "status": "complete_horizon",
+      "ti_functional": 47,
+      "ti_knowledge": 163,
+      "ti_population": 71,
+      "ti_realized_work": 1592.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 26,
+      "independent_knowledge": 90,
+      "independent_population": 39,
+      "independent_realized_work": 1196.0,
+      "offered_work_total": 1196,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 12,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 13,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 52.0,
+          "offered_work": 52,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 52.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 18,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 20,
+          "independent_realized": 72.0,
+          "offered_work": 72,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 24,
+          "ti_realized": 72.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 21,
+          "independent_realized": 80.0,
+          "offered_work": 80,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 25,
+          "ti_realized": 80.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 84.0,
+          "offered_work": 84,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 84.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 25,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 100.0,
+          "offered_work": 100,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 34,
+          "ti_realized": 100.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 29,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 38,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 36,
+          "independent_realized": 116.0,
+          "offered_work": 116,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 47,
+          "ti_realized": 116.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 144.0,
+          "offered_work": 144,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 52,
+          "ti_realized": 144.0
+        }
+      ],
+      "seed": 82222,
+      "status": "complete_horizon",
+      "ti_functional": 38,
+      "ti_knowledge": 129,
+      "ti_population": 52,
+      "ti_realized_work": 1196.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 27,
+      "independent_knowledge": 96,
+      "independent_population": 43,
+      "independent_realized_work": 1288.0,
+      "offered_work_total": 1288,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 10,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 11,
+          "independent_realized": 40.0,
+          "offered_work": 40,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 11,
+          "ti_realized": 40.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 44.0,
+          "offered_work": 44,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 14,
+          "ti_realized": 44.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 15,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 16,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 60.0,
+          "offered_work": 60,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 18,
+          "ti_realized": 60.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 21,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 22,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 26,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 88.0,
+          "offered_work": 88,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 27,
+          "ti_realized": 88.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 26,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 32,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 104.0,
+          "offered_work": 104,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 37,
+          "ti_realized": 104.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 34,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 41,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 40,
+          "independent_realized": 136.0,
+          "offered_work": 136,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 48,
+          "ti_realized": 136.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 43,
+          "independent_realized": 160.0,
+          "offered_work": 160,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 52,
+          "ti_realized": 160.0
+        }
+      ],
+      "seed": 82223,
+      "status": "complete_horizon",
+      "ti_functional": 41,
+      "ti_knowledge": 135,
+      "ti_population": 52,
+      "ti_realized_work": 1288.0
+    },
+    {
+      "any_infeasible": false,
+      "claim_limit": "Paired shared-effort intervention; independent populations, not competition or outcome/knowledge sharing.",
+      "horizon": 18,
+      "independent_functional": 29,
+      "independent_knowledge": 96,
+      "independent_population": 44,
+      "independent_realized_work": 1256.0,
+      "offered_work_total": 1256,
+      "person_work_cap": 4,
+      "population_cap": 256,
+      "seasons": [
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 0,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 1,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 2,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 8,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 3,
+          "ti_infeasible": false,
+          "ti_population": 8,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 32.0,
+          "offered_work": 32,
+          "season": 4,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 32.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 9,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 5,
+          "ti_infeasible": false,
+          "ti_population": 10,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 12,
+          "independent_realized": 36.0,
+          "offered_work": 36,
+          "season": 6,
+          "ti_infeasible": false,
+          "ti_population": 13,
+          "ti_realized": 36.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 14,
+          "independent_realized": 48.0,
+          "offered_work": 48,
+          "season": 7,
+          "ti_infeasible": false,
+          "ti_population": 15,
+          "ti_realized": 48.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 16,
+          "independent_realized": 56.0,
+          "offered_work": 56,
+          "season": 8,
+          "ti_infeasible": false,
+          "ti_population": 17,
+          "ti_realized": 56.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 17,
+          "independent_realized": 64.0,
+          "offered_work": 64,
+          "season": 9,
+          "ti_infeasible": false,
+          "ti_population": 20,
+          "ti_realized": 64.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 19,
+          "independent_realized": 68.0,
+          "offered_work": 68,
+          "season": 10,
+          "ti_infeasible": false,
+          "ti_population": 23,
+          "ti_realized": 68.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 23,
+          "independent_realized": 76.0,
+          "offered_work": 76,
+          "season": 11,
+          "ti_infeasible": false,
+          "ti_population": 27,
+          "ti_realized": 76.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 24,
+          "independent_realized": 92.0,
+          "offered_work": 92,
+          "season": 12,
+          "ti_infeasible": false,
+          "ti_population": 28,
+          "ti_realized": 92.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 28,
+          "independent_realized": 96.0,
+          "offered_work": 96,
+          "season": 13,
+          "ti_infeasible": false,
+          "ti_population": 33,
+          "ti_realized": 96.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 30,
+          "independent_realized": 112.0,
+          "offered_work": 112,
+          "season": 14,
+          "ti_infeasible": false,
+          "ti_population": 35,
+          "ti_realized": 112.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 34,
+          "independent_realized": 120.0,
+          "offered_work": 120,
+          "season": 15,
+          "ti_infeasible": false,
+          "ti_population": 39,
+          "ti_realized": 120.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 39,
+          "independent_realized": 136.0,
+          "offered_work": 136,
+          "season": 16,
+          "ti_infeasible": false,
+          "ti_population": 45,
+          "ti_realized": 136.0
+        },
+        {
+          "independent_infeasible": false,
+          "independent_population": 44,
+          "independent_realized": 156.0,
+          "offered_work": 156,
+          "season": 17,
+          "ti_infeasible": false,
+          "ti_population": 52,
+          "ti_realized": 156.0
+        }
+      ],
+      "seed": 82224,
+      "status": "complete_horizon",
+      "ti_functional": 38,
+      "ti_knowledge": 126,
+      "ti_population": 52,
+      "ti_realized_work": 1256.0
+    }
+  ]
+}

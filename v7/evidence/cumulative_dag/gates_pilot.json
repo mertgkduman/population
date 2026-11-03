@@ -1,0 +1,156 @@
+[
+  {
+    "arm": "transmission_innovation_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "private_only",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "transmission_only_no_bootstrap_innovation",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "no_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "causal_prerequisite_scramble",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "paired_transmission_innovation_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot_paired",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "paired_independent_private_only",
+    "newborn_blank_gate": true,
+    "phase": "pilot_paired",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82901,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "transmission_innovation_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "private_only",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "transmission_only_no_bootstrap_innovation",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "no_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "causal_prerequisite_scramble",
+    "newborn_blank_gate": true,
+    "phase": "pilot",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "paired_transmission_innovation_retention",
+    "newborn_blank_gate": true,
+    "phase": "pilot_paired",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  },
+  {
+    "arm": "paired_independent_private_only",
+    "newborn_blank_gate": true,
+    "phase": "pilot_paired",
+    "population_gate": true,
+    "receipt_objects": true,
+    "seed": 82902,
+    "stock_gate": true,
+    "time_gate": true,
+    "work_exact": true
+  }
+]

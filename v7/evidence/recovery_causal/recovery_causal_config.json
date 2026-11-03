@@ -1,0 +1,8 @@
+{
+  "name": "R2 ecological causal/provenance and sequential adult diagnostics",
+  "version": 1,
+  "ecological": {"sentinel_regimes": [1, 5, 9], "seeds": [83001, 83024], "burn_in": 60, "measurement": 120, "private_hardware_accuracy": 0.8},
+  "adult": {"seeds": [84001, 84024], "steps": 20, "likelihood_strength": 0.8, "directions": ["supporting", "contrary"], "direct_adult_override": 0.0},
+  "caps": {"ecological_seed_cap": 24, "workers": 2, "no_outcome_adaptive_extension": true},
+  "claims": {"ecology": "actual corrected-world intervention diagnostic, not selection proof", "adult": "separate cognitive assay; no dogmatism or normative-commitment claim"}
+}

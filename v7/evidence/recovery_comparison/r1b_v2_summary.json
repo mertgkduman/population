@@ -1,0 +1,52 @@
+{
+  "by_arm": {
+    "carrier_loss_storage_off": {
+      "functional_people_mean": 1.625,
+      "n": 24,
+      "population_mean": 2.5416666666666665,
+      "work_mean": 49.666666666666664
+    },
+    "carrier_loss_storage_on": {
+      "functional_people_mean": 1.75,
+      "n": 24,
+      "population_mean": 2.25,
+      "work_mean": 77.47916666666667
+    },
+    "equal_work_independent": {
+      "functional_people_mean": 24.958333333333332,
+      "n": 24,
+      "population_mean": 37.708333333333336,
+      "work_mean": 110.875
+    },
+    "no_transmission": {
+      "functional_people_mean": 24.958333333333332,
+      "n": 24,
+      "population_mean": 37.708333333333336,
+      "work_mean": 110.875
+    },
+    "prerequisite_shuffle": {
+      "functional_people_mean": 36.375,
+      "n": 24,
+      "population_mean": 46.041666666666664,
+      "work_mean": 132.91666666666666
+    },
+    "transmission_innovation": {
+      "functional_people_mean": 36.458333333333336,
+      "n": 24,
+      "population_mean": 46.291666666666664,
+      "work_mean": 133.25
+    }
+  },
+  "cap_censored": 0,
+  "complete_horizon": 129,
+  "denominator": 144,
+  "extinct": 15,
+  "postloss_rows": 48,
+  "raw_sha256": {
+    "r1b_v2_confirmation.csv.gz": "e297184dd214d2a1b630bd30b3a66cc9bb4ab8bfa77f0ae74599a85e9e74b6d2",
+    "r1b_v2_pilot.csv.gz": "36116b8a2084335b87117887a7ceb0e3c9a86cd1f245456ff89d9bba20e18735",
+    "r1b_v2_postloss_noinnovation.csv.gz": "8fb35888efa27285065d2af697286850d960eb5a80d3be5098e8d00aae6cb3b9"
+  },
+  "rows": 144,
+  "scope": "Fresh R1b v2 finite demography; exact cap/extinction denominators retained, no long-run claim."
+}

@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "ed217c4ebf8d40992b3c97bad7c8488895e21fb49d94045ac4b7556748eb9f92",
+  "files": {
+    "evidence/recovery_causal_v3/config.json": "b5886048cc696839bda58880e571b247410487f5ad491ee5d567c3f717f8f68c",
+    "experiments/corrected_model.py": "7f60d4014649d18f1940a4296f9cc113a82576c4176ac7f6d3876f0bd3ea0b92",
+    "experiments/model.py": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+    "experiments/recovery_causal_v3.py": "9c16c4b471fd157d5a883fb8f397c7918d10324e47c92e921652158764c1e72c",
+    "experiments/run_recovery_causal_v3.py": "050f2e5ed0a845310d6a87178f7cbb0a35b28dd5659c2d86e7e3703b8f51638f"
+  },
+  "frozen_at": "2026-11-03T04:04:21.273013+00:00",
+  "stage": "r3-source-freeze"
+}

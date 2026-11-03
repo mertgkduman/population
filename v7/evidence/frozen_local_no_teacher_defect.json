@@ -1,0 +1,30 @@
+{
+  "status": "CONFIRMED_FROZEN_DEFECT",
+  "source": "v7/experiments/model.py",
+  "source_sha256": "188ff2a254412f0660c8fd827a68d69b1be077f8c00e8a831f8c02cb1bd2a275",
+  "audit_seed": 71901,
+  "teacher": null,
+  "feasible_actions": [
+    "private",
+    "teacher"
+  ],
+  "q0_values": [
+    [
+      "private",
+      0.0
+    ],
+    [
+      "teacher",
+      0.0
+    ]
+  ],
+  "neutral_action": "teacher",
+  "chosen_action": "teacher",
+  "latent_local_state_z": 0,
+  "private_signal": 1,
+  "phantom_tutor_signal": 0,
+  "phantom_tutor_equals_hidden_state": true,
+  "mechanism": "No advice leaves private/teacher Q0 tied at zero; lexical tie-break selects teacher. With no teacher, local-state construction sets the synthetic tutor signal equal to hidden z.",
+  "scientific_impact": "Asocial local comparisons are invalid. Other ecology/holdout/lineage results are descriptive under an unquantified no-teacher-local contamination until replay exports exposure counts or a corrected frozen variant is run.",
+  "repair_boundary": "Do not edit frozen/archive bytes or cached primary data; future corrected variant must remove teacher action without a teacher or route it to the private cue and rerun affected ecology evidence."
+}

@@ -1,0 +1,64 @@
+{
+  "slice": "2B-discovery-confirmation",
+  "status": "complete_with_partial_assays",
+  "completed_at": "2026-11-02T21:27:28Z",
+  "primary_confirmation": {
+    "raw_rows": 1368,
+    "seed_partition": "72001..72024",
+    "graph_variant": 1,
+    "raw_sha256": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+    "terminal_counts": {"running": 1368, "extinct": 0, "cap_censored": 0},
+    "precision": {
+      "status": "complete_at_24_no_extension",
+      "paired_net_energy_mcse_range": [0.0006772235758163283, 0.0021635494558698487],
+      "mean_population_mcse_range": [0.10997341163217217, 0.3152631463543991],
+      "extinction_wilson_half_width": 0.06898810233749009,
+      "fixed_batches_registered": 0,
+      "rate_uncertainty": "Seed-level rate MCSE is diagnostic only. Frozen raw exports do not retain Bernoulli trial numerators/denominators, so Wilson precision for action/revision/success rates is UNRESOLVED."
+    },
+    "finite_summary": {
+      "frozen_vector": "vector_0_5_0",
+      "ordinary_social": "vector_0_0",
+      "paired_net_energy_delta_vector_minus_ordinary_range": [-0.0027251880167458854, 0.0018994542027333348],
+      "paired_net_energy_delta_mcse_range": [0.0006772235758163283, 0.002067791171599834],
+      "interpretation": "Across the nine fixed regimes the frozen vector and ordinary-social learner are near-equivalent on this finite net-energy estimand; signs vary by regime and are not a stopping or ranking rule."
+    }
+  },
+  "depth_reliability_control": {
+    "status": "complete_exploratory_postfreeze_control",
+    "raw_rows": 288,
+    "seed_partition": "72501..72524",
+    "regimes": [1, 5, 9],
+    "raw_sha256": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+    "terminal_counts": {"running": 288, "extinct": 0, "cap_censored": 0},
+    "policies": ["ordinary_social", "candidate_b_resource_rational", "depth_aware_reliability_d0", "vector_0_5_0"],
+    "method": "The d=0 control uses only public teacher success/failure history and posted execute price to infer D, applies P(success|good)=.9^(D+1) and P(success|bad)=.5^(D+1), charges five operations, and never receives theta.",
+    "assumptions": "Teacher sequence quality is stationary over the public history and executions are conditionally independent. q_theta is not observed by the learner; this is not a robustness claim for nonstationary teacher competence.",
+    "finite_summary": {
+      "calibrated_d0_minus_ordinary_net_energy_by_regime": {"1": -0.001187, "5": -0.002795, "9": -0.000246},
+      "frozen_vector_minus_ordinary_net_energy_by_regime": {"1": -0.00048, "5": -0.0015, "9": -0.000741},
+      "interpretation": "The calibrated d=0 control is close to ordinary social learning on these three finite sentinels; it does not support a deep deference advantage. This exploratory control cannot revise the frozen primary analysis."
+    }
+  },
+  "representative_histories": {
+    "history_count": 24,
+    "index": "v7/experiments/output/representative_history_index.json",
+    "source_sha256": "5bc60cc95f450e35eaa533c89c36091ba7890cd0cee5d0a95f2291f715d2d4d5",
+    "status": "complete_actual_records",
+    "limitation": "All 24 frozen discovery histories are already retained; zero vacant later-stage full-history slots remain. Individual B/K/T/H maps absent from frozen exports were not inferred."
+  },
+  "freeze_verification": {
+    "evidence": "v7/evidence/confirmation_verification.json",
+    "status": "passed",
+    "checks_passed": 9,
+    "archive_replay_digest": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+    "statement": "Every frozen live source hash equals the freeze manifest; every archived source hash equals it; the extracted archive reproduces the fixed sentinel digest."
+  },
+  "partial_or_unrun": [
+    "Focused 3x3 depth-by-context yoked access assay: PARTIAL/not run; no new intervention was substituted for the frozen core.",
+    "Culture transmission ablations and carrier-loss/storage assay: NOT_RUN; frozen core exposes no registered carrier-removal/storage intervention.",
+    "H9 environment shock/root-diversity assay: NOT_RUN; no shock mechanism was implemented, so no proxy result is reported.",
+    "Trial-level Wilson precision for success/action/revision rates: UNRESOLVED; only seed-level rates were exported."
+  ],
+  "next_precondition": "Slice 2C must treat this handoff as finite, extinction-inclusive ecology evidence only; no asymptotic invasion or ESS claim is authorized."
+}

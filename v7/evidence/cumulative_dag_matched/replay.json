@@ -1,0 +1,34 @@
+{
+  "control": "cumulative_dag_matched",
+  "pass": true,
+  "source_verified": true,
+  "scientific_configuration_verified": true,
+  "original_registrations_and_raw_unchanged": true,
+  "runner_source_sha256": {
+    "v7/cumulative_dag_matched.md": "53434ff7d39fa57a338c3ebfdd3c9f965cb3ceb665cda12555a8deeb21f90461",
+    "v7/experiments/cumulative_dag.py": "792e63b26a9a62207d9b36bcd7aa2a878935f60e47e61368051c05f25d998cd8",
+    "v7/experiments/run_cumulative_dag_matched.py": "c1572e7535fe19393c1bb746237a0a1fcf9e7b55cfc282dbbf57c7cc26bcf027",
+    "v7/tests/test_cumulative_dag_matched.py": "b33ad545fd53acfe020b4d99fc76a31772cf13dcd297b41693f0fa0030fe53c0"
+  },
+  "files": [
+    {
+      "file": "endpoints.csv.gz",
+      "sha256": "8cf4451ec406338ff765e3d848fec5375b8f022a2c76525325a8942b3d9ca136",
+      "reference_sha256": "8cf4451ec406338ff765e3d848fec5375b8f022a2c76525325a8942b3d9ca136",
+      "equal": true
+    },
+    {
+      "file": "pair_work.csv.gz",
+      "sha256": "0e01ca55825efb394d891ceada67a1403f77c783b127b71731c3de3a8a540a95",
+      "reference_sha256": "0e01ca55825efb394d891ceada67a1403f77c783b127b71731c3de3a8a540a95",
+      "equal": true
+    },
+    {
+      "file": "seasons.csv.gz",
+      "sha256": "c41a32d65f5fb5a57bedaef10a8c020d8ffbaaa7400a78e6d4e941271e414368",
+      "reference_sha256": "c41a32d65f5fb5a57bedaef10a8c020d8ffbaaa7400a78e6d4e941271e414368",
+      "equal": true
+    }
+  ],
+  "adapter_sha256": "ac57c341398a831f2ea1a93bebc46282d4abdd4c77f798249022fced67225f0e"
+}

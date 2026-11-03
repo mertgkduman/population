@@ -1,0 +1,52 @@
+{
+  "arms": [
+    "transmission_innovation",
+    "no_transmission",
+    "matched_total_work_independent_upper_bound",
+    "transmission_without_modification",
+    "innovation_without_retention",
+    "shuffled_prerequisite_world"
+  ],
+  "confirmation_seeds": [
+    74601,
+    74602,
+    74603,
+    74604,
+    74605,
+    74606,
+    74607,
+    74608,
+    74609,
+    74610,
+    74611,
+    74612,
+    74613,
+    74614,
+    74615,
+    74616,
+    74617,
+    74618,
+    74619,
+    74620,
+    74621,
+    74622,
+    74623,
+    74624
+  ],
+  "fixed_material_debit_per_cell": 3.6,
+  "fixed_total_work_per_cell": 360,
+  "lifetime_budget": 60,
+  "limits": "Pooled solver ideal upper bound only; d absent; H2 NOT TESTED; separate from frozen IBM.",
+  "pilot_seeds": [
+    74597,
+    74598,
+    74599,
+    74600
+  ],
+  "private_accuracy": 0.8,
+  "source_sha256": "2928a86ac424fd910295ce44e3fbda5d5149d1a149f7a95ea10f9905f4136bef",
+  "stage": "corrected-cumulative-cognitive-assay",
+  "status": "registered_before_outcomes",
+  "teaching_cost_each_side": 1,
+  "verification_cost": 29
+}

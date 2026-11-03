@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "launched_trajectories_conservative": 576,
+      "reason": "pre-paired-MCSE implementation stopped before final CSV; no rows were persisted",
+      "source_sha256": "not_persisted_before_durable-checkpoint",
+      "status": "aborted_before_durable_rows"
+    }
+  ]
+}

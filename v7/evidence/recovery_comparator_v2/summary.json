@@ -1,0 +1,25 @@
+{
+  "limit": "Bounded one-decision EVI; not optimal/general RL.",
+  "purchases": {
+    "marginal_evi": {
+      "conflict": 11235,
+      "no_teacher": 357355,
+      "query": 1158,
+      "verify": 16184
+    },
+    "ordinary": {
+      "conflict": 0,
+      "no_teacher": 289639,
+      "query": 0,
+      "verify": 0
+    },
+    "vector_0_5_0": {
+      "conflict": 0,
+      "no_teacher": 290168,
+      "query": 0,
+      "verify": 0
+    }
+  },
+  "raw_sha256": "57566cb1e53f044e95fd377d32dd5701171ed836e644f8e0adf2aa975698d5fb",
+  "rows": 216
+}

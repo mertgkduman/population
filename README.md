@@ -15,11 +15,12 @@ Hypothetical computational research. Technical validation does not establish a h
 | V5 | Separates retained private evidence from held conviction, with noisy access, query costs and actual fact repertoires. | [v5/](v5/) |
 | Further work | Research directions motivated by unresolved identification, learning, cultural and demographic questions. | [proposals/](proposals/) |
 | V6 | Retained adult knowledge, more plastic juveniles and stochastic change; an extension gives advising adults poorer information about juvenile-specific situations. | [v6/](v6/) |
+| V7 | Local, unpublished corrected individual-based simulation of costly acquired cultural competence; scientific conclusions remain partial. | [v7/](v7/) |
 
 
 ## View the research
 
-Build and preview the seven-tab site:
+Build and preview the eight-tab site:
 
 ~~~bash
 python scripts/restore_large_files.py
@@ -27,7 +28,7 @@ python scripts/build_pages.py
 python -m http.server 8000 --directory docs
 ~~~
 
-Open http://localhost:8000. The tabs are V1–V5, Further work and V6, in that order. Each has Model, Results, Changes and Shortcomings. The original interactive dashboards retain every plot family. Under each plot, an exact displayed-data ZIP supplies JSON, CSV, available parameters and units, alongside a reference-data package. Data and definitions remain version-specific. Large results load when requested. No new results are claimed for proposals.
+Open http://localhost:8000. The tabs are V1–V5, Further work, V6 and V7, in that order. V7 is local and unpublished. Each has Model, Results, Changes and Shortcomings. The original interactive dashboards retain every plot family. Under each plot, an exact displayed-data ZIP supplies JSON, CSV, available parameters and units, alongside a reference-data package. Data and definitions remain version-specific. Large results load when requested. No new results are claimed for proposals.
 
 ## Prepare GitHub Pages
 
@@ -976,6 +977,48 @@ Original source: [v6/research_contract.md](v6/research_contract.md).
 Original source: [v6/situational_advice/mathematical_model.md](v6/situational_advice/mathematical_model.md).
 
 Original source: [v6/situational_advice/research_contract.md](v6/situational_advice/research_contract.md).
+
+## V7 equations
+
+# V7 · Corrected costly cultural competence
+
+The final registered controls are separately source-audited: an execution-priced bounded planner, a closed-resource transmission model, a carrier-removal/naive-restart artifact assay, and a fixed-proposition adult belief/action assay. Their equations, raw-data scope, registrations, seeds and claim limits are in [`v7/final_controls.md`](../../v7/final_controls.md) and the executed model equations are in [`v7/mathematical_model.md`](../../v7/mathematical_model.md). They do not replace the corrected primary overlay or establish global RL, an ESS, or historical adaptation.
+
+This local, unpublished analysis uses the corrected individual-based overlay. The frozen base exhibited a no-teacher hidden-state oracle; its policy comparisons are invalidated and retained for audit. The corrected overlay was independently rerun. Its scientific verdict is **PARTIAL**.
+
+Each individual has age $a$, energy $E$, inherited traits $(d_{\rm procedure},d_{\rm local})$, and acquired state $(B,K,T,H)$. Births inherit traits while acquired states begin blank. The individual sees cues and eligible teacher content, not hidden environmental truth. Private cue accuracy is fixed at $0.8$.
+
+The current-action proxy $Q_0$ evaluates task returns under the individual's posterior. For local advice with posterior probability $p_A$, its implemented values are
+
+$$Q_0(A)=3p_A-2(1-p_A),\qquad Q_0(I)=3(1-p_A)-2p_A.$$
+
+For a conflict between the neutral action and advice, juvenile override occurs with probability $d_k$ for the relevant domain only while $a<\tau$. Here $\tau=5$ is a fixed age threshold, not the exponential mean maturation parameter of V1–V6 and not an optimized trait. At $d=0$ agents still receive and learn from social information; the asocial control is separate. Teacher eligibility is age-neutral and eligible procedural content is chosen in lexical order.
+
+Teaching, task attempts and policy operations consume declared time or energy. The decision proxy is greedy and has no future-learning continuation. FeatureTrust is an action-blind reward heuristic, not a general optimal reinforcement-learning or calibrated-trust solution.
+
+For paired seeds, the estimated effect and Monte Carlo standard error are
+
+$$\bar\Delta=\frac1n\sum_{i=1}^n(Y_{i,\mathrm{candidate}}-Y_{i,\mathrm{ordinary}}),\qquad \operatorname{MCSE}(\bar\Delta)=\frac{s_\Delta}{\sqrt n}.$$
+
+Population abundance, net resource and finite newborn-descendant counts measure different outcomes. The lineage comparison is conditional and ends at $T=80$; it does not estimate an asymptotic invasion exponent, establish an ESS or demonstrate stable polymorphism. The exact two-episode benchmark is a separate small model, not an optimality bound for this IBM. The cumulative cognitive assay and the shock/memory-erasure diagnostic are separate partial tests. Obligation and dogmatism are not established by the implemented model.
+
+
+The final R4 information assay uses genuinely acquired independent or copied tutor convictions. Three private trials at accuracy $p=.8$ give conviction reliability $q=3p^2-2p^3=.896$. For two positive messages and equal prior, the known-independent posterior is $q^2/[q^2+(1-q)^2]$; known copies count their root once. Hidden structure is an explicit half-independent, half-copied likelihood mixture. Uninformative authority labels are randomized after evidence generation; label responsiveness in its positive-control policy is imposed rather than evolved.
+
+The eight-node cumulative task has branching prerequisites and paid, traceable cultural receipt edges. Under its specified solo acquisition protocol, $8\times8=64$ discovery tokens leave at most eight harvests in a 72-token lifetime: available energy $8+.75\times2\times8=20$ is below maintenance plus learning $18\times.5+64\times.2=21.8$. This is a protocol-specific feasibility bound. The 24 fresh equal-work pairs produce 2.083 versus zero complete-program holders (paired MCSE .574); 23/24 paid source-to-B-to-C tests pass. These positive controls establish no necessity for extra authority override, no general individual-learning impossibility and no novelty claim. Scrambled prerequisites give identical endpoints under the implemented policy; full modification dependence remains unresolved.
+
+
+Original source: [v7/mathematical_model.md](v7/mathematical_model.md).
+
+Original source: [v7/research_contract.md](v7/research_contract.md).
+
+Original source: [v7/final_controls.md](v7/final_controls.md).
+
+Original source: [v7/information_controls.md](v7/information_controls.md).
+
+Original source: [v7/cumulative_dag.md](v7/cumulative_dag.md).
+
+Original source: [v7/cumulative_dag_matched.md](v7/cumulative_dag_matched.md).
 
 ## Further work
 

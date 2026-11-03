@@ -1,0 +1,5 @@
+{
+  "status": "invalidated",
+  "seed_partition": "74001..74024",
+  "reason": "Unequal ledgers and terminal-blank controls; retained only as a non-evidential artifact."
+}

@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "checks": {
+    "zip_crc": true,
+    "all_source_entries_match_live_bytes": true,
+    "index_equals_dashboard": true,
+    "isolated_rebuild_dashboard_sha256": "381922dd03493671ac6a5ea2468c2dca61039f5507fe714851f70a0c11659697",
+    "plotly_locally_bundled": true
+  },
+  "archive": {
+    "path": "v7/full_v7_research_project.zip",
+    "bytes": 40061936,
+    "sha256": "57fc6159e561eca6aafe0afe3f568157752095565b96b6536ba2e4bec05327a7",
+    "entries": 388
+  },
+  "html": {
+    "path": "v7/research_dashboard.html",
+    "bytes": 7776465,
+    "sha256": "381922dd03493671ac6a5ea2468c2dca61039f5507fe714851f70a0c11659697"
+  },
+  "scope": "V7 project; no older scientific version is needed for this rebuild"
+}

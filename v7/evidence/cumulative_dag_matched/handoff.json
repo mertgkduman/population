@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "scope": "Fresh matched-total-work comparator for the additional cumulative-DAG validation fixture; not an authority, deference, novelty, or selection result.",
+  "fresh_pair_seed_blocks": 24,
+  "seed_range": "82925..82948",
+  "fixed_horizon": 60,
+  "independence": "Separate worlds; no shared people, resources, receipts, events, or cultural state.",
+  "work_gate": {
+    "paired_season_rows": 1440,
+    "all_offered_equals_each_realized": true,
+    "all_endpoint_exact_work": true,
+    "births_deleted_to_force_match": false
+  },
+  "outcomes": {
+    "shared_functional_end_mean": 2.0833333333333335,
+    "shared_functional_end_seed_mcse": 0.5739409486701454,
+    "independent_functional_end_mean": 0.0,
+    "paired_difference_shared_minus_independent_mean": 2.0833333333333335,
+    "paired_difference_seed_mcse": 0.5739409486701454,
+    "shared_complete_horizon": 24,
+    "independent_complete_horizon": 24
+  },
+  "raw_sha256": {
+    "endpoints": "8cf4451ec406338ff765e3d848fec5375b8f022a2c76525325a8942b3d9ca136",
+    "seasons": "c41a32d65f5fb5a57bedaef10a8c020d8ffbaaa7400a78e6d4e941271e414368",
+    "pair_work": "0e01ca55825efb394d891ceada67a1403f77c783b127b71731c3de3a8a540a95"
+  },
+  "provenance": "The initial registration/source archive and a second pre-completion source archive are retained. The latter fixes an endpoint-label merge that raised before the initial attempt could summarize outcomes; configuration and generated raw pair rows were unchanged."
+}

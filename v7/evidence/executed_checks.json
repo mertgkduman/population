@@ -1,0 +1,1131 @@
+{
+  "schema_version": 1,
+  "scientific_verdict": "PARTIAL_WITH_CORRECTED_PRIMARY_AND_FROZEN_INVALIDATION",
+  "status_vocabulary": [
+    "passed",
+    "partial",
+    "not_run"
+  ],
+  "checks": [
+    {
+      "id": "AUTH-01",
+      "scientific_status": "partial",
+      "claim_guarded": "extra authority override has an effect beyond ordinary social learning",
+      "basis": "Kernel isolation is consistent with conflict-only override, but the registered ecological decision-level bitwise B/K/T/H/budget audit was not exported.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "AUTH-02",
+      "scientific_status": "passed",
+      "claim_guarded": "authority label rather than information content causes the response",
+      "basis": "R4 crosses genuinely randomized uninformative labels with label-neutral, generic-source and imposed authority-sensitive policies, identical acquired tutor histories and common draws. Unconditional and conflict contrasts are exported. This is a mechanism assay, not evolved authority sensitivity.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/information_controls/registration.json",
+          "sha256": "b5c4b91fdf24647468281a70fdbe3fd13e8ccc0012b0d67b0d95cae5711a462d"
+        },
+        {
+          "path": "v7/evidence/information_controls/summary.json",
+          "sha256": "b38c12010ff3d125df8cfa8c1ca1d01b42b3d4853058828e407af696a5f66120"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "AUTH-03",
+      "scientific_status": "passed",
+      "claim_guarded": "acquisition, memory acceptance, and behavioral override are distinct mechanisms",
+      "basis": "R4 runs the full joint-exposure memory-acceptance (0/1) by immediate override (0/.5) factorial with blank states, acquired B/K/T/H, actual budgets, actions and twenty adult reuse steps; adults have zero inherited override. Memory intervention changes storage, not cognitive capacity.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/information_controls/registration.json",
+          "sha256": "b5c4b91fdf24647468281a70fdbe3fd13e8ccc0012b0d67b0d95cae5711a462d"
+        },
+        {
+          "path": "v7/evidence/information_controls/summary.json",
+          "sha256": "b38c12010ff3d125df8cfa8c1ca1d01b42b3d4853058828e407af696a5f66120"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "INHERIT-01",
+      "scientific_status": "partial",
+      "claim_guarded": "genotype transmits policy but not factual or procedural content",
+      "basis": "Births blank B/K/T/H and transmit genotype only; no cross-fostering/full relabel audit.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "FOUNDER-01",
+      "scientific_status": "partial",
+      "claim_guarded": "founder competence is acquired rather than silently seeded or survivor-selected",
+      "basis": "Blank initialization is tested in fixtures, not all registered founder cultures and failed burn-ins.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "COMP-01",
+      "scientific_status": "partial",
+      "claim_guarded": "focal policy beats a strong ordinary-learning comparator",
+      "basis": "ExactTinyPOMDP validates only a restricted two-episode toy; IBM Q0 is greedy, FeatureTrust is action-blind, and Candidate B is approximate with mismatched evaluated/executed query accuracy. The overlay repairs the asocial local oracle but does not create a strong general-RL or optimal-planning comparator.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/frozen_local_no_teacher_defect.json",
+          "sha256": "a840a4c16f5c99eacc407580505b18305a5399de1bfc62d35b47576e88287240"
+        },
+        {
+          "path": "v7/evidence/corrected_local_no_teacher_audit.json",
+          "sha256": "4c2ebd044ca5669df12e1fa8370285683427a538ddf3ca26208651649ee80b06"
+        },
+        {
+          "path": "v7/evidence/execution_planner/registration.json",
+          "sha256": "52f82cafd99a3d9178e8fe7c9375ddc0e1b9d951bdb02aa9e6d318315a0e6511"
+        },
+        {
+          "path": "v7/evidence/execution_planner/summary.json",
+          "sha256": "4b77b5258167d52e60e0ed922610b155a2b22b5e740d969b40e6a6b992069e29"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "BUDGET-01",
+      "scientific_status": "partial",
+      "claim_guarded": "differences are policy allocation effects rather than unequal abilities or free computation",
+      "basis": "The final resource_control enforces4 tokens/person and closed energy/resource budgets with24 equal-realized-work pairs. The final execution_planner charges12 common abstract deliberation units and actual incremental fees. Global-optimal learner matching and the old pooled upper bound remain unsupported.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/resource_control/summary.json",
+          "sha256": "b528da5ac6bfbf7b7912cc30597d50f3e95fde7877bb694252e62e06098018a7"
+        },
+        {
+          "path": "v7/evidence/execution_planner/summary.json",
+          "sha256": "4b77b5258167d52e60e0ed922610b155a2b22b5e740d969b40e6a6b992069e29"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "TASK-01",
+      "scientific_status": "partial",
+      "claim_guarded": "social/cultural advantage is not manufactured by a needle-in-a-haystack task",
+      "basis": "Tiny and cognitive landscapes have partial alternatives/coverage; full ensemble and causal prerequisite robustness are incomplete.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ACCUM-01",
+      "scientific_status": "partial",
+      "claim_guarded": "cross-generation transmission produces cumulative procedural progress",
+      "basis": "The R4 eight-node DAG adds actual branching/recombination, receipt genealogies, held-out physical tests and fresh exactly equal-work pairs. Its solo-protocol energy bound excludes independent completion. Paid two-edge transfer passes23/24; private-only/no-retention/no-bootstrap controls produce no complete programs. Prerequisite scramble has identical endpoints and no separate modification-disabled control ran, so full causal-ablations criterion remains partial.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/cumulative_dag/registration.json",
+          "sha256": "77868a7f964dd3b9d3f74a73e301e9098f35b0e0600558ed8749fe4050bb086c"
+        },
+        {
+          "path": "v7/evidence/cumulative_dag/summary.json",
+          "sha256": "57726f76591d34243af7e0b6c702b671bb185c33d8812ded0ec62470a2a88bc1"
+        },
+        {
+          "path": "v7/evidence/cumulative_dag_matched/summary.json",
+          "sha256": "75ab33aad4f9e351a73f2933bf10036b2b17f31a15cf5c996584a0146addb0b5"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ACCUM-02",
+      "scientific_status": "passed",
+      "claim_guarded": "culture does not persist without carriers unless storage is enabled",
+      "basis": "The final carrier_control removes all people, restarts ten blank agents with audited external energy, disables innovation, and tests costed artifacts on/off over24 fresh pairs. Off retains no recipe; recovered on-origins trace to paid artifacts. This is an intervention, not natural growth.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/carrier_control/registration.json",
+          "sha256": "ef504808b63ca0bb220ed265b7ee6177004cdafa0566a0c9fb0ab731288f646e"
+        },
+        {
+          "path": "v7/evidence/carrier_control/summary.json",
+          "sha256": "40b64ddf2c61ef89229900640fd8a60e0344a29b6371c3fec21a31ee71d6ec55"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "PROV-01",
+      "scientific_status": "partial",
+      "claim_guarded": "correlated testimony is not double counted as independent evidence",
+      "basis": "R4 blank tutors acquire independent .8 private histories; copied testimony shares an actual physical root. Exact enumeration verifies same-root duplication invariance and independent versus explicit hidden-mixture posteriors. The broader ecological merged-root implementation and attribution remain partial.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/information_controls/summary.json",
+          "sha256": "b38c12010ff3d125df8cfa8c1ca1d01b42b3d4853058828e407af696a5f66120"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "CLASS-01",
+      "scientific_status": "partial",
+      "claim_guarded": "intermediate behavior is correctly classified as within-agent stochasticity, conditional policy, or polymorphism",
+      "basis": "Schema and grid classes are explicit; sampled-grid classification is descriptive and not a general surface recovery test.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "MATURITY-01",
+      "scientific_status": "partial",
+      "claim_guarded": "later maturity is favored by a declared tradeoff rather than hidden forced behavior",
+      "basis": "Age threshold tau=5 and adult genetic override off are tested; full life-course confound audit is incomplete.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "LEDGER-01",
+      "scientific_status": "passed",
+      "claim_guarded": "population and energy/resource accounting closes",
+      "basis": "Material/time ledgers and residual checks pass across frozen and fresh corrected exports.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/data_quality.json",
+          "sha256": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "TEACH-01",
+      "scientific_status": "partial",
+      "claim_guarded": "teaching, provisioning, and access transfers are not free or double counted",
+      "basis": "Teacher eligibility is age-neutral, but the never-updated ranking key resolves by identity and the lexical-first K offer creates a second order artifact; updated performance selection is absent.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "GROWTH-01",
+      "scientific_status": "passed",
+      "claim_guarded": "growth and extinction are not survivor conditioned",
+      "basis": "Mean N and per-agent-season net resource are exported separately with no scalar-growth relabeling.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/data_quality.json",
+          "sha256": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "INVASION-01",
+      "scientific_status": "partial",
+      "claim_guarded": "rare mutants experience the actual resident cultural environment",
+      "basis": "Fresh corrected paired neutral-tag finite descendants ran, but not rare-mutant growth or direct competition.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "INVASION-02",
+      "scientific_status": "partial",
+      "claim_guarded": "selection signal is not numerical or identity asymmetry",
+      "basis": "Fresh corrected finite directional contrasts ran; no ESS, fixation, or stable-polymorphism identification.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "NORM-01",
+      "scientific_status": "partial",
+      "claim_guarded": "factual dogmatism is distinguished from strong priors, missing evidence, and normative action persistence",
+      "basis": "The final belief_control trains blank learners on a fixed proposition, clones actual states, and gives matched-direction evidence/audience/cost controls under static/switching priors. Factual updating is likelihood-aware; no irrational dogmatism is established. Full normative/source-asymmetry probes remain absent.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/belief_control/registration.json",
+          "sha256": "856cb001b470f807239a475232f23f92cf126983b370cd944588d06bf057c611"
+        },
+        {
+          "path": "v7/evidence/belief_control/summary.json",
+          "sha256": "fbfc785a1aa4b881a37fd307491280ff4d91f98cbbf786876265eb476e27c67e"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "NORM-02",
+      "scientific_status": "partial",
+      "claim_guarded": "persistent action is normative commitment rather than cached instrumental habit",
+      "basis": "Audience/reward probes exist in a separate process; obligation and novel-context injunction were not modeled.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "RNG-01",
+      "scientific_status": "partial",
+      "claim_guarded": "policy effects are not caused by sequential random-stream desynchronization",
+      "basis": "Frozen and corrected replay identities/source snapshots pass, but common-random-number verification is narrower than full registered event identity audits.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/data_quality.json",
+          "sha256": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "HIDDEN-01",
+      "scientific_status": "partial",
+      "claim_guarded": "ordinary agents do not use evaluator-only hidden state",
+      "basis": "The frozen behavioral path fails because a phantom tutor equals hidden z. The separately registered three-method overlay passes the same adversarial no-teacher probe, while broader policy/world truth-firewall coverage remains partial.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/frozen_local_no_teacher_defect.json",
+          "sha256": "a840a4c16f5c99eacc407580505b18305a5399de1bfc62d35b47576e88287240"
+        },
+        {
+          "path": "v7/evidence/corrected_local_no_teacher_audit.json",
+          "sha256": "4c2ebd044ca5669df12e1fa8370285683427a538ddf3ca26208651649ee80b06"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "RISK-01",
+      "scientific_status": "not_run",
+      "claim_guarded": "multiplicative-risk interpretation uses the correct growth object",
+      "basis": "No low-density random-projection or branching-growth validation was run.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "COND-01",
+      "scientific_status": "partial",
+      "claim_guarded": "conditional mechanism estimates are not collider-selected",
+      "basis": "Primary denominators are preserved. execution_planner adds actual whole-world initial-arbitration purchase/no-teacher/conflict counts, including dead actors; real juvenile label controls retain opportunity denominators. Independent information-history and demographic-ITT claims remain limited.",
+      "command": "python -m unittest discover -s v7/tests -p 'test_*.py'",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/frozen_local_no_teacher_defect.json",
+          "sha256": "a840a4c16f5c99eacc407580505b18305a5399de1bfc62d35b47576e88287240"
+        },
+        {
+          "path": "v7/evidence/corrected_local_no_teacher_audit.json",
+          "sha256": "4c2ebd044ca5669df12e1fa8370285683427a538ddf3ca26208651649ee80b06"
+        },
+        {
+          "path": "v7/evidence/data_quality.json",
+          "sha256": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481"
+        },
+        {
+          "path": "v7/evidence/execution_planner/summary.json",
+          "sha256": "4b77b5258167d52e60e0ed922610b155a2b22b5e740d969b40e6a6b992069e29"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "id": "EXPORT-01",
+      "scientific_status": "passed",
+      "claim_guarded": "figures and dashboard claims reflect exact exported simulation data",
+      "basis": "Reporting tests recompute frozen and corrected hashes, row counts, corrected paired contrasts, all 25 statuses, finite-claim guards, and both frozen-defect/corrected-path probes.",
+      "command": "python v7/synthesize_results.py --verify-only",
+      "evidence": [
+        {
+          "path": "v7/tests/test_reporting.py",
+          "sha256": "06156f5c14aa54436715689a793c921544f3ed341cdde4cde834eb83e671f658"
+        },
+        {
+          "path": "v7/synthesize_results.py",
+          "sha256": "0cea312e43b176b007794065ddd09a3b4ccfe21703aca074bad6244058f382e9"
+        },
+        {
+          "path": "v7/evidence/frozen_local_no_teacher_defect.json",
+          "sha256": "a840a4c16f5c99eacc407580505b18305a5399de1bfc62d35b47576e88287240"
+        },
+        {
+          "path": "v7/evidence/corrected_local_no_teacher_audit.json",
+          "sha256": "4c2ebd044ca5669df12e1fa8370285683427a538ddf3ca26208651649ee80b06"
+        },
+        {
+          "path": "v7/evidence/data_quality.json",
+          "sha256": "6ed5250dbfa74f03ddbb34a321602d2341e23b0bf18d7ec48e7f315227d30481"
+        }
+      ],
+      "raw_artifact_hashes": {
+        "frozen_invalidated": {
+          "discovery": "eeb791fdb8df6f3053479aa90de23e6821f4e5c9f9fe07ade4ada01802064098",
+          "holdout": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+          "depth_reliability_control": "48755d193b57fc4d4818882c8f8b3522837a51ae60bfffe5ce630d06ae718e2b",
+          "evolution": "8c3a9dc1cc7efb3890d5a56a6248c58d53dce2d632ba2986823f0fdf7e9d7dc9",
+          "persistence": "90f787821b5ef91d509e066c6c7f97c413bbfabb48bd9a33086f1e18ae522c99",
+          "postfreeze_yoked": "0cdee387a81264e08a08942c9fbc1a056cd57025b178102d3aadef2ae09c2c47",
+          "cumulative_assay": "20da7626013cc43a430604847115ccd421a12cb385c58aca60dd665615def599",
+          "postfreeze_h9_observation": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4"
+        },
+        "corrected_primary": {
+          "discovery": "ae2e130c08df484d6f6605d59f489886ecc025dcdbec4c89049c7d0306381341",
+          "holdout": "5956bde27a901f99f6520d3c5d227a6da1069fa3f86d586785ae6f46b383e5e0",
+          "depth_reliability_control": "3badd2572da962f2b48cea6066bed72aed5f2490a0cf7dc15bfc0064c9e041d6",
+          "evolution": "bbaba43758311955eb5ad24fed294e201a77dd0032c6f5622e277c157c97775e",
+          "h9": "058a9ac5fe86dc3c5628039659d05fdd645a0290772879d01ae9002f0feae4a4"
+        }
+      },
+      "software_test_result": {
+        "exit_code": 0,
+        "status": "passed"
+      }
+    }
+  ]
+}

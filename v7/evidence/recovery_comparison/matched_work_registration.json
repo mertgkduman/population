@@ -1,0 +1,44 @@
+{
+  "archive_sha256": "f28c66ba2a6ae1ec75576e3dbc95e05c3c0874bf110cbb5e43b1e2072a4a0c92",
+  "claim_limit": "Paired shared-work intervention, not competition.",
+  "gates": [
+    "equal offered and realized work",
+    "per-person caps",
+    "no pooled knowledge/outcomes",
+    "retain one/both extinction and cap status"
+  ],
+  "mechanism": "Each season W=min(feasible TI person-work, feasible independent person-work); each independent population allocates W only among its own live persons with cap 4. No shared K, outcomes, resources, or people.",
+  "pairs": 24,
+  "registered_at": "2026-11-03T03:45:55.433598+00:00",
+  "seeds": [
+    82201,
+    82202,
+    82203,
+    82204,
+    82205,
+    82206,
+    82207,
+    82208,
+    82209,
+    82210,
+    82211,
+    82212,
+    82213,
+    82214,
+    82215,
+    82216,
+    82217,
+    82218,
+    82219,
+    82220,
+    82221,
+    82222,
+    82223,
+    82224
+  ],
+  "source_sha256": {
+    "experiments/recovery_culture_matched.py": "640cffcb85e21cd4db4b66a0418e16753e95298a792d0dd94525a9480c8a74f9",
+    "experiments/run_recovery_culture_matched.py": "a17b6d342ca35536c3f5f8433891ec233764d5d082f5e11d1be82899a01eb53a"
+  },
+  "status": "registered_before_outcomes"
+}

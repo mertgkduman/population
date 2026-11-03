@@ -19,3 +19,7 @@ v5_research_complete.zip
 # V6 restored standalone dashboards (exact bytes in version-local chunks).
 /v6/index.html
 /v6/research_dashboard.html
+
+# Ephemeral local experiment process handles; immutable exports/manifests are tracked.
+v7/experiments/output/*.log
+v7/experiments/output/*.pid

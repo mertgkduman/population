@@ -24,6 +24,12 @@ Investigate inherited juvenile deference and maturation using endogenous cultura
 - V6: juvenile private encoding more plastic than adult encoding, inherited ledgers retained at maturation, common stochastic environmental paths, and explicit equal-plasticity control.
 - V6 publication order: V5, Further work, V6. The user subsequently authorized pushing and adding noisier situational advice; preserve the baseline as a distinct V6 comparison.
 - In the V6 advice extension, adult current-situation signals are less accurate than juvenile signals, inherited judgment ability remains fixed, and an interior optimum must not be forced.
+- V7: treat `d=0` as ordinary social learning and keep the asocial access-off comparator distinct.
+- V7: preserve the frozen core and archived replay; reporting may recompute raw aggregates but must not alter model or configuration bytes.
+- V7: use fixed age threshold `tau=5`, with genetic override disabled for adults at age 5 and above; do not describe this as an optimized maturation mean.
+- V7: preserve negative, null, partial, and not-modeled outcomes; finite descendants must not be promoted to invasion, fixation, ESS, or stable polymorphism.
+- V7: summarize rates across independent seeds; Wilson/binomial precision is unresolved unless event numerator and denominator counts are exported.
+- V7 post-execution correction: preserve the frozen hidden-local-oracle source/raw trail as invalidated; use a separately registered three-method overlay and fresh seeds for corrected ecology/lineage inference.
 
 ### versioned-research-publication
 Prepare V1–V5 as a static GitHub Pages research archive with Further work proposals.
@@ -54,3 +60,10 @@ Prepare V1–V5 as a static GitHub Pages research archive with Further work prop
 | 012 | versioned-research-publication | versioned-pages | integration | Given preserved research versions, when published statically, then models, interactive results and raw-data packages work within GitHub limits | VALIDATED | publication, github-pages, data |
 | 013 | developmental-cultural-evolution | developmental-plasticity | comparison | Given lower adult encoding and stochastic truth, when matched traits and histories vary, then cultural, demographic and invasion outcomes are verified | VALIDATED | v6, plasticity, stochastic-environment |
 | 014 | developmental-cultural-evolution | situational-advice | comparison | Given less informed adult local cues, when deference and maturation vary, then analytic limits and contextual optima are verified | VALIDATED | v6, local-information, optimum |
+| 015 | developmental-cultural-evolution | behavioral-kernel | standard | Given separated inherited override and acquired B/K/T/H, when frozen kernel and tiny exact checks run, then the implemented construct and its limits are explicit | PARTIAL | v7, kernel, exact, provenance |
+| 016 | developmental-cultural-evolution | procedures-cost | comparison | Given paid procedural learning and equal aggregate-work controls, when corrected fresh-seed assays run, then feasibility and comparator limits are measured | PARTIAL | v7, procedure, cost, cumulative |
+| 017 | developmental-cultural-evolution | local-context | comparison | Given separate procedure/local override coordinates, when exploratory and fresh corrected regimes are paired, then contextual effects and sampled ties are reported without forcing an optimum | PARTIAL | v7, context, holdout, uncertainty |
+| 018 | developmental-cultural-evolution | learned-persistence | comparison | Given separate B/K/T/H exports, when post-freeze probes run, then action persistence is distinguished from factual belief and unsupported norm claims | PARTIAL | v7, persistence, habit, belief |
+| 019 | developmental-cultural-evolution | finite-selection | comparison | Given paired mutant and neutral-tag births, when complete fixed batches run for 80 seasons, then finite descendant differences retain unconditional denominators | PARTIAL | v7, lineage, selection, censoring |
+
+V7 post-verification evidence: the final registered execution-priced learner, closed-resource knowledge controls, total-carrier-loss artifact assay, and coherent acquired-belief assay are indexed by `v7/experiments/output/corrected_primary_registry.json`. Earlier recovery drafts remain classified as limited or invalidated. These controls supplement spikes015–019 without changing their overall PARTIAL scientific verdict or any V1–V6 artifact. See `019-finite-selection/POST_VERIFICATION.md`.

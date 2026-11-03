@@ -1,0 +1,33 @@
+{
+  "adult_seeds": [
+    84101
+  ],
+  "adult_training": "40 paid stochastic episodes from B=.5,K=empty,H=0,T=.5 before cloning arms",
+  "arms": [
+    "baseline",
+    "audience_removal",
+    "free_audit",
+    "reliable_evidence"
+  ],
+  "directions": [
+    "supporting",
+    "contrary"
+  ],
+  "fixed_cap": 24,
+  "mode": "pilot",
+  "provenance_limit": "PROV-01 remains partial: IDs/metadata alone do not establish independent testimony histories.",
+  "regimes": [
+    1,
+    5,
+    9
+  ],
+  "role_label": "randomized visible typed message used by live policy; paired label swap is a matched counterfactual",
+  "seeds": [
+    83201
+  ],
+  "source_freeze_sha256": "af0d32db0982657f7f3bc173324c3b40ac5511116f7d5411a5dbae4b27c226b1",
+  "stage": "r3-registration",
+  "status": "registered_before_outcomes",
+  "steps": 20,
+  "workers": 2
+}

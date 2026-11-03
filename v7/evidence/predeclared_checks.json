@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "artifact_type": "preimplementation_adversarial_checks",
+  "created_at": "2026-11-02T00:00:00-04:00",
+  "implementation_status": "not_started_at_review_time",
+  "interpretation": "Only source-hash and analytic formula checks in this file were executed. Every V7 simulation check is predeclared and not run; none is evidence that a future implementation passes.",
+  "source_provenance": {
+    "prompt_audited_commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+    "local_head_at_review": "28e095246e874a4134f0618c4e12d98467031f5d",
+    "pinned_git_object_available_locally": false,
+    "parity_method": "SHA-256 of local file versus raw.githubusercontent.com file at pinned commit",
+    "status": "executed_pass",
+    "files": [
+      {
+        "path": "v6/experiments/model.py",
+        "sha256": "b9a86f9e45100a0fd0013304ba6b9191be18b6bca3724377ab960fbf94df720c",
+        "match": true
+      },
+      {
+        "path": "v6/experiments/invasion.py",
+        "sha256": "a56bae02030cbe27474fb768e4ed8bf787a69b81954ce75a101a3c1091fcf39a",
+        "match": true
+      },
+      {
+        "path": "v6/situational_advice/experiments/model.py",
+        "sha256": "dbff1f2a99dc2be22a4192e75f8c0e9d6bcdd466c70db5bcd4fe71651db7d940",
+        "match": true
+      },
+      {
+        "path": "v6/situational_advice/experiments/invasion.py",
+        "sha256": "a56bae02030cbe27474fb768e4ed8bf787a69b81954ce75a101a3c1091fcf39a",
+        "match": true
+      },
+      {
+        "path": "v6/results.md",
+        "sha256": "cf7e5324c15c9941238cc7d4d65f93f05ccaa590dffbe1f8567522dccc3842c9",
+        "match": true
+      },
+      {
+        "path": "v6/situational_advice/results.md",
+        "sha256": "0b8d1c1e59badf9b416fc331a750a537c0d24741b95bfa985b075e5e480ed721",
+        "match": true
+      },
+      {
+        "path": "v5/experiments/repertoire.py",
+        "sha256": "d7b03988b7316fc86d3fc071eb7fae33d42a972fb51ce7dbd93c17552cbf5997",
+        "match": true
+      },
+      {
+        "path": "v5/repertoire_model.md",
+        "sha256": "dd2488850a3a31d3e12d8639210b47e1ec4872b1be229ec90f6c93c1edf76c6f",
+        "match": true
+      }
+    ]
+  },
+  "independent_formula_checks": {
+    "occupancy": {
+      "status": "executed_pass_for_stated_poisson_model_only",
+      "method": "independent closed-form derivation, bounded scalar optimization, and direct Monte Carlo Poisson splitting",
+      "arrival_process": "Poisson encounters of rate nu*d, uniformly split among M items",
+      "parameters": {
+        "M": 7,
+        "nu": 1.3,
+        "T": 4.2,
+        "v": 2.0,
+        "cL": 7.0,
+        "seed": 20261102,
+        "replicates": 1000000
+      },
+      "interior_condition": {
+        "lower": 5.005793643453041,
+        "observed_cL": 7.0,
+        "upper": 10.920000000000002,
+        "holds": true
+      },
+      "closed_form_d_star": 0.5701100272582639,
+      "numeric_d_star": 0.5701100237908908,
+      "absolute_d_star_error": 3.4673730553436144e-09,
+      "W_at_d_star": 1.0348708348331792,
+      "monte_carlo": [
+        {
+          "d": 0.0,
+          "exact_expected_distinct": 0.0,
+          "measured_mean_distinct": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "d": 0.23,
+          "exact_expected_distinct": 1.1495993325821825,
+          "measured_mean_distinct": 1.149684,
+          "absolute_error": 0.00008466741781743004
+        },
+        {
+          "d": 0.67,
+          "exact_expected_distinct": 2.849162384008455,
+          "measured_mean_distinct": 2.849178,
+          "absolute_error": 0.000015615991545203656
+        },
+        {
+          "d": 1.0,
+          "exact_expected_distinct": 3.7911579208634354,
+          "measured_mean_distinct": 3.792956,
+          "absolute_error": 0.001798079136564823
+        }
+      ],
+      "arrival_process_counterexample": {
+        "M": 7,
+        "fixed_encounter_count_N": 5,
+        "fixed_count_expected_distinct": 3.761349437734276,
+        "poisson_count_with_mean_N_expected_distinct": 3.5732083831013286,
+        "implication": "The exponential occupancy expression is not the fixed-count occupancy expression; implementation must declare and test its arrival process."
+      },
+      "claim_limit": "This verifies a reduced scalar diagnostic, not the V7 vector-policy simulation or an empirical interior optimum."
+    },
+    "multiplicative_risk": {
+      "status": "executed_pass_for_stated_scalar_shared-risk_model_only",
+      "method": "independent derivative calculation and bounded scalar optimization",
+      "closed_form_d_star": 0.4166666666666667,
+      "numeric_d_star": 0.41666667067379765,
+      "absolute_d_star_error": 4.007130960381744e-09,
+      "arithmetic_multiplier_d0": 1.0,
+      "arithmetic_multiplier_d1": 1.05,
+      "G_d0": 0.0,
+      "G_d1": -0.010101353658759776,
+      "G_d_star": 0.010309643601367866,
+      "second_derivative_d_star": -0.11755102040816326,
+      "claim_limit": "This does not validate a growth measure for overlapping ages, density dependence, idiosyncratic within-population risk, or extinction."
+    }
+  },
+  "checks": [
+    {
+      "id": "AUTH-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "extra authority override has an effect beyond ordinary social learning",
+      "design": "Freeze initial state, private evidence, message content, demonstrations, estimated source reliability, event budget, and random event identities. Compute the neutral social-learning posterior/action first; apply d only to logged recommendation conflicts.",
+      "acceptance_criterion": "Before override, all d genotypes have bitwise-identical beliefs, material action values, source estimates, acquired procedure memory, and remaining budgets. Changing d changes only conflict decisions and their downstream mediated consequences.",
+      "required_outputs": [
+        "decision-level pre-override state",
+        "conflict indicator",
+        "override draw and decision",
+        "postdecision mediated outcomes"
+      ],
+      "failure_disposition": "block authority-specific causal claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "AUTH-02",
+      "severity": "BLOCKER",
+      "claim_guarded": "authority label rather than information content causes the response",
+      "design": "Randomize an explicitly uninformative authority/age label after generating an identical message and evidence history; include label-neutral and authority-sensitive policies.",
+      "acceptance_criterion": "Label-neutral policy has zero paired label effect within numerical tolerance and source-label permutations are exchangeable. Any authority-sensitive effect is reported as an intention-to-treat label contrast, not only among endogenous conflicts.",
+      "required_outputs": [
+        "randomized label assignment",
+        "paired action and belief outcomes",
+        "unconditional and conflict-induced contrasts"
+      ],
+      "failure_disposition": "block authority-label interpretation",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "AUTH-03",
+      "severity": "BLOCKER",
+      "claim_guarded": "acquisition, memory acceptance, and behavioral override are distinct mechanisms",
+      "design": "Run a joint-exposure 2x2 accept-to-memory by conflict-override factorial while holding message exposure fixed.",
+      "acceptance_criterion": "The four cells differ only in the declared switch. Belief, procedure memory, public action, and later behavior are separately exported.",
+      "required_outputs": [
+        "factor assignment",
+        "belief state",
+        "procedure state",
+        "action",
+        "later reuse"
+      ],
+      "failure_disposition": "block construct-specific claims and report bundled copying only",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "INHERIT-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "genotype transmits policy but not factual or procedural content",
+      "design": "At birth inspect state before any exposure; permute parental knowledge within genotype; cross-foster newborns; relabel task nodes and solution branches in held-out worlds.",
+      "acceptance_criterion": "Newborn K, factual B, provenance, habit/norm state, and task-specific values are blank. Content follows post-birth teachers, not biological parent. Task relabeling destroys any task-specific solution advantage unless an informative prior is explicitly declared.",
+      "required_outputs": [
+        "pre-exposure newborn state",
+        "biological parent ID",
+        "cultural teacher IDs",
+        "cross-foster assignments",
+        "task relabel map"
+      ],
+      "failure_disposition": "block inheritance and adaptation claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "FOUNDER-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "founder competence is acquired rather than silently seeded or survivor-selected",
+      "design": "Run blank, sparse-private, ordinary learned, alternative/wrong-culture, and failed-burn-in initializations with equal logged budgets.",
+      "acceptance_criterion": "No founder begins with evaluator truth or a correct procedure. Every competent component traces to a logged acquisition/innovation event. Failed cultures remain in unconditional summaries.",
+      "required_outputs": [
+        "founder prelearning state",
+        "burn-in event ledger",
+        "all attempted founder cultures including failures"
+      ],
+      "failure_disposition": "block cultural accumulation and demographic benefit claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "COMP-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "focal policy beats a strong ordinary-learning comparator",
+      "design": "Compare with an exact tiny-world Bayes-adaptive planner and a provenance-aware resource-rational learned-trust approximation, using identical observations, utility, event budget, and separately tuned/frozen hyperparameters.",
+      "acceptance_criterion": "Exact policy weakly upper-bounds every restricted focal policy under identical information and utility. Approximate comparator receives equal training and charged computation. All operation/time costs are reported.",
+      "required_outputs": [
+        "policy class definitions",
+        "training and holdout world IDs",
+        "operation counts",
+        "exact and approximate values"
+      ],
+      "failure_disposition": "block specialized-adaptation claim; classify any excess over exact policy as mismatch or bug",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "BUDGET-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "differences are policy allocation effects rather than unequal abilities or free computation",
+      "design": "Yoke sensor likelihoods, memory capacity, innovation success conditional on an experiment, action opportunities, and computation/event endowment across genotypes. Charge optional extra operations.",
+      "acceptance_criterion": "On a forced common action/event history, all genotypes produce identical observations and competence transitions and finish with identical resource balances.",
+      "required_outputs": [
+        "per-agent opportunity ledger",
+        "operation counts",
+        "forced-history state digest"
+      ],
+      "failure_disposition": "block causal policy comparison",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "TASK-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "social/cultural advantage is not manufactured by a needle-in-a-haystack task",
+      "design": "Enumerate tiny solution landscapes and sample larger graph ensembles. Measure viable solution count, useful prefix rewards, safe alternative yield, private-discovery probability, and minimal pruned successful depth.",
+      "acceptance_criterion": "Primary worlds have at least two viable solution families, nonzero partial rewards, a safe low-yield option, and nonzero independent success under matched total work. Results survive label permutation, prerequisite shuffling, and no-op pruning.",
+      "required_outputs": [
+        "task graph",
+        "solution enumeration or coverage audit",
+        "private solver success distribution",
+        "pruned depth"
+      ],
+      "failure_disposition": "block adaptation/generalization claim for that task world",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "ACCUM-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "cross-generation transmission produces cumulative procedural progress",
+      "design": "Track immutable procedure genealogy, modifications, and held-out task performance. Compare actual transmission+innovation with no transmission at matched per-person and total work, transmission without modification, innovation without retention, and shuffled prerequisites.",
+      "acceptance_criterion": "Improved held-out functional performance traces across at least two transmission edges and depends on both retention and modification. Counts, confidence, and nominal recipe length alone never satisfy the check.",
+      "required_outputs": [
+        "procedure DAG",
+        "parent and innovation IDs",
+        "held-out functional scores",
+        "all causal ablations"
+      ],
+      "failure_disposition": "block cumulative-culture claim; report storage, diffusion, or within-generation innovation instead",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "ACCUM-02",
+      "severity": "BLOCKER",
+      "claim_guarded": "culture does not persist without carriers unless storage is enabled",
+      "design": "Remove all living carriers at a checkpoint and restart with naive agents, with artifact storage disabled and enabled in separate costed conditions.",
+      "acceptance_criterion": "With storage disabled, no procedure/provenance state survives total carrier loss. With storage enabled, every recovered item traces to a stored artifact and its storage/reading costs.",
+      "required_outputs": [
+        "carrier-loss checkpoint",
+        "postloss initial state",
+        "artifact ledger"
+      ],
+      "failure_disposition": "block cultural-retention claim",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "PROV-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "correlated testimony is not double counted as independent evidence",
+      "design": "Duplicate an identical message along the same disclosed root lineage; separately vary the number of unique physical root trials while holding message count/content fixed.",
+      "acceptance_criterion": "A provenance-aware learner's physical-evidence posterior is invariant to same-root duplication except for separately modeled transmission-fidelity evidence. Merged provenance uses unique-root set union, not path counts.",
+      "required_outputs": [
+        "message provenance DAG",
+        "unique root IDs",
+        "posterior before and after duplication"
+      ],
+      "failure_disposition": "block evidential and authority-effect claims involving repeated testimony",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "CLASS-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "intermediate behavior is correctly classified as within-agent stochasticity, conditional policy, or polymorphism",
+      "design": "Validate the reporting classifier on synthetic fixtures for all three generators, then export individual policy parameters and repeated identical-state responses.",
+      "acceptance_criterion": "Synthetic fixtures are classified correctly. Simulation reports within-agent repeated-state acceptance, conditional response surface, and between-agent trait distribution; no population mean substitutes for these.",
+      "required_outputs": [
+        "synthetic fixture results",
+        "individual traits",
+        "repeated-state decisions",
+        "conditional surface"
+      ],
+      "failure_disposition": "block interior-policy interpretation",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "MATURITY-01",
+      "severity": "IMPORTANT",
+      "claim_guarded": "later maturity is favored by a declared tradeoff rather than hidden forced behavior",
+      "design": "Pair an earlier-eligible agent with a later-eligible agent and force the earlier agent to use the later agent's reproduction schedule under identical events.",
+      "acceptance_criterion": "Without an explicit developmental/reproductive investment tradeoff, state and resource paths are identical. Any divergence is explained by a declared mechanism.",
+      "required_outputs": [
+        "paired trajectories",
+        "eligibility state",
+        "reproduction decisions",
+        "investment ledger"
+      ],
+      "failure_disposition": "do not interpret a later-maturity optimum",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "LEDGER-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "population and energy/resource accounting closes",
+      "design": "Assign a unique ID to every production, maintenance, experiment, teaching, transfer, reproduction, birth, and death event; independently sum ledgers by agent and population.",
+      "acceptance_criterion": "N(t+1)-N(t)=births-deaths exactly. Agent and population energy changes equal declared sources minus sinks; internal transfers net to zero apart from declared efficiency loss. No event is charged twice or omitted.",
+      "required_outputs": [
+        "event-level resource ledger",
+        "census ledger",
+        "closure residuals"
+      ],
+      "failure_disposition": "block all demographic and fitness claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "TEACH-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "teaching, provisioning, and access transfers are not free or double counted",
+      "design": "For every transfer or teaching event, link donor debit, recipient credit, conversion loss, time cost, and content exposure by one event ID.",
+      "acceptance_criterion": "Removing the event removes both sides. Food/protection/access effects are not also inserted as direct fecundity or obedience bonuses. Teacher opportunity cost is explicit.",
+      "required_outputs": [
+        "linked donor-recipient event records",
+        "counterfactual event-removal test"
+      ],
+      "failure_disposition": "block docility and demographic-benefit claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "GROWTH-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "growth and extinction are not survivor conditioned",
+      "design": "Retain every replicate, including extinct populations and lineages. Report extinction probability and a prespecified unconditional finite-window/branching growth estimand; label any conditional-positive-lineage statistic separately.",
+      "acceptance_criterion": "No primary mean drops extinct runs or replaces zero abundance silently. Regulated abundance, low-density growth, rare-lineage growth, and extinction are distinct metrics with explicit denominators.",
+      "required_outputs": [
+        "all replicate endpoints",
+        "extinction indicators",
+        "metric definitions and denominators"
+      ],
+      "failure_disposition": "block fitness and invasion claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "INVASION-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "rare mutants experience the actual resident cultural environment",
+      "design": "Introduce default mutants as newborns into resident populations. Log every teacher candidate and selected teacher; compare oblique and explicitly vertical transmission.",
+      "acceptance_criterion": "As mutant frequency tends to zero, oblique teacher-source genotype frequencies converge to the reachable resident pool and do not become an all-mutant pool. Vertical assays preserve mutant parent-offspring linkage. Warm-started adults are separate.",
+      "required_outputs": [
+        "mutant birth records",
+        "teacher pool and selected teacher genotypes",
+        "transmission rule",
+        "frequency-limit diagnostic"
+      ],
+      "failure_disposition": "block invasion-resistance and ESS claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "INVASION-02",
+      "severity": "BLOCKER",
+      "claim_guarded": "selection signal is not numerical or identity asymmetry",
+      "design": "Run resident against itself, label exchange, genotype exchange, and neutral-trait competitions under paired event streams.",
+      "acceptance_criterion": "Self-mutant expected growth is zero within prespecified Monte Carlo precision; exchanging labels/genotypes changes only sign or leaves neutral outcomes invariant as appropriate.",
+      "required_outputs": [
+        "neutral controls",
+        "paired exchange contrasts",
+        "precision interval"
+      ],
+      "failure_disposition": "block selection claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "NORM-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "factual dogmatism is distinguished from strong priors, missing evidence, and normative action persistence",
+      "design": "Apply bidirectional matched-likelihood evidence sequences after matching prior confidence/resources; remove audience, sanctions, rewards, and material access separately; run free audit.",
+      "acceptance_criterion": "Dogmatism is declared only for a deficient or source-asymmetric factual revision slope versus a likelihood-aware benchmark. Action persistence with adequate factual revision is not called dogmatism.",
+      "required_outputs": [
+        "prior and posterior beliefs",
+        "likelihood sequence",
+        "actions",
+        "audience/sanction/access states",
+        "revision slopes"
+      ],
+      "failure_disposition": "block dogmatism claim",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "NORM-02",
+      "severity": "IMPORTANT",
+      "claim_guarded": "persistent action is normative commitment rather than cached instrumental habit",
+      "design": "After audience removal and evidence equalization, add outcome devaluation, contingency degradation, obligation generalization to novel contexts, and explicit countermand probes.",
+      "acceptance_criterion": "Normative state, habit value, belief, and current material value are separately represented and exported. If the probes cannot distinguish them, use the label learned action persistence only.",
+      "required_outputs": [
+        "habit and norm state",
+        "devaluation and degradation responses",
+        "novel-context generalization",
+        "countermand response"
+      ],
+      "failure_disposition": "downgrade normative-internalization language",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "RNG-01",
+      "severity": "IMPORTANT",
+      "claim_guarded": "policy effects are not caused by sequential random-stream desynchronization",
+      "design": "Key exogenous randomness by replicate, world, time, entity, and event type; separate environmental, demographic, innovation, and observation namespaces.",
+      "acceptance_criterion": "Adding an unused policy-specific draw or changing the number of decisions leaves all later exogenous events for shared identities unchanged.",
+      "required_outputs": [
+        "random-key schema",
+        "unused-draw invariance test",
+        "event-stream digests"
+      ],
+      "failure_disposition": "block paired causal comparisons",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "HIDDEN-01",
+      "severity": "BLOCKER",
+      "claim_guarded": "ordinary agents do not use evaluator-only hidden state",
+      "design": "Audit typed policy inputs and permute hidden-state labels while holding observations fixed. Keep oracle capabilities in a separate declared interface.",
+      "acceptance_criterion": "Ordinary-policy outputs are invariant to hidden-state relabeling conditional on identical observations. No true graph, correctness, source reliability, future change time, or evaluator label enters the policy input.",
+      "required_outputs": [
+        "policy input schema",
+        "runtime access log",
+        "hidden-label permutation test"
+      ],
+      "failure_disposition": "block all learning and adaptation claims",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "RISK-01",
+      "severity": "IMPORTANT",
+      "claim_guarded": "multiplicative-risk interpretation uses the correct growth object",
+      "design": "Derive or numerically validate the low-density random projection/branching growth measure for the actual age-structured process and separate shared environmental from idiosyncratic risk.",
+      "acceptance_criterion": "Tiny limiting cases reproduce exact scalar and matrix results; arithmetic abundance, mean instantaneous eigenvalues, and survivor-conditioned logs are not substituted for the prespecified growth measure.",
+      "required_outputs": [
+        "growth derivation",
+        "tiny-case oracle comparisons",
+        "risk namespace declaration"
+      ],
+      "failure_disposition": "do not interpret an interior as a multiplicative-risk result",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "COND-01",
+      "severity": "IMPORTANT",
+      "claim_guarded": "conditional mechanism estimates are not collider-selected",
+      "design": "Report unconditional intention-to-treat contrasts and induce conflicts from common frozen pre-override states. Track policy effects on teacher availability, survival, audit eligibility, and disagreement.",
+      "acceptance_criterion": "Every conditional contrast names its denominator and selection rule; primary causal claims do not rely solely on naturally observed policy-affected subsets.",
+      "required_outputs": [
+        "unconditional contrast",
+        "conditional denominator",
+        "selection-flow counts"
+      ],
+      "failure_disposition": "downgrade conditional causal interpretation",
+      "status": "not_run_preimplementation"
+    },
+    {
+      "id": "EXPORT-01",
+      "severity": "IMPORTANT",
+      "claim_guarded": "figures and dashboard claims reflect exact exported simulation data",
+      "design": "Recompute every displayed aggregate from immutable raw/summary exports and compare hashes, values, denominators, and configuration metadata.",
+      "acceptance_criterion": "All displayed values match recomputation within declared serialization tolerance; interpolated cells are labeled and never enter inference as observations.",
+      "required_outputs": [
+        "export hashes",
+        "figure-data parity report",
+        "configuration and seed metadata"
+      ],
+      "failure_disposition": "block result dissemination",
+      "status": "not_run_preimplementation"
+    }
+  ],
+  "additional_hypotheses": [
+    {
+      "id": "H7",
+      "name": "metareasoning equivalence",
+      "hypothesis": "An apparent inherited-authority advantage disappears when a provenance-aware learned-trust learner receives matched calibration experience and computation.",
+      "rival": "Inherited deference is a lower-cost informative prior that remains advantageous in short lives.",
+      "discriminating_test": "Cross lifetime length, calibration cost, and free audit on held-out relabeled graphs; decompose any advantage into prior information, search allocation, and execution override."
+    },
+    {
+      "id": "H8",
+      "name": "provenance saturation",
+      "hypothesis": "Benefits attributed to authoritative repetition shrink when unique evidential roots are tracked.",
+      "rival": "Repeated messages carry independent evidence about transmission fidelity or consensus despite shared roots.",
+      "discriminating_test": "Hold message count/content fixed while varying unique root trials and disclosed lineage; cross provenance-aware and blind learners."
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "CX-01",
+      "statement": "A conditional corner policy d_procedure=1,d_local=0 can dominate every scalar d even when the scalar restriction has an interior optimum.",
+      "implication": "A scalar interior can be omitted-variable compromise, not an interior individual disposition."
+    },
+    {
+      "id": "CX-02",
+      "statement": "Cached instrumental habit can persist after audience removal while factual beliefs revise normally.",
+      "implication": "Persistence under the three proposed adult interventions is insufficient by itself to identify normative internalization."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "hidden_mixture_posterior": 0.936692780012704,
+  "hidden_mixture_weight": 0.5,
+  "histories": [
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        0,
+        0
+      ],
+      "likelihood": 0.5120000000000001,
+      "posterior_truth_one": 0.015384615384615377,
+      "truth": 0
+    },
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        0,
+        1
+      ],
+      "likelihood": 0.128,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 0
+    },
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        1,
+        0
+      ],
+      "likelihood": 0.12799999999999997,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 0
+    },
+    {
+      "conviction": 1,
+      "history": [
+        0,
+        1,
+        1
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.8,
+      "truth": 0
+    },
+    {
+      "conviction": 0,
+      "history": [
+        1,
+        0,
+        0
+      ],
+      "likelihood": 0.12799999999999997,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 0
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        0,
+        1
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.8,
+      "truth": 0
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        1,
+        0
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.8,
+      "truth": 0
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        1,
+        1
+      ],
+      "likelihood": 0.007999999999999995,
+      "posterior_truth_one": 0.9846153846153847,
+      "truth": 0
+    },
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        0,
+        0
+      ],
+      "likelihood": 0.007999999999999995,
+      "posterior_truth_one": 0.015384615384615377,
+      "truth": 1
+    },
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        0,
+        1
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 1
+    },
+    {
+      "conviction": 0,
+      "history": [
+        0,
+        1,
+        0
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 1
+    },
+    {
+      "conviction": 1,
+      "history": [
+        0,
+        1,
+        1
+      ],
+      "likelihood": 0.12799999999999997,
+      "posterior_truth_one": 0.8,
+      "truth": 1
+    },
+    {
+      "conviction": 0,
+      "history": [
+        1,
+        0,
+        0
+      ],
+      "likelihood": 0.03199999999999999,
+      "posterior_truth_one": 0.19999999999999996,
+      "truth": 1
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        0,
+        1
+      ],
+      "likelihood": 0.12799999999999997,
+      "posterior_truth_one": 0.8,
+      "truth": 1
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        1,
+        0
+      ],
+      "likelihood": 0.128,
+      "posterior_truth_one": 0.8,
+      "truth": 1
+    },
+    {
+      "conviction": 1,
+      "history": [
+        1,
+        1,
+        1
+      ],
+      "likelihood": 0.5120000000000001,
+      "posterior_truth_one": 0.9846153846153847,
+      "truth": 1
+    }
+  ],
+  "q_tutor_enumerated": 0.8960000000000001,
+  "q_tutor_formula": 0.8960000000000001,
+  "visible_copy_duplicate_invariant": true,
+  "visible_copy_posterior": 0.8960000000000001,
+  "visible_independent_posterior": 0.9867065208841345
+}

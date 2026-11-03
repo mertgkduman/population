@@ -1,0 +1,37 @@
+{
+  "archive_match": {
+    "experiments/analyze_results.py": true,
+    "experiments/config.json": true,
+    "experiments/exact.py": true,
+    "experiments/model.py": true,
+    "experiments/run_experiments.py": true,
+    "experiments/verify.py": true,
+    "parameter_schema.json": true
+  },
+  "archive_replay_digest": "94467195bc1f6dcb9f20983f91ec3e86bad9c02845790979f802fa9d6ac1a070",
+  "checks": {
+    "archived_sentinel_replay": true,
+    "archived_sources": true,
+    "confirmation_manifest_complete": true,
+    "fresh_seed_partition": true,
+    "frozen_sources": true,
+    "raw_hash_bound": true,
+    "raw_row_count": true,
+    "terminal_statuses_complete": true,
+    "unseen_graph": true
+  },
+  "claim_limit": "Checks registration, hashes, raw completeness, and terminal retention only; it does not establish a substantive behavioral claim.",
+  "holdout_sha256": "d46e4ebb6e9dc377e83c04f438452d723dac9eaa198828fb0723d9946bdf87bb",
+  "row_count": 1368,
+  "source_match": {
+    "experiments/analyze_results.py": true,
+    "experiments/config.json": true,
+    "experiments/exact.py": true,
+    "experiments/model.py": true,
+    "experiments/run_experiments.py": true,
+    "experiments/verify.py": true,
+    "parameter_schema.json": true
+  },
+  "stage": "confirmation-extension-verification",
+  "status": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "all_no_external_storage": true,
+  "claim_limit": "PARTIAL: this bounded diagnostic is actual d=0 only; memory erasure is not carrier death, and root diversity / d-by-shock mediation are unavailable from frozen-core interfaces.",
+  "output_sha256": "325c2ecb42e68e1a334759d24bd510e9ad693c4ad2736306deacff09a092cbb4",
+  "rows": 216,
+  "stage": "postfreeze-h9-observation",
+  "status": "complete_partial"
+}

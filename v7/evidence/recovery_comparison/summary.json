@@ -1,0 +1,94 @@
+{
+  "limits": "Outcome summaries are descriptive finite-horizon results; no optimal-RL, selection, or asymptotic claim.",
+  "pilot_rows": {
+    "r1a": 30,
+    "r1b": 12
+  },
+  "r1a": {
+    "feature_trust": {
+      "mean_energy": -0.11620062684305382,
+      "mean_population": 55.99438657407407,
+      "n": 72,
+      "query_events": 0,
+      "verify_events": 0
+    },
+    "matched_action_conditional": {
+      "mean_energy": -0.11058913604514922,
+      "mean_population": 58.3984375,
+      "n": 72,
+      "query_events": 0,
+      "verify_events": 1971
+    },
+    "ordinary_social": {
+      "mean_energy": -0.10206393665016748,
+      "mean_population": 62.683506944444446,
+      "n": 72,
+      "query_events": 0,
+      "verify_events": 0
+    },
+    "vector_0_5_0": {
+      "mean_energy": -0.10141879843686695,
+      "mean_population": 62.97667824074074,
+      "n": 72,
+      "query_events": 0,
+      "verify_events": 0
+    },
+    "vector_1_0": {
+      "mean_energy": -0.10070677010434016,
+      "mean_population": 62.75648148148148,
+      "n": 72,
+      "query_events": 0,
+      "verify_events": 0
+    }
+  },
+  "r1a_rows": 360,
+  "r1b": {
+    "carrier_loss_storage_off": {
+      "mean_functional_people": 2.0416666666666665,
+      "mean_population": 2.9166666666666665,
+      "mean_work": 47.916666666666664,
+      "n": 24
+    },
+    "carrier_loss_storage_on": {
+      "mean_functional_people": 2.2916666666666665,
+      "mean_population": 2.6666666666666665,
+      "mean_work": 75.7625,
+      "n": 24
+    },
+    "equal_work_independent": {
+      "mean_functional_people": 24.75,
+      "mean_population": 35.25,
+      "mean_work": 102.875,
+      "n": 24
+    },
+    "no_transmission": {
+      "mean_functional_people": 24.75,
+      "mean_population": 35.25,
+      "mean_work": 102.875,
+      "n": 24
+    },
+    "prerequisite_shuffle": {
+      "mean_functional_people": 33.041666666666664,
+      "mean_population": 37.625,
+      "mean_work": 116.45833333333333,
+      "n": 24
+    },
+    "transmission_innovation": {
+      "mean_functional_people": 33.25,
+      "mean_population": 37.5,
+      "mean_work": 116.45833333333333,
+      "n": 24
+    }
+  },
+  "r1b_rows": 144,
+  "raw_sha256": {
+    "r1a_confirmation.csv.gz": "9f59937d6254d9b7d58e28a99b5e12e64eafaa7ea9b851f52852b2326e50a276",
+    "r1a_pilot.csv.gz": "422f239ccacd6ffe28cda0e790a7eb37b32220cb50a2ddda08330b3b8e01add9",
+    "r1b_confirmation.csv.gz": "67496e965cd7bcb01fe8314b6ff5ca6440d8a64df9fe8ec06623e9003986e4f1",
+    "r1b_pilot.csv.gz": "0c8723a91ec11a139be3b357d0a8817925e80014a2ae1c78afe4bdc96c52e680",
+    "r1b_postloss_noinnovation.csv.gz": "23b268626579cda50df88c08cf7e36de2277f1ee1f2c736008e2f12f1bc0528e",
+    "r1b_v2_confirmation.csv.gz": "e297184dd214d2a1b630bd30b3a66cc9bb4ab8bfa77f0ae74599a85e9e74b6d2",
+    "r1b_v2_pilot.csv.gz": "36116b8a2084335b87117887a7ceb0e3c9a86cd1f245456ff89d9bba20e18735",
+    "r1b_v2_postloss_noinnovation.csv.gz": "8fb35888efa27285065d2af697286850d960eb5a80d3be5098e8d00aae6cb3b9"
+  }
+}

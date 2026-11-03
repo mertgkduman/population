@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "fixture_scope": "Additional eight-node causal-DAG validation; not evidence for childhood deference, authority adaptation, novelty, or a changed primary V7 effect.",
+  "fresh_seed_blocks": 24,
+  "seed_range": "82901..82924",
+  "gate_result": {
+    "resource_and_living_energy_conservation": true,
+    "population_identity": true,
+    "nonnegative_stock_and_energy": true,
+    "person_time_at_most_four_and_exactly_allocated": true,
+    "blank_paid_newborns": true,
+    "receipt_DAG_export": true
+  },
+  "real_findings": {
+    "transmission_innovation_retention_functional_end_mean": 22.833333333333332,
+    "transmission_innovation_retention_functional_end_seed_mcse": 0.5667945294790195,
+    "private_only_functional_end_mean": 0.0,
+    "transmission_only_no_bootstrap_innovation_functional_end_mean": 0.0,
+    "no_retention_functional_end_mean": 0.0,
+    "heldout_paid_source_to_B_to_C_passes": 23,
+    "heldout_paid_source_to_B_to_C_failed_transfer": 1,
+    "failed_transfer_seed": 82909,
+    "failed_transfer_note": "Retained rather than replaced: a depleted/interrupted paid chain produced only 10 of 16 copy edges and six recorded failures."
+  },
+  "representative_full_DAGs": [
+    "v7/experiments/output/cumulative_dag/full_dag_seed82901.json.gz",
+    "v7/experiments/output/cumulative_dag/full_dag_seed82902.json.gz"
+  ],
+  "raw_sha256": {
+    "endpoints": "6b04b9b460b5a5f17f2939672a7d5772c9aaed0ed5faa3269403085dbb55da8d",
+    "seasons": "c9ffbede9264e85746bdf617c731675e843492fbf918c5cc1ed3b72e0f6e4ef5",
+    "heldout_corrected": "fefb2ea688cdea9f19ba06dda9273e37c980812b71ba2e5acc49371c4b9a4a9a",
+    "full_dag_82901": "1759ba0154972e4647f87bf45736e5720e90b8c22fb95f92a8bd857162cc6a4c",
+    "full_dag_82902": "058a632ed3a18065c0a7664d06a67ce2da48780f45d1a66f26de39d620297eb6"
+  },
+  "transparency": "The frozen initial registration, two gate-only source corrections, the first completed confirmation summary/raw heldout output, and the corrected physical-heldout source archive are retained alongside the final result. No seed, arm, horizon, cap, or population-dynamics setting changed."
+}

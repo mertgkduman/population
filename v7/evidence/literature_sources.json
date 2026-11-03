@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-02",
+  "scope": "V7 literature, novelty, and pinned-V6 audit evidence; targeted rather than exhaustive",
+  "methods": {
+    "bibliography": "DOIs and dates were checked against NCBI PubMed/PMC, publisher pages, and Crossref records. Claims were read from primary abstracts or full text.",
+    "forward_citations": "Targeted forward-citation candidates were discovered with OpenAlex and retained only after the later work was checked against a primary publisher, PubMed, or PMC record.",
+    "repository": "The clean published repository dist/github-repository was read at commit 9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6. Critical source blobs were compared with the primary working repository and published HEAD.",
+    "limitations": "No exhaustive citation-network review and no independent rerun of V6 sweeps was performed. An unlocated precedent is not evidence of absence."
+  },
+  "repository_sources": [
+    {
+      "id": "R1",
+      "path": "v6/results.md",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "e96cad2b3a92c7dbaa8c02551e3cf5b2327e71a2",
+      "verified_claims": [
+        "d=1 is the abundance-grid maximum in all 12 adult-plasticity by hazard contexts",
+        "conditional invasion uses one resident d=.5 and tau=3 and is not an ESS test",
+        "at tau=3, adult plasticity .1, kappa .2, held-out mean abundance is 2200.303 at d=0 and 2077.566 at d=1"
+      ]
+    },
+    {
+      "id": "R2",
+      "path": "v6/situational_advice/results.md",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "1559266cc001462ba4fe2cb0e0d2369534acc7bb",
+      "verified_claims": [
+        "juvenile local-cue accuracy is .90 and adult accuracies are .55, .70, and .85",
+        "no interior d maximum appears in the main grid, fixed-tau slices, 33-value held-out sweeps, or conditional invasion maxima",
+        "at adult precision .70 and tau=3 in the stable environment, full and action_only select d=0 while clean_fact and memory_only select d=1"
+      ]
+    },
+    {
+      "id": "R3",
+      "path": "v6/mathematical_model.md",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "3287ac29f1fd55f0d469fa97920f29c21251ee4e",
+      "verified_claims": [
+        "two demographic stages carry bounded private-evidence and held-conviction ledgers about one binary global truth",
+        "one d controls both public action substitution and accepted testimony",
+        "adult private encoding .1 and default query cost zero are prescribed rather than evolved"
+      ]
+    },
+    {
+      "id": "R4",
+      "path": "v6/situational_advice/mathematical_model.md",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "12845c029aded1abf8748e0bf371b6d22079fa2c",
+      "verified_claims": [
+        "local circumstances are renewed per decision and analytically averaged",
+        "accepted action advice is decoded into general knowledge using both parties local observation errors",
+        "clean_fact, action-only, and memory-only ablations separate transmission format and current substitution from storage"
+      ]
+    },
+    {
+      "id": "R5",
+      "path": "v6/situational_advice/experiments/model.py",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "13bca1f636adfeae4f7671d04d8c4eefdef42b35",
+      "verified_claims": [
+        "Config defaults include H=3, plasticity_F=1, plasticity_A=.1, context_F=.9, context_A=.7, query_cost=0, accept=True, and override=True",
+        "the implementation exposes accept and override switches but uses a common d weight",
+        "maturation transfers learned state unless the reset ablation is enabled"
+      ]
+    },
+    {
+      "id": "R6",
+      "path": "v5/repertoire_model.md",
+      "commit": "9e95c6ce2e21587f9dbe2d18dcb5ab7787b140f6",
+      "git_blob": "2f8dba15a26eef40606039f78b4c3c10df842424",
+      "verified_claims": [
+        "the companion explicitly represents 4, 16, or 64 independent binary facts",
+        "it uses fixed cohorts of 128 with no births, deaths, density dependence, invasion, or selection",
+        "it lacks prerequisites, recombination, task rewards, and dependency-structured technology"
+      ]
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": "L1",
+      "authors": "Herbert A. Simon",
+      "year": 1990,
+      "title": "A mechanism for social selection and successful altruism",
+      "venue": "Science 250(4988):1665-1668",
+      "published": "1990-12-21",
+      "doi": "10.1126/science.2270480",
+      "pmid": "2270480",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2270480/",
+      "verification": "NCBI PubMed metadata and abstract",
+      "claim_boundary": "Precedence for docility as receptivity to social influence whose gross fitness benefit can carry an altruistic cost under bounded rationality; not a model of V7's separated factual, behavioral, approval, and normative channels."
+    },
+    {
+      "id": "L2",
+      "authors": "Alberto Acerbi; Magnus Enquist; Stefano Ghirlanda",
+      "year": 2009,
+      "title": "Cultural evolution and individual development of openness and conservatism",
+      "venue": "PNAS 106(45):18931-18935",
+      "published": "2009-11-10",
+      "published_online": "2009-10-26",
+      "doi": "10.1073/pnas.0908889106",
+      "pmid": "19858478",
+      "pmcid": "PMC2776418",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2776418/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "Direct precedence for cultural transmission modifying the propensity for later social learning and for age-related openness/conservatism; not authority-specific conflict override."
+    },
+    {
+      "id": "L3",
+      "authors": "Maxime Derex; Jean-Francois Bonnefon; Robert Boyd; Alex Mesoudi",
+      "year": 2019,
+      "title": "Causal understanding is not necessary for the improvement of culturally evolving technology",
+      "venue": "Nature Human Behaviour 3(5):446-452",
+      "published": "2019-04-01",
+      "doi": "10.1038/s41562-019-0567-9",
+      "pmid": "30936426",
+      "url": "https://doi.org/10.1038/s41562-019-0567-9",
+      "verification": "Publisher DOI and Crossref; later primary articles explicitly cite it",
+      "claim_boundary": "Shows improvement in its transmission-chain task without increasing causal understanding; does not show that understanding is never useful."
+    },
+    {
+      "id": "L4",
+      "authors": "Ali Seyhun Saral; Paula Ibanez de Aldecoa; Maxime Derex",
+      "year": 2026,
+      "title": "The roles of cultural transmission and causal reasoning in the cultural evolution of technology",
+      "venue": "PNAS Nexus 5(4):pgag090",
+      "published_online": "2026-03-26",
+      "issue_date": "2026-04-07",
+      "doi": "10.1093/pnasnexus/pgag090",
+      "pmid": "41978574",
+      "pmcid": "PMC13070565",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070565/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "Across two transmission-chain experiments, cultural transmission improved performance without causal structure; causal reasoning accelerated early improvement and its effect diminished later."
+    },
+    {
+      "id": "L5",
+      "authors": "David Schultner; Lucas Molleman; Bjorn Lindstrom",
+      "year": 2025,
+      "title": "Feature-based reward learning shapes human social learning strategies",
+      "venue": "Nature Human Behaviour 9(10):2183-2198",
+      "published_online": "2025-07-23",
+      "issue_date": "2025-10",
+      "doi": "10.1038/s41562-025-02269-4",
+      "pmid": "40702301",
+      "pmcid": "PMC12545201",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12545201/",
+      "verification": "NCBI PMC/PubMed, publisher page, and Crossref",
+      "claim_boundary": "Six experiments and agent-based simulations support a domain-general reward-learning account of flexible social-learning strategies; it is a mandatory strong comparator, not proof that specialized biases never exist."
+    },
+    {
+      "id": "L6",
+      "authors": "Ludovic Maisonneuve; Laurent Lehmann; Charles Mullon",
+      "year": 2025,
+      "title": "The coevolution of learning schedules and teaching enhances cumulative knowledge and drives a teacher-innovator syndrome",
+      "venue": "Proceedings of the Royal Society B 292(2040):20242470",
+      "published_online": "2025-02-12",
+      "doi": "10.1098/rspb.2024.2470",
+      "pmid": "39933584",
+      "pmcid": "PMC11813578",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11813578/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "Direct theoretical precedence for coevolving lifetime learning schedules, parental teaching, cumulative knowledge, and teacher-innovator versus scrounger specialization."
+    },
+    {
+      "id": "L7",
+      "authors": "Alejandro Perez Velilla; Paul E. Smaldino",
+      "year": 2026,
+      "title": "A demographic theory of similarity-biased social learning",
+      "venue": "PNAS 123(31):e2606741123",
+      "published_online": "2026-07-30",
+      "issue_date": "2026-08-04",
+      "doi": "10.1073/pnas.2606741123",
+      "pmid": "42531024",
+      "pmcid": "PMC13438531",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13438531/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "Models costly individual learning, copying, tag informativeness, demographic composition, and frequency-dependent invasion barriers. Age cohort is an explicit application of the tag logic, not a full age-structured life-history model."
+    },
+    {
+      "id": "L8",
+      "authors": "Frederick Callaway et al.",
+      "year": 2022,
+      "title": "Rational use of cognitive resources in human planning",
+      "venue": "Nature Human Behaviour 6:1112-1125",
+      "published_online": "2022-04-28",
+      "doi": "10.1038/s41562-022-01332-8",
+      "url": "https://www.nature.com/articles/s41562-022-01332-8",
+      "verification": "Publisher page and Crossref",
+      "claim_boundary": "Supports a resource-rational metareasoning comparator for finite planning operations; it is not itself a social-learning or deference model."
+    },
+    {
+      "id": "L9",
+      "authors": "Alex Mesoudi; Alex Thornton",
+      "year": 2018,
+      "title": "What is cumulative cultural evolution?",
+      "venue": "Proceedings of the Royal Society B 285:20180712",
+      "published": "2018-06-13",
+      "doi": "10.1098/rspb.2018.0712",
+      "pmid": "29899071",
+      "pmcid": "PMC6015846",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015846/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "Defines and separates criteria for cumulative cultural evolution; increasing stored statements or confidence alone is insufficient."
+    },
+    {
+      "id": "L11",
+      "authors": "Daniel Deffner; Richard McElreath",
+      "year": 2022,
+      "title": "When does selection favor learning from the old? Social learning in age-structured populations",
+      "venue": "PLOS ONE 17(4):e0267204",
+      "published": "2022-04-15",
+      "doi": "10.1371/journal.pone.0267204",
+      "pmid": "35427404",
+      "pmcid": "PMC9012401",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012401/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Direct precedence for age-structured social learning, copy-old/copy-young biases, environmental change, demographic filtering, and adult updating."
+    },
+    {
+      "id": "L12",
+      "authors": "T. J. H. Morgan; L. E. Rendell; M. Ehn; W. Hoppitt; K. N. Laland",
+      "year": 2012,
+      "title": "The evolutionary basis of human social learning",
+      "venue": "Proceedings of the Royal Society B 279(1729):653-662",
+      "published": "2012-02-22",
+      "published_online": "2011-07-27",
+      "doi": "10.1098/rspb.2011.1172",
+      "pmid": "21795267",
+      "pmcid": "PMC3248730",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3248730/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Empirical precedence for adaptive integration of social and asocial information as a function of demonstrator number, consensus, confidence, difficulty, costs, and performance."
+    },
+    {
+      "id": "L13",
+      "authors": "Luke Rendell et al.",
+      "year": 2010,
+      "title": "Why copy others? Insights from the social learning strategies tournament",
+      "venue": "Science 328(5975):208-213",
+      "published": "2010-04-09",
+      "doi": "10.1126/science.1184950",
+      "url": "https://doi.org/10.1126/science.1184950",
+      "verification": "Primary article PDF and DOI metadata",
+      "claim_boundary": "Direct precedent for competing selective social-learning strategies in changing environments and for behavior filtering by demonstrators."
+    },
+    {
+      "id": "L14",
+      "authors": "Maxime Derex; Jean-Francois Bonnefon; Robert Boyd; Richard McElreath; Alex Mesoudi",
+      "year": 2025,
+      "title": "Social learning preserves both useful and useless theories by canalizing learners' exploration",
+      "venue": "Proceedings of the Royal Society B 292(2039):20242499",
+      "published_online": "2025-01-29",
+      "doi": "10.1098/rspb.2024.2499",
+      "url": "https://doi.org/10.1098/rspb.2024.2499",
+      "verification": "Royal Society publisher page and Crossref",
+      "claim_boundary": "Experimentally shows that transmitted theories can canalize exploration and persist whether accurate or misleading; this is ordinary social learning and does not by itself establish authority deference or normative commitment."
+    },
+    {
+      "id": "L15",
+      "authors": "Ali Seyhun Saral; Manvir Singh; Antoine Jacquet; Haneul Jang; Maxime Derex",
+      "year": 2026,
+      "title": "Cognitive appeal promotes the persistence of inefficient solutions and hinders cumulative cultural evolution",
+      "venue": "Nature Communications 17:10752",
+      "published": "2026-09-12",
+      "doi": "10.1038/s41467-026-77677-9",
+      "url": "https://www.nature.com/articles/s41467-026-77677-9",
+      "verification": "Publisher page and Crossref",
+      "claim_boundary": "A preregistered transmission-chain experiment shows that content appeal can preserve costly ineffective solutions by constraining exploration. It does not require authority, approval, or a bundled useful-plus-useless package."
+    },
+    {
+      "id": "L16",
+      "authors": "Talib El Aissati et al.",
+      "year": 2026,
+      "title": "Locals know more than it seems: a new method for revealing collective understanding, tested in three African communities",
+      "venue": "Philosophical Transactions of the Royal Society B 381(1948):20240453",
+      "published": "2026-04-16",
+      "doi": "10.1098/rstb.2024.0453",
+      "pmid": "41987727",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41987727/",
+      "verification": "NCBI PubMed and Royal Society DOI",
+      "claim_boundary": "Across farming communities in Morocco, Mali, and Ghana, group review improved the reliability of final causal answers, indicating distributed causal knowledge and selective deference to better answers."
+    },
+    {
+      "id": "L17",
+      "authors": "Elena Miu et al.",
+      "year": 2024,
+      "title": "The refinement paradox and cumulative cultural evolution: Complex products of collective improvement favor conformist outcomes, blind copying, and hyper-credulity",
+      "venue": "PLOS Computational Biology 20(9):e1012436",
+      "published": "2024-09-26",
+      "doi": "10.1371/journal.pcbi.1012436",
+      "pmid": "39325687",
+      "pmcid": "PMC11426424",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11426424/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Tournament precedence for high refinement favoring simple copying and for a possible ecology of hyper-credulity. It directly cites Simon but does not separate factual belief, public behavior, and normative commitment."
+    },
+    {
+      "id": "L18",
+      "authors": "David T. Schultner; Bjorn R. Lindstrom; Mina Cikara; David M. Amodio",
+      "year": 2024,
+      "title": "Transmission of social bias through observational learning",
+      "venue": "Science Advances 10(26):eadk2030",
+      "published": "2024-06-28",
+      "doi": "10.1126/sciadv.adk2030",
+      "pmid": "38941465",
+      "pmcid": "PMC11212708",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11212708/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Six experiments support value shaping as a route by which observers acquire another actor's group preferences. This is a strong alternative to authority-specific internalization."
+    },
+    {
+      "id": "L19",
+      "authors": "Sophie Sowden et al.",
+      "year": 2018,
+      "title": "Quantifying compliance and acceptance through public and private social conformity",
+      "venue": "Consciousness and Cognition 65:359-367",
+      "published": "2018-10",
+      "doi": "10.1016/j.concog.2018.08.009",
+      "pmid": "30219289",
+      "pmcid": "PMC6204883",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204883/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Within-subject public versus private responding separates public compliance from private acceptance, but the small validation sample does not identify durable normative commitment or dogmatism."
+    },
+    {
+      "id": "L20",
+      "authors": "Patricia Kanngiesser et al.",
+      "year": 2022,
+      "title": "Children across societies enforce conventional norms but in culturally variable ways",
+      "venue": "PNAS 119(1):e2112521118",
+      "published": "2022-01-04",
+      "doi": "10.1073/pnas.2112521118",
+      "pmid": "34969840",
+      "pmcid": "PMC8740750",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740750/",
+      "verification": "NCBI PMC/PubMed",
+      "claim_boundary": "Third-party correction of a conventional rule appears across eight societies, with culturally variable form. Rule enforcement is a normative behavior and is not evidence of factual dogmatism."
+    },
+    {
+      "id": "L21",
+      "authors": "Andrew Whalen; Thomas L. Griffiths; Daphna Buchsbaum",
+      "year": 2018,
+      "title": "Sensitivity to Shared Information in Social Learning",
+      "venue": "Cognitive Science 42(1):168-187",
+      "published_online": "2017-06-13",
+      "doi": "10.1111/cogs.12485",
+      "url": "https://doi.org/10.1111/cogs.12485",
+      "verification": "Publisher page and Crossref",
+      "claim_boundary": "A Bayesian model and three experiments show sensitivity to shared private data and sequential testimony; provenance-aware social learning is therefore an established comparator."
+    },
+    {
+      "id": "L22",
+      "authors": "Belinda Xie; Brett Hayes",
+      "year": 2022,
+      "title": "Sensitivity to Evidential Dependencies in Judgments Under Uncertainty",
+      "venue": "Cognitive Science 46(5)",
+      "published_online": "2022-05-17",
+      "doi": "10.1111/cogs.13144",
+      "pmcid": "PMC9285361",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9285361/",
+      "verification": "NCBI PMC and Crossref",
+      "claim_boundary": "Three experiments found belief updating generally insensitive to dependent versus independent testimony, except among a minority whose prior beliefs valued independence; this qualifies rather than cancels L21."
+    },
+    {
+      "id": "L23",
+      "authors": "Uri Hertz; Vaughan Bell; Nichola Raihani",
+      "year": 2021,
+      "title": "Trusting and learning from others: immediate and long-term effects of learning from observation and advice",
+      "venue": "Proceedings of the Royal Society B 288(1961):20211414",
+      "published": "2021-10-20",
+      "doi": "10.1098/rspb.2021.1414",
+      "pmid": "34666522",
+      "pmcid": "PMC8527195",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8527195/",
+      "verification": "NCBI PMC/PubMed and Crossref",
+      "claim_boundary": "A preregistered experiment distinguishes advice from observed action and immediate from persistent effects; it is a useful message-format comparator, not evidence for normative authority."
+    },
+    {
+      "id": "L24",
+      "authors": "Pearl Han Li",
+      "year": 2026,
+      "title": "Weighing first- and second-hand information: How children and adults evaluate sources of moral and factual knowledge across two cultures",
+      "venue": "Developmental Psychology, advance online publication",
+      "published_online": "2026-04-06",
+      "doi": "10.1037/dev0002174",
+      "pmid": "41941181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41941181/",
+      "verification": "NCBI PubMed and Crossref",
+      "claim_boundary": "Moral and factual testimony are evaluated differently across age and culture, supporting separate domain labels while warning that developmental and cultural effects are not uniform."
+    },
+    {
+      "id": "L25",
+      "authors": "Pieter van den Berg; TuongVan Vu; Lucas Molleman",
+      "year": 2024,
+      "title": "Unpredictable benefits of social information can lead to the evolution of individual differences in social learning",
+      "venue": "Nature Communications 15:5138",
+      "published": "2024-06-15",
+      "doi": "10.1038/s41467-024-49530-4",
+      "url": "https://www.nature.com/articles/s41467-024-49530-4",
+      "verification": "Publisher page and Crossref",
+      "claim_boundary": "Evolutionary-model precedence for flexible developmental programs and individual variation when social-information benefits are unpredictable."
+    }
+  ],
+  "forward_citation_checks": [
+    {
+      "from": "L3",
+      "to": ["L4", "L14", "L15"],
+      "result": "Later primary articles cite Derex et al. 2019 and materially extend the copying-versus-reasoning question to manipulated causal structure, theory canalization, and content appeal."
+    },
+    {
+      "from": "L1",
+      "to": ["L17"],
+      "result": "Miu et al. 2024 explicitly cites Simon 1990 in its primary PMC reference list while modeling the refinement ecology of blind copying and hyper-credulity."
+    },
+    {
+      "from": "L2",
+      "to": ["L25"],
+      "result": "The later evolutionary model preserves the broad precedence that developmental social-learning flexibility can itself evolve; it does not make authority-specific conflict override redundant."
+    }
+  ]
+}

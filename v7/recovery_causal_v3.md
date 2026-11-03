@@ -1,0 +1,15 @@
+# R3 causal recovery limits and acquired-state assay
+
+R3 replaces neither the corrected ecology nor earlier recovery outputs. It adds a visible randomized `role_label` message before the live ordinary juvenile policy decides, retaining an unobserved paired replay to check passive-instrumentation parity. The role-label ITT is structurally expected to be null because the ordinary policy does not weight that label; this is distinct from the actual juvenile `d` conflict-override comparison. Repeated decisions are correlated within corrected worlds and cannot support a demographic ITT or binomial precision claim.
+
+Adult learners begin blank and undergo forty paid stochastic episodes. Private evidence has accuracy `.8` conditional on objective truth; advice has declared `.7` reliability. B updates from private evidence, T from advice feedback, K only after paid successful practice, and H from material/approval experience. Adult arms clone that realized seed/trait state. Audience removal changes social receipts; free audit changes debits; reliable-evidence feedback changes trust updating. No adult inherited override or d-derived rigidity exists. This remains a cognitive assay, not evidence for dogmatism or normative commitment.
+
+PROV-01 remains partial. Distinct root identifiers or changing metadata of one testimony do not establish independent information histories.
+
+## Confirmation result and audit boundary
+
+The confirmation has 211,066 same-trait paired role-label swaps. The role label was a visible live typed-message input and the label pair shared its override random stream; zero action changes is therefore the registered structural null for an ordinary policy that ignores role labels. It must not be merged with the separate juvenile conflict-override trait contrast or called a demographic ITT effect. There are 422,132 juvenile counterfactual rows and 65,962 d0 conflict-row records, but repeated records within 72 worlds are correlated and not independent binomial trials.
+
+Adult training exported 1,920 real episode records (48 seed/trait histories). Empirical private-signal accuracy was 1,546/1,920 (`.8052`). The cloned adult assay exported 7,680 rows: 384 arm/trait/direction sequences of exactly 20 updates. K is fixed during adult evidence updates. B/K/T/material endpoints are reversibly checked against each seed's training endpoint. Ten first adult H updates saturated at the declared clip, so raw output alone cannot invert those ten H transitions; the source freeze, recorded history digest, and unit test establish the passed acquired-state input. This is an auditability limitation, not evidence for persistence, dogmatism, or normative commitment.
+
+The raw `world_loss_*` values are repeated world totals, and `counterfactual_projected_*` values are projected decision charges, not executed event debits. The passive all-decision count is a world total; the remaining capture counters are progressive at capture time and must not be used as final-world denominators.
